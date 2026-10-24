@@ -1,0 +1,30 @@
+{
+  "source": "guppi_60887_52472_6690873992_3IATLAS_R_0001.0000.fil",
+  "header": {
+    "machine_id": 20,
+    "telescope_id": -1,
+    "src_raj": 165410.008,
+    "src_dej": -170459.88,
+    "az_start": 0.0,
+    "za_start": 0.0,
+    "data_type": 1,
+    "fch1": 704.0,
+    "foff": 2e-06,
+    "nchans": 64000000,
+    "nbeams": 1,
+    "ibeam": -1,
+    "nbits": 32,
+    "tstart": 60887.60731481481,
+    "tsamp": 15.0,
+    "nifs": 1,
+    "source_name": "3IATLAS_R",
+    "rawdatafile": "guppi_60887_52472_6690873992_3IATLAS_R_0001.0000.fil"
+  },
+  "frames_processed": 20,
+  "bands_detected": 64,
+  "scan_frames": 20,
+  "threshold_MAD": 5.0,
+  "half_width_channels": 8,
+  "encoding": "round-half-away-from-zero; decimal groups of 3, Greek numeral mapping",
+  "note": "Spectral peak extraction and numerical encoding; no assembly transforms or linguistic translation."
+}
