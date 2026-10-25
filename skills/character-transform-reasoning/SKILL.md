@@ -1,3 +1,7 @@
+---
+name: character-transform-reasoning
+description: Apply the REDΣ Book II Greek transformation operators to exact characters, unusual spelling, casing, punctuation and relational state. Use for character-by-character transform readings, hidden/observable interpretation, Stigma/Koppa/Kai composition, reversible readings, provenance and partial closure. Integrates the Governance-Driven Resolution Lattice v0.4 for materiality, human intent, retained alternatives, fixed evaluation governance, Enough Boundary, stability and validation.
+---
 
 # Character Transform Reasoning — governed adaptation
 
