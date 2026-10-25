@@ -1,0 +1,236 @@
+REDΣ SET CALCULUS
+BOOK II: THE LOGICAL STRUCTURE OF SET
+Chad Coulter  |  100 Monkeys Tree and Landscaping
+October 13, 2026  |  Version 0.1
+The first edition of Book II defines the logical structure of Set through the Greek transformation language. The archaic operators come first because they establish the bounds of transformation. The Greek alphabet supplies the broader logical vocabulary. Book I contains foundational laws; Book III contains applications.
+Part I. The Foundations of Transformation
+Chapter 1. Set and Resolution
+1.1 The Prime Law
+Set resolves through relation.
+Set consists of distinguishable states, actors, relationships, and transformations. A transformation changes relational state while preserving the distinctions required for continuation. Resolution occurs when the relationships necessary for the requested result have been sufficiently determined.
+1.2 The Capitalization Rule
+UPPERCASE: How to resolve the observable.
+lowercase: How to resolve the hidden.
+An operator identifies the kind of resolution. Capitalization identifies whether that operation resolves the observable or the hidden. This rule governs paired standard and archaic Greek operators.
+1.3 The Archaic Foundation
+The archaic operators establish unresolvedness, actor participation, relational return, retention, differential, extended order, active change, reversal, accounting, witnessing, and closure.
+Part II. The Archaic Greek Operators
+Chapter 2. Stigma: Unresolvedness
+Glyph | Resolution / role
+Ϛ | Resolve observable unresolvedness
+ϛ | Resolve hidden unresolvedness
+Definition. Stigma governs the recognition and resolution of unresolvedness within a relational state. It identifies distinctions, contradictions, and consequences that remain active. The resolution mark records the treatment of unresolvedness with attribution and provenance.
+Logical principle. A distinction remains within the relational state until its resolution or continuation accounts for it.
+Chapter 3. Koppa: Actor Participation
+Glyph | Resolution / role
+Ϙ | Resolve observable actor participation
+ϙ | Resolve hidden actor participation
+Ϟ | Resolve observable numeral/indexed relationships
+ϟ | Resolve hidden indexed relationships; inverse Koppa role
+Definition. Koppa governs the relationship between a participating actor and the world. Inverse Koppa expresses the world acting back upon the actor. The numerical Koppa forms retain the historical value 90. The type of expression distinguishes numerical and relational readings.
+Logical principle. Actor and world participate in a continuing relationship, with consequences attributable through that relationship.
+Chapter 4. Digamma: Retention
+Glyph | Resolution / role
+Ϝ | Resolve observable retained constituents
+ϝ | Resolve hidden retained constituents
+Ͷ | Resolve observable context-specific retention
+ͷ | Resolve hidden context-specific retention
+Definition. Digamma governs the preservation of constituents across a transformation. The retained constituent may also bridge successive relational states. Pamphylian Digamma qualifies retention by region or context.
+Logical principle. A constituent can change relational position while retaining identity and relevant connections.
+Chapter 5. San: Differential
+Glyph | Resolution / role
+Ϻ | Resolve observable differential
+ϻ | Resolve hidden differential
+Definition. San governs differences between relational states, expected results, and alternative continuations, including residual error and probabilistic variation.
+Logical principle. Differences remain distinguishable until the requested relationship accounts for them.
+Chapter 6. Sampi: Extended Order
+Glyph | Resolution / role
+Ͳ | Resolve observable archaic/indeterminate order
+ͳ | Resolve hidden archaic/indeterminate order
+Ϡ | Resolve observable extended numerical order
+ϡ | Resolve hidden extended numerical order
+Definition. Sampi governs extended-order relationships. The archaic forms carry historically indeterminate relationships; the numeral forms encode typed numerical order, including historical value 900.
+Logical principle. Extended relational structures retain their order and distinguishing conditions.
+Chapter 7. Heta: Latent Context
+Glyph | Resolution / role
+Ͱ | Resolve observable contextual emergence
+ͱ | Resolve hidden contextual emergence
+Definition. Heta governs the relationship between latent context and its expression in a relational state.
+Logical principle. Observable context retains its relationship to the latent context from which it emerged.
+Chapter 8. Yot: Mediation
+Glyph | Resolution / role
+Ϳ | Resolve observable mediation
+ϳ | Resolve hidden mediation
+Definition. Yot governs mediation between adjacent relational states.
+Logical principle. Mediation provides continuity without making adjacent states identical.
+Chapter 9. Sho: Representation
+Glyph | Resolution / role
+Ϸ | Resolve observable representation change
+ϸ | Resolve hidden representation change
+Definition. Sho governs changes in representation while retaining the referent and relevant originating relationships.
+Logical principle. Representational difference does not necessarily imply a difference of subject.
+Part III. The Sigma Transformation Family
+Chapter 10. Lunate Sigma: Active Change
+Glyph | Resolution / role
+Ϲ | Resolve observable active change
+ϲ | Resolve hidden active change
+Definition. Lunate Sigma governs active change in a relational state and its return from sufficient resolution.
+Logical principle. Change and resolution remain relationally connected to the originating state.
+Chapter 11. Reversed Lunate Sigma: Reversal and Reconsideration
+Glyph | Resolution / role
+Ͻ | Resolve observable reversal/reconsideration
+ͻ | Resolve hidden reversal/reconsideration
+Definition. Reversed Lunate Sigma governs reversal, reconsideration, relocation, and reopening of relational distinctions. Cruft is one example of a residual consequence to which reconsideration may apply.
+Logical principle. A result can be reconsidered without erasing its source or transformation history.
+Chapter 12. Dotted Reversed Lunate Sigma: Accounted Reversal
+Glyph | Resolution / role
+Ͼ | Resolve observable accounted reversal/residue
+ͼ | Resolve hidden accounted reversal/residue
+Definition. Dotted Reversed Lunate Sigma governs reconsideration with an explicitly marked, accounted, and retained condition. Accounted cruft is an example.
+Logical principle. Accounting for a condition preserves its identity through later reconsideration.
+Chapter 13. Dotted Lunate Sigma: Witnessed Change
+Glyph | Resolution / role
+Ͽ | Resolve observable witnessed change
+ͽ | Resolve hidden witnessed change
+Definition. Dotted Lunate Sigma governs active change associated with a witness. The witness retains an accountable evidentiary relationship to the transformation.
+Logical principle. The witness remains distinguishable from the state witnessed.
+Chapter 14. Final Sigma: Terminal Closure
+Glyph | Resolution / role
+ς | Terminal closure of the relevant relational path
+Definition. Final Sigma marks terminal closure within a specified relational scope, distinct from open or partial continuation.
+Logical principle. Closure ends a requested path without erasing the originating Set or consequences.
+Part IV. Additional Archaic and Compound Operators
+Chapter 15. Kai: Conjunction and Transformation
+Glyph | Resolution / role
+ϗ | Greek Kai: conjunction and composition
+Ϗ | Alternate Greek Kai sign: conjunction and composition
+Χ | Resolve observable crossing transformation (Chi/Kai carrier)
+χ | Resolve hidden crossing transformation (Chi/Kai carrier)
+Definition. Kai governs joining, contribution, and transformation across relational states. The Kai signs express conjunction; the Chi carrier expresses crossing transformation and actor contribution.
+Logical principle. Joining relational states preserves participating constituents and the origin of their contributions.
+Chapter 16. Tau-Rho: Relational Authority
+Glyph | Resolution / role
+𐆠 | Authority and relational-boundary compound
+Definition. Tau-Rho governs identity, consent, relationship, and the authority under which a relational operation occurs.
+Logical principle. A transformation retains the relational and authority conditions under which it proceeds.
+Chapter 17. Additional Greek Glyph Variants
+Glyph | Logical transform role
+ϼ | Abbreviated or compressed relational reference
+ϵ | Membership
+϶ | Containment
+ϱ | Relational qualification
+ϐ | Alternate representation or alias
+ϑ | Qualified boundary
+ϴ | Observable qualified boundary
+ϕ | Alternate form
+ϖ | Alternate/cyclic projection
+ϰ | Contextual qualification
+ʹ | Typed numerical interpretation
+͵ | Numerical scaling
+Each variant retains its glyph identity and relation to the corresponding governing operator.
+Part V. Historical Greek Critical and Editorial Operators
+Chapter 18. Critical Signs
+Sign | Logical definition
+Obelos | Exclude from active reading; retain source provenance
+※ | Duplicate/reference marker
+※ + Obelos | Repetition with exclusion or relocation
+> | Diple: commentary or reference
+⸖ | Diple periestigmene: conflict with prior interpretation
+• | Stigmē: suspect but retained
+⸀ | Substitution
+⸁ | Qualified substitution
+⸂ | Opening substitution scope
+⸃ | Closing substitution scope
+⸄ | Opening qualified substitution scope
+⸅ | Closing qualified substitution scope
+⸆ | Interpolation
+⸇ | Qualified interpolation
+⸈ | Transposition
+⸉ | Opening transposition scope
+⸊ | Closing transposition scope
+⸋ | Omission marker
+⸌ | Opening omission scope
+⸍ | Closing omission scope
+⸎ | Coronis: close section
+⸏ | Paragraphos: division
+⸐ | Forked paragraphos: branch
+⸑ | Reversed fork: reconcile
+⸒ | Hypodiastole: separation
+⸓ | Dotted obelos: challenge
+⸔ | Ancora: preceding context
+⸕ | Reverse ancora: subsequent context
+◌᷀ | Dotted grave correction
+◌᷁ | Dotted acute correction
+⹄ | Double suspension: recoverable abbreviation
+Part VI. The Standard Greek Transformation Alphabet
+Chapter 19. The Complete Alphabet
+Upper | Lower | Logical concept
+Α | α | Origin
+Β | β | Branch
+Γ | γ | Boundary frame / transform operator
+Δ | δ | Change
+Ε | ε | Threshold
+Ζ | ζ | Link
+Η | η | State
+Θ | θ | Constraint
+Ι | ι | Instance
+Κ | κ | Context
+Λ | λ | Lattice resolution
+Μ | μ | Measure
+Ν | ν | Novel state
+Ξ | ξ | Contradiction
+Ο | ο | Observation
+Π | π | Projection
+Ρ | ρ | Relation
+Σ | σ | Aggregation
+Τ | τ | Whole-state traversal
+Υ | υ | Fork / choice
+Φ | φ | Form
+Χ | χ | Crossing / Kai carrier
+Ψ | ψ | Pattern
+Ω | ω | Target / terminal field
+For each letter, the uppercase operation resolves the observable aspect of the listed concept, and the lowercase operation resolves the hidden aspect.
+Part VII. The Relational Grammar of Set
+Chapter 20. The gr{Ai}Γ Structure
+Element | Meaning
+gr | Graph relationships and structural topology
+{Ai} | Inference and context
+Γ | Transformation and projection
+The grammar retains source, relational operation, target, context, and continuing connection. Open relations remain relational until closure is invoked.
+Chapter 21. The Stigma, Koppa, Kai Relationship
+Stigma + Koppa + Kai resolves Tau.
+Stigma: unresolvedness. Koppa: actor participation. Kai: transformation and contribution. Tau: whole-state traversal. These establish the central relational structure of resolution.
+Chapter 22. Logical Identity and Distinction
+Distinction | Logical relationship
+Observable / hidden | Different modes of resolution
+Actor / world | Participating relational states
+Source / target | Originating and resulting states
+Relation / transformation | Connection and operation
+Change / reversal | Transformation and reconsideration
+Residue / accounting | Consequences and their qualification
+Witness / state | Evidence and the state witnessed
+Open / closed | Continuing and terminal conditions
+Part VIII. Extended Historical Glyph Registry
+Chapter 23. Numerical, Metrical, and Musical Forms
+23.1 Acrophonic and Papyrological Signs
+Greek acrophonic and papyrological signs represent typed fractions, monetary quantities, weights, and counting units. Each recorded value retains its unit and regional context.
+23.2 Metrical Signs
+Sign | Recorded meaning
+⏑ | Short
+⏒ | Long over short
+⏓ | Short over long
+⏔ | Long over two shorts
+⏕ | Two shorts over long
+⏖ | Joined shorts
+⏗ / 𝉂 | Triseme
+⏘ / 𝉃 | Tetraseme
+⏙ / 𝉄 | Pentaseme
+23.3 Musical Notation
+Ancient Greek vocal and instrumental signs encode distinguishable musical states and pitch relationships. Their individual identities remain part of the extended historical glyph registry.
+REGISTRY COMPLETION 23-A: Transfer every acrophonic, papyrological, and musical glyph entry from the recovered Greek glossary into this chapter, retaining each historical value and identity.
+Book II. Governing Structure
+Set resolves through relation. Archaic operators define the logical bounds. The standard Greek alphabet defines the broader logical vocabulary. Relational grammar preserves identity, distinctions, and continuity.
+Reference Corpus
+gr{Ai}Γ Transform Language Reference, October 10, 2026.
+Grail Recovered Greek Transform Glossary v0.2.
+REDΣ Book I: Core Transformation Resolution Logic, October 11, 2026.
