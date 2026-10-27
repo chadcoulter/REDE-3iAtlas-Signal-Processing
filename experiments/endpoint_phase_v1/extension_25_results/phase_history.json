@@ -1,0 +1,5327 @@
+[
+  {
+    "cycle": 1,
+    "x_before": [
+      267073,
+      218555,
+      43297,
+      89131
+    ],
+    "y_before": [
+      370923,
+      272239,
+      251000,
+      231168
+    ],
+    "right_target": [
+      1,
+      643164,
+      1,
+      370924
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          643164,
+          1,
+          370924
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          370924
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          643164,
+          370924
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          643164,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      643164,
+      1,
+      370924
+    ],
+    "reverse_opposite": [
+      267073,
+      218555,
+      43297,
+      89131
+    ],
+    "left_state_relations": [
+      [
+        1,
+        218555
+      ],
+      [
+        1,
+        218554
+      ],
+      [
+        1,
+        218555
+      ],
+      [
+        267074,
+        218555
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            218554
+          ],
+          [
+            1,
+            218555
+          ],
+          [
+            267074,
+            218555
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            218555
+          ],
+          [
+            1,
+            218555
+          ],
+          [
+            267074,
+            218555
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            218555
+          ],
+          [
+            1,
+            218554
+          ],
+          [
+            267074,
+            218555
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            218555
+          ],
+          [
+            1,
+            218554
+          ],
+          [
+            1,
+            218555
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      267074
+    ],
+    "y_after": [
+      1,
+      643164,
+      1,
+      370924
+    ],
+    "lengths_after": [
+      1803,
+      1803,
+      1803,
+      1803
+    ]
+  },
+  {
+    "cycle": 2,
+    "x_before": [
+      1,
+      1,
+      1,
+      267074
+    ],
+    "y_before": [
+      1,
+      643164,
+      1,
+      370924
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      267074
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1806,
+      1806,
+      1806,
+      1806
+    ]
+  },
+  {
+    "cycle": 3,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1809,
+      1809,
+      1809,
+      1809
+    ]
+  },
+  {
+    "cycle": 4,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1812,
+      1812,
+      1812,
+      1812
+    ]
+  },
+  {
+    "cycle": 5,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1815,
+      1815,
+      1815,
+      1815
+    ]
+  },
+  {
+    "cycle": 6,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1818,
+      1818,
+      1818,
+      1818
+    ]
+  },
+  {
+    "cycle": 7,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1821,
+      1821,
+      1821,
+      1821
+    ]
+  },
+  {
+    "cycle": 8,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1824,
+      1824,
+      1824,
+      1824
+    ]
+  },
+  {
+    "cycle": 9,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1827,
+      1827,
+      1827,
+      1827
+    ]
+  },
+  {
+    "cycle": 10,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1830,
+      1830,
+      1830,
+      1830
+    ]
+  },
+  {
+    "cycle": 11,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1833,
+      1833,
+      1833,
+      1833
+    ]
+  },
+  {
+    "cycle": 12,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1836,
+      1836,
+      1836,
+      1836
+    ]
+  },
+  {
+    "cycle": 13,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1839,
+      1839,
+      1839,
+      1839
+    ]
+  },
+  {
+    "cycle": 14,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1842,
+      1842,
+      1842,
+      1842
+    ]
+  },
+  {
+    "cycle": 15,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1845,
+      1845,
+      1845,
+      1845
+    ]
+  },
+  {
+    "cycle": 16,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1848,
+      1848,
+      1848,
+      1848
+    ]
+  },
+  {
+    "cycle": 17,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1851,
+      1851,
+      1851,
+      1851
+    ]
+  },
+  {
+    "cycle": 18,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1854,
+      1854,
+      1854,
+      1854
+    ]
+  },
+  {
+    "cycle": 19,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1857,
+      1857,
+      1857,
+      1857
+    ]
+  },
+  {
+    "cycle": 20,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1860,
+      1860,
+      1860,
+      1860
+    ]
+  },
+  {
+    "cycle": 21,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1863,
+      1863,
+      1863,
+      1863
+    ]
+  },
+  {
+    "cycle": 22,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1866,
+      1866,
+      1866,
+      1866
+    ]
+  },
+  {
+    "cycle": 23,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1869,
+      1869,
+      1869,
+      1869
+    ]
+  },
+  {
+    "cycle": 24,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1872,
+      1872,
+      1872,
+      1872
+    ]
+  },
+  {
+    "cycle": 25,
+    "x_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_before": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_target": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "right_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "reverse_current": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reverse_opposite": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "left_state_relations": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "left_other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "x_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "y_after": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "lengths_after": [
+      1875,
+      1875,
+      1875,
+      1875
+    ]
+  }
+]

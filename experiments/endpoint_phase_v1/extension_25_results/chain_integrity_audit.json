@@ -1,0 +1,100 @@
+{
+  "chains": [
+    {
+      "channel": 1,
+      "original_values_preserved_in_order": true,
+      "front_added": 50,
+      "back_added": 25,
+      "final_length": 1875,
+      "first_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "last_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "channel": 2,
+      "original_values_preserved_in_order": true,
+      "front_added": 50,
+      "back_added": 25,
+      "final_length": 1875,
+      "first_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "last_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "channel": 3,
+      "original_values_preserved_in_order": true,
+      "front_added": 50,
+      "back_added": 25,
+      "final_length": 1875,
+      "first_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "last_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "channel": 4,
+      "original_values_preserved_in_order": true,
+      "front_added": 50,
+      "back_added": 25,
+      "final_length": 1875,
+      "first_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "last_six": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "all_one_endpoint_state_repeats_under_current_wiring": true,
+  "reason": "1 encodes as Alpha. Its archived instruction writes state=1. With all-one endpoints, target and relations also stay at their all-one seeds.",
+  "zero_observations": [],
+  "y_termination": "No EOF marker defined or identified in this run; repeated 1 is recorded as an endpoint fixed point."
+}

@@ -1,0 +1,451 @@
+{
+  "passes_each_direction": 25,
+  "directional_steps": 50,
+  "branch": "codex/atlas-endpoint-phase-test",
+  "mode": "Alternating X->Y append one, then Y->X prepend state and relations; updated endpoints feed the next step.",
+  "mapping_opposite1_to_4": [
+    "state",
+    "relations",
+    "constraints",
+    "observations"
+  ],
+  "other_register_seed": 1,
+  "initial_front": [
+    267073,
+    218555,
+    43297,
+    89131
+  ],
+  "initial_back": [
+    370923,
+    272239,
+    251000,
+    231168
+  ],
+  "final_front": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "final_back": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "original_lengths": [
+    1800,
+    1800,
+    1800,
+    1800
+  ],
+  "final_lengths": [
+    1875,
+    1875,
+    1875,
+    1875
+  ],
+  "new_front_values_per_channel": 50,
+  "new_back_values_per_channel": 25,
+  "literal_zero_observations": [],
+  "repeated_endpoint_states": [
+    {
+      "cycle": 3,
+      "previous_cycle": 2,
+      "gap": 1,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 4,
+      "previous_cycle": 2,
+      "gap": 2,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 5,
+      "previous_cycle": 2,
+      "gap": 3,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 6,
+      "previous_cycle": 2,
+      "gap": 4,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 7,
+      "previous_cycle": 2,
+      "gap": 5,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 8,
+      "previous_cycle": 2,
+      "gap": 6,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 9,
+      "previous_cycle": 2,
+      "gap": 7,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 10,
+      "previous_cycle": 2,
+      "gap": 8,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 11,
+      "previous_cycle": 2,
+      "gap": 9,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 12,
+      "previous_cycle": 2,
+      "gap": 10,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 13,
+      "previous_cycle": 2,
+      "gap": 11,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 14,
+      "previous_cycle": 2,
+      "gap": 12,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 15,
+      "previous_cycle": 2,
+      "gap": 13,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 16,
+      "previous_cycle": 2,
+      "gap": 14,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 17,
+      "previous_cycle": 2,
+      "gap": 15,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 18,
+      "previous_cycle": 2,
+      "gap": 16,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 19,
+      "previous_cycle": 2,
+      "gap": 17,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 20,
+      "previous_cycle": 2,
+      "gap": 18,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 21,
+      "previous_cycle": 2,
+      "gap": 19,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 22,
+      "previous_cycle": 2,
+      "gap": 20,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 23,
+      "previous_cycle": 2,
+      "gap": 21,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 24,
+      "previous_cycle": 2,
+      "gap": 22,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "cycle": 25,
+      "previous_cycle": 2,
+      "gap": 23,
+      "front": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "back": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "termination_policy": "Observe literal zero and endpoint repeats; do not stop early. No Y EOF marker is predefined.",
+  "native_programs_prepared": 200,
+  "operator_validation_cases": 11340,
+  "archive_sha256": "bc5d445eabf6e83edf2bc8f23b6ed49269dd961a939741715b0be092d49e274c",
+  "criterion": "Native assembly/link/run and agreement with interpreter, not original measurement recovery.",
+  "wiring": "Reuse endpoint_phase.py separate channel banks and fixed seed mapping unchanged."
+}
