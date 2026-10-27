@@ -1,0 +1,13 @@
+{
+  "native_register_rows": 32,
+  "transform_sequence_rows": 7736,
+  "machine_code_rows": 20137,
+  "uint64_values_preserved_exactly": true,
+  "operator_strings_match_assembly": true,
+  "all_machine_code_bytes_reconstruct_exactly": true,
+  "csv_sha256": {
+    "core_output.csv": "d43cd0dd1396f51a25eedf2498eab1d9e6e1d7dc36698d0c096dc8575809b457",
+    "core_transform_sequence.csv": "f0be8a9867aac3eb86ecb3c4261c6a88e0ff87e5393292107c859c86d80e721a",
+    "core_machine_code.csv": "26484787235a3dd3c7754a0f91cfc7adb2f853785246317e64566c9579a7fe3d"
+  }
+}

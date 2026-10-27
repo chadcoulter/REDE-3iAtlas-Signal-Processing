@@ -1,0 +1,31 @@
+{
+  "register_rows": 32,
+  "sequence_rows": 7736,
+  "machine_code_rows": 20137,
+  "channels": [
+    {
+      "channel": 1,
+      "core_values": 1934,
+      "machine_code_bytes": 164875,
+      "machine_code_sha256": "1c8959a9fad33627a2f34b6a735400e0f4138b13459199d196c68c5bff4cc269"
+    },
+    {
+      "channel": 2,
+      "core_values": 1934,
+      "machine_code_bytes": 177409,
+      "machine_code_sha256": "92c7c2851231eef85f8824893f0069a62228f757d12e64c2efbec1cebf6b316f"
+    },
+    {
+      "channel": 3,
+      "core_values": 1934,
+      "machine_code_bytes": 152064,
+      "machine_code_sha256": "cb4a93783a874de72a782161655a436ef86cbb89f8fb1706255b52c53ee768fa"
+    },
+    {
+      "channel": 4,
+      "core_values": 1934,
+      "machine_code_bytes": 149958,
+      "machine_code_sha256": "f78128b08d0f36ffcd4749478c1113a7b444bac399ee3f1c00bdcd5d6c035ecd"
+    }
+  ]
+}
