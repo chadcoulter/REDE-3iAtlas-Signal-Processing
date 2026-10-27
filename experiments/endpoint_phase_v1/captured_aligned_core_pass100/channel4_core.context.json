@@ -1,0 +1,87 @@
+{
+  "channel": 4,
+  "original_source": "/mnt/c/Users/ccoulter/.codex/visualizations/2026/10/26/01a17a88-551e-7a03-88ed-8a3ed98b99ad/atlas-endpoint-test/experiments/endpoint_phase_v1/latest_assembled_transforms_pass100/channel4_pass100.S",
+  "original_source_sha256": "f517feb1f03d1c77c60e2e5f279f6fa82bbd5b58bd7038ddb5505a4b565e09f2",
+  "removed_prefix_values": 74,
+  "removed_suffix_values": 92,
+  "retained_original_value_indices": {
+    "first": 74,
+    "last_inclusive": 2007
+  },
+  "retained_values": 1934,
+  "retained_operator_invocations": 9720,
+  "full_initial_state": {
+    "state": 2,
+    "relations": 1,
+    "constraints": 5,
+    "observations": 1,
+    "unresolved": 18160454855281098371,
+    "context": 4318517429352844738,
+    "target": 1,
+    "events": 51051
+  },
+  "captured_core_entry_state": {
+    "state": 1,
+    "relations": 1,
+    "constraints": 5,
+    "observations": 38,
+    "unresolved": 18160454855281098371,
+    "context": 4318517429352844738,
+    "target": 1,
+    "events": 51051
+  },
+  "native_core_exit_state": {
+    "state": 1,
+    "relations": 12263434195814047561,
+    "constraints": 58,
+    "observations": 8923598571835186800,
+    "unresolved": 7059851685147138138,
+    "context": 14284717975534498102,
+    "target": 1,
+    "events": 51307
+  },
+  "suffix_restored_full_exit_state": {
+    "state": 1,
+    "relations": 12263434195814047561,
+    "constraints": 58,
+    "observations": 8923598571835186800,
+    "unresolved": 7059851685147138138,
+    "context": 14284717975534498102,
+    "target": 1,
+    "events": 51307
+  },
+  "matches_original_after_suffix_accounting": true,
+  "native_core_target": 1,
+  "original_full_target": 1,
+  "elf_code_address": 4198400,
+  "elf_core_end_address": 4348358,
+  "elf_data_address": 4349952,
+  "raw_code_load_contract": "RIP-relative body. Preserve code/data relative placement recorded here. Body falls through at core_end; it has no standalone exit/return. ELF includes the output/exit wrapper.",
+  "files": {
+    ".S": {
+      "name": "channel4_core.S",
+      "bytes": 781278,
+      "sha256": "86e21c897ab308a1a9021f992374238f1038993a05241c639eddb065efbf624e"
+    },
+    ".o": {
+      "name": "channel4_core.o",
+      "bytes": 631624,
+      "sha256": "63708415a4545ab107f875774f04c6bd3c4059f55b31420809a4acc56b31a17b"
+    },
+    ".elf": {
+      "name": "channel4_core.elf",
+      "bytes": 156672,
+      "sha256": "c12f725aeae4f8dcaf70b719470332cbe007a4c7f075035f57401d1112e3ffc1"
+    },
+    ".code.bin": {
+      "name": "channel4_core.code.bin",
+      "bytes": 149958,
+      "sha256": "f78128b08d0f36ffcd4749478c1113a7b444bac399ee3f1c00bdcd5d6c035ecd"
+    },
+    ".data.bin": {
+      "name": "channel4_core.data.bin",
+      "bytes": 64,
+      "sha256": "d54191a98cd6209a6e755eee9c691cc76433f356ace9475d9147f1dac3aae2af"
+    }
+  }
+}

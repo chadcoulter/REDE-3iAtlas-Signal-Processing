@@ -1,0 +1,87 @@
+{
+  "channel": 2,
+  "original_source": "/mnt/c/Users/ccoulter/.codex/visualizations/2026/10/26/01a17a88-551e-7a03-88ed-8a3ed98b99ad/atlas-endpoint-test/experiments/endpoint_phase_v1/latest_assembled_transforms_pass100/channel2_pass100.S",
+  "original_source_sha256": "4b81049e8a39b623d4dd90832c2d315f9dd18587559c97c80315a3e46a1ca8e2",
+  "removed_prefix_values": 74,
+  "removed_suffix_values": 92,
+  "retained_original_value_indices": {
+    "first": 74,
+    "last_inclusive": 2007
+  },
+  "retained_values": 1934,
+  "retained_operator_invocations": 10944,
+  "full_initial_state": {
+    "state": 2,
+    "relations": 1,
+    "constraints": 5,
+    "observations": 1,
+    "unresolved": 12052525008745434471,
+    "context": 1851140946469194244,
+    "target": 1851140946469194245,
+    "events": 73985
+  },
+  "captured_core_entry_state": {
+    "state": 1,
+    "relations": 1,
+    "constraints": 5,
+    "observations": 1,
+    "unresolved": 12052525008745434471,
+    "context": 1851140946469194244,
+    "target": 1851140946469194245,
+    "events": 73985
+  },
+  "native_core_exit_state": {
+    "state": 1,
+    "relations": 16849038774195065286,
+    "constraints": 3,
+    "observations": 12650353399797017820,
+    "unresolved": 4279206384306191376,
+    "context": 5070167086666382620,
+    "target": 1,
+    "events": 74365
+  },
+  "suffix_restored_full_exit_state": {
+    "state": 1,
+    "relations": 16849038774195065286,
+    "constraints": 3,
+    "observations": 12650353399797017820,
+    "unresolved": 4279206384306191376,
+    "context": 5070167086666382620,
+    "target": 1,
+    "events": 74365
+  },
+  "matches_original_after_suffix_accounting": true,
+  "native_core_target": 1,
+  "original_full_target": 1,
+  "elf_code_address": 4198400,
+  "elf_core_end_address": 4375809,
+  "elf_data_address": 4378624,
+  "raw_code_load_contract": "RIP-relative body. Preserve code/data relative placement recorded here. Body falls through at core_end; it has no standalone exit/return. ELF includes the output/exit wrapper.",
+  "files": {
+    ".S": {
+      "name": "channel2_core.S",
+      "bytes": 898365,
+      "sha256": "fb9bc769584db6bf0999a3a22a558839ee85be7b394eca6d41938d507d623be6"
+    },
+    ".o": {
+      "name": "channel2_core.o",
+      "bytes": 741664,
+      "sha256": "1a8e9cf0a34ca598f0a7869ca25e4bf2f8f71fc9a47c2d4378f5ca8de71999bd"
+    },
+    ".elf": {
+      "name": "channel2_core.elf",
+      "bytes": 185344,
+      "sha256": "9f7158c5ead6334225c7908cacdae1da1969318843350429f0261fdbd95c583a"
+    },
+    ".code.bin": {
+      "name": "channel2_core.code.bin",
+      "bytes": 177409,
+      "sha256": "92c7c2851231eef85f8824893f0069a62228f757d12e64c2efbec1cebf6b316f"
+    },
+    ".data.bin": {
+      "name": "channel2_core.data.bin",
+      "bytes": 64,
+      "sha256": "e062a13fd2e2fc66db81eca5c83a3e7ca2db14674078bea05f9957fe56f9f874"
+    }
+  }
+}

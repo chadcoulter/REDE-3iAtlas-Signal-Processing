@@ -1,0 +1,368 @@
+{
+  "selection": "Aligned interior between the shared repeated full left pairs and right values.",
+  "shared_front_pair_repetitions_removed": 37,
+  "shared_back_values_removed": 92,
+  "raw_values_per_channel": 1934,
+  "original_recording_values_per_channel_preserved": 1800,
+  "generated_transient_or_alignment_values_retained_per_channel": 134,
+  "native_core_programs_tested": 4,
+  "native_core_programs_passed": 4,
+  "all_four_targets": [
+    2,
+    1,
+    5,
+    1
+  ],
+  "raw_bin_is_standalone_executable": false,
+  "sources_unchanged": true,
+  "channels": [
+    {
+      "channel": 1,
+      "original_source": "/mnt/c/Users/ccoulter/.codex/visualizations/2026/10/26/01a17a88-551e-7a03-88ed-8a3ed98b99ad/atlas-endpoint-test/experiments/endpoint_phase_v1/latest_assembled_transforms_pass100/channel1_pass100.S",
+      "original_source_sha256": "d007046f3c3849892e23e93dd7fb79d5ab12b78cc5c35f8533d46346c7b2ae69",
+      "removed_prefix_values": 74,
+      "removed_suffix_values": 92,
+      "retained_original_value_indices": {
+        "first": 74,
+        "last_inclusive": 2007
+      },
+      "retained_values": 1934,
+      "retained_operator_invocations": 10231,
+      "full_initial_state": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 12290617730943531405,
+        "context": 15843848449229847519,
+        "target": 15,
+        "events": 64121
+      },
+      "captured_core_entry_state": {
+        "state": 1,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 12290617730943531405,
+        "context": 15843848449229847519,
+        "target": 15,
+        "events": 64121
+      },
+      "native_core_exit_state": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893379,
+        "target": 2,
+        "events": 64442
+      },
+      "suffix_restored_full_exit_state": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893471,
+        "target": 2,
+        "events": 64442
+      },
+      "matches_original_after_suffix_accounting": true,
+      "native_core_target": 2,
+      "original_full_target": 2,
+      "elf_code_address": 4198400,
+      "elf_core_end_address": 4363275,
+      "elf_data_address": 4366336,
+      "raw_code_load_contract": "RIP-relative body. Preserve code/data relative placement recorded here. Body falls through at core_end; it has no standalone exit/return. ELF includes the output/exit wrapper.",
+      "files": {
+        ".S": {
+          "name": "channel1_core.S",
+          "bytes": 840573,
+          "sha256": "fb6f8e4675350a3098f459921d41314341a18d4cf2e25efe5965513ef54af3b0"
+        },
+        ".o": {
+          "name": "channel1_core.o",
+          "bytes": 695000,
+          "sha256": "3c1ea09aa0be2ce876a5d0acacb820de3292815f2d30a1e0fbae1466db7f617a"
+        },
+        ".elf": {
+          "name": "channel1_core.elf",
+          "bytes": 173056,
+          "sha256": "cb7b01fa87892c95a5c3a2c79c4fa802d7e8d77b9de85026395fa35b1df55eaa"
+        },
+        ".code.bin": {
+          "name": "channel1_core.code.bin",
+          "bytes": 164875,
+          "sha256": "1c8959a9fad33627a2f34b6a735400e0f4138b13459199d196c68c5bff4cc269"
+        },
+        ".data.bin": {
+          "name": "channel1_core.data.bin",
+          "bytes": 64,
+          "sha256": "ad4e497416716a3ab2274c05fba0f1054a02c5b1b14707fe3f70a0611d664860"
+        }
+      }
+    },
+    {
+      "channel": 2,
+      "original_source": "/mnt/c/Users/ccoulter/.codex/visualizations/2026/10/26/01a17a88-551e-7a03-88ed-8a3ed98b99ad/atlas-endpoint-test/experiments/endpoint_phase_v1/latest_assembled_transforms_pass100/channel2_pass100.S",
+      "original_source_sha256": "4b81049e8a39b623d4dd90832c2d315f9dd18587559c97c80315a3e46a1ca8e2",
+      "removed_prefix_values": 74,
+      "removed_suffix_values": 92,
+      "retained_original_value_indices": {
+        "first": 74,
+        "last_inclusive": 2007
+      },
+      "retained_values": 1934,
+      "retained_operator_invocations": 10944,
+      "full_initial_state": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 12052525008745434471,
+        "context": 1851140946469194244,
+        "target": 1851140946469194245,
+        "events": 73985
+      },
+      "captured_core_entry_state": {
+        "state": 1,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 12052525008745434471,
+        "context": 1851140946469194244,
+        "target": 1851140946469194245,
+        "events": 73985
+      },
+      "native_core_exit_state": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "suffix_restored_full_exit_state": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "matches_original_after_suffix_accounting": true,
+      "native_core_target": 1,
+      "original_full_target": 1,
+      "elf_code_address": 4198400,
+      "elf_core_end_address": 4375809,
+      "elf_data_address": 4378624,
+      "raw_code_load_contract": "RIP-relative body. Preserve code/data relative placement recorded here. Body falls through at core_end; it has no standalone exit/return. ELF includes the output/exit wrapper.",
+      "files": {
+        ".S": {
+          "name": "channel2_core.S",
+          "bytes": 898365,
+          "sha256": "fb9bc769584db6bf0999a3a22a558839ee85be7b394eca6d41938d507d623be6"
+        },
+        ".o": {
+          "name": "channel2_core.o",
+          "bytes": 741664,
+          "sha256": "1a8e9cf0a34ca598f0a7869ca25e4bf2f8f71fc9a47c2d4378f5ca8de71999bd"
+        },
+        ".elf": {
+          "name": "channel2_core.elf",
+          "bytes": 185344,
+          "sha256": "9f7158c5ead6334225c7908cacdae1da1969318843350429f0261fdbd95c583a"
+        },
+        ".code.bin": {
+          "name": "channel2_core.code.bin",
+          "bytes": 177409,
+          "sha256": "92c7c2851231eef85f8824893f0069a62228f757d12e64c2efbec1cebf6b316f"
+        },
+        ".data.bin": {
+          "name": "channel2_core.data.bin",
+          "bytes": 64,
+          "sha256": "e062a13fd2e2fc66db81eca5c83a3e7ca2db14674078bea05f9957fe56f9f874"
+        }
+      }
+    },
+    {
+      "channel": 3,
+      "original_source": "/mnt/c/Users/ccoulter/.codex/visualizations/2026/10/26/01a17a88-551e-7a03-88ed-8a3ed98b99ad/atlas-endpoint-test/experiments/endpoint_phase_v1/latest_assembled_transforms_pass100/channel3_pass100.S",
+      "original_source_sha256": "6fc20f263743d413403bdcfab5b41695ef44bf8140e03c3fd31c479e525669ef",
+      "removed_prefix_values": 74,
+      "removed_suffix_values": 92,
+      "retained_original_value_indices": {
+        "first": 74,
+        "last_inclusive": 2007
+      },
+      "retained_values": 1934,
+      "retained_operator_invocations": 9865,
+      "full_initial_state": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 13904591276321655125,
+        "context": 2369741410633742337,
+        "target": 2,
+        "events": 68705
+      },
+      "captured_core_entry_state": {
+        "state": 1,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 13904591276321655162,
+        "context": 2369741410633742337,
+        "target": 2,
+        "events": 68705
+      },
+      "native_core_exit_state": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379362,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "suffix_restored_full_exit_state": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379362,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "matches_original_after_suffix_accounting": true,
+      "native_core_target": 5,
+      "original_full_target": 5,
+      "elf_code_address": 4198400,
+      "elf_core_end_address": 4350464,
+      "elf_data_address": 4354048,
+      "raw_code_load_contract": "RIP-relative body. Preserve code/data relative placement recorded here. Body falls through at core_end; it has no standalone exit/return. ELF includes the output/exit wrapper.",
+      "files": {
+        ".S": {
+          "name": "channel3_core.S",
+          "bytes": 791858,
+          "sha256": "5b78191af89c67fbdbad31fd3e6f3caf9033d4446c68eabe6cd23cfcd2a9ff74"
+        },
+        ".o": {
+          "name": "channel3_core.o",
+          "bytes": 641168,
+          "sha256": "8c024b45a89468bf45391a5c91cf22a6193590ff5cfc86d92764592de902a88b"
+        },
+        ".elf": {
+          "name": "channel3_core.elf",
+          "bytes": 160768,
+          "sha256": "9b52d0c5b2d5d9195409a051d8902735afdd232373840f2c1ee8f7443591ffc7"
+        },
+        ".code.bin": {
+          "name": "channel3_core.code.bin",
+          "bytes": 152064,
+          "sha256": "cb4a93783a874de72a782161655a436ef86cbb89f8fb1706255b52c53ee768fa"
+        },
+        ".data.bin": {
+          "name": "channel3_core.data.bin",
+          "bytes": 64,
+          "sha256": "108470864b6ec6282ae815b34352501ef67876cbb368d74599dde6a9aee2f7f2"
+        }
+      }
+    },
+    {
+      "channel": 4,
+      "original_source": "/mnt/c/Users/ccoulter/.codex/visualizations/2026/10/26/01a17a88-551e-7a03-88ed-8a3ed98b99ad/atlas-endpoint-test/experiments/endpoint_phase_v1/latest_assembled_transforms_pass100/channel4_pass100.S",
+      "original_source_sha256": "f517feb1f03d1c77c60e2e5f279f6fa82bbd5b58bd7038ddb5505a4b565e09f2",
+      "removed_prefix_values": 74,
+      "removed_suffix_values": 92,
+      "retained_original_value_indices": {
+        "first": 74,
+        "last_inclusive": 2007
+      },
+      "retained_values": 1934,
+      "retained_operator_invocations": 9720,
+      "full_initial_state": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 18160454855281098371,
+        "context": 4318517429352844738,
+        "target": 1,
+        "events": 51051
+      },
+      "captured_core_entry_state": {
+        "state": 1,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 38,
+        "unresolved": 18160454855281098371,
+        "context": 4318517429352844738,
+        "target": 1,
+        "events": 51051
+      },
+      "native_core_exit_state": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "suffix_restored_full_exit_state": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "matches_original_after_suffix_accounting": true,
+      "native_core_target": 1,
+      "original_full_target": 1,
+      "elf_code_address": 4198400,
+      "elf_core_end_address": 4348358,
+      "elf_data_address": 4349952,
+      "raw_code_load_contract": "RIP-relative body. Preserve code/data relative placement recorded here. Body falls through at core_end; it has no standalone exit/return. ELF includes the output/exit wrapper.",
+      "files": {
+        ".S": {
+          "name": "channel4_core.S",
+          "bytes": 781278,
+          "sha256": "86e21c897ab308a1a9021f992374238f1038993a05241c639eddb065efbf624e"
+        },
+        ".o": {
+          "name": "channel4_core.o",
+          "bytes": 631624,
+          "sha256": "63708415a4545ab107f875774f04c6bd3c4059f55b31420809a4acc56b31a17b"
+        },
+        ".elf": {
+          "name": "channel4_core.elf",
+          "bytes": 156672,
+          "sha256": "c12f725aeae4f8dcaf70b719470332cbe007a4c7f075035f57401d1112e3ffc1"
+        },
+        ".code.bin": {
+          "name": "channel4_core.code.bin",
+          "bytes": 149958,
+          "sha256": "f78128b08d0f36ffcd4749478c1113a7b444bac399ee3f1c00bdcd5d6c035ecd"
+        },
+        ".data.bin": {
+          "name": "channel4_core.data.bin",
+          "bytes": 64,
+          "sha256": "d54191a98cd6209a6e755eee9c691cc76433f356ace9475d9147f1dac3aae2af"
+        }
+      }
+    }
+  ]
+}
