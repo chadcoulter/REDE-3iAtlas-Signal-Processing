@@ -1,0 +1,242 @@
+[
+  {
+    "program": "stateful_pass100_extended_chain_channel1",
+    "cycle": 100,
+    "direction": "extended_chain",
+    "channel": 1,
+    "input_values": 2100,
+    "operator_commands": 10248,
+    "source": "stateful_pass100_extended_chain_channel1.S",
+    "expected_registers": {
+      "state": 1,
+      "relations": 5378517496366153856,
+      "constraints": 98,
+      "observations": 12833055232375189597,
+      "unresolved": 5828660610665681728,
+      "context": 11336151201383160628,
+      "target": 13250517945828879428,
+      "events": 308
+    },
+    "source_sha256": "ccc6fb07d7485b93d72bad4535e8f8b37f285a6fafad796d813650320f0b6a9c"
+  },
+  {
+    "program": "stateful_pass100_new_front_segment_channel1",
+    "cycle": 100,
+    "direction": "new_front_segment",
+    "channel": 1,
+    "input_values": 200,
+    "operator_commands": 210,
+    "source": "stateful_pass100_new_front_segment_channel1.S",
+    "expected_registers": {
+      "state": 2,
+      "relations": 0,
+      "constraints": 1,
+      "observations": 2,
+      "unresolved": 1,
+      "context": 1,
+      "target": 3,
+      "events": 2
+    },
+    "source_sha256": "d8896660f4c8cdbdeb72d6c1946bc67039906ee371ebbe191221a0b149910acc"
+  },
+  {
+    "program": "stateful_pass100_new_back_segment_channel1",
+    "cycle": 100,
+    "direction": "new_back_segment",
+    "channel": 1,
+    "input_values": 100,
+    "operator_commands": 100,
+    "source": "stateful_pass100_new_back_segment_channel1.S",
+    "expected_registers": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 1,
+      "target": 1,
+      "events": 1
+    },
+    "source_sha256": "b95c6c38833f421f3ff7745de49a3cadfe60c7e0e7dd9cab43f120e1fadde201"
+  },
+  {
+    "program": "stateful_pass100_extended_chain_channel2",
+    "cycle": 100,
+    "direction": "extended_chain",
+    "channel": 2,
+    "input_values": 2100,
+    "operator_commands": 10278,
+    "source": "stateful_pass100_extended_chain_channel2.S",
+    "expected_registers": {
+      "state": 1,
+      "relations": 2710304496313576768,
+      "constraints": 88,
+      "observations": 10841217985254294842,
+      "unresolved": 15993912999120439579,
+      "context": 2710304496313569977,
+      "target": 2710304496313575906,
+      "events": 338
+    },
+    "source_sha256": "185e155c602f07d1d702365117dc9374962b81b736efc7b06f94ab32c5090437"
+  },
+  {
+    "program": "stateful_pass100_new_front_segment_channel2",
+    "cycle": 100,
+    "direction": "new_front_segment",
+    "channel": 2,
+    "input_values": 200,
+    "operator_commands": 215,
+    "source": "stateful_pass100_new_front_segment_channel2.S",
+    "expected_registers": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 3,
+      "observations": 3,
+      "unresolved": 4,
+      "context": 1,
+      "target": 2,
+      "events": 1
+    },
+    "source_sha256": "e6b8e850e7d8317d9257823b750fac6f7152c1503b9193ea2f0bfa19b60f0dd4"
+  },
+  {
+    "program": "stateful_pass100_new_back_segment_channel2",
+    "cycle": 100,
+    "direction": "new_back_segment",
+    "channel": 2,
+    "input_values": 100,
+    "operator_commands": 105,
+    "source": "stateful_pass100_new_back_segment_channel2.S",
+    "expected_registers": {
+      "state": 1,
+      "relations": 0,
+      "constraints": 1,
+      "observations": 2,
+      "unresolved": 1,
+      "context": 1,
+      "target": 1,
+      "events": 1
+    },
+    "source_sha256": "fe253437d292fea7ebef7bacb41b2da397b0bfe13d5547541ad79c5d995f3859"
+  },
+  {
+    "program": "stateful_pass100_extended_chain_channel3",
+    "cycle": 100,
+    "direction": "extended_chain",
+    "channel": 3,
+    "input_values": 2100,
+    "operator_commands": 9771,
+    "source": "stateful_pass100_extended_chain_channel3.S",
+    "expected_registers": {
+      "state": 1,
+      "relations": 4871773311356290239,
+      "constraints": 83,
+      "observations": 15929682381406828059,
+      "unresolved": 6686246858622103699,
+      "context": 638553364471084812,
+      "target": 4871773311356290242,
+      "events": 329
+    },
+    "source_sha256": "8abf31c484c20e437be8d73c484398b5b93328a3c088c043d476b38baf5f799d"
+  },
+  {
+    "program": "stateful_pass100_new_front_segment_channel3",
+    "cycle": 100,
+    "direction": "new_front_segment",
+    "channel": 3,
+    "input_values": 200,
+    "operator_commands": 210,
+    "source": "stateful_pass100_new_front_segment_channel3.S",
+    "expected_registers": {
+      "state": 2,
+      "relations": 0,
+      "constraints": 1,
+      "observations": 2,
+      "unresolved": 1,
+      "context": 1,
+      "target": 3,
+      "events": 2
+    },
+    "source_sha256": "8d204720116a4ff59333fc7679147954fe613d75565445c046046931d0bd365c"
+  },
+  {
+    "program": "stateful_pass100_new_back_segment_channel3",
+    "cycle": 100,
+    "direction": "new_back_segment",
+    "channel": 3,
+    "input_values": 100,
+    "operator_commands": 100,
+    "source": "stateful_pass100_new_back_segment_channel3.S",
+    "expected_registers": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 1,
+      "target": 1,
+      "events": 1
+    },
+    "source_sha256": "a056fcd0f24f3842e2e8a4b5dd4fd11f1ddafea096be5d78aed9ecd38e0f2319"
+  },
+  {
+    "program": "stateful_pass100_extended_chain_channel4",
+    "cycle": 100,
+    "direction": "extended_chain",
+    "channel": 4,
+    "input_values": 2100,
+    "operator_commands": 9694,
+    "source": "stateful_pass100_extended_chain_channel4.S",
+    "expected_registers": {
+      "state": 2,
+      "relations": 17144758788060165721,
+      "constraints": 174,
+      "observations": 18109412500213841328,
+      "unresolved": 5186536674797919522,
+      "context": 851939855586411759,
+      "target": 2,
+      "events": 253
+    },
+    "source_sha256": "b43b14f558b3149966a94433d1aa7267dafef0f4c4decc52b449fb35542a4a91"
+  },
+  {
+    "program": "stateful_pass100_new_front_segment_channel4",
+    "cycle": 100,
+    "direction": "new_front_segment",
+    "channel": 4,
+    "input_values": 200,
+    "operator_commands": 116,
+    "source": "stateful_pass100_new_front_segment_channel4.S",
+    "expected_registers": {
+      "state": 8,
+      "relations": 3,
+      "constraints": 1,
+      "observations": 2,
+      "unresolved": 3,
+      "context": 1,
+      "target": 9,
+      "events": 2
+    },
+    "source_sha256": "b324101f806f197506144cd05a2ba2472cec12f8d547e2cc0359342174e1d93e"
+  },
+  {
+    "program": "stateful_pass100_new_back_segment_channel4",
+    "cycle": 100,
+    "direction": "new_back_segment",
+    "channel": 4,
+    "input_values": 100,
+    "operator_commands": 109,
+    "source": "stateful_pass100_new_back_segment_channel4.S",
+    "expected_registers": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 2,
+      "context": 6,
+      "target": 2,
+      "events": 1
+    },
+    "source_sha256": "ab20281dd39d9a1a2d65e7fb9faf2cc111faf8151354c657d5489af255134e68"
+  }
+]

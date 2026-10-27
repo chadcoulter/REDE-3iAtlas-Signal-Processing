@@ -1,0 +1,13 @@
+program,cycle,direction,channel,input_values,operator_commands,assembler_exit,linker_exit,native_exit,native_matches_interpreter,error
+stateful_pass100_extended_chain_channel1,100,extended_chain,1,2100,10248,0,0,0,True,
+stateful_pass100_new_front_segment_channel1,100,new_front_segment,1,200,210,0,0,0,True,
+stateful_pass100_new_back_segment_channel1,100,new_back_segment,1,100,100,0,0,0,True,
+stateful_pass100_extended_chain_channel2,100,extended_chain,2,2100,10278,0,0,0,True,
+stateful_pass100_new_front_segment_channel2,100,new_front_segment,2,200,215,0,0,0,True,
+stateful_pass100_new_back_segment_channel2,100,new_back_segment,2,100,105,0,0,0,True,
+stateful_pass100_extended_chain_channel3,100,extended_chain,3,2100,9771,0,0,0,True,
+stateful_pass100_new_front_segment_channel3,100,new_front_segment,3,200,210,0,0,0,True,
+stateful_pass100_new_back_segment_channel3,100,new_back_segment,3,100,100,0,0,0,True,
+stateful_pass100_extended_chain_channel4,100,extended_chain,4,2100,9694,0,0,0,True,
+stateful_pass100_new_front_segment_channel4,100,new_front_segment,4,200,116,0,0,0,True,
+stateful_pass100_new_back_segment_channel4,100,new_back_segment,4,100,109,0,0,0,True,

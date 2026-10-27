@@ -1,0 +1,649 @@
+{
+  "passes_each_direction": 100,
+  "feedback": "Retain channel register states between directions and cycles; overwrite only the four opposite-end input slots.",
+  "seed_mapping": [
+    "state",
+    "relations",
+    "constraints",
+    "observations"
+  ],
+  "other_register_initial_seed": 1,
+  "start_from": "Original recorded chains, to compare feedback modes without inheriting the reset-mode fixed point.",
+  "final_front": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "final_back": [
+    1,
+    1,
+    1,
+    7
+  ],
+  "final_left_pairs": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "final_chain_lengths": [
+    2100,
+    2100,
+    2100,
+    2100
+  ],
+  "literal_zeros": [
+    {
+      "cycle": 3,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 4,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 5,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 6,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 7,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 8,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 9,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 10,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 11,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 12,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 13,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 14,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 15,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 16,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 17,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 18,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 19,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 20,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 21,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 22,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 23,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 24,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 25,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 26,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 27,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 28,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 29,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 30,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 31,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 32,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 33,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 34,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 35,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 36,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 37,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 38,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 39,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 40,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 41,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 42,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 43,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 44,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 45,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 46,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 47,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 48,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 49,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 50,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 51,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 52,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 53,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 54,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 55,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 56,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 57,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 58,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 59,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 60,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 61,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 62,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 63,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 64,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 65,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 66,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 67,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 68,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 69,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 70,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 71,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 72,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 73,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 74,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 75,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 76,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 77,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 78,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 79,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 80,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 81,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 82,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 83,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 84,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 85,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 86,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 87,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 88,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 89,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 90,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 91,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 92,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 93,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 94,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 95,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 96,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 97,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 98,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 99,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    },
+    {
+      "cycle": 100,
+      "channel": 4,
+      "position": "second_front",
+      "register": "relations"
+    }
+  ],
+  "first_full_state_repeat": {
+    "cycle": 4,
+    "previous_cycle": 3,
+    "gap": 1
+  },
+  "full_state_repeat_count": 97,
+  "front_zero_observed": false,
+  "y_finish_marker_identified": false,
+  "termination_note": "Full state includes all eight registers in all four banks and both endpoint vectors. An exact repeat cannot escape under the unchanged deterministic wiring. A zero in the second left register is recorded separately from a zero at the chain start.",
+  "native_programs_prepared": 12,
+  "archive_sha256": "bc5d445eabf6e83edf2bc8f23b6ed49269dd961a939741715b0be092d49e274c"
+}

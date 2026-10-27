@@ -1,0 +1,13 @@
+program,cycle,direction,channel,input_values,operator_commands,assembler_exit,linker_exit,native_exit,native_matches_interpreter,error
+pass125_extended_chain_channel1,125,extended_chain,1,2175,10318,0,0,0,True,
+pass125_new_front_segment_channel1,125,new_front_segment,1,200,200,0,0,0,True,
+pass125_new_back_segment_channel1,125,new_back_segment,1,100,100,0,0,0,True,
+pass125_extended_chain_channel2,125,extended_chain,2,2175,10343,0,0,0,True,
+pass125_new_front_segment_channel2,125,new_front_segment,2,200,200,0,0,0,True,
+pass125_new_back_segment_channel2,125,new_back_segment,2,100,100,0,0,0,True,
+pass125_extended_chain_channel3,125,extended_chain,3,2175,9841,0,0,0,True,
+pass125_new_front_segment_channel3,125,new_front_segment,3,200,200,0,0,0,True,
+pass125_new_back_segment_channel3,125,new_back_segment,3,100,100,0,0,0,True,
+pass125_extended_chain_channel4,125,extended_chain,4,2175,9857,0,0,0,True,
+pass125_new_front_segment_channel4,125,new_front_segment,4,200,200,0,0,0,True,
+pass125_new_back_segment_channel4,125,new_back_segment,4,100,100,0,0,0,True,

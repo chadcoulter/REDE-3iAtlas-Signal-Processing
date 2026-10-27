@@ -1,0 +1,567 @@
+{
+  "batch_passes_each_direction": 100,
+  "resumed_after_pass": 25,
+  "total_passes_each_direction": 125,
+  "resume_path": "experiments\\endpoint_phase_v1\\extension_25_results",
+  "resume_chains_sha256": "091e4ac4958ccaa0594db8c3800a17cfe7ad5650ef33df16147b787117d7ffdc",
+  "archive_sha256": "bc5d445eabf6e83edf2bc8f23b6ed49269dd961a939741715b0be092d49e274c",
+  "register_mapping_opposite1_to_4": [
+    "state",
+    "relations",
+    "constraints",
+    "observations"
+  ],
+  "other_register_seed": 1,
+  "initial_lengths": [
+    1875,
+    1875,
+    1875,
+    1875
+  ],
+  "final_lengths": [
+    2175,
+    2175,
+    2175,
+    2175
+  ],
+  "initial_front": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "initial_back": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "final_front": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "final_back": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "new_front_values_per_channel": 200,
+  "new_back_values_per_channel": 100,
+  "previous_chains_preserved_in_order": true,
+  "literal_zero_observations": [],
+  "endpoint_repetition_count": 100,
+  "endpoint_repetitions": [
+    {
+      "pass": 26,
+      "previous_pass": 25,
+      "gap": 1
+    },
+    {
+      "pass": 27,
+      "previous_pass": 25,
+      "gap": 2
+    },
+    {
+      "pass": 28,
+      "previous_pass": 25,
+      "gap": 3
+    },
+    {
+      "pass": 29,
+      "previous_pass": 25,
+      "gap": 4
+    },
+    {
+      "pass": 30,
+      "previous_pass": 25,
+      "gap": 5
+    },
+    {
+      "pass": 31,
+      "previous_pass": 25,
+      "gap": 6
+    },
+    {
+      "pass": 32,
+      "previous_pass": 25,
+      "gap": 7
+    },
+    {
+      "pass": 33,
+      "previous_pass": 25,
+      "gap": 8
+    },
+    {
+      "pass": 34,
+      "previous_pass": 25,
+      "gap": 9
+    },
+    {
+      "pass": 35,
+      "previous_pass": 25,
+      "gap": 10
+    },
+    {
+      "pass": 36,
+      "previous_pass": 25,
+      "gap": 11
+    },
+    {
+      "pass": 37,
+      "previous_pass": 25,
+      "gap": 12
+    },
+    {
+      "pass": 38,
+      "previous_pass": 25,
+      "gap": 13
+    },
+    {
+      "pass": 39,
+      "previous_pass": 25,
+      "gap": 14
+    },
+    {
+      "pass": 40,
+      "previous_pass": 25,
+      "gap": 15
+    },
+    {
+      "pass": 41,
+      "previous_pass": 25,
+      "gap": 16
+    },
+    {
+      "pass": 42,
+      "previous_pass": 25,
+      "gap": 17
+    },
+    {
+      "pass": 43,
+      "previous_pass": 25,
+      "gap": 18
+    },
+    {
+      "pass": 44,
+      "previous_pass": 25,
+      "gap": 19
+    },
+    {
+      "pass": 45,
+      "previous_pass": 25,
+      "gap": 20
+    },
+    {
+      "pass": 46,
+      "previous_pass": 25,
+      "gap": 21
+    },
+    {
+      "pass": 47,
+      "previous_pass": 25,
+      "gap": 22
+    },
+    {
+      "pass": 48,
+      "previous_pass": 25,
+      "gap": 23
+    },
+    {
+      "pass": 49,
+      "previous_pass": 25,
+      "gap": 24
+    },
+    {
+      "pass": 50,
+      "previous_pass": 25,
+      "gap": 25
+    },
+    {
+      "pass": 51,
+      "previous_pass": 25,
+      "gap": 26
+    },
+    {
+      "pass": 52,
+      "previous_pass": 25,
+      "gap": 27
+    },
+    {
+      "pass": 53,
+      "previous_pass": 25,
+      "gap": 28
+    },
+    {
+      "pass": 54,
+      "previous_pass": 25,
+      "gap": 29
+    },
+    {
+      "pass": 55,
+      "previous_pass": 25,
+      "gap": 30
+    },
+    {
+      "pass": 56,
+      "previous_pass": 25,
+      "gap": 31
+    },
+    {
+      "pass": 57,
+      "previous_pass": 25,
+      "gap": 32
+    },
+    {
+      "pass": 58,
+      "previous_pass": 25,
+      "gap": 33
+    },
+    {
+      "pass": 59,
+      "previous_pass": 25,
+      "gap": 34
+    },
+    {
+      "pass": 60,
+      "previous_pass": 25,
+      "gap": 35
+    },
+    {
+      "pass": 61,
+      "previous_pass": 25,
+      "gap": 36
+    },
+    {
+      "pass": 62,
+      "previous_pass": 25,
+      "gap": 37
+    },
+    {
+      "pass": 63,
+      "previous_pass": 25,
+      "gap": 38
+    },
+    {
+      "pass": 64,
+      "previous_pass": 25,
+      "gap": 39
+    },
+    {
+      "pass": 65,
+      "previous_pass": 25,
+      "gap": 40
+    },
+    {
+      "pass": 66,
+      "previous_pass": 25,
+      "gap": 41
+    },
+    {
+      "pass": 67,
+      "previous_pass": 25,
+      "gap": 42
+    },
+    {
+      "pass": 68,
+      "previous_pass": 25,
+      "gap": 43
+    },
+    {
+      "pass": 69,
+      "previous_pass": 25,
+      "gap": 44
+    },
+    {
+      "pass": 70,
+      "previous_pass": 25,
+      "gap": 45
+    },
+    {
+      "pass": 71,
+      "previous_pass": 25,
+      "gap": 46
+    },
+    {
+      "pass": 72,
+      "previous_pass": 25,
+      "gap": 47
+    },
+    {
+      "pass": 73,
+      "previous_pass": 25,
+      "gap": 48
+    },
+    {
+      "pass": 74,
+      "previous_pass": 25,
+      "gap": 49
+    },
+    {
+      "pass": 75,
+      "previous_pass": 25,
+      "gap": 50
+    },
+    {
+      "pass": 76,
+      "previous_pass": 25,
+      "gap": 51
+    },
+    {
+      "pass": 77,
+      "previous_pass": 25,
+      "gap": 52
+    },
+    {
+      "pass": 78,
+      "previous_pass": 25,
+      "gap": 53
+    },
+    {
+      "pass": 79,
+      "previous_pass": 25,
+      "gap": 54
+    },
+    {
+      "pass": 80,
+      "previous_pass": 25,
+      "gap": 55
+    },
+    {
+      "pass": 81,
+      "previous_pass": 25,
+      "gap": 56
+    },
+    {
+      "pass": 82,
+      "previous_pass": 25,
+      "gap": 57
+    },
+    {
+      "pass": 83,
+      "previous_pass": 25,
+      "gap": 58
+    },
+    {
+      "pass": 84,
+      "previous_pass": 25,
+      "gap": 59
+    },
+    {
+      "pass": 85,
+      "previous_pass": 25,
+      "gap": 60
+    },
+    {
+      "pass": 86,
+      "previous_pass": 25,
+      "gap": 61
+    },
+    {
+      "pass": 87,
+      "previous_pass": 25,
+      "gap": 62
+    },
+    {
+      "pass": 88,
+      "previous_pass": 25,
+      "gap": 63
+    },
+    {
+      "pass": 89,
+      "previous_pass": 25,
+      "gap": 64
+    },
+    {
+      "pass": 90,
+      "previous_pass": 25,
+      "gap": 65
+    },
+    {
+      "pass": 91,
+      "previous_pass": 25,
+      "gap": 66
+    },
+    {
+      "pass": 92,
+      "previous_pass": 25,
+      "gap": 67
+    },
+    {
+      "pass": 93,
+      "previous_pass": 25,
+      "gap": 68
+    },
+    {
+      "pass": 94,
+      "previous_pass": 25,
+      "gap": 69
+    },
+    {
+      "pass": 95,
+      "previous_pass": 25,
+      "gap": 70
+    },
+    {
+      "pass": 96,
+      "previous_pass": 25,
+      "gap": 71
+    },
+    {
+      "pass": 97,
+      "previous_pass": 25,
+      "gap": 72
+    },
+    {
+      "pass": 98,
+      "previous_pass": 25,
+      "gap": 73
+    },
+    {
+      "pass": 99,
+      "previous_pass": 25,
+      "gap": 74
+    },
+    {
+      "pass": 100,
+      "previous_pass": 25,
+      "gap": 75
+    },
+    {
+      "pass": 101,
+      "previous_pass": 25,
+      "gap": 76
+    },
+    {
+      "pass": 102,
+      "previous_pass": 25,
+      "gap": 77
+    },
+    {
+      "pass": 103,
+      "previous_pass": 25,
+      "gap": 78
+    },
+    {
+      "pass": 104,
+      "previous_pass": 25,
+      "gap": 79
+    },
+    {
+      "pass": 105,
+      "previous_pass": 25,
+      "gap": 80
+    },
+    {
+      "pass": 106,
+      "previous_pass": 25,
+      "gap": 81
+    },
+    {
+      "pass": 107,
+      "previous_pass": 25,
+      "gap": 82
+    },
+    {
+      "pass": 108,
+      "previous_pass": 25,
+      "gap": 83
+    },
+    {
+      "pass": 109,
+      "previous_pass": 25,
+      "gap": 84
+    },
+    {
+      "pass": 110,
+      "previous_pass": 25,
+      "gap": 85
+    },
+    {
+      "pass": 111,
+      "previous_pass": 25,
+      "gap": 86
+    },
+    {
+      "pass": 112,
+      "previous_pass": 25,
+      "gap": 87
+    },
+    {
+      "pass": 113,
+      "previous_pass": 25,
+      "gap": 88
+    },
+    {
+      "pass": 114,
+      "previous_pass": 25,
+      "gap": 89
+    },
+    {
+      "pass": 115,
+      "previous_pass": 25,
+      "gap": 90
+    },
+    {
+      "pass": 116,
+      "previous_pass": 25,
+      "gap": 91
+    },
+    {
+      "pass": 117,
+      "previous_pass": 25,
+      "gap": 92
+    },
+    {
+      "pass": 118,
+      "previous_pass": 25,
+      "gap": 93
+    },
+    {
+      "pass": 119,
+      "previous_pass": 25,
+      "gap": 94
+    },
+    {
+      "pass": 120,
+      "previous_pass": 25,
+      "gap": 95
+    },
+    {
+      "pass": 121,
+      "previous_pass": 25,
+      "gap": 96
+    },
+    {
+      "pass": 122,
+      "previous_pass": 25,
+      "gap": 97
+    },
+    {
+      "pass": 123,
+      "previous_pass": 25,
+      "gap": 98
+    },
+    {
+      "pass": 124,
+      "previous_pass": 25,
+      "gap": 99
+    },
+    {
+      "pass": 125,
+      "previous_pass": 25,
+      "gap": 100
+    }
+  ],
+  "exact_endpoint_fixed_point_verified": true,
+  "additional_identical_batches_can_escape_fixed_point": false,
+  "fixed_point_reason": "The phase function uses only endpoint vectors. All-one seeds and input 1 produce Alpha, which sets state to 1, while target and relations stay 1. Neither pass number nor chain interior enters this phase function.",
+  "start_marker_found": false,
+  "finish_marker_found": false,
+  "finish_rule": "No Y EOF marker has been defined; repeated constants are recorded, not automatically classified as EOF.",
+  "continuation_status": "Exact deterministic loop: identical endpoint-only batches cannot find a different boundary under the unchanged wiring.",
+  "native_programs_prepared": 12,
+  "native_scope": "Check all four final extended chains plus each batch-generated front and back segment (12 programs), rather than recompiling every unchanged repeated endpoint step."
+}
