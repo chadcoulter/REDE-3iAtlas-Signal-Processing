@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "reverse_rows": 7200,
+    "state_equals_its_seed": 1358,
+    "relations_equals_its_seed": 5063,
+    "state_matches_current_channel_original_x": 369,
+    "relations_matches_current_channel_original_x": 1244,
+    "state_match_also_unchanged_seed": 350,
+    "relations_match_also_unchanged_seed": 1239
+  },
+  "manual_first_row_target_check": "passed",
+  "first_row_any_original_x_matches": false,
+  "interpretation": "Original x values are supplied as reverse seeds. Matches that retain those seeds must not be treated as reconstruction from projected targets alone.",
+  "next_wiring_question": "The current candidate uses separate banks. A shared cross-channel machine could have different propagation; the missing four-lane assembly would specify this."
+}

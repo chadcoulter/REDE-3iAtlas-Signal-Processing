@@ -1,0 +1,66 @@
+{
+  "branch": "codex/atlas-endpoint-phase-test",
+  "status": "Executed candidate endpoint-seeded wiring; no assumed scalar reduction of reverse pairs.",
+  "archive": "C:\\Users\\ccoulter\\Downloads\\3I_ATLAS_six_recordings_four_stripes_asm.zip",
+  "archive_sha256": "bc5d445eabf6e83edf2bc8f23b6ed49269dd961a939741715b0be092d49e274c",
+  "sources": [
+    {
+      "source": "3I_ATLAS_six_recordings_stripe1_x86_64.S",
+      "sha256": "ddfc99c7bdac550adb1a2805117bb2c0068e419b7dccbdb6d82b8a6b7e51e5f9"
+    },
+    {
+      "source": "3I_ATLAS_six_recordings_stripe2_x86_64.S",
+      "sha256": "265578f5d5f84785d4f0891672fab408a888851a924ba1e584640f8c8458a5af"
+    },
+    {
+      "source": "3I_ATLAS_six_recordings_stripe3_x86_64.S",
+      "sha256": "241c0194729ec1b467afe86050ee12fa3b8aa9f601eea943767852a38e01abe4"
+    },
+    {
+      "source": "3I_ATLAS_six_recordings_stripe4_x86_64.S",
+      "sha256": "caa7808e7df48cbb2ba36af283b809e733298332d483c3a3ff82408c8a21474b"
+    }
+  ],
+  "rows_per_channel": 1800,
+  "mapping_y1_y2_y3_y4": [
+    "state",
+    "relations",
+    "constraints",
+    "observations"
+  ],
+  "other_register_seed": 1,
+  "operator_validation_cases": 11340,
+  "operator_encoding_rows_verified": 7200,
+  "execution": "Archived x86-64 operator bodies interpreted, unsigned 64-bit arithmetic; no native binary run.",
+  "rules": [
+    "Opposite row is N-1-row, within each saved ranked stripe.",
+    "Use saved rounded integers before numeral decoding; retain float amplitudes in output.",
+    "All four channel banks receive the four opposite raw seeds in the same fixed assignment.",
+    "Each bank processes its own current input; banks are snapshotted before other-channel extraction.",
+    "X->Y uses original glyph order and reads one target per donor channel.",
+    "Y->X uses reverse glyph order and reads state and relations per donor channel.",
+    "Reverse current input is the four projected targets; reverse opposite seeds are original x values.",
+    "Each active channel excludes itself from three-donor output views.",
+    "Remaining register seeds are 1; rows are independent endpoint-pair tests, not a continuous sweep.",
+    "Channel-bank wiring and scalar-to-command encoding are explicit test choices, not a recovered four-lane implementation."
+  ],
+  "totals": {
+    "channel_roundtrips": 7200,
+    "state_matches_original_x": 369,
+    "relations_matches_original_x": 1244,
+    "either_matches_original_x": 1612,
+    "both_match_original_x": 1,
+    "forward_target_matches_recorded_y": 137,
+    "state_reforward_matches_projected_target": 2395,
+    "relations_reforward_matches_projected_target": 1132
+  },
+  "mapping_trials_first_row": 24,
+  "distinct_forward_outputs_across_mappings": 12,
+  "limitations": [
+    "Ranked stripes may change frequency identity between ends.",
+    "Four raw seeds to eight registers is a provisional mapping; only permutations of these four slots were tested.",
+    "Reversed glyph order is the repository reversal convention, not an algebraic inverse.",
+    "Independent channel banks do not allow an active channel input to change another bank; other-channel views expose this assumption.",
+    "The original four-lane all-register-feedback assembly dependency is absent."
+  ]
+}

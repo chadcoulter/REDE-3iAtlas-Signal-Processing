@@ -1,0 +1,210 @@
+{
+  "row": 0,
+  "second": 0,
+  "opposite_row": 1799,
+  "opposite_second": 2011,
+  "x_raw_amplitudes": [
+    "267073.281",
+    "218554.75",
+    "43297.1758",
+    "89131.4844"
+  ],
+  "y_raw_amplitudes": [
+    "370923.0938",
+    "272239.0938",
+    "250999.5625",
+    "231167.6719"
+  ],
+  "x_rounded": [
+    267073,
+    218555,
+    43297,
+    89131
+  ],
+  "y_rounded": [
+    370923,
+    272239,
+    251000,
+    231168
+  ],
+  "forward_target": [
+    1,
+    643164,
+    1,
+    370924
+  ],
+  "reverse_state_relations": [
+    [
+      1,
+      218555
+    ],
+    [
+      1,
+      218554
+    ],
+    [
+      1,
+      218555
+    ],
+    [
+      267074,
+      218555
+    ]
+  ],
+  "state_matches": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "relations_matches": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "forward_other_channel_views": [
+    {
+      "active_channel": 1,
+      "donor_channels": [
+        2,
+        3,
+        4
+      ],
+      "values": [
+        643164,
+        1,
+        370924
+      ]
+    },
+    {
+      "active_channel": 2,
+      "donor_channels": [
+        1,
+        3,
+        4
+      ],
+      "values": [
+        1,
+        1,
+        370924
+      ]
+    },
+    {
+      "active_channel": 3,
+      "donor_channels": [
+        1,
+        2,
+        4
+      ],
+      "values": [
+        1,
+        643164,
+        370924
+      ]
+    },
+    {
+      "active_channel": 4,
+      "donor_channels": [
+        1,
+        2,
+        3
+      ],
+      "values": [
+        1,
+        643164,
+        1
+      ]
+    }
+  ],
+  "reverse_other_channel_views": [
+    {
+      "active_channel": 1,
+      "donor_channels": [
+        2,
+        3,
+        4
+      ],
+      "values": [
+        [
+          1,
+          218554
+        ],
+        [
+          1,
+          218555
+        ],
+        [
+          267074,
+          218555
+        ]
+      ]
+    },
+    {
+      "active_channel": 2,
+      "donor_channels": [
+        1,
+        3,
+        4
+      ],
+      "values": [
+        [
+          1,
+          218555
+        ],
+        [
+          1,
+          218555
+        ],
+        [
+          267074,
+          218555
+        ]
+      ]
+    },
+    {
+      "active_channel": 3,
+      "donor_channels": [
+        1,
+        2,
+        4
+      ],
+      "values": [
+        [
+          1,
+          218555
+        ],
+        [
+          1,
+          218554
+        ],
+        [
+          267074,
+          218555
+        ]
+      ]
+    },
+    {
+      "active_channel": 4,
+      "donor_channels": [
+        1,
+        2,
+        3
+      ],
+      "values": [
+        [
+          1,
+          218555
+        ],
+        [
+          1,
+          218554
+        ],
+        [
+          1,
+          218555
+        ]
+      ]
+    }
+  ]
+}

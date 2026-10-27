@@ -1,0 +1,818 @@
+[
+  {
+    "mapping_y1_y2_y3_y4": [
+      "state",
+      "relations",
+      "constraints",
+      "observations"
+    ],
+    "forward_target": [
+      1,
+      643164,
+      1,
+      370924
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        218555
+      ],
+      [
+        1,
+        218554
+      ],
+      [
+        1,
+        218555
+      ],
+      [
+        267074,
+        218555
+      ]
+    ],
+    "matches_default_forward": true,
+    "either_reverse_matches": 0
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "state",
+      "relations",
+      "observations",
+      "constraints"
+    ],
+    "forward_target": [
+      1,
+      643164,
+      1,
+      370924
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        218555
+      ],
+      [
+        1,
+        218554
+      ],
+      [
+        1,
+        218555
+      ],
+      [
+        267074,
+        218555
+      ]
+    ],
+    "matches_default_forward": true,
+    "either_reverse_matches": 0
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "state",
+      "constraints",
+      "relations",
+      "observations"
+    ],
+    "forward_target": [
+      1,
+      621925,
+      1,
+      370924
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        43297
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        267074,
+        43297
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "state",
+      "constraints",
+      "observations",
+      "relations"
+    ],
+    "forward_target": [
+      1,
+      602093,
+      1,
+      370924
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        89131
+      ],
+      [
+        1,
+        89130
+      ],
+      [
+        1,
+        89131
+      ],
+      [
+        267074,
+        89131
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "state",
+      "observations",
+      "relations",
+      "constraints"
+    ],
+    "forward_target": [
+      1,
+      621925,
+      1,
+      370924
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        43297
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        267074,
+        43297
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "state",
+      "observations",
+      "constraints",
+      "relations"
+    ],
+    "forward_target": [
+      1,
+      602093,
+      1,
+      370924
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        89131
+      ],
+      [
+        1,
+        89130
+      ],
+      [
+        1,
+        89131
+      ],
+      [
+        267074,
+        89131
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "relations",
+      "state",
+      "constraints",
+      "observations"
+    ],
+    "forward_target": [
+      1,
+      643164,
+      1,
+      272240
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267072
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        752703,
+        267073
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "relations",
+      "state",
+      "observations",
+      "constraints"
+    ],
+    "forward_target": [
+      1,
+      643164,
+      1,
+      272240
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267072
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        752703,
+        267073
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "relations",
+      "constraints",
+      "state",
+      "observations"
+    ],
+    "forward_target": [
+      1,
+      621925,
+      1,
+      251001
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        267075,
+        267073
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "relations",
+      "constraints",
+      "observations",
+      "state"
+    ],
+    "forward_target": [
+      1,
+      602093,
+      1,
+      231169
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267072
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        534146,
+        267072
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "relations",
+      "observations",
+      "state",
+      "constraints"
+    ],
+    "forward_target": [
+      1,
+      621925,
+      1,
+      251001
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        267075,
+        267073
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "relations",
+      "observations",
+      "constraints",
+      "state"
+    ],
+    "forward_target": [
+      1,
+      602093,
+      1,
+      231169
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        267073
+      ],
+      [
+        1,
+        267072
+      ],
+      [
+        1,
+        267073
+      ],
+      [
+        534146,
+        267072
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "constraints",
+      "state",
+      "relations",
+      "observations"
+    ],
+    "forward_target": [
+      1,
+      523241,
+      1,
+      272240
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        43297
+      ],
+      [
+        43299,
+        43297
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        305151,
+        43297
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "constraints",
+      "state",
+      "observations",
+      "relations"
+    ],
+    "forward_target": [
+      1,
+      503409,
+      1,
+      272240
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        89131
+      ],
+      [
+        218555,
+        89132
+      ],
+      [
+        1,
+        89131
+      ],
+      [
+        396819,
+        89131
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 2
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "constraints",
+      "relations",
+      "state",
+      "observations"
+    ],
+    "forward_target": [
+      1,
+      523241,
+      1,
+      251001
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        218555
+      ],
+      [
+        218557,
+        218555
+      ],
+      [
+        1,
+        218555
+      ],
+      [
+        218557,
+        218555
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "constraints",
+      "relations",
+      "observations",
+      "state"
+    ],
+    "forward_target": [
+      1,
+      503409,
+      1,
+      231169
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        218555
+      ],
+      [
+        89131,
+        218556
+      ],
+      [
+        1,
+        218555
+      ],
+      [
+        437110,
+        218554
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 0
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "constraints",
+      "observations",
+      "state",
+      "relations"
+    ],
+    "forward_target": [
+      1,
+      482170,
+      1,
+      251001
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        89131
+      ],
+      [
+        43297,
+        89130
+      ],
+      [
+        1,
+        89131
+      ],
+      [
+        89133,
+        89131
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "constraints",
+      "observations",
+      "relations",
+      "state"
+    ],
+    "forward_target": [
+      1,
+      482170,
+      1,
+      231169
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        43297
+      ],
+      [
+        89131,
+        43296
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        86594,
+        43296
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "observations",
+      "state",
+      "relations",
+      "constraints"
+    ],
+    "forward_target": [
+      1,
+      523241,
+      1,
+      272240
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        43297
+      ],
+      [
+        43299,
+        43297
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        305151,
+        43297
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "observations",
+      "state",
+      "constraints",
+      "relations"
+    ],
+    "forward_target": [
+      1,
+      503409,
+      1,
+      272240
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        89131
+      ],
+      [
+        218555,
+        89132
+      ],
+      [
+        1,
+        89131
+      ],
+      [
+        396819,
+        89131
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 2
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "observations",
+      "relations",
+      "state",
+      "constraints"
+    ],
+    "forward_target": [
+      1,
+      523241,
+      1,
+      251001
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        218555
+      ],
+      [
+        218557,
+        218555
+      ],
+      [
+        1,
+        218555
+      ],
+      [
+        218557,
+        218555
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "observations",
+      "relations",
+      "constraints",
+      "state"
+    ],
+    "forward_target": [
+      1,
+      503409,
+      1,
+      231169
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        218555
+      ],
+      [
+        89131,
+        218556
+      ],
+      [
+        1,
+        218555
+      ],
+      [
+        437110,
+        218554
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 0
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "observations",
+      "constraints",
+      "state",
+      "relations"
+    ],
+    "forward_target": [
+      1,
+      482170,
+      1,
+      251001
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        89131
+      ],
+      [
+        43297,
+        89130
+      ],
+      [
+        1,
+        89131
+      ],
+      [
+        89133,
+        89131
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  },
+  {
+    "mapping_y1_y2_y3_y4": [
+      "observations",
+      "constraints",
+      "relations",
+      "state"
+    ],
+    "forward_target": [
+      1,
+      482170,
+      1,
+      231169
+    ],
+    "reverse_state_relations": [
+      [
+        1,
+        43297
+      ],
+      [
+        89131,
+        43296
+      ],
+      [
+        1,
+        43297
+      ],
+      [
+        86594,
+        43296
+      ]
+    ],
+    "matches_default_forward": false,
+    "either_reverse_matches": 1
+  }
+]
