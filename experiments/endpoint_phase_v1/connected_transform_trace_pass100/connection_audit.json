@@ -1,0 +1,12 @@
+{
+  "native_runs_checked": 804,
+  "transforms_checked": 200,
+  "values_checked": 8400,
+  "core_value_snapshots_checked": 7736,
+  "all_producer_register_links_exact": true,
+  "all_native_output_bytes_exact": true,
+  "all_seed_and_feedback_links_exact": true,
+  "all_chain_revisions_reconstructed": true,
+  "all_previous_pass_validation_links_exact": true,
+  "all_other_channel_readouts_linked": true
+}

@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "channels": 4,
+    "passes_each_direction": 100,
+    "reflection_steps": 100,
+    "projection_steps": 100,
+    "native_executions": 804,
+    "data_values": 8400,
+    "original_values": 7200,
+    "generated_values": 1200,
+    "captured_core_value_snapshots": 7736,
+    "final_reflection_target_vector": [
+      "2",
+      "1",
+      "5",
+      "1"
+    ],
+    "current_native_core_target_vector": [
+      "2",
+      "1",
+      "5",
+      "1"
+    ]
+  },
+  "checks": {
+    "all_native_output_registers_linked": true,
+    "all_seed_data_refs_resolved": true,
+    "all_transformed_values_match_source_registers": true,
+    "all_chain_revision_hashes_match_native_runs": true,
+    "all_final_chains_reconstructed_exactly": true,
+    "all_core_trace_exits_match_native_output": true
+  },
+  "javascript_unsafe_json_numbers": 0,
+  "transform_trace_sha256": "de64c934cc6edd43d3caae280d25d97b41d0140344b97c62b3847e0c9f6eae56",
+  "bytes": 15707198
+}
