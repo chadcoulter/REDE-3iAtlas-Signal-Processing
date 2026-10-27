@@ -1,0 +1,29 @@
+{
+  "cycle": 90,
+  "last_step": 180,
+  "front": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "back": [
+    2,
+    1,
+    5,
+    1
+  ],
+  "validation_target_vector": [
+    2,
+    1,
+    5,
+    1
+  ],
+  "validation_programs": [
+    "program0721_validates180_x_to_y_channel1",
+    "program0722_validates180_x_to_y_channel2",
+    "program0723_validates180_x_to_y_channel3",
+    "program0724_validates180_x_to_y_channel4"
+  ],
+  "native_programs_passed": 724
+}

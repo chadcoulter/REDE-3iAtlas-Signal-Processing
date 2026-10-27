@@ -1,0 +1,51 @@
+{
+  "passes_each_direction": 1,
+  "extension_steps": 2,
+  "native_programs_built_and_executed": 12,
+  "native_programs_passed": 12,
+  "native_compilation_per_extension": "Four fresh full-chain executables immediately after every extension, plus four bootstrap executables.",
+  "native_output_drives_next_pass": true,
+  "interpreter_role": "Cross-check only; projections use registers read from executed native ELF programs.",
+  "validation_timing": "The execution after extension step N validates N and supplies the projection used for extension step N+1.",
+  "validation_1117_patterns": [],
+  "validation_1117_is_eof": false,
+  "restart": "Replayed original recorded chains because earlier endpoint-only/batch-compiled runs cannot seed this changed execution loop.",
+  "full_chain_traversal": "X->Y: complete chain in source order; Y->X: complete chain in reverse value and glyph order.",
+  "seed_mapping": [
+    "state",
+    "relations",
+    "constraints",
+    "observations"
+  ],
+  "retained_register_feedback": true,
+  "left_prepend_order": [
+    "state",
+    "relations"
+  ],
+  "final_front": [
+    14757632081457209232,
+    2560892776398645385,
+    10073523810829434067,
+    829335579365792083
+  ],
+  "final_back": [
+    5719383234522120829,
+    9276101953252368216,
+    4046392615269836689,
+    1
+  ],
+  "final_chain_lengths": [
+    1803,
+    1803,
+    1803,
+    1803
+  ],
+  "literal_zero_observations": [],
+  "front_zero_channels": [],
+  "start_finish_interpretation": "Record projected zeros and validation patterns separately. No unknown Y EOF code is assigned.",
+  "operator_validation_cases": 11340,
+  "archive_sha256": "bc5d445eabf6e83edf2bc8f23b6ed49269dd961a939741715b0be092d49e274c",
+  "native_build_scratch_directory": "/tmp/atlas-native-per-pass-intp8hst",
+  "assembler": "GNU assembler (GNU Binutils for Ubuntu) 2.46",
+  "linker": "GNU ld (GNU Binutils for Ubuntu) 2.46"
+}

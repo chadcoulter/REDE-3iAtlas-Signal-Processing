@@ -1,0 +1,29 @@
+{
+  "cycle": 7,
+  "last_step": 14,
+  "front": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "back": [
+    2,
+    5459469462541774400,
+    429353144564975820,
+    1
+  ],
+  "validation_target_vector": [
+    2,
+    10104003543691758907,
+    11983556121188428252,
+    1
+  ],
+  "validation_programs": [
+    "program0057_validates014_x_to_y_channel1",
+    "program0058_validates014_x_to_y_channel2",
+    "program0059_validates014_x_to_y_channel3",
+    "program0060_validates014_x_to_y_channel4"
+  ],
+  "native_programs_passed": 60
+}

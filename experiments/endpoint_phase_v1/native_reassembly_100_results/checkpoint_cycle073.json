@@ -1,0 +1,29 @@
+{
+  "cycle": 73,
+  "last_step": 146,
+  "front": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "back": [
+    2,
+    1,
+    5,
+    1
+  ],
+  "validation_target_vector": [
+    2,
+    1,
+    5,
+    1
+  ],
+  "validation_programs": [
+    "program0585_validates146_x_to_y_channel1",
+    "program0586_validates146_x_to_y_channel2",
+    "program0587_validates146_x_to_y_channel3",
+    "program0588_validates146_x_to_y_channel4"
+  ],
+  "native_programs_passed": 588
+}

@@ -1,0 +1,376 @@
+[
+  {
+    "step": 1,
+    "cycle": 1,
+    "extension_direction": "x_to_y",
+    "projection_source_programs": [
+      "program0001_validates000_x_to_y_channel1",
+      "program0002_validates000_x_to_y_channel2",
+      "program0003_validates000_x_to_y_channel3",
+      "program0004_validates000_x_to_y_channel4"
+    ],
+    "front_before": [
+      267073,
+      218555,
+      43297,
+      89131
+    ],
+    "back_before": [
+      370923,
+      272239,
+      251000,
+      231168
+    ],
+    "projected_values": [
+      5719383234522120829,
+      9276101953252368216,
+      4046392615269836689,
+      1
+    ],
+    "other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          9276101953252368216,
+          4046392615269836689,
+          1
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          5719383234522120829,
+          4046392615269836689,
+          1
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          5719383234522120829,
+          9276101953252368216,
+          1
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          5719383234522120829,
+          9276101953252368216,
+          4046392615269836689
+        ]
+      }
+    ],
+    "front_after": [
+      267073,
+      218555,
+      43297,
+      89131
+    ],
+    "back_after": [
+      5719383234522120829,
+      9276101953252368216,
+      4046392615269836689,
+      1
+    ],
+    "lengths_after": [
+      1801,
+      1801,
+      1801,
+      1801
+    ],
+    "post_extension_chain_hashes": [
+      "78a73f0ec96163dff16b8a7d7a429cdc628c897002942e3273ccebad6edabf62",
+      "1530494e7c7d503f26e731240f4515d4f19c64e36b7dc4589a80e938a8c78f7d",
+      "331b32b852892f36882c29dcdc6a7ca7140b2bf5636d1ecd7c9e45d73eaf14b1",
+      "caf88dc1e3c2072950c43c4d685e63ae51869c887a15f8ffc259ac2de525f09e"
+    ],
+    "validation_programs": [
+      "program0005_validates001_y_to_x_channel1",
+      "program0006_validates001_y_to_x_channel2",
+      "program0007_validates001_y_to_x_channel3",
+      "program0008_validates001_y_to_x_channel4"
+    ],
+    "validation_direction": "y_to_x",
+    "validation_target_vector": [
+      10193316103259436388,
+      5766887069955202489,
+      5036761905414717362,
+      1658671158731583661
+    ],
+    "validation_registers": [
+      {
+        "state": 14757632081457209232,
+        "relations": 12008655064917617301,
+        "constraints": 250,
+        "observations": 15976520206937928135,
+        "unresolved": 13890244883018825044,
+        "context": 16776655546424253370,
+        "target": 10193316103259436388,
+        "events": 614
+      },
+      {
+        "state": 2560892776398645385,
+        "relations": 15240749780152994511,
+        "constraints": 23,
+        "observations": 14064572616734833896,
+        "unresolved": 1389465719062656395,
+        "context": 4048546944874738450,
+        "target": 5766887069955202489,
+        "events": 676
+      },
+      {
+        "state": 10073523810829434067,
+        "relations": 5036761905414716704,
+        "constraints": 211,
+        "observations": 15912155590499124260,
+        "unresolved": 14425479207920742051,
+        "context": 801869874254972829,
+        "target": 5036761905414717362,
+        "events": 656
+      },
+      {
+        "state": 829335579365792083,
+        "relations": 2055520434263257031,
+        "constraints": 60,
+        "observations": 829335579365791422,
+        "unresolved": 7786983004696001510,
+        "context": 829335579365791578,
+        "target": 1658671158731583661,
+        "events": 503
+      }
+    ],
+    "validation_passed": true
+  },
+  {
+    "step": 2,
+    "cycle": 1,
+    "extension_direction": "y_to_x",
+    "projection_source_programs": [
+      "program0005_validates001_y_to_x_channel1",
+      "program0006_validates001_y_to_x_channel2",
+      "program0007_validates001_y_to_x_channel3",
+      "program0008_validates001_y_to_x_channel4"
+    ],
+    "front_before": [
+      267073,
+      218555,
+      43297,
+      89131
+    ],
+    "back_before": [
+      5719383234522120829,
+      9276101953252368216,
+      4046392615269836689,
+      1
+    ],
+    "projected_values": [
+      [
+        14757632081457209232,
+        12008655064917617301
+      ],
+      [
+        2560892776398645385,
+        15240749780152994511
+      ],
+      [
+        10073523810829434067,
+        5036761905414716704
+      ],
+      [
+        829335579365792083,
+        2055520434263257031
+      ]
+    ],
+    "other_channel_views": [
+      {
+        "active_channel": 1,
+        "donor_channels": [
+          2,
+          3,
+          4
+        ],
+        "values": [
+          [
+            2560892776398645385,
+            15240749780152994511
+          ],
+          [
+            10073523810829434067,
+            5036761905414716704
+          ],
+          [
+            829335579365792083,
+            2055520434263257031
+          ]
+        ]
+      },
+      {
+        "active_channel": 2,
+        "donor_channels": [
+          1,
+          3,
+          4
+        ],
+        "values": [
+          [
+            14757632081457209232,
+            12008655064917617301
+          ],
+          [
+            10073523810829434067,
+            5036761905414716704
+          ],
+          [
+            829335579365792083,
+            2055520434263257031
+          ]
+        ]
+      },
+      {
+        "active_channel": 3,
+        "donor_channels": [
+          1,
+          2,
+          4
+        ],
+        "values": [
+          [
+            14757632081457209232,
+            12008655064917617301
+          ],
+          [
+            2560892776398645385,
+            15240749780152994511
+          ],
+          [
+            829335579365792083,
+            2055520434263257031
+          ]
+        ]
+      },
+      {
+        "active_channel": 4,
+        "donor_channels": [
+          1,
+          2,
+          3
+        ],
+        "values": [
+          [
+            14757632081457209232,
+            12008655064917617301
+          ],
+          [
+            2560892776398645385,
+            15240749780152994511
+          ],
+          [
+            10073523810829434067,
+            5036761905414716704
+          ]
+        ]
+      }
+    ],
+    "front_after": [
+      14757632081457209232,
+      2560892776398645385,
+      10073523810829434067,
+      829335579365792083
+    ],
+    "back_after": [
+      5719383234522120829,
+      9276101953252368216,
+      4046392615269836689,
+      1
+    ],
+    "lengths_after": [
+      1803,
+      1803,
+      1803,
+      1803
+    ],
+    "post_extension_chain_hashes": [
+      "f36bfe43c11cda205e0c5316cc581823f3721e0a7ffaf0e914d5b8ef5e57d490",
+      "541c362c42142b2688dcb2c0f37dfbf0baa42a4d4f6b4577b76fa4dd053e8de0",
+      "e94393507d273b1f1d8d0cbc36c712f398987580e1c3b5791f030527d7c965b0",
+      "0547c21f6b613229eb4a231616a52129a98bf8b246b3e465d890bbbb08659190"
+    ],
+    "validation_programs": [
+      "program0009_validates002_x_to_y_channel1",
+      "program0010_validates002_x_to_y_channel2",
+      "program0011_validates002_x_to_y_channel3",
+      "program0012_validates002_x_to_y_channel4"
+    ],
+    "validation_direction": "x_to_y",
+    "validation_target_vector": [
+      17249361275340819305,
+      11972973038119203912,
+      10845436239875001873,
+      1
+    ],
+    "validation_registers": [
+      {
+        "state": 17249361275340819305,
+        "relations": 11955723187531039041,
+        "constraints": 59,
+        "observations": 16574557034810844173,
+        "unresolved": 8286217963498654030,
+        "context": 12433857599332150825,
+        "target": 17249361275340819305,
+        "events": 925
+      },
+      {
+        "state": 5499202002528856207,
+        "relations": 11972973038119203910,
+        "constraints": 1,
+        "observations": 10998404005057710461,
+        "unresolved": 14852360199650494756,
+        "context": 11972973038119199531,
+        "target": 11972973038119203912,
+        "events": 1016
+      },
+      {
+        "state": 2,
+        "relations": 586218930473473518,
+        "constraints": 173,
+        "observations": 5704643996511896265,
+        "unresolved": 12295218337829014152,
+        "context": 10845436239875001871,
+        "target": 10845436239875001873,
+        "events": 988
+      },
+      {
+        "state": 1,
+        "relations": 13766651393310715563,
+        "constraints": 46,
+        "observations": 9964824425036081244,
+        "unresolved": 15239728138331957069,
+        "context": 5723862399423732846,
+        "target": 1,
+        "events": 754
+      }
+    ],
+    "validation_passed": true
+  }
+]
