@@ -1,0 +1,13 @@
+program,kind,channel,input_values,executed_operator_commands,assembler_exit,linker_exit,native_exit,native_matches_interpreter
+channel1_right_phase,right_phase,1,1800,7216,0,0,0,True
+channel1_left_phase,left_phase,1,3600,15770,0,0,0,True
+channel1_extended_original,extended_original,1,1803,9946,0,0,0,True
+channel2_right_phase,right_phase,2,1800,7241,0,0,0,True
+channel2_left_phase,left_phase,2,3600,15854,0,0,0,True
+channel2_extended_original,extended_original,2,1803,9971,0,0,0,True
+channel3_right_phase,right_phase,3,1800,6701,0,0,0,True
+channel3_left_phase,left_phase,3,3600,15574,0,0,0,True
+channel3_extended_original,extended_original,3,1803,9469,0,0,0,True
+channel4_right_phase,right_phase,4,1800,6852,0,0,0,True
+channel4_left_phase,left_phase,4,3600,15727,0,0,0,True
+channel4_extended_original,extended_original,4,1803,9485,0,0,0,True
