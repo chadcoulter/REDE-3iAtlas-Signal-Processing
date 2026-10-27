@@ -1,0 +1,41 @@
+channel,test,seed_register,changed_outputs,target_changed,native_exit
+1,seed_bit0_flip,state,[],False,0
+1,seed_bit0_flip,relations,"[""state"", ""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+1,seed_bit0_flip,constraints,"[""state"", ""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+1,seed_bit0_flip,observations,"[""state"", ""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+1,seed_bit0_flip,unresolved,"[""unresolved""]",False,0
+1,seed_bit0_flip,context,[],False,0
+1,seed_bit0_flip,target,"[""state"", ""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+1,seed_bit0_flip,events,"[""state"", ""relations"", ""constraints"", ""observations"", ""unresolved"", ""context"", ""events""]",False,0
+1,collapse_front_pair_run_to_one_pair,,[],False,0
+1,collapse_back_run_to_one_value,,"[""context""]",False,0
+2,seed_bit0_flip,state,[],False,0
+2,seed_bit0_flip,relations,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+2,seed_bit0_flip,constraints,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+2,seed_bit0_flip,observations,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+2,seed_bit0_flip,unresolved,"[""unresolved""]",False,0
+2,seed_bit0_flip,context,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+2,seed_bit0_flip,target,[],False,0
+2,seed_bit0_flip,events,"[""relations"", ""observations"", ""unresolved"", ""context"", ""events""]",False,0
+2,collapse_front_pair_run_to_one_pair,,[],False,0
+2,collapse_back_run_to_one_value,,[],False,0
+3,seed_bit0_flip,state,[],False,0
+3,seed_bit0_flip,relations,"[""observations"", ""unresolved"", ""context""]",False,0
+3,seed_bit0_flip,constraints,"[""observations"", ""unresolved"", ""context""]",False,0
+3,seed_bit0_flip,observations,"[""observations"", ""unresolved"", ""context""]",False,0
+3,seed_bit0_flip,unresolved,"[""unresolved""]",False,0
+3,seed_bit0_flip,context,[],False,0
+3,seed_bit0_flip,target,"[""unresolved""]",False,0
+3,seed_bit0_flip,events,"[""state"", ""relations"", ""observations"", ""unresolved"", ""context"", ""target"", ""events""]",True,0
+3,collapse_front_pair_run_to_one_pair,,"[""unresolved""]",False,0
+3,collapse_back_run_to_one_value,,[],False,0
+4,seed_bit0_flip,state,[],False,0
+4,seed_bit0_flip,relations,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+4,seed_bit0_flip,constraints,[],False,0
+4,seed_bit0_flip,observations,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+4,seed_bit0_flip,unresolved,"[""unresolved""]",False,0
+4,seed_bit0_flip,context,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+4,seed_bit0_flip,target,[],False,0
+4,seed_bit0_flip,events,"[""relations"", ""constraints"", ""observations"", ""unresolved"", ""context"", ""events""]",False,0
+4,collapse_front_pair_run_to_one_pair,,"[""relations"", ""observations"", ""unresolved"", ""context""]",False,0
+4,collapse_back_run_to_one_value,,[],False,0

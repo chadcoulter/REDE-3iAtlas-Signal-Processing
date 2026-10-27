@@ -1,0 +1,1636 @@
+{
+  "program_type": "Fixed unrolled eight-cell uint64 arithmetic/XOR state machine.",
+  "logical_registers_are": "Eight .data memory cells; native RAX/flags perform the arithmetic.",
+  "runtime_inputs": "None read from stdin, files, network, arguments, clock or random source. Initial values and operator sequence are compiled into the ELF.",
+  "runtime_output": "One write(1, address_of_state, 64), then exit(0) if exactly 64 bytes were written; otherwise exit(1).",
+  "output_layout": "Eight little-endian unsigned 64-bit words in REGS order.",
+  "register_order": [
+    "state",
+    "relations",
+    "constraints",
+    "observations",
+    "unresolved",
+    "context",
+    "target",
+    "events"
+  ],
+  "arithmetic": "Unsigned 64-bit wraparound for additions/increments; XOR, swaps, assignments, low-byte mask and parity/zero tests.",
+  "internal_control_flow": "Forward-only local conditionals for Upsilon plus the output-write failure branch. No backward branches, loops, function calls or recursion.",
+  "numeric_grouping": "Numeral separators and zero groups produce no instructions. 1, 1000 and 1000000 each dispatch the same Alpha reset when their group metadata is removed.",
+  "termination": "Explicit Linux exit syscall in generated wrapper after the unrolled body. Numeric zero has no halt instruction; the repeated numeric boundary vectors are executable data-to-operator patterns.",
+  "reversibility": "Assignments/reset and low-byte masking lose information; reverse traversal is not an algebraic inverse of these operators.",
+  "native_tests": {
+    "baselines": 4,
+    "single_seed_bit_flips": 32,
+    "boundary_collapses": 8,
+    "total": 44,
+    "all_exited_zero": true
+  },
+  "sensitivity_scope": "Only the observed one-bit changes and boundary collapses are tested; unchanged outputs are not proof of independence for arbitrary seeds.",
+  "channels": [
+    {
+      "channel": 1,
+      "initial_registers": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 12290617730943531405,
+        "context": 15843848449229847519,
+        "target": 15,
+        "events": 64121
+      },
+      "final_registers": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893471,
+        "target": 2,
+        "events": 64442
+      },
+      "raw_values": 2100,
+      "operator_count": 10360,
+      "operator_counts": {
+        "Α": 473,
+        "Ρ": 542,
+        "Κ": 348,
+        "Ϛ": 370,
+        "Ι": 321,
+        "Η": 383,
+        "Λ": 337,
+        "Ω": 209,
+        "Ϟ": 400,
+        "Ε": 391,
+        "Υ": 248,
+        "Ο": 375,
+        "Β": 471,
+        "Ν": 371,
+        "Χ": 179,
+        "Θ": 360,
+        "Γ": 362,
+        "Ζ": 374,
+        "Φ": 180,
+        "Μ": 355,
+        "Δ": 363,
+        "Ψ": 178,
+        "Π": 398,
+        "Σ": 1160,
+        "Τ": 611,
+        "Ϡ": 196,
+        "Ξ": 405
+      },
+      "static_instruction_counts": {
+        "movq": 10417,
+        "xorq": 2792,
+        "incq": 4456,
+        "cmpq": 392,
+        "sete": 391,
+        "movzbq": 391,
+        "addq": 4306,
+        "testq": 248,
+        "jz": 248,
+        "jmp": 248,
+        "xchgq": 179,
+        "andq": 362,
+        "leaq": 1,
+        "syscall": 3,
+        "jne": 1
+      },
+      "prefix_pair": [
+        1,
+        0
+      ],
+      "prefix_pair_repetitions": 92,
+      "suffix_value": 2,
+      "suffix_repetitions": 96,
+      "last_target_write": {
+        "value_index": 2003,
+        "raw_integer": 4339781448502755133,
+        "region": "back_extension",
+        "glyph": "Ν",
+        "operator_effect": "target = state + 1",
+        "operator_in_value": 14,
+        "source_line": 37039,
+        "before": {
+          "state": 1,
+          "relations": 5918333905787356107,
+          "constraints": 16,
+          "observations": 17178402941789216116,
+          "unresolved": 6825913424233204187,
+          "context": 13567048940372893375,
+          "target": 13567048940372893368,
+          "events": 64442
+        },
+        "after": {
+          "state": 1,
+          "relations": 5918333905787356107,
+          "constraints": 16,
+          "observations": 17178402941789216116,
+          "unresolved": 6825913424233204187,
+          "context": 13567048940372893375,
+          "target": 2,
+          "events": 64442
+        }
+      },
+      "last_target_change": {
+        "value_index": 2003,
+        "raw_integer": 4339781448502755133,
+        "region": "back_extension",
+        "glyph": "Ν",
+        "operator_effect": "target = state + 1",
+        "operator_in_value": 14,
+        "source_line": 37039,
+        "before": {
+          "state": 1,
+          "relations": 5918333905787356107,
+          "constraints": 16,
+          "observations": 17178402941789216116,
+          "unresolved": 6825913424233204187,
+          "context": 13567048940372893375,
+          "target": 13567048940372893368,
+          "events": 64442
+        },
+        "after": {
+          "state": 1,
+          "relations": 5918333905787356107,
+          "constraints": 16,
+          "observations": 17178402941789216116,
+          "unresolved": 6825913424233204187,
+          "context": 13567048940372893375,
+          "target": 2,
+          "events": 64442
+        }
+      },
+      "seed_bit0_tests_changing_target": [],
+      "boundary_collapse_tests": [
+        {
+          "channel": 1,
+          "test": "collapse_front_pair_run_to_one_pair",
+          "changed_outputs": [],
+          "target_changed": false,
+          "native_output": {
+            "state": 5918333905787356104,
+            "relations": 5918333905787356105,
+            "constraints": 200,
+            "observations": 17178402941789216116,
+            "unresolved": 6825913424233204187,
+            "context": 13567048940372893471,
+            "target": 2,
+            "events": 64442
+          },
+          "native_exit": 0
+        },
+        {
+          "channel": 1,
+          "test": "collapse_back_run_to_one_value",
+          "changed_outputs": [
+            "context"
+          ],
+          "target_changed": false,
+          "native_output": {
+            "state": 5918333905787356104,
+            "relations": 5918333905787356105,
+            "constraints": 200,
+            "observations": 17178402941789216116,
+            "unresolved": 6825913424233204187,
+            "context": 13567048940372893376,
+            "target": 2,
+            "events": 64442
+          },
+          "native_exit": 0
+        }
+      ],
+      "source_sha256": "d007046f3c3849892e23e93dd7fb79d5ab12b78cc5c35f8533d46346c7b2ae69"
+    },
+    {
+      "channel": 2,
+      "initial_registers": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 12052525008745434471,
+        "context": 1851140946469194244,
+        "target": 1851140946469194245,
+        "events": 73985
+      },
+      "final_registers": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "raw_values": 2100,
+      "operator_count": 11110,
+      "operator_counts": {
+        "Α": 573,
+        "Ε": 456,
+        "Ι": 380,
+        "Ζ": 407,
+        "Π": 397,
+        "Ρ": 616,
+        "Υ": 487,
+        "Γ": 358,
+        "Τ": 622,
+        "Ο": 481,
+        "Θ": 380,
+        "Ϟ": 425,
+        "Ϛ": 403,
+        "Ξ": 425,
+        "Δ": 411,
+        "Χ": 215,
+        "Σ": 870,
+        "Λ": 342,
+        "Κ": 375,
+        "Β": 409,
+        "Φ": 249,
+        "Η": 443,
+        "Μ": 373,
+        "Ϡ": 216,
+        "Ψ": 218,
+        "Ν": 357,
+        "Ω": 222
+      },
+      "static_instruction_counts": {
+        "movq": 11167,
+        "cmpq": 457,
+        "sete": 456,
+        "movzbq": 456,
+        "addq": 4246,
+        "incq": 4775,
+        "xorq": 3164,
+        "testq": 487,
+        "jz": 487,
+        "jmp": 487,
+        "andq": 358,
+        "xchgq": 215,
+        "leaq": 1,
+        "syscall": 3,
+        "jne": 1
+      },
+      "prefix_pair": [
+        1,
+        5
+      ],
+      "prefix_pair_repetitions": 37,
+      "suffix_value": 1,
+      "suffix_repetitions": 92,
+      "last_target_write": {
+        "value_index": 2007,
+        "raw_integer": 10104003543691758907,
+        "region": "back_extension",
+        "glyph": "Η",
+        "operator_effect": "target = state",
+        "operator_in_value": 13,
+        "source_line": 40623,
+        "before": {
+          "state": 1,
+          "relations": 16849038774195065287,
+          "constraints": 3,
+          "observations": 12650353399797017820,
+          "unresolved": 4279206384306191376,
+          "context": 5070167086666382619,
+          "target": 2,
+          "events": 74365
+        },
+        "after": {
+          "state": 1,
+          "relations": 16849038774195065287,
+          "constraints": 3,
+          "observations": 12650353399797017820,
+          "unresolved": 4279206384306191376,
+          "context": 5070167086666382619,
+          "target": 1,
+          "events": 74365
+        }
+      },
+      "last_target_change": {
+        "value_index": 2007,
+        "raw_integer": 10104003543691758907,
+        "region": "back_extension",
+        "glyph": "Η",
+        "operator_effect": "target = state",
+        "operator_in_value": 13,
+        "source_line": 40623,
+        "before": {
+          "state": 1,
+          "relations": 16849038774195065287,
+          "constraints": 3,
+          "observations": 12650353399797017820,
+          "unresolved": 4279206384306191376,
+          "context": 5070167086666382619,
+          "target": 2,
+          "events": 74365
+        },
+        "after": {
+          "state": 1,
+          "relations": 16849038774195065287,
+          "constraints": 3,
+          "observations": 12650353399797017820,
+          "unresolved": 4279206384306191376,
+          "context": 5070167086666382619,
+          "target": 1,
+          "events": 74365
+        }
+      },
+      "seed_bit0_tests_changing_target": [],
+      "boundary_collapse_tests": [
+        {
+          "channel": 2,
+          "test": "collapse_front_pair_run_to_one_pair",
+          "changed_outputs": [],
+          "target_changed": false,
+          "native_output": {
+            "state": 1,
+            "relations": 16849038774195065286,
+            "constraints": 3,
+            "observations": 12650353399797017820,
+            "unresolved": 4279206384306191376,
+            "context": 5070167086666382620,
+            "target": 1,
+            "events": 74365
+          },
+          "native_exit": 0
+        },
+        {
+          "channel": 2,
+          "test": "collapse_back_run_to_one_value",
+          "changed_outputs": [],
+          "target_changed": false,
+          "native_output": {
+            "state": 1,
+            "relations": 16849038774195065286,
+            "constraints": 3,
+            "observations": 12650353399797017820,
+            "unresolved": 4279206384306191376,
+            "context": 5070167086666382620,
+            "target": 1,
+            "events": 74365
+          },
+          "native_exit": 0
+        }
+      ],
+      "source_sha256": "4b81049e8a39b623d4dd90832c2d315f9dd18587559c97c80315a3e46a1ca8e2"
+    },
+    {
+      "channel": 3,
+      "initial_registers": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 13904591276321655125,
+        "context": 2369741410633742337,
+        "target": 2,
+        "events": 68705
+      },
+      "final_registers": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379362,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "raw_values": 2100,
+      "operator_count": 10031,
+      "operator_counts": {
+        "Α": 446,
+        "Ϛ": 458,
+        "Ξ": 432,
+        "Β": 405,
+        "Σ": 786,
+        "Ο": 487,
+        "Ζ": 377,
+        "Ε": 480,
+        "Χ": 195,
+        "Κ": 295,
+        "Ν": 371,
+        "Ω": 198,
+        "Ι": 344,
+        "Η": 349,
+        "Μ": 375,
+        "Δ": 349,
+        "Ϡ": 219,
+        "Υ": 177,
+        "Ϟ": 371,
+        "Γ": 361,
+        "Θ": 386,
+        "Λ": 317,
+        "Τ": 270,
+        "Ρ": 777,
+        "Ψ": 190,
+        "Φ": 194,
+        "Π": 422
+      },
+      "static_instruction_counts": {
+        "movq": 9651,
+        "incq": 3967,
+        "xorq": 3146,
+        "addq": 3522,
+        "cmpq": 481,
+        "sete": 480,
+        "movzbq": 480,
+        "xchgq": 195,
+        "testq": 177,
+        "jz": 177,
+        "jmp": 177,
+        "andq": 361,
+        "leaq": 1,
+        "syscall": 3,
+        "jne": 1
+      },
+      "prefix_pair": [
+        1,
+        6
+      ],
+      "prefix_pair_repetitions": 93,
+      "suffix_value": 5,
+      "suffix_repetitions": 92,
+      "last_target_write": {
+        "value_index": 2007,
+        "raw_integer": 11983556121188428252,
+        "region": "back_extension",
+        "glyph": "Ν",
+        "operator_effect": "target = state + 1",
+        "operator_in_value": 19,
+        "source_line": 34689,
+        "before": {
+          "state": 4,
+          "relations": 2,
+          "constraints": 1,
+          "observations": 3571067883563272661,
+          "unresolved": 4777295626354379362,
+          "context": 665607011259576699,
+          "target": 1,
+          "events": 69049
+        },
+        "after": {
+          "state": 4,
+          "relations": 2,
+          "constraints": 1,
+          "observations": 3571067883563272661,
+          "unresolved": 4777295626354379362,
+          "context": 665607011259576699,
+          "target": 5,
+          "events": 69049
+        }
+      },
+      "last_target_change": {
+        "value_index": 2007,
+        "raw_integer": 11983556121188428252,
+        "region": "back_extension",
+        "glyph": "Ν",
+        "operator_effect": "target = state + 1",
+        "operator_in_value": 19,
+        "source_line": 34689,
+        "before": {
+          "state": 4,
+          "relations": 2,
+          "constraints": 1,
+          "observations": 3571067883563272661,
+          "unresolved": 4777295626354379362,
+          "context": 665607011259576699,
+          "target": 1,
+          "events": 69049
+        },
+        "after": {
+          "state": 4,
+          "relations": 2,
+          "constraints": 1,
+          "observations": 3571067883563272661,
+          "unresolved": 4777295626354379362,
+          "context": 665607011259576699,
+          "target": 5,
+          "events": 69049
+        }
+      },
+      "seed_bit0_tests_changing_target": [
+        "events"
+      ],
+      "boundary_collapse_tests": [
+        {
+          "channel": 3,
+          "test": "collapse_front_pair_run_to_one_pair",
+          "changed_outputs": [
+            "unresolved"
+          ],
+          "target_changed": false,
+          "native_output": {
+            "state": 4,
+            "relations": 2,
+            "constraints": 1,
+            "observations": 3571067883563272661,
+            "unresolved": 4777295626354379270,
+            "context": 665607011259576700,
+            "target": 5,
+            "events": 69049
+          },
+          "native_exit": 0
+        },
+        {
+          "channel": 3,
+          "test": "collapse_back_run_to_one_value",
+          "changed_outputs": [],
+          "target_changed": false,
+          "native_output": {
+            "state": 4,
+            "relations": 2,
+            "constraints": 1,
+            "observations": 3571067883563272661,
+            "unresolved": 4777295626354379362,
+            "context": 665607011259576700,
+            "target": 5,
+            "events": 69049
+          },
+          "native_exit": 0
+        }
+      ],
+      "source_sha256": "6fc20f263743d413403bdcfab5b41695ef44bf8140e03c3fd31c479e525669ef"
+    },
+    {
+      "channel": 4,
+      "initial_registers": {
+        "state": 2,
+        "relations": 1,
+        "constraints": 5,
+        "observations": 1,
+        "unresolved": 18160454855281098371,
+        "context": 4318517429352844738,
+        "target": 1,
+        "events": 51051
+      },
+      "final_registers": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "raw_values": 2100,
+      "operator_count": 9923,
+      "operator_counts": {
+        "Α": 547,
+        "Μ": 450,
+        "Η": 446,
+        "Ι": 256,
+        "Ρ": 798,
+        "Κ": 277,
+        "Ν": 517,
+        "Ϛ": 384,
+        "Δ": 400,
+        "Σ": 784,
+        "Ζ": 392,
+        "Χ": 183,
+        "Ϟ": 340,
+        "Γ": 379,
+        "Π": 369,
+        "Φ": 189,
+        "Ξ": 489,
+        "Ε": 332,
+        "Λ": 309,
+        "Ο": 417,
+        "Β": 328,
+        "Ω": 191,
+        "Ψ": 202,
+        "Θ": 391,
+        "Τ": 203,
+        "Υ": 170,
+        "Ϡ": 180
+      },
+      "static_instruction_counts": {
+        "movq": 10060,
+        "addq": 3247,
+        "incq": 3857,
+        "xorq": 3137,
+        "xchgq": 183,
+        "andq": 379,
+        "cmpq": 333,
+        "sete": 332,
+        "movzbq": 332,
+        "testq": 170,
+        "jz": 170,
+        "jmp": 170,
+        "leaq": 1,
+        "syscall": 3,
+        "jne": 1
+      },
+      "prefix_pair": [
+        1,
+        48
+      ],
+      "prefix_pair_repetitions": 55,
+      "suffix_value": 1,
+      "suffix_repetitions": 100,
+      "last_target_write": {
+        "value_index": 1999,
+        "raw_integer": 231168,
+        "region": "original_recording",
+        "glyph": "Η",
+        "operator_effect": "target = state",
+        "operator_in_value": 6,
+        "source_line": 34421,
+        "before": {
+          "state": 1,
+          "relations": 12263434195814047561,
+          "constraints": 58,
+          "observations": 8923598571835186800,
+          "unresolved": 7059851685147138138,
+          "context": 14284717975534498102,
+          "target": 1718974978577821708,
+          "events": 51307
+        },
+        "after": {
+          "state": 1,
+          "relations": 12263434195814047561,
+          "constraints": 58,
+          "observations": 8923598571835186800,
+          "unresolved": 7059851685147138138,
+          "context": 14284717975534498102,
+          "target": 1,
+          "events": 51307
+        }
+      },
+      "last_target_change": {
+        "value_index": 1999,
+        "raw_integer": 231168,
+        "region": "original_recording",
+        "glyph": "Η",
+        "operator_effect": "target = state",
+        "operator_in_value": 6,
+        "source_line": 34421,
+        "before": {
+          "state": 1,
+          "relations": 12263434195814047561,
+          "constraints": 58,
+          "observations": 8923598571835186800,
+          "unresolved": 7059851685147138138,
+          "context": 14284717975534498102,
+          "target": 1718974978577821708,
+          "events": 51307
+        },
+        "after": {
+          "state": 1,
+          "relations": 12263434195814047561,
+          "constraints": 58,
+          "observations": 8923598571835186800,
+          "unresolved": 7059851685147138138,
+          "context": 14284717975534498102,
+          "target": 1,
+          "events": 51307
+        }
+      },
+      "seed_bit0_tests_changing_target": [],
+      "boundary_collapse_tests": [
+        {
+          "channel": 4,
+          "test": "collapse_front_pair_run_to_one_pair",
+          "changed_outputs": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context"
+          ],
+          "target_changed": false,
+          "native_output": {
+            "state": 1,
+            "relations": 6122987296160472905,
+            "constraints": 58,
+            "observations": 13449625377306271344,
+            "unresolved": 2745925297359525442,
+            "context": 16714545448909467958,
+            "target": 1,
+            "events": 51307
+          },
+          "native_exit": 0
+        },
+        {
+          "channel": 4,
+          "test": "collapse_back_run_to_one_value",
+          "changed_outputs": [],
+          "target_changed": false,
+          "native_output": {
+            "state": 1,
+            "relations": 12263434195814047561,
+            "constraints": 58,
+            "observations": 8923598571835186800,
+            "unresolved": 7059851685147138138,
+            "context": 14284717975534498102,
+            "target": 1,
+            "events": 51307
+          },
+          "native_exit": 0
+        }
+      ],
+      "source_sha256": "f517feb1f03d1c77c60e2e5f279f6fa82bbd5b58bd7038ddb5505a4b565e09f2"
+    }
+  ],
+  "native_tests_detailed": [
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "state",
+      "old_seed": 2,
+      "new_seed": 3,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893471,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "relations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "state",
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 5845854101968716744,
+        "relations": 5845854101968716745,
+        "constraints": 200,
+        "observations": 5472620036157807988,
+        "unresolved": 15934598795935534845,
+        "context": 1932611279864995615,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "constraints",
+      "old_seed": 5,
+      "new_seed": 4,
+      "changed_outputs": [
+        "state",
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 12153144552783021000,
+        "relations": 12153144552783021001,
+        "constraints": 200,
+        "observations": 2911086527295462772,
+        "unresolved": 9094367108241591726,
+        "context": 9281608019274374943,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "observations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "state",
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 5354825400459133896,
+        "relations": 5354825400459133897,
+        "constraints": 200,
+        "observations": 728189465190669684,
+        "unresolved": 13241073583136489286,
+        "context": 4632837466506927903,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "unresolved",
+      "old_seed": 12290617730943531405,
+      "new_seed": 12290617730943531404,
+      "changed_outputs": [
+        "unresolved"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204186,
+        "context": 13567048940372893471,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "context",
+      "old_seed": 15843848449229847519,
+      "new_seed": 15843848449229847518,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893471,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "target",
+      "old_seed": 15,
+      "new_seed": 14,
+      "changed_outputs": [
+        "state",
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 5845854101968716744,
+        "relations": 5845854101968716745,
+        "constraints": 200,
+        "observations": 5472620036157807988,
+        "unresolved": 15934598795935534845,
+        "context": 1932611279864995615,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "seed_bit0_flip",
+      "seed_register": "events",
+      "old_seed": 64121,
+      "new_seed": 64120,
+      "changed_outputs": [
+        "state",
+        "relations",
+        "constraints",
+        "observations",
+        "unresolved",
+        "context",
+        "events"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 10472075642571655990,
+        "relations": 10472075642571655991,
+        "constraints": 54,
+        "observations": 18259594404801905138,
+        "unresolved": 12781733361031130966,
+        "context": 7796668900144089895,
+        "target": 2,
+        "events": 64441
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "collapse_front_pair_run_to_one_pair",
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893471,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 1,
+      "test": "collapse_back_run_to_one_value",
+      "changed_outputs": [
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893376,
+        "target": 2,
+        "events": 64442
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "state",
+      "old_seed": 2,
+      "new_seed": 3,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "relations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 9798143384151265734,
+        "constraints": 3,
+        "observations": 201149486977674460,
+        "unresolved": 3038740484103327720,
+        "context": 9598119797080489244,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "constraints",
+      "old_seed": 5,
+      "new_seed": 4,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 4316136737734529478,
+        "constraints": 3,
+        "observations": 10520866558120455388,
+        "unresolved": 11083467097523661110,
+        "context": 12242014253323681052,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "observations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 18043548206610911686,
+        "constraints": 3,
+        "observations": 16279216760481017052,
+        "unresolved": 2740306643319222518,
+        "context": 1985218934103637276,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "unresolved",
+      "old_seed": 12052525008745434471,
+      "new_seed": 12052525008745434470,
+      "changed_outputs": [
+        "unresolved"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191375,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "context",
+      "old_seed": 1851140946469194244,
+      "new_seed": 1851140946469194245,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 18372293387222913478,
+        "constraints": 3,
+        "observations": 12310132616325917916,
+        "unresolved": 2792252994302901398,
+        "context": 6062160770897050908,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "target",
+      "old_seed": 1851140946469194245,
+      "new_seed": 1851140946469194244,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "seed_bit0_flip",
+      "seed_register": "events",
+      "old_seed": 73985,
+      "new_seed": 73984,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context",
+        "events"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 15131665379162623797,
+        "constraints": 3,
+        "observations": 1995816368270491541,
+        "unresolved": 11203638020597166732,
+        "context": 14577282367790821538,
+        "target": 1,
+        "events": 74364
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "collapse_front_pair_run_to_one_pair",
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 2,
+      "test": "collapse_back_run_to_one_value",
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "state",
+      "old_seed": 2,
+      "new_seed": 3,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379362,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "relations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 14603497806398769621,
+        "unresolved": 18061860758518476857,
+        "context": 2541348834355900796,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "constraints",
+      "old_seed": 5,
+      "new_seed": 4,
+      "changed_outputs": [
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 7398654364511390165,
+        "unresolved": 12203702918377258063,
+        "context": 8249540948344893820,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "observations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 8713376377993710037,
+        "unresolved": 15374254549538130292,
+        "context": 4515334499590140284,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "unresolved",
+      "old_seed": 13904591276321655125,
+      "new_seed": 13904591276321655124,
+      "changed_outputs": [
+        "unresolved"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379361,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "context",
+      "old_seed": 2369741410633742337,
+      "new_seed": 2369741410633742336,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379362,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "target",
+      "old_seed": 2,
+      "new_seed": 3,
+      "changed_outputs": [
+        "unresolved"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379361,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "seed_bit0_flip",
+      "seed_register": "events",
+      "old_seed": 68705,
+      "new_seed": 68704,
+      "changed_outputs": [
+        "state",
+        "relations",
+        "observations",
+        "unresolved",
+        "context",
+        "target",
+        "events"
+      ],
+      "target_changed": true,
+      "native_output": {
+        "state": 5,
+        "relations": 3,
+        "constraints": 1,
+        "observations": 6587339863483317469,
+        "unresolved": 11674784691969357324,
+        "context": 4541785887667511386,
+        "target": 6,
+        "events": 69048
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "collapse_front_pair_run_to_one_pair",
+      "changed_outputs": [
+        "unresolved"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379270,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 3,
+      "test": "collapse_back_run_to_one_value",
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379362,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "state",
+      "old_seed": 2,
+      "new_seed": 3,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "relations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 3221231810832752457,
+        "constraints": 58,
+        "observations": 10004812039323344496,
+        "unresolved": 773192134836826639,
+        "context": 5743257548239073590,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "constraints",
+      "old_seed": 5,
+      "new_seed": 4,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "observations",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 1469265571531972425,
+        "constraints": 58,
+        "observations": 11009039935480749680,
+        "unresolved": 3925266004748654942,
+        "context": 15322385855966802230,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "unresolved",
+      "old_seed": 18160454855281098371,
+      "new_seed": 18160454855281098370,
+      "changed_outputs": [
+        "unresolved"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138137,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "context",
+      "old_seed": 4318517429352844738,
+      "new_seed": 4318517429352844739,
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 7064146002892021577,
+        "constraints": 58,
+        "observations": 11246042175108767344,
+        "unresolved": 16621120517019223307,
+        "context": 5915772939258491190,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "target",
+      "old_seed": 1,
+      "new_seed": 0,
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "seed_bit0_flip",
+      "seed_register": "events",
+      "old_seed": 51051,
+      "new_seed": 51050,
+      "changed_outputs": [
+        "relations",
+        "constraints",
+        "observations",
+        "unresolved",
+        "context",
+        "events"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 14456519343460591995,
+        "constraints": 142,
+        "observations": 14645776930554242844,
+        "unresolved": 13942729440253747657,
+        "context": 12601178166471300238,
+        "target": 1,
+        "events": 51306
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "collapse_front_pair_run_to_one_pair",
+      "changed_outputs": [
+        "relations",
+        "observations",
+        "unresolved",
+        "context"
+      ],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 6122987296160472905,
+        "constraints": 58,
+        "observations": 13449625377306271344,
+        "unresolved": 2745925297359525442,
+        "context": 16714545448909467958,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    },
+    {
+      "channel": 4,
+      "test": "collapse_back_run_to_one_value",
+      "changed_outputs": [],
+      "target_changed": false,
+      "native_output": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "native_exit": 0
+    }
+  ]
+}

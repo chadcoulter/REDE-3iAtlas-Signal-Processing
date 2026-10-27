@@ -1,0 +1,28 @@
+glyph,effect
+Α,state = 1
+Β,context += 1
+Γ,constraints = state & 255
+Δ,state += 1
+Ε,observations += (constraints == 0)
+Ζ,relations ^= state
+Η,target = state
+Θ,constraints += 1
+Ι,events += 1
+Κ,context += 1
+Λ,state ^= relations
+Μ,observations += state
+Ν,target = state + 1
+Ξ,unresolved += state XOR target
+Ο,observations += state XOR relations
+Π,target = state + context
+Ρ,relations ^= target
+Σ,state += relations + 1
+Τ,target = state + relations + constraints
+Υ,if constraints & 1: context += 1; else: relations += 1
+Φ,target = state XOR context
+Χ,"swap(state, target)"
+Ψ,context = observations XOR relations
+Ω,state = target
+Ϛ,unresolved += 1
+Ϟ,relations ^= events
+Ϡ,context += 1
