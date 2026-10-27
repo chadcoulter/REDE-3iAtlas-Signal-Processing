@@ -1,0 +1,111 @@
+{
+  "passes_each_direction": 100,
+  "final_native_direction": "x_to_y",
+  "final_extension_step": 200,
+  "programs": [
+    {
+      "channel": 1,
+      "direction": "x_to_y",
+      "validates_extension_step": 200,
+      "chain_values": 2100,
+      "native_registers": {
+        "state": 5918333905787356104,
+        "relations": 5918333905787356105,
+        "constraints": 200,
+        "observations": 17178402941789216116,
+        "unresolved": 6825913424233204187,
+        "context": 13567048940372893471,
+        "target": 2,
+        "events": 64442
+      },
+      "files": {
+        ".S": {
+          "name": "channel1_pass100.S",
+          "sha256": "d007046f3c3849892e23e93dd7fb79d5ab12b78cc5c35f8533d46346c7b2ae69"
+        },
+        ".elf": {
+          "name": "channel1_pass100.elf",
+          "sha256": "fb94e3a3a3e8dfbcd317b67df9035ebc0a635c6680ca2eca6ba5199c3123884b"
+        }
+      }
+    },
+    {
+      "channel": 2,
+      "direction": "x_to_y",
+      "validates_extension_step": 200,
+      "chain_values": 2100,
+      "native_registers": {
+        "state": 1,
+        "relations": 16849038774195065286,
+        "constraints": 3,
+        "observations": 12650353399797017820,
+        "unresolved": 4279206384306191376,
+        "context": 5070167086666382620,
+        "target": 1,
+        "events": 74365
+      },
+      "files": {
+        ".S": {
+          "name": "channel2_pass100.S",
+          "sha256": "4b81049e8a39b623d4dd90832c2d315f9dd18587559c97c80315a3e46a1ca8e2"
+        },
+        ".elf": {
+          "name": "channel2_pass100.elf",
+          "sha256": "8e9f6abe42cdbd36f2c9935e102ce213f8791e57fec165a75156a03092bab361"
+        }
+      }
+    },
+    {
+      "channel": 3,
+      "direction": "x_to_y",
+      "validates_extension_step": 200,
+      "chain_values": 2100,
+      "native_registers": {
+        "state": 4,
+        "relations": 2,
+        "constraints": 1,
+        "observations": 3571067883563272661,
+        "unresolved": 4777295626354379362,
+        "context": 665607011259576700,
+        "target": 5,
+        "events": 69049
+      },
+      "files": {
+        ".S": {
+          "name": "channel3_pass100.S",
+          "sha256": "6fc20f263743d413403bdcfab5b41695ef44bf8140e03c3fd31c479e525669ef"
+        },
+        ".elf": {
+          "name": "channel3_pass100.elf",
+          "sha256": "e3ea313a642cce6b521c0f48369e4992b348ce0e0e746bb11097fa0a6f497053"
+        }
+      }
+    },
+    {
+      "channel": 4,
+      "direction": "x_to_y",
+      "validates_extension_step": 200,
+      "chain_values": 2100,
+      "native_registers": {
+        "state": 1,
+        "relations": 12263434195814047561,
+        "constraints": 58,
+        "observations": 8923598571835186800,
+        "unresolved": 7059851685147138138,
+        "context": 14284717975534498102,
+        "target": 1,
+        "events": 51307
+      },
+      "files": {
+        ".S": {
+          "name": "channel4_pass100.S",
+          "sha256": "f517feb1f03d1c77c60e2e5f279f6fa82bbd5b58bd7038ddb5505a4b565e09f2"
+        },
+        ".elf": {
+          "name": "channel4_pass100.elf",
+          "sha256": "e78fb4d675a8970e616305cf1cbce7d60552b7603769125e3235993562d151a0"
+        }
+      }
+    }
+  ]
+}
