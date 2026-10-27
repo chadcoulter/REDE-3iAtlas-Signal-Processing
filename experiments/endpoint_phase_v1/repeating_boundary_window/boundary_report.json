@@ -1,0 +1,30 @@
+{
+  "working_boundary_criterion": "User interprets entry into repeating [1,1,1,7] as having passed the start.",
+  "layout_producing_this_cycle": "Retained-register feedback; prepend [state, relations], with state outermost.",
+  "first_y_pattern_pass": 3,
+  "last_y_vector_before_pattern": [
+    1,
+    1,
+    1,
+    528926
+  ],
+  "first_y_vector_in_pattern": [
+    1,
+    1,
+    1,
+    7
+  ],
+  "first_complete_state_repetition": {
+    "pass": 4,
+    "repeats_pass": 3
+  },
+  "channel4_target7_creation": "Pass 2 reverse, final Phi: target = state XOR context = 1 XOR 6 = 7.",
+  "channel4_target7_first_appended": "Pass 3 forward: Alpha sets state=1 while retained target stays 7.",
+  "channel4_zero_creation": "Pass 3 reverse, Zeta: relations = 1 XOR 1 = 0; state stays 1.",
+  "channel4_left_pair_at_entry": [
+    1,
+    0
+  ],
+  "candidate_boundary_window": "Between passes 2 and 3; inspect the pass-2 reverse creation of target7 before the first repeated endpoint.",
+  "y_eof_assignment": null
+}
