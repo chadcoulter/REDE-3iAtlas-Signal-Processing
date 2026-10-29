@@ -1,0 +1,585 @@
+[
+  {
+    "id": "control_no_substitution",
+    "substituted_register": null,
+    "register_index_one_based": null,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "139585200436464062",
+        "9727610827014157501",
+        "15887544411260482880",
+        "9981143511332331574"
+      ],
+      "unresolved": [
+        "10313243124162931083",
+        "16909098066981092361",
+        "7283792525027352111",
+        "15554332904176214101"
+      ],
+      "context": [
+        "8289073189891983783",
+        "6989891727390905040",
+        "1890352290247067121",
+        "17096247966360362806"
+      ],
+      "target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_1_state",
+    "substituted_register": "state",
+    "register_index_one_based": 1,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "139585200436464062",
+        "12439463348191114429",
+        "15887544411260482880",
+        "9981143511332331574"
+      ],
+      "unresolved": [
+        "10313243124162931083",
+        "15343397882453158057",
+        "7283792525027352111",
+        "15554332904176214101"
+      ],
+      "context": [
+        "8289073189891983783",
+        "15302164998761190096",
+        "1890352290247067121",
+        "17096247966360362806"
+      ],
+      "target": [
+        "1",
+        "15302164998761190097",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [
+      2
+    ],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_2_relations",
+    "substituted_register": "relations",
+    "register_index_one_based": 2,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "8932432731097534",
+        "9727610827014157501",
+        "14628237683960083776",
+        "651334234428448822"
+      ],
+      "unresolved": [
+        "1278003445974573923",
+        "16909098066981092361",
+        "3428504676730927835",
+        "8040355172018751366"
+      ],
+      "context": [
+        "12904614096086354343",
+        "6989891727390905040",
+        "11241248961677608433",
+        "11289685921704140598"
+      ],
+      "target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [
+      1,
+      3,
+      4
+    ],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_3_constraints",
+    "substituted_register": "constraints",
+    "register_index_one_based": 3,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "139585200436464062",
+        "9727610827014157501",
+        "15887544411260482880",
+        "9981143511332331574"
+      ],
+      "unresolved": [
+        "10313243124162931083",
+        "16909098066981092361",
+        "7283792525027352111",
+        "15554332904176229415"
+      ],
+      "context": [
+        "8289073189891983783",
+        "6989891727390905040",
+        "1890352290247067121",
+        "17096247966360362806"
+      ],
+      "target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [
+      4
+    ],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_4_observations",
+    "substituted_register": "observations",
+    "register_index_one_based": 4,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "4503524860846852542",
+        "3509428369243255997",
+        "17574553689059521856",
+        "379714219562016822"
+      ],
+      "unresolved": [
+        "5306540569270650259",
+        "9811026055700656601",
+        "3471825286224770621",
+        "9403557569394786469"
+      ],
+      "context": [
+        "13540747543452436903",
+        "4100212441874666192",
+        "10079473112480859633",
+        "193309919895052086"
+      ],
+      "target": [
+        "1",
+        "4100212441874666193",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_5_unresolved",
+    "substituted_register": "unresolved",
+    "register_index_one_based": 5,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "139585200436464062",
+        "9727610827014157501",
+        "15887544411260482880",
+        "9981143511332331574"
+      ],
+      "unresolved": [
+        "3253391439015792946",
+        "12131802440626713004",
+        "3004586140721160736",
+        "8728419479943009916"
+      ],
+      "context": [
+        "8289073189891983783",
+        "6989891727390905040",
+        "1890352290247067121",
+        "17096247966360362806"
+      ],
+      "target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_6_context",
+    "substituted_register": "context",
+    "register_index_one_based": 6,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "139585200436464062",
+        "9727610827014157501",
+        "16550717598869517632",
+        "9981143511332331574"
+      ],
+      "unresolved": [
+        "10313243124162931083",
+        "16909098066981092361",
+        "14638960373754754042",
+        "15554332904176214101"
+      ],
+      "context": [
+        "8289073189891983783",
+        "6989891727390905040",
+        "4234480443590034929",
+        "17096247966360362806"
+      ],
+      "target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [
+      3
+    ],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_7_target",
+    "substituted_register": "target",
+    "register_index_one_based": 7,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "14",
+        "10"
+      ],
+      "constraints": [
+        "163",
+        "1",
+        "94",
+        "1"
+      ],
+      "observations": [
+        "139585200436464062",
+        "9727610827014157501",
+        "15887544411260482880",
+        "9981143511332331574"
+      ],
+      "unresolved": [
+        "10313243124162931083",
+        "16909098066981092361",
+        "7283792525027352111",
+        "15554332904176214101"
+      ],
+      "context": [
+        "8289073189891983783",
+        "6989891727390905040",
+        "1890352290247067121",
+        "17096247966360362806"
+      ],
+      "target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "events": [
+        "51628",
+        "69429",
+        "74709",
+        "64698"
+      ]
+    },
+    "projection_channels_changed_vs_control": [],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  },
+  {
+    "id": "replace_8_events",
+    "substituted_register": "events",
+    "register_index_one_based": 8,
+    "readout_order": "projection destination channels 1,2,3,4",
+    "readouts": {
+      "state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relations": [
+        "0",
+        "5",
+        "6",
+        "506"
+      ],
+      "constraints": [
+        "213",
+        "1",
+        "126",
+        "1"
+      ],
+      "observations": [
+        "18442239723519803140",
+        "12379148317201629641",
+        "9724058279632484076",
+        "10399097997093905414"
+      ],
+      "unresolved": [
+        "5479684309769518344",
+        "12948896358916264717",
+        "6194292909387424030",
+        "4635283139462052781"
+      ],
+      "context": [
+        "1205848324981700569",
+        "17665489392294306692",
+        "9406596308057487665",
+        "18044681723574951686"
+      ],
+      "target": [
+        "1",
+        "17665489392294306693",
+        "2",
+        "1"
+      ],
+      "events": [
+        "322",
+        "385",
+        "345",
+        "258"
+      ]
+    },
+    "projection_channels_changed_vs_control": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "observed_target_patterns": {
+      "equals_2222": false,
+      "equals_1117": false,
+      "equals_2151": false
+    }
+  }
+]

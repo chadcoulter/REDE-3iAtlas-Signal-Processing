@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "native_programs_checked": 40,
+  "cases_checked": 9,
+  "mirrored_handoffs_checked": 36,
+  "routing_1_to_4_2_to_3_3_to_2_4_to_1": true,
+  "all_ending_registers_passed_without_reseeding": true,
+  "only_selected_register_substituted": true,
+  "all_other_registers_preserved": true,
+  "target_identity_case_matches_control": true,
+  "native_output_bytes_and_artifact_hashes_verified": true
+}

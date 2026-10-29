@@ -1,0 +1,4394 @@
+{
+  "test": "Mirrored native register handoff with one register substitution at a time.",
+  "branch": "codex/atlas-endpoint-phase-test",
+  "dataset": "captured_aligned_core_pass100",
+  "values_per_channel": 1934,
+  "mapping_reflection_to_projection": {
+    "1": 4,
+    "2": 3,
+    "3": 2,
+    "4": 1
+  },
+  "handoff": "Copy all eight actual native ending registers, replace only the tested slot with the configured function output, then execute the mirrored chain backward.",
+  "register_order": [
+    "state",
+    "relations",
+    "constraints",
+    "observations",
+    "unresolved",
+    "context",
+    "target",
+    "events"
+  ],
+  "function_output_register": "target",
+  "projection_traversal": "Reverse destination chain value order and glyph order; preserve register names/positions.",
+  "reflection_initialization": "Captured entry state of each current core.",
+  "endpoint_reseeding_at_handoff": false,
+  "cases_independent": true,
+  "chain_extension_performed": false,
+  "control": "Mirrored projection with unchanged reflection-ending state.",
+  "native_programs_built_and_run": 40,
+  "native_programs_passed": 40,
+  "operator_reference_validation_cases": 11340,
+  "word_encoding": "Exact unsigned 64-bit decimal strings; raw native output is hex.",
+  "pattern_flags": "Record observed vectors; no numeric pattern is assigned an unprovided success/failure meaning.",
+  "forward_target_vector_by_source_channel": [
+    "2",
+    "1",
+    "5",
+    "1"
+  ],
+  "reflection_execution_ids": [
+    "reflection_channel1",
+    "reflection_channel2",
+    "reflection_channel3",
+    "reflection_channel4"
+  ],
+  "executions": [
+    {
+      "id": "reflection_channel1",
+      "role": "reflection_baseline",
+      "channel": 1,
+      "operation": "reflection",
+      "direction": "x_to_y",
+      "source_execution_id": null,
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "1",
+        "constraints": "5",
+        "observations": "1",
+        "unresolved": "12290617730943531405",
+        "context": "15843848449229847519",
+        "target": "15",
+        "events": "64121"
+      },
+      "native_ending_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "c8039ba454252252c9039ba454252252c800000000000000741ddfe175f265eedb89fd161884ba5ec31e444521d747bc0200000000000000bafb000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "reflection_channel1.S",
+        "executable_member": "reflection_channel1.elf",
+        "source_sha256": "151fa224559844b25dfcd3b722faa83b33ecea2e67131c7e3f5549a75c958afa",
+        "executable_sha256": "1b2f6f218491dbea7115b7e53eb0848d82339e39141ee256a709e4e07a6c71d8"
+      }
+    },
+    {
+      "id": "reflection_channel2",
+      "role": "reflection_baseline",
+      "channel": 2,
+      "operation": "reflection",
+      "direction": "x_to_y",
+      "source_execution_id": null,
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "1",
+        "relations": "1",
+        "constraints": "5",
+        "observations": "1",
+        "unresolved": "12052525008745434471",
+        "context": "1851140946469194244",
+        "target": "1851140946469194245",
+        "events": "73985"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "0100000000000000c611aebe7ecfd3e90300000000000000dc6c0e8664158faf107c27c988cb623b1c7da0381ada5c4601000000000000007d22010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "reflection_channel2.S",
+        "executable_member": "reflection_channel2.elf",
+        "source_sha256": "9344673935508c75377f86fbd90717d6465f965f24575a0587e15fe7909dc135",
+        "executable_sha256": "d58e7a67d8ca3dcf7a2cce7fa2ab513eac95966799ed33a3241d65f1ed8bcc6d"
+      }
+    },
+    {
+      "id": "reflection_channel3",
+      "role": "reflection_baseline",
+      "channel": 3,
+      "operation": "reflection",
+      "direction": "x_to_y",
+      "source_execution_id": null,
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "1",
+        "constraints": "5",
+        "observations": "1",
+        "unresolved": "13904591276321655162",
+        "context": "2369741410633742337",
+        "target": "2",
+        "events": "68705"
+      },
+      "native_ending_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "040000000000000002000000000000000100000000000000d54998dc51fb8e31624ae19b0f5d4c427cf122da0cb63c090500000000000000b90d010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "reflection_channel3.S",
+        "executable_member": "reflection_channel3.elf",
+        "source_sha256": "320b8b3f2bbd28423d29f24da6a2ca67c8a4ffa2379ce7cc26ec9cc9c5e5fc55",
+        "executable_sha256": "7a4105e8a12c63357d31edc7db75d984fa3058c31b4d358d315fa17ea615e7a1"
+      }
+    },
+    {
+      "id": "reflection_channel4",
+      "role": "reflection_baseline",
+      "channel": 4,
+      "operation": "reflection",
+      "direction": "x_to_y",
+      "source_execution_id": null,
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "1",
+        "relations": "1",
+        "constraints": "5",
+        "observations": "38",
+        "unresolved": "18160454855281098371",
+        "context": "4318517429352844738",
+        "target": "1",
+        "events": "51051"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000049dfdf376d7830aa3a00000000000000705e6b309ffdd67b5a5823f4b3a1f96136f15ea850833dc601000000000000006bc8000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "reflection_channel4.S",
+        "executable_member": "reflection_channel4.elf",
+        "source_sha256": "b41de9303d933d50200ead406ac752a9f1a93c0b7f5da511e8892955b9e14d8c",
+        "executable_sha256": "88160871b1fa7da29b17642a550c2b8f51b68bd730d3c61f400ac2e731bae8aa"
+      }
+    },
+    {
+      "id": "control_no_substitution_reflection1_projection4",
+      "role": "control_no_substitution",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "9981143511332331574",
+        "unresolved": "15554332904176214101",
+        "context": "17096247966360362806",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a028252425848a55e097af5d17dcd7365fe712f21242ed0100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "control_no_substitution_reflection1_projection4.S",
+        "executable_member": "control_no_substitution_reflection1_projection4.elf",
+        "source_sha256": "088b223fcf035ae151e664b67d186e9de9cdee56e840d60b9a9ea60625dece70",
+        "executable_sha256": "eec89b83fcfb61083b7266370159d20be6933251d3257053fd2d13d8ee0bc8e0"
+      }
+    },
+    {
+      "id": "control_no_substitution_reflection2_projection3",
+      "role": "control_no_substitution",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "15887544411260482880",
+        "unresolved": "7283792525027352111",
+        "context": "1890352290247067121",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c5a77e57bdc2f9ee6d7b53a1565f1c5857864e13b1a0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "control_no_substitution_reflection2_projection3.S",
+        "executable_member": "control_no_substitution_reflection2_projection3.elf",
+        "source_sha256": "1d5cf464a0c30b831443c498a40d5d0cbf5ea505f21a4145055ee4661c6de7a0",
+        "executable_sha256": "c20f59a168e52a11cd289b97476ee793b2f63ba3e6ab4d13379d1633e67f013c"
+      }
+    },
+    {
+      "id": "control_no_substitution_reflection3_projection2",
+      "role": "control_no_substitution",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "9727610827014157501",
+        "unresolved": "16909098066981092361",
+        "context": "6989891727390905040",
+        "target": "6989891727390905041",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c11826aff8609fca68a1a2fa9ead09293f57d150161d19293f57d150161350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "control_no_substitution_reflection3_projection2.S",
+        "executable_member": "control_no_substitution_reflection3_projection2.elf",
+        "source_sha256": "c8588a2d0fc0630cd1b997807e27defe1d531cd27b10702ebbc7faf6a9f27e63",
+        "executable_sha256": "7a2e273ab46ae296cab9a026f5bee4d614a95a523354298b6b54308589d2f046"
+      }
+    },
+    {
+      "id": "control_no_substitution_reflection4_projection1",
+      "role": "control_no_substitution",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "139585200436464062",
+        "unresolved": "10313243124162931083",
+        "context": "8289073189891983783",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00e8ef018ba9f8c1faff1f8fa7c9b91826b408730100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "control_no_substitution_reflection4_projection1.S",
+        "executable_member": "control_no_substitution_reflection4_projection1.elf",
+        "source_sha256": "a1d42d6584ded0bbe747f9173c3eb3951f0155b025de58e67fc2cf9360795cf6",
+        "executable_sha256": "706a6d6a039c935b940e0532744677cef44e0b29a9191bd64e732fb8f4e99a42"
+      }
+    },
+    {
+      "id": "replace_1_state_reflection1_projection4",
+      "role": "replace_1_state",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "2",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "9981143511332331574",
+        "unresolved": "15554332904176214101",
+        "context": "17096247966360362806",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a028252425848a55e097af5d17dcd7365fe712f21242ed0100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_1_state_reflection1_projection4.S",
+        "executable_member": "replace_1_state_reflection1_projection4.elf",
+        "source_sha256": "afe4a2ad37d4d533a0b89639fee651d47d6a488e0e6e564d10fd9efff963a3ab",
+        "executable_sha256": "6d56af1de3a7539b41c93a7bc6b6ba4bae76f74b57629b7ff3003fe6aabc006f"
+      }
+    },
+    {
+      "id": "replace_1_state_reflection2_projection3",
+      "role": "replace_1_state",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "15887544411260482880",
+        "unresolved": "7283792525027352111",
+        "context": "1890352290247067121",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c5a77e57bdc2f9ee6d7b53a1565f1c5857864e13b1a0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_1_state_reflection2_projection3.S",
+        "executable_member": "replace_1_state_reflection2_projection3.elf",
+        "source_sha256": "1d5cf464a0c30b831443c498a40d5d0cbf5ea505f21a4145055ee4661c6de7a0",
+        "executable_sha256": "e640b1f4009a15a0889ecc2114f6e174fdb8138da4fb6e4ebdf749562b3f2dac"
+      }
+    },
+    {
+      "id": "replace_1_state_reflection3_projection2",
+      "role": "replace_1_state",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "5",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "12439463348191114429",
+        "unresolved": "15343397882453158057",
+        "context": "15302164998761190096",
+        "target": "15302164998761190097",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c1102daa1aca9e819cf14b3eed4d09293f5fd355cd4d19293f5fd355cd4350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_1_state_reflection3_projection2.S",
+        "executable_member": "replace_1_state_reflection3_projection2.elf",
+        "source_sha256": "b901dbda56e4021fdc6646a37bbffaa1cf0b04124bfbf88eb55b47dd3d1e7f79",
+        "executable_sha256": "ed792438c295eda0e0f5651e340a9ce631b429071a720e7191d8a8ebbc3d98f9"
+      }
+    },
+    {
+      "id": "replace_1_state_reflection4_projection1",
+      "role": "replace_1_state",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "139585200436464062",
+        "unresolved": "10313243124162931083",
+        "context": "8289073189891983783",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00e8ef018ba9f8c1faff1f8fa7c9b91826b408730100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_1_state_reflection4_projection1.S",
+        "executable_member": "replace_1_state_reflection4_projection1.elf",
+        "source_sha256": "a1d42d6584ded0bbe747f9173c3eb3951f0155b025de58e67fc2cf9360795cf6",
+        "executable_sha256": "00e0a797b984e68c1f4b553b4633aa04260b000e3406c4a37d58a072ab654da0"
+      }
+    },
+    {
+      "id": "replace_2_relations_reflection1_projection4",
+      "role": "replace_2_relations",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "2",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "651334234428448822",
+        "unresolved": "8040355172018751366",
+        "context": "11289685921704140598",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a0280909010a09860727e86d14956f365fe7cc8705ad9c0100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_2_relations_reflection1_projection4.S",
+        "executable_member": "replace_2_relations_reflection1_projection4.elf",
+        "source_sha256": "5dd93d6f5c243d3d76fac0e92471c74d2c78ea2583215b8474453c27b38edb3e",
+        "executable_sha256": "1d9e1f6710c138eab5056ed1c1099d13dddfd0d1f5c40685670ba8bbd0fb60f3"
+      }
+    },
+    {
+      "id": "replace_2_relations_reflection2_projection3",
+      "role": "replace_2_relations",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "1",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "14628237683960083776",
+        "unresolved": "3428504676730927835",
+        "context": "11241248961677608433",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c7aabf001cbdbfa4fa7d67e942ff1c585385ff0009c0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_2_relations_reflection2_projection3.S",
+        "executable_member": "replace_2_relations_reflection2_projection3.elf",
+        "source_sha256": "c42677877ec17d2485dca98d494d55c494b8b322c2941e6986512b9ad0c6aa75",
+        "executable_sha256": "ea8a26f7defa085307bdd296d9768597b7cf41f15408b02d22f9e80d41e10040"
+      }
+    },
+    {
+      "id": "replace_2_relations_reflection3_projection2",
+      "role": "replace_2_relations",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "9727610827014157501",
+        "unresolved": "16909098066981092361",
+        "context": "6989891727390905040",
+        "target": "6989891727390905041",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c11826aff8609fca68a1a2fa9ead09293f57d150161d19293f57d150161350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_2_relations_reflection3_projection2.S",
+        "executable_member": "replace_2_relations_reflection3_projection2.elf",
+        "source_sha256": "b47567dbe9681ab9a6620e3d0d8e695bd3923ecbbb69dad4324578a8073d6ebf",
+        "executable_sha256": "e68c97cb9e3ac59e16cf3a7bbbebd3b0ff27769f38742de0b3cad99075f7a10a"
+      }
+    },
+    {
+      "id": "replace_2_relations_reflection4_projection1",
+      "role": "replace_2_relations",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "1",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "8932432731097534",
+        "unresolved": "1278003445974573923",
+        "context": "12904614096086354343",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00bc1f0063230aeb5c61bc11a7c9b918266616b30100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_2_relations_reflection4_projection1.S",
+        "executable_member": "replace_2_relations_reflection4_projection1.elf",
+        "source_sha256": "3eb49333d3c25dc574b97cd7f40a77116ba64180aa0eff56e38e5a9f755c3450",
+        "executable_sha256": "4994581a0524d34e8072115a5a202911f4c935678bb7aefab0b7b6c09f949f32"
+      }
+    },
+    {
+      "id": "replace_3_constraints_reflection1_projection4",
+      "role": "replace_3_constraints",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "2",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "9981143511332331574",
+        "unresolved": "15554332904176229415",
+        "context": "17096247966360362806",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a028252425848a271c98af5d17dcd7365fe712f21242ed0100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_3_constraints_reflection1_projection4.S",
+        "executable_member": "replace_3_constraints_reflection1_projection4.elf",
+        "source_sha256": "50cb1369cee6591492df38a7662b69ad931caee610a75ca8974c87f488a75c8a",
+        "executable_sha256": "6f99fac53ee2513105249a20a49f8935c919144dd891fd48d98611cc89e95b33"
+      }
+    },
+    {
+      "id": "replace_3_constraints_reflection2_projection3",
+      "role": "replace_3_constraints",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "1",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "15887544411260482880",
+        "unresolved": "7283792525027352111",
+        "context": "1890352290247067121",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c5a77e57bdc2f9ee6d7b53a1565f1c5857864e13b1a0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_3_constraints_reflection2_projection3.S",
+        "executable_member": "replace_3_constraints_reflection2_projection3.elf",
+        "source_sha256": "809aac79f1721a33811070fe0aacbc1318c719bf48a14836a57b1e764f656261",
+        "executable_sha256": "6d6957cdfdfbda179d56b405ef239db5458830b1d07e7c2a7c5e9625151e4f8d"
+      }
+    },
+    {
+      "id": "replace_3_constraints_reflection3_projection2",
+      "role": "replace_3_constraints",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "5",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "9727610827014157501",
+        "unresolved": "16909098066981092361",
+        "context": "6989891727390905040",
+        "target": "6989891727390905041",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c11826aff8609fca68a1a2fa9ead09293f57d150161d19293f57d150161350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_3_constraints_reflection3_projection2.S",
+        "executable_member": "replace_3_constraints_reflection3_projection2.elf",
+        "source_sha256": "73a2fe32497a9f9c054b2b0e2613f427a01235aa4ed57a77af288a34ff6139a0",
+        "executable_sha256": "4eb80a3f5edbeb8563d2b6cffdba584c79e62c02c967886c89963735287165f8"
+      }
+    },
+    {
+      "id": "replace_3_constraints_reflection4_projection1",
+      "role": "replace_3_constraints",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "1",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "139585200436464062",
+        "unresolved": "10313243124162931083",
+        "context": "8289073189891983783",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00e8ef018ba9f8c1faff1f8fa7c9b91826b408730100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_3_constraints_reflection4_projection1.S",
+        "executable_member": "replace_3_constraints_reflection4_projection1.elf",
+        "source_sha256": "5c64c3c1980b2a1fed1b4064cc50150488d0463990751beeec015dc2d60c443f",
+        "executable_sha256": "97c0f9b813f5746854c13100f3c50294bf0056db8b2dd7b0d40cda1a7dcff149"
+      }
+    },
+    {
+      "id": "replace_4_observations_reflection1_projection4",
+      "role": "replace_4_observations",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "2",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "379714219562016822",
+        "unresolved": "9403557569394786469",
+        "context": "193309919895052086",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a0282512044505a540b684c9258082365fe71259c6ae020100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_4_observations_reflection1_projection4.S",
+        "executable_member": "replace_4_observations_reflection1_projection4.elf",
+        "source_sha256": "6c48e5bf2c7e085d003007eb54450267d32201763f540071422a62eb325c541b",
+        "executable_sha256": "10ee98465e5b628db980def6c5a22a041c0c56d64fd3f819460c90cf1b1f470d"
+      }
+    },
+    {
+      "id": "replace_4_observations_reflection2_projection3",
+      "role": "replace_4_observations",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "1",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "17574553689059521856",
+        "unresolved": "3471825286224770621",
+        "context": "10079473112480859633",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c5a775be5f33d76a50bb4662e30f1c58578647be18b0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_4_observations_reflection2_projection3.S",
+        "executable_member": "replace_4_observations_reflection2_projection3.elf",
+        "source_sha256": "59202af1a04d695a807d572cc5956e88036886d010d8b16dbf1dae41109f1bc6",
+        "executable_sha256": "97a64c9c81c33f09cb2cb004ee869cc2f56fba4f3fc06c1e296ee38aecd0a1c0"
+      }
+    },
+    {
+      "id": "replace_4_observations_reflection3_projection2",
+      "role": "replace_4_observations",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "5",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "3509428369243255997",
+        "unresolved": "9811026055700656601",
+        "context": "4100212441874666192",
+        "target": "4100212441874666193",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c1182feb330d9b1237437c42788d09293f57de1e638d19293f57de1e638350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_4_observations_reflection3_projection2.S",
+        "executable_member": "replace_4_observations_reflection3_projection2.elf",
+        "source_sha256": "44e3b841ed1c58607fe5478c24a0bf096f7ff39e4336b95cfe8ba26cf8280cb8",
+        "executable_sha256": "09adc09cd7f8b97e0507955790ba169564b1227fed258c69c8be2b7f814c0400"
+      }
+    },
+    {
+      "id": "replace_4_observations_reflection4_projection1",
+      "role": "replace_4_observations",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "1",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "4503524860846852542",
+        "unresolved": "5306540569270650259",
+        "context": "13540747543452436903",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00bc7f3e93859351889ea449a7c9b9182666eabb0100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_4_observations_reflection4_projection1.S",
+        "executable_member": "replace_4_observations_reflection4_projection1.elf",
+        "source_sha256": "0ba15d95e9769cd9e0e625024137020ffdb99d0280cc1d1c6fe232ba1c07083a",
+        "executable_sha256": "e656e1392e5afb7240580bc4c5ca6be90d5887ae12adeff1091397b8ad1505bb"
+      }
+    },
+    {
+      "id": "replace_5_unresolved_reflection1_projection4",
+      "role": "replace_5_unresolved",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "2",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "9981143511332331574",
+        "unresolved": "8728419479943009916",
+        "context": "17096247966360362806",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a028252425848a7c569a9845932179365fe712f21242ed0100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_5_unresolved_reflection1_projection4.S",
+        "executable_member": "replace_5_unresolved_reflection1_projection4.elf",
+        "source_sha256": "be0fae7996c6c16ff48eeccca2649f8cc4078b4c219f06c83ab1575e6c8510e1",
+        "executable_sha256": "442d40c8774714f119ce72cb95845688dfca96351fe10b070e6a282aa0dc7936"
+      }
+    },
+    {
+      "id": "replace_5_unresolved_reflection2_projection3",
+      "role": "replace_5_unresolved",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "1",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "15887544411260482880",
+        "unresolved": "3004586140721160736",
+        "context": "1890352290247067121",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c5a77e57bdc2022bf0e2d6fb229f1c5857864e13b1a0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_5_unresolved_reflection2_projection3.S",
+        "executable_member": "replace_5_unresolved_reflection2_projection3.elf",
+        "source_sha256": "dc9742577d7e93715faa3cb3d11d7dd75c6cc4e0cc00b0abe4b8f4d1dc21a82a",
+        "executable_sha256": "5909546fe849e2f5ad44815cb108ee2f2b84fb3f8712494a4c88fa6820e9ef12"
+      }
+    },
+    {
+      "id": "replace_5_unresolved_reflection3_projection2",
+      "role": "replace_5_unresolved",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "5",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "9727610827014157501",
+        "unresolved": "12131802440626713004",
+        "context": "6989891727390905040",
+        "target": "6989891727390905041",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c11826aff86acb1c5ee0ad25ca8d09293f57d150161d19293f57d150161350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_5_unresolved_reflection3_projection2.S",
+        "executable_member": "replace_5_unresolved_reflection3_projection2.elf",
+        "source_sha256": "40dd3be2a33638a15d16d5b69846c4426503ecd166d923e98768b00675cdde45",
+        "executable_sha256": "d28ec56dc04d308d8cf54518e874c62dda441e059ff3bd5f03bb421463ec9782"
+      }
+    },
+    {
+      "id": "replace_5_unresolved_reflection4_projection1",
+      "role": "replace_5_unresolved",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "1",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "139585200436464062",
+        "unresolved": "3253391439015792946",
+        "context": "8289073189891983783",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00e8ef013251d5cd465e262da7c9b91826b408730100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_5_unresolved_reflection4_projection1.S",
+        "executable_member": "replace_5_unresolved_reflection4_projection1.elf",
+        "source_sha256": "b16f81192d5c070ad71f5b8bb091331c124ebeda12ef9326d138160058f6691c",
+        "executable_sha256": "7395b30d14aa97745b98e13f552a6d139339cd573e3645c6eb9347cf522d70ed"
+      }
+    },
+    {
+      "id": "replace_6_context_reflection1_projection4",
+      "role": "replace_6_context",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "2",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "9981143511332331574",
+        "unresolved": "15554332904176214101",
+        "context": "17096247966360362806",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a028252425848a55e097af5d17dcd7365fe712f21242ed0100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_6_context_reflection1_projection4.S",
+        "executable_member": "replace_6_context_reflection1_projection4.elf",
+        "source_sha256": "bacf9342432c71d0bda047cc659640402628ea152998754a3cbc7bf56448b379",
+        "executable_sha256": "8a033114fa1ef805bb01c355c7bfed2751e13b3695cc0b880ad9f66228f3c4c5"
+      }
+    },
+    {
+      "id": "replace_6_context_reflection2_projection3",
+      "role": "replace_6_context",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "1",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "16550717598869517632",
+        "unresolved": "14638960373754754042",
+        "context": "4234480443590034929",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c7af7f5afe5faf3ab3ee60828cbf1c5853887e5c33a0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_6_context_reflection2_projection3.S",
+        "executable_member": "replace_6_context_reflection2_projection3.elf",
+        "source_sha256": "47a0cb5e0325e3e9d5f12d8a6bbb60cd859a9c10cae7f232b8a63657cf546dd4",
+        "executable_sha256": "2e8a00ef51e741076545ddf39774226cc11f6e33a88a70f3c1ec930b8912d692"
+      }
+    },
+    {
+      "id": "replace_6_context_reflection3_projection2",
+      "role": "replace_6_context",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "5",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "9727610827014157501",
+        "unresolved": "16909098066981092361",
+        "context": "6989891727390905040",
+        "target": "6989891727390905041",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c11826aff8609fca68a1a2fa9ead09293f57d150161d19293f57d150161350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_6_context_reflection3_projection2.S",
+        "executable_member": "replace_6_context_reflection3_projection2.elf",
+        "source_sha256": "2745bf02fc0e5fec45cbcaafb13996a9a07e0266d4445dbc005781c3dc363007",
+        "executable_sha256": "bb871e59bcc767a091dab5eb40100354b9b03e7acd1529c0edc08cf3e44dba08"
+      }
+    },
+    {
+      "id": "replace_6_context_reflection4_projection1",
+      "role": "replace_6_context",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "1",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "139585200436464062",
+        "unresolved": "10313243124162931083",
+        "context": "8289073189891983783",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00e8ef018ba9f8c1faff1f8fa7c9b91826b408730100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_6_context_reflection4_projection1.S",
+        "executable_member": "replace_6_context_reflection4_projection1.elf",
+        "source_sha256": "db022cc7ef3719ae9126acf3ac1eb8360ccfb9c2ea6db6ff7d4a5d6134b94029",
+        "executable_sha256": "ea83ea513be5829d6eaa089e62fad5fda0cd39479ab4ccca46d85486543b97da"
+      }
+    },
+    {
+      "id": "replace_7_target_reflection1_projection4",
+      "role": "replace_7_target",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "64442"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "10",
+        "constraints": "1",
+        "observations": "9981143511332331574",
+        "unresolved": "15554332904176214101",
+        "context": "17096247966360362806",
+        "target": "1",
+        "events": "64698"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000a00000000000000010000000000000036a028252425848a55e097af5d17dcd7365fe712f21242ed0100000000000000bafc000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_7_target_reflection1_projection4.S",
+        "executable_member": "replace_7_target_reflection1_projection4.elf",
+        "source_sha256": "088b223fcf035ae151e664b67d186e9de9cdee56e840d60b9a9ea60625dece70",
+        "executable_sha256": "8c0e80baf27775457421dc76e55cd7d2402b38fc92720d1c665447d27f8fe965"
+      }
+    },
+    {
+      "id": "replace_7_target_reflection2_projection3",
+      "role": "replace_7_target",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "74365"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "15887544411260482880",
+        "unresolved": "7283792525027352111",
+        "context": "1890352290247067121",
+        "target": "2",
+        "events": "74709"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000e000000000000005e0000000000000040756c5a77e57bdc2f9ee6d7b53a1565f1c5857864e13b1a0200000000000000d523010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_7_target_reflection2_projection3.S",
+        "executable_member": "replace_7_target_reflection2_projection3.elf",
+        "source_sha256": "1d5cf464a0c30b831443c498a40d5d0cbf5ea505f21a4145055ee4661c6de7a0",
+        "executable_sha256": "73fc6ac0e072eae72cb84299607515150afbea323b18248bb87a8abdcc7abd44"
+      }
+    },
+    {
+      "id": "replace_7_target_reflection3_projection2",
+      "role": "replace_7_target",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "69049"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "9727610827014157501",
+        "unresolved": "16909098066981092361",
+        "context": "6989891727390905040",
+        "target": "6989891727390905041",
+        "events": "69429"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000bd346c11826aff8609fca68a1a2fa9ead09293f57d150161d19293f57d150161350f010000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_7_target_reflection3_projection2.S",
+        "executable_member": "replace_7_target_reflection3_projection2.elf",
+        "source_sha256": "c8588a2d0fc0630cd1b997807e27defe1d531cd27b10702ebbc7faf6a9f27e63",
+        "executable_sha256": "f06454270388d61bfe1a969e6833ea044e1959aa5c053012caf560b31d40b91d"
+      }
+    },
+    {
+      "id": "replace_7_target_reflection4_projection1",
+      "role": "replace_7_target",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "51307"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "139585200436464062",
+        "unresolved": "10313243124162931083",
+        "context": "8289073189891983783",
+        "target": "1",
+        "events": "51628"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000a300000000000000bec9ea0f00e8ef018ba9f8c1faff1f8fa7c9b91826b408730100000000000000acc9000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_7_target_reflection4_projection1.S",
+        "executable_member": "replace_7_target_reflection4_projection1.elf",
+        "source_sha256": "a1d42d6584ded0bbe747f9173c3eb3951f0155b025de58e67fc2cf9360795cf6",
+        "executable_sha256": "c34516921c6068d4b139da9fbdd4c849a69b95fc02270b760bd5f361d5a177d5"
+      }
+    },
+    {
+      "id": "replace_8_events_reflection1_projection4",
+      "role": "replace_8_events",
+      "channel": 4,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel1",
+      "core_reference": "core/channel4",
+      "chain_values": 1934,
+      "operator_invocations": 9720,
+      "seed_registers": {
+        "state": "5918333905787356104",
+        "relations": "5918333905787356105",
+        "constraints": "200",
+        "observations": "17178402941789216116",
+        "unresolved": "6825913424233204187",
+        "context": "13567048940372893379",
+        "target": "2",
+        "events": "2"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "506",
+        "constraints": "1",
+        "observations": "10399097997093905414",
+        "unresolved": "4635283139462052781",
+        "context": "18044681723574951686",
+        "target": "1",
+        "events": "258"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "0100000000000000fa0100000000000001000000000000000624421588045190ad3bfee074d55340061fab3a6c966bfa01000000000000000201000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_8_events_reflection1_projection4.S",
+        "executable_member": "replace_8_events_reflection1_projection4.elf",
+        "source_sha256": "81676b5d3bc0ec94aab7d9ab07ee4c183293afee757da8c59de6600859a95a14",
+        "executable_sha256": "8b0bd01903820860290544d198f6c33cd9101013d7beb0210fbe8f510ca3626b"
+      }
+    },
+    {
+      "id": "replace_8_events_reflection2_projection3",
+      "role": "replace_8_events",
+      "channel": 3,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel2",
+      "core_reference": "core/channel3",
+      "chain_values": 1934,
+      "operator_invocations": 9865,
+      "seed_registers": {
+        "state": "1",
+        "relations": "16849038774195065286",
+        "constraints": "3",
+        "observations": "12650353399797017820",
+        "unresolved": "4279206384306191376",
+        "context": "5070167086666382620",
+        "target": "1",
+        "events": "1"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "6",
+        "constraints": "126",
+        "observations": "9724058279632484076",
+        "unresolved": "6194292909387424030",
+        "context": "9406596308057487665",
+        "target": "2",
+        "events": "345"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000006000000000000007e00000000000000ecb6b02c7ccbf2861e21c212958cf655317944ff80f18a8202000000000000005901000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_8_events_reflection2_projection3.S",
+        "executable_member": "replace_8_events_reflection2_projection3.elf",
+        "source_sha256": "53007062a61515188d94ad9b502b8ff0b811058f001988cd5681d56970689b45",
+        "executable_sha256": "11f260e830ceb507497f9c323e92004addb4fe412dc5ede1bb77dca3c57805e1"
+      }
+    },
+    {
+      "id": "replace_8_events_reflection3_projection2",
+      "role": "replace_8_events",
+      "channel": 2,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel3",
+      "core_reference": "core/channel2",
+      "chain_values": 1934,
+      "operator_invocations": 10944,
+      "seed_registers": {
+        "state": "4",
+        "relations": "2",
+        "constraints": "1",
+        "observations": "3571067883563272661",
+        "unresolved": "4777295626354379362",
+        "context": "665607011259576700",
+        "target": "5",
+        "events": "5"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "12379148317201629641",
+        "unresolved": "12948896358916264717",
+        "context": "17665489392294306692",
+        "target": "17665489392294306693",
+        "events": "385"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "010000000000000005000000000000000100000000000000c981ad94ce91cbab0d938ddaa1b8b3b3842322ab016d28f5852322ab016d28f58101000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_8_events_reflection3_projection2.S",
+        "executable_member": "replace_8_events_reflection3_projection2.elf",
+        "source_sha256": "59ed08cf9011ec16232ce0ca6fd7d55cae9d650ebe9d224341aa4cbacd99fba4",
+        "executable_sha256": "7813afc40aeda901502d55921ad41d2e98026160427b260e959476017c67d125"
+      }
+    },
+    {
+      "id": "replace_8_events_reflection4_projection1",
+      "role": "replace_8_events",
+      "channel": 1,
+      "operation": "projection",
+      "direction": "y_to_x",
+      "source_execution_id": "reflection_channel4",
+      "core_reference": "core/channel1",
+      "chain_values": 1934,
+      "operator_invocations": 10231,
+      "seed_registers": {
+        "state": "1",
+        "relations": "12263434195814047561",
+        "constraints": "58",
+        "observations": "8923598571835186800",
+        "unresolved": "7059851685147138138",
+        "context": "14284717975534498102",
+        "target": "1",
+        "events": "1"
+      },
+      "native_ending_registers": {
+        "state": "1",
+        "relations": "0",
+        "constraints": "213",
+        "observations": "18442239723519803140",
+        "unresolved": "5479684309769518344",
+        "context": "1205848324981700569",
+        "target": "1",
+        "events": "322"
+      },
+      "output": {
+        "format": "eight_uint64_little_endian",
+        "stdout_hex": "01000000000000000000000000000000d50000000000000004fffe3e51ffefff08fd17ddd8bf0b4cd9b788a7a908bc1001000000000000004201000000000000",
+        "bytes": 64
+      },
+      "checks": {
+        "assembled": true,
+        "linked": true,
+        "native_exit": 0,
+        "all_registers_match_reference": true
+      },
+      "artifacts": {
+        "assembly_member": "replace_8_events_reflection4_projection1.S",
+        "executable_member": "replace_8_events_reflection4_projection1.elf",
+        "source_sha256": "1e4fb3f5f663088e6bf7fb3a391319fe479ee2ddc29b87c68233854c22bd2211",
+        "executable_sha256": "71e252c673d2b8108ef864c7dee9cf0f7ee973d6bbf87e295d472f428a58076a"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "control_no_substitution",
+      "substituted_register": null,
+      "register_index_one_based": null,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "control_no_substitution_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": null,
+            "register_index_one_based": null,
+            "before_decimal": null,
+            "after_decimal": null,
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "5918333905787356105",
+            "constraints": "200",
+            "observations": "17178402941789216116",
+            "unresolved": "6825913424233204187",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "9981143511332331574",
+            "unresolved": "15554332904176214101",
+            "context": "17096247966360362806",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "control_no_substitution_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": null,
+            "register_index_one_based": null,
+            "before_decimal": null,
+            "after_decimal": null,
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "3",
+            "observations": "12650353399797017820",
+            "unresolved": "4279206384306191376",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "15887544411260482880",
+            "unresolved": "7283792525027352111",
+            "context": "1890352290247067121",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "control_no_substitution_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": null,
+            "register_index_one_based": null,
+            "before_decimal": null,
+            "after_decimal": null,
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "2",
+            "constraints": "1",
+            "observations": "3571067883563272661",
+            "unresolved": "4777295626354379362",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "9727610827014157501",
+            "unresolved": "16909098066981092361",
+            "context": "6989891727390905040",
+            "target": "6989891727390905041",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "control_no_substitution_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": null,
+            "register_index_one_based": null,
+            "before_decimal": null,
+            "after_decimal": null,
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "58",
+            "observations": "8923598571835186800",
+            "unresolved": "7059851685147138138",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "139585200436464062",
+            "unresolved": "10313243124162931083",
+            "context": "8289073189891983783",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": []
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "139585200436464062",
+          "9727610827014157501",
+          "15887544411260482880",
+          "9981143511332331574"
+        ],
+        "unresolved": [
+          "10313243124162931083",
+          "16909098066981092361",
+          "7283792525027352111",
+          "15554332904176214101"
+        ],
+        "context": [
+          "8289073189891983783",
+          "6989891727390905040",
+          "1890352290247067121",
+          "17096247966360362806"
+        ],
+        "target": [
+          "1",
+          "6989891727390905041",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_1_state",
+      "substituted_register": "state",
+      "register_index_one_based": 1,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_1_state_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "state",
+            "register_index_one_based": 1,
+            "before_decimal": "5918333905787356104",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [
+              "state"
+            ],
+            "preserved_registers": [
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "2",
+            "relations": "5918333905787356105",
+            "constraints": "200",
+            "observations": "17178402941789216116",
+            "unresolved": "6825913424233204187",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "9981143511332331574",
+            "unresolved": "15554332904176214101",
+            "context": "17096247966360362806",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_1_state_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "state",
+            "register_index_one_based": 1,
+            "before_decimal": "1",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "3",
+            "observations": "12650353399797017820",
+            "unresolved": "4279206384306191376",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "15887544411260482880",
+            "unresolved": "7283792525027352111",
+            "context": "1890352290247067121",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_1_state_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "state",
+            "register_index_one_based": 1,
+            "before_decimal": "4",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [
+              "state"
+            ],
+            "preserved_registers": [
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5",
+            "relations": "2",
+            "constraints": "1",
+            "observations": "3571067883563272661",
+            "unresolved": "4777295626354379362",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "12439463348191114429",
+            "unresolved": "15343397882453158057",
+            "context": "15302164998761190096",
+            "target": "15302164998761190097",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context",
+            "target"
+          ]
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_1_state_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "state",
+            "register_index_one_based": 1,
+            "before_decimal": "1",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "58",
+            "observations": "8923598571835186800",
+            "unresolved": "7059851685147138138",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "139585200436464062",
+            "unresolved": "10313243124162931083",
+            "context": "8289073189891983783",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": []
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "139585200436464062",
+          "12439463348191114429",
+          "15887544411260482880",
+          "9981143511332331574"
+        ],
+        "unresolved": [
+          "10313243124162931083",
+          "15343397882453158057",
+          "7283792525027352111",
+          "15554332904176214101"
+        ],
+        "context": [
+          "8289073189891983783",
+          "15302164998761190096",
+          "1890352290247067121",
+          "17096247966360362806"
+        ],
+        "target": [
+          "1",
+          "15302164998761190097",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [
+        2
+      ],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_2_relations",
+      "substituted_register": "relations",
+      "register_index_one_based": 2,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_2_relations_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "relations",
+            "register_index_one_based": 2,
+            "before_decimal": "5918333905787356105",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [
+              "relations"
+            ],
+            "preserved_registers": [
+              "state",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "2",
+            "constraints": "200",
+            "observations": "17178402941789216116",
+            "unresolved": "6825913424233204187",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "651334234428448822",
+            "unresolved": "8040355172018751366",
+            "context": "11289685921704140598",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context"
+          ]
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_2_relations_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "relations",
+            "register_index_one_based": 2,
+            "before_decimal": "16849038774195065286",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "relations"
+            ],
+            "preserved_registers": [
+              "state",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "1",
+            "constraints": "3",
+            "observations": "12650353399797017820",
+            "unresolved": "4279206384306191376",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "14628237683960083776",
+            "unresolved": "3428504676730927835",
+            "context": "11241248961677608433",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context"
+          ]
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_2_relations_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "relations",
+            "register_index_one_based": 2,
+            "before_decimal": "2",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [
+              "relations"
+            ],
+            "preserved_registers": [
+              "state",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "3571067883563272661",
+            "unresolved": "4777295626354379362",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "9727610827014157501",
+            "unresolved": "16909098066981092361",
+            "context": "6989891727390905040",
+            "target": "6989891727390905041",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_2_relations_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "relations",
+            "register_index_one_based": 2,
+            "before_decimal": "12263434195814047561",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "relations"
+            ],
+            "preserved_registers": [
+              "state",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "1",
+            "constraints": "58",
+            "observations": "8923598571835186800",
+            "unresolved": "7059851685147138138",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "8932432731097534",
+            "unresolved": "1278003445974573923",
+            "context": "12904614096086354343",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context"
+          ]
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "8932432731097534",
+          "9727610827014157501",
+          "14628237683960083776",
+          "651334234428448822"
+        ],
+        "unresolved": [
+          "1278003445974573923",
+          "16909098066981092361",
+          "3428504676730927835",
+          "8040355172018751366"
+        ],
+        "context": [
+          "12904614096086354343",
+          "6989891727390905040",
+          "11241248961677608433",
+          "11289685921704140598"
+        ],
+        "target": [
+          "1",
+          "6989891727390905041",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [
+        1,
+        3,
+        4
+      ],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_3_constraints",
+      "substituted_register": "constraints",
+      "register_index_one_based": 3,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_3_constraints_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "constraints",
+            "register_index_one_based": 3,
+            "before_decimal": "200",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [
+              "constraints"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "5918333905787356105",
+            "constraints": "2",
+            "observations": "17178402941789216116",
+            "unresolved": "6825913424233204187",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "9981143511332331574",
+            "unresolved": "15554332904176229415",
+            "context": "17096247966360362806",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": [
+            "unresolved"
+          ]
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_3_constraints_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "constraints",
+            "register_index_one_based": 3,
+            "before_decimal": "3",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "constraints"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "1",
+            "observations": "12650353399797017820",
+            "unresolved": "4279206384306191376",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "15887544411260482880",
+            "unresolved": "7283792525027352111",
+            "context": "1890352290247067121",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_3_constraints_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "constraints",
+            "register_index_one_based": 3,
+            "before_decimal": "1",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [
+              "constraints"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "2",
+            "constraints": "5",
+            "observations": "3571067883563272661",
+            "unresolved": "4777295626354379362",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "9727610827014157501",
+            "unresolved": "16909098066981092361",
+            "context": "6989891727390905040",
+            "target": "6989891727390905041",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_3_constraints_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "constraints",
+            "register_index_one_based": 3,
+            "before_decimal": "58",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "constraints"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "observations",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "1",
+            "observations": "8923598571835186800",
+            "unresolved": "7059851685147138138",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "139585200436464062",
+            "unresolved": "10313243124162931083",
+            "context": "8289073189891983783",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": []
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "139585200436464062",
+          "9727610827014157501",
+          "15887544411260482880",
+          "9981143511332331574"
+        ],
+        "unresolved": [
+          "10313243124162931083",
+          "16909098066981092361",
+          "7283792525027352111",
+          "15554332904176229415"
+        ],
+        "context": [
+          "8289073189891983783",
+          "6989891727390905040",
+          "1890352290247067121",
+          "17096247966360362806"
+        ],
+        "target": [
+          "1",
+          "6989891727390905041",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [
+        4
+      ],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_4_observations",
+      "substituted_register": "observations",
+      "register_index_one_based": 4,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_4_observations_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "observations",
+            "register_index_one_based": 4,
+            "before_decimal": "17178402941789216116",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [
+              "observations"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "5918333905787356105",
+            "constraints": "200",
+            "observations": "2",
+            "unresolved": "6825913424233204187",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "379714219562016822",
+            "unresolved": "9403557569394786469",
+            "context": "193309919895052086",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context"
+          ]
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_4_observations_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "observations",
+            "register_index_one_based": 4,
+            "before_decimal": "12650353399797017820",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "observations"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "3",
+            "observations": "1",
+            "unresolved": "4279206384306191376",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "17574553689059521856",
+            "unresolved": "3471825286224770621",
+            "context": "10079473112480859633",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context"
+          ]
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_4_observations_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "observations",
+            "register_index_one_based": 4,
+            "before_decimal": "3571067883563272661",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [
+              "observations"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "2",
+            "constraints": "1",
+            "observations": "5",
+            "unresolved": "4777295626354379362",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "3509428369243255997",
+            "unresolved": "9811026055700656601",
+            "context": "4100212441874666192",
+            "target": "4100212441874666193",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context",
+            "target"
+          ]
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_4_observations_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "observations",
+            "register_index_one_based": 4,
+            "before_decimal": "8923598571835186800",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "observations"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "unresolved",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "58",
+            "observations": "1",
+            "unresolved": "7059851685147138138",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "4503524860846852542",
+            "unresolved": "5306540569270650259",
+            "context": "13540747543452436903",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context"
+          ]
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "4503524860846852542",
+          "3509428369243255997",
+          "17574553689059521856",
+          "379714219562016822"
+        ],
+        "unresolved": [
+          "5306540569270650259",
+          "9811026055700656601",
+          "3471825286224770621",
+          "9403557569394786469"
+        ],
+        "context": [
+          "13540747543452436903",
+          "4100212441874666192",
+          "10079473112480859633",
+          "193309919895052086"
+        ],
+        "target": [
+          "1",
+          "4100212441874666193",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_5_unresolved",
+      "substituted_register": "unresolved",
+      "register_index_one_based": 5,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_5_unresolved_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "unresolved",
+            "register_index_one_based": 5,
+            "before_decimal": "6825913424233204187",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [
+              "unresolved"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "5918333905787356105",
+            "constraints": "200",
+            "observations": "17178402941789216116",
+            "unresolved": "2",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "9981143511332331574",
+            "unresolved": "8728419479943009916",
+            "context": "17096247966360362806",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": [
+            "unresolved"
+          ]
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_5_unresolved_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "unresolved",
+            "register_index_one_based": 5,
+            "before_decimal": "4279206384306191376",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "unresolved"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "3",
+            "observations": "12650353399797017820",
+            "unresolved": "1",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "15887544411260482880",
+            "unresolved": "3004586140721160736",
+            "context": "1890352290247067121",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": [
+            "unresolved"
+          ]
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_5_unresolved_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "unresolved",
+            "register_index_one_based": 5,
+            "before_decimal": "4777295626354379362",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [
+              "unresolved"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "2",
+            "constraints": "1",
+            "observations": "3571067883563272661",
+            "unresolved": "5",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "9727610827014157501",
+            "unresolved": "12131802440626713004",
+            "context": "6989891727390905040",
+            "target": "6989891727390905041",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": [
+            "unresolved"
+          ]
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_5_unresolved_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "unresolved",
+            "register_index_one_based": 5,
+            "before_decimal": "7059851685147138138",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "unresolved"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "context",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "58",
+            "observations": "8923598571835186800",
+            "unresolved": "1",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "139585200436464062",
+            "unresolved": "3253391439015792946",
+            "context": "8289073189891983783",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": [
+            "unresolved"
+          ]
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "139585200436464062",
+          "9727610827014157501",
+          "15887544411260482880",
+          "9981143511332331574"
+        ],
+        "unresolved": [
+          "3253391439015792946",
+          "12131802440626713004",
+          "3004586140721160736",
+          "8728419479943009916"
+        ],
+        "context": [
+          "8289073189891983783",
+          "6989891727390905040",
+          "1890352290247067121",
+          "17096247966360362806"
+        ],
+        "target": [
+          "1",
+          "6989891727390905041",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_6_context",
+      "substituted_register": "context",
+      "register_index_one_based": 6,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_6_context_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "context",
+            "register_index_one_based": 6,
+            "before_decimal": "13567048940372893379",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [
+              "context"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "5918333905787356105",
+            "constraints": "200",
+            "observations": "17178402941789216116",
+            "unresolved": "6825913424233204187",
+            "context": "2",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "9981143511332331574",
+            "unresolved": "15554332904176214101",
+            "context": "17096247966360362806",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_6_context_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "context",
+            "register_index_one_based": 6,
+            "before_decimal": "5070167086666382620",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "context"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "3",
+            "observations": "12650353399797017820",
+            "unresolved": "4279206384306191376",
+            "context": "1",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "16550717598869517632",
+            "unresolved": "14638960373754754042",
+            "context": "4234480443590034929",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context"
+          ]
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_6_context_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "context",
+            "register_index_one_based": 6,
+            "before_decimal": "665607011259576700",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [
+              "context"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "2",
+            "constraints": "1",
+            "observations": "3571067883563272661",
+            "unresolved": "4777295626354379362",
+            "context": "5",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "9727610827014157501",
+            "unresolved": "16909098066981092361",
+            "context": "6989891727390905040",
+            "target": "6989891727390905041",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_6_context_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "context",
+            "register_index_one_based": 6,
+            "before_decimal": "14284717975534498102",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "context"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "target",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "58",
+            "observations": "8923598571835186800",
+            "unresolved": "7059851685147138138",
+            "context": "1",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "139585200436464062",
+            "unresolved": "10313243124162931083",
+            "context": "8289073189891983783",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": []
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "139585200436464062",
+          "9727610827014157501",
+          "16550717598869517632",
+          "9981143511332331574"
+        ],
+        "unresolved": [
+          "10313243124162931083",
+          "16909098066981092361",
+          "14638960373754754042",
+          "15554332904176214101"
+        ],
+        "context": [
+          "8289073189891983783",
+          "6989891727390905040",
+          "4234480443590034929",
+          "17096247966360362806"
+        ],
+        "target": [
+          "1",
+          "6989891727390905041",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [
+        3
+      ],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_7_target",
+      "substituted_register": "target",
+      "register_index_one_based": 7,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_7_target_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "target",
+            "register_index_one_based": 7,
+            "before_decimal": "2",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "5918333905787356105",
+            "constraints": "200",
+            "observations": "17178402941789216116",
+            "unresolved": "6825913424233204187",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "64442"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "10",
+            "constraints": "1",
+            "observations": "9981143511332331574",
+            "unresolved": "15554332904176214101",
+            "context": "17096247966360362806",
+            "target": "1",
+            "events": "64698"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_7_target_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "target",
+            "register_index_one_based": 7,
+            "before_decimal": "1",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "3",
+            "observations": "12650353399797017820",
+            "unresolved": "4279206384306191376",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "74365"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "14",
+            "constraints": "94",
+            "observations": "15887544411260482880",
+            "unresolved": "7283792525027352111",
+            "context": "1890352290247067121",
+            "target": "2",
+            "events": "74709"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_7_target_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "target",
+            "register_index_one_based": 7,
+            "before_decimal": "5",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "2",
+            "constraints": "1",
+            "observations": "3571067883563272661",
+            "unresolved": "4777295626354379362",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "69049"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "9727610827014157501",
+            "unresolved": "16909098066981092361",
+            "context": "6989891727390905040",
+            "target": "6989891727390905041",
+            "events": "69429"
+          },
+          "changed_projection_outputs_vs_control": []
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_7_target_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "target",
+            "register_index_one_based": 7,
+            "before_decimal": "1",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "events"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "58",
+            "observations": "8923598571835186800",
+            "unresolved": "7059851685147138138",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "51307"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "163",
+            "observations": "139585200436464062",
+            "unresolved": "10313243124162931083",
+            "context": "8289073189891983783",
+            "target": "1",
+            "events": "51628"
+          },
+          "changed_projection_outputs_vs_control": []
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "14",
+          "10"
+        ],
+        "constraints": [
+          "163",
+          "1",
+          "94",
+          "1"
+        ],
+        "observations": [
+          "139585200436464062",
+          "9727610827014157501",
+          "15887544411260482880",
+          "9981143511332331574"
+        ],
+        "unresolved": [
+          "10313243124162931083",
+          "16909098066981092361",
+          "7283792525027352111",
+          "15554332904176214101"
+        ],
+        "context": [
+          "8289073189891983783",
+          "6989891727390905040",
+          "1890352290247067121",
+          "17096247966360362806"
+        ],
+        "target": [
+          "1",
+          "6989891727390905041",
+          "2",
+          "1"
+        ],
+        "events": [
+          "51628",
+          "69429",
+          "74709",
+          "64698"
+        ]
+      },
+      "projection_channels_changed_vs_control": [],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    },
+    {
+      "id": "replace_8_events",
+      "substituted_register": "events",
+      "register_index_one_based": 8,
+      "handoffs": [
+        {
+          "source_channel": 1,
+          "destination_channel": 4,
+          "reflection_execution_id": "reflection_channel1",
+          "projection_execution_id": "replace_8_events_reflection1_projection4",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "2"
+          },
+          "substitution": {
+            "register": "events",
+            "register_index_one_based": 8,
+            "before_decimal": "64442",
+            "after_decimal": "2",
+            "actually_changed_seed_registers": [
+              "events"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target"
+            ]
+          },
+          "handoff_registers": {
+            "state": "5918333905787356104",
+            "relations": "5918333905787356105",
+            "constraints": "200",
+            "observations": "17178402941789216116",
+            "unresolved": "6825913424233204187",
+            "context": "13567048940372893379",
+            "target": "2",
+            "events": "2"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "506",
+            "constraints": "1",
+            "observations": "10399097997093905414",
+            "unresolved": "4635283139462052781",
+            "context": "18044681723574951686",
+            "target": "1",
+            "events": "258"
+          },
+          "changed_projection_outputs_vs_control": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        },
+        {
+          "source_channel": 2,
+          "destination_channel": 3,
+          "reflection_execution_id": "reflection_channel2",
+          "projection_execution_id": "replace_8_events_reflection2_projection3",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "events",
+            "register_index_one_based": 8,
+            "before_decimal": "74365",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "events"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "16849038774195065286",
+            "constraints": "3",
+            "observations": "12650353399797017820",
+            "unresolved": "4279206384306191376",
+            "context": "5070167086666382620",
+            "target": "1",
+            "events": "1"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "6",
+            "constraints": "126",
+            "observations": "9724058279632484076",
+            "unresolved": "6194292909387424030",
+            "context": "9406596308057487665",
+            "target": "2",
+            "events": "345"
+          },
+          "changed_projection_outputs_vs_control": [
+            "relations",
+            "constraints",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        },
+        {
+          "source_channel": 3,
+          "destination_channel": 2,
+          "reflection_execution_id": "reflection_channel3",
+          "projection_execution_id": "replace_8_events_reflection3_projection2",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "5"
+          },
+          "substitution": {
+            "register": "events",
+            "register_index_one_based": 8,
+            "before_decimal": "69049",
+            "after_decimal": "5",
+            "actually_changed_seed_registers": [
+              "events"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target"
+            ]
+          },
+          "handoff_registers": {
+            "state": "4",
+            "relations": "2",
+            "constraints": "1",
+            "observations": "3571067883563272661",
+            "unresolved": "4777295626354379362",
+            "context": "665607011259576700",
+            "target": "5",
+            "events": "5"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "5",
+            "constraints": "1",
+            "observations": "12379148317201629641",
+            "unresolved": "12948896358916264717",
+            "context": "17665489392294306692",
+            "target": "17665489392294306693",
+            "events": "385"
+          },
+          "changed_projection_outputs_vs_control": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "source_channel": 4,
+          "destination_channel": 1,
+          "reflection_execution_id": "reflection_channel4",
+          "projection_execution_id": "replace_8_events_reflection4_projection1",
+          "function_output": {
+            "source_register": "target",
+            "value_decimal": "1"
+          },
+          "substitution": {
+            "register": "events",
+            "register_index_one_based": 8,
+            "before_decimal": "51307",
+            "after_decimal": "1",
+            "actually_changed_seed_registers": [
+              "events"
+            ],
+            "preserved_registers": [
+              "state",
+              "relations",
+              "constraints",
+              "observations",
+              "unresolved",
+              "context",
+              "target"
+            ]
+          },
+          "handoff_registers": {
+            "state": "1",
+            "relations": "12263434195814047561",
+            "constraints": "58",
+            "observations": "8923598571835186800",
+            "unresolved": "7059851685147138138",
+            "context": "14284717975534498102",
+            "target": "1",
+            "events": "1"
+          },
+          "projection_ending_registers": {
+            "state": "1",
+            "relations": "0",
+            "constraints": "213",
+            "observations": "18442239723519803140",
+            "unresolved": "5479684309769518344",
+            "context": "1205848324981700569",
+            "target": "1",
+            "events": "322"
+          },
+          "changed_projection_outputs_vs_control": [
+            "constraints",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ],
+      "readout_order": "projection destination channels 1,2,3,4",
+      "readouts": {
+        "state": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "relations": [
+          "0",
+          "5",
+          "6",
+          "506"
+        ],
+        "constraints": [
+          "213",
+          "1",
+          "126",
+          "1"
+        ],
+        "observations": [
+          "18442239723519803140",
+          "12379148317201629641",
+          "9724058279632484076",
+          "10399097997093905414"
+        ],
+        "unresolved": [
+          "5479684309769518344",
+          "12948896358916264717",
+          "6194292909387424030",
+          "4635283139462052781"
+        ],
+        "context": [
+          "1205848324981700569",
+          "17665489392294306692",
+          "9406596308057487665",
+          "18044681723574951686"
+        ],
+        "target": [
+          "1",
+          "17665489392294306693",
+          "2",
+          "1"
+        ],
+        "events": [
+          "322",
+          "385",
+          "345",
+          "258"
+        ]
+      },
+      "projection_channels_changed_vs_control": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "observed_target_patterns": {
+        "equals_2222": false,
+        "equals_1117": false,
+        "equals_2151": false
+      }
+    }
+  ],
+  "archive_sha256": "bc5d445eabf6e83edf2bc8f23b6ed49269dd961a939741715b0be092d49e274c"
+}
