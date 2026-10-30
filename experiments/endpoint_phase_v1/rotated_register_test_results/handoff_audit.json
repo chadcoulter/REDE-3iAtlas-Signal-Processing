@@ -1,0 +1,23 @@
+{
+  "result": "passed",
+  "routing_zero_based": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 0
+  },
+  "native_programs_checked": 40,
+  "cases_checked": 9,
+  "all_physical_signal_instruction_bodies_unchanged": true,
+  "projection_instruction_body_comparisons": 36,
+  "all_forward_baselines_byte_identical_to_mirror_test": true,
+  "all_register_handoffs_exact": true,
+  "only_selected_register_substituted": true,
+  "all_native_outputs_and_artifact_hashes_verified": true,
+  "target_identity_control_matches": true,
+  "unchanged_routing_destinations_zero_based": [
+    0,
+    2
+  ],
+  "unchanged_routing_outputs_and_executables_identical": true
+}

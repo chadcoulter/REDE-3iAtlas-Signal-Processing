@@ -1,0 +1,685 @@
+{
+  "vector_order_zero_based": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "cases": [
+    {
+      "case_id": "control_no_substitution",
+      "substituted_register": null,
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "7913412885118562870",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_1_state",
+      "substituted_register": "state",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "15302164998761190097",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "14682301134823862838",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_2_relations",
+      "substituted_register": "relations",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "7913412885118562870",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_3_constraints",
+      "substituted_register": "constraints",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "7913412885118562870",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_4_observations",
+      "substituted_register": "observations",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "4100212441874666193",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "11399613512586998326",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_5_unresolved",
+      "substituted_register": "unresolved",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "7913412885118562870",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_6_context",
+      "substituted_register": "context",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "7913412885118562870",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_7_target",
+      "substituted_register": "target",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "6989891727390905041",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "7913412885118562870",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "14",
+        "4"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "replace_8_events",
+      "substituted_register": "events",
+      "vector_order_zero_based": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mirrored_projection_target": [
+        "1",
+        "17665489392294306693",
+        "2",
+        "1"
+      ],
+      "rotated_projection_target": [
+        "1",
+        "1354582372535624446",
+        "2",
+        "1"
+      ],
+      "rotated_projection_state": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rotated_projection_relations": [
+        "0",
+        "5",
+        "6",
+        "12"
+      ],
+      "target_positions_changed_vs_mirror": [
+        1
+      ],
+      "register_changes_vs_mirror": [
+        {
+          "destination_zero_based": 0,
+          "old_source_zero_based": 3,
+          "new_source_zero_based": 3,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 1,
+          "old_source_zero_based": 2,
+          "new_source_zero_based": 0,
+          "changed_registers": [
+            "observations",
+            "unresolved",
+            "context",
+            "target",
+            "events"
+          ]
+        },
+        {
+          "destination_zero_based": 2,
+          "old_source_zero_based": 1,
+          "new_source_zero_based": 1,
+          "changed_registers": []
+        },
+        {
+          "destination_zero_based": 3,
+          "old_source_zero_based": 0,
+          "new_source_zero_based": 2,
+          "changed_registers": [
+            "relations",
+            "observations",
+            "unresolved",
+            "context",
+            "events"
+          ]
+        }
+      ]
+    }
+  ]
+}
