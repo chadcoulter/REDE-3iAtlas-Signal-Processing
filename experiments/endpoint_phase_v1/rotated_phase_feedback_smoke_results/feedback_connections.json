@@ -1,0 +1,405 @@
+{
+  "source_external_result": "rotated_register_test_results/rotated_register_test.json",
+  "register_connections": [
+    {
+      "execution_id": "cycle001_x_to_y_channel1",
+      "operation": "reflection",
+      "phase_array_seed_sources": {
+        "state": {
+          "phase_index_zero_based": 0,
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "relations": {
+          "phase_index_zero_based": 1,
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "target",
+          "value_decimal": "14682301134823862838"
+        },
+        "constraints": {
+          "phase_index_zero_based": 2,
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "target",
+          "value_decimal": "2"
+        },
+        "observations": {
+          "phase_index_zero_based": 3,
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "target",
+          "value_decimal": "1"
+        }
+      },
+      "retained_sources": {
+        "unresolved": {
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "unresolved",
+          "value_decimal": "10313243124162931083"
+        },
+        "context": {
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "context",
+          "value_decimal": "8289073189891983783"
+        },
+        "target": {
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "events": {
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "events",
+          "value_decimal": "51628"
+        }
+      }
+    },
+    {
+      "execution_id": "cycle001_x_to_y_channel2",
+      "operation": "reflection",
+      "phase_array_seed_sources": {
+        "state": {
+          "phase_index_zero_based": 0,
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "relations": {
+          "phase_index_zero_based": 1,
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "target",
+          "value_decimal": "14682301134823862838"
+        },
+        "constraints": {
+          "phase_index_zero_based": 2,
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "target",
+          "value_decimal": "2"
+        },
+        "observations": {
+          "phase_index_zero_based": 3,
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "target",
+          "value_decimal": "1"
+        }
+      },
+      "retained_sources": {
+        "unresolved": {
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "unresolved",
+          "value_decimal": "13897417997859886758"
+        },
+        "context": {
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "context",
+          "value_decimal": "14682301134823862837"
+        },
+        "target": {
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "target",
+          "value_decimal": "14682301134823862838"
+        },
+        "events": {
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "events",
+          "value_decimal": "64822"
+        }
+      }
+    },
+    {
+      "execution_id": "cycle001_x_to_y_channel3",
+      "operation": "reflection",
+      "phase_array_seed_sources": {
+        "state": {
+          "phase_index_zero_based": 0,
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "relations": {
+          "phase_index_zero_based": 1,
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "target",
+          "value_decimal": "14682301134823862838"
+        },
+        "constraints": {
+          "phase_index_zero_based": 2,
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "target",
+          "value_decimal": "2"
+        },
+        "observations": {
+          "phase_index_zero_based": 3,
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "target",
+          "value_decimal": "1"
+        }
+      },
+      "retained_sources": {
+        "unresolved": {
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "unresolved",
+          "value_decimal": "7283792525027352111"
+        },
+        "context": {
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "context",
+          "value_decimal": "1890352290247067121"
+        },
+        "target": {
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "target",
+          "value_decimal": "2"
+        },
+        "events": {
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "events",
+          "value_decimal": "74709"
+        }
+      }
+    },
+    {
+      "execution_id": "cycle001_x_to_y_channel4",
+      "operation": "reflection",
+      "phase_array_seed_sources": {
+        "state": {
+          "phase_index_zero_based": 0,
+          "source_execution_id": "replace_1_state_reflection4_projection1",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "relations": {
+          "phase_index_zero_based": 1,
+          "source_execution_id": "replace_1_state_reflection1_projection2",
+          "source_register": "target",
+          "value_decimal": "14682301134823862838"
+        },
+        "constraints": {
+          "phase_index_zero_based": 2,
+          "source_execution_id": "replace_1_state_reflection2_projection3",
+          "source_register": "target",
+          "value_decimal": "2"
+        },
+        "observations": {
+          "phase_index_zero_based": 3,
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "target",
+          "value_decimal": "1"
+        }
+      },
+      "retained_sources": {
+        "unresolved": {
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "unresolved",
+          "value_decimal": "1456000778129704969"
+        },
+        "context": {
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "context",
+          "value_decimal": "16825472496404509834"
+        },
+        "target": {
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "events": {
+          "source_execution_id": "replace_1_state_reflection3_projection4",
+          "source_register": "events",
+          "value_decimal": "69305"
+        }
+      }
+    },
+    {
+      "execution_id": "cycle001_y_to_x_channel2",
+      "operation": "projection",
+      "source_channel_zero_based": 0,
+      "destination_channel_zero_based": 1,
+      "register_sources": {
+        "state": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "target",
+          "value_decimal": "2"
+        },
+        "relations": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "relations",
+          "value_decimal": "6135117142431464137"
+        },
+        "constraints": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "constraints",
+          "value_decimal": "200"
+        },
+        "observations": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "observations",
+          "value_decimal": "13189717449965608578"
+        },
+        "unresolved": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "unresolved",
+          "value_decimal": "6234635995189564852"
+        },
+        "context": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "context",
+          "value_decimal": "16298274895382570061"
+        },
+        "target": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "target",
+          "value_decimal": "2"
+        },
+        "events": {
+          "source_execution_id": "cycle001_x_to_y_channel1",
+          "source_register": "events",
+          "value_decimal": "51949"
+        }
+      }
+    },
+    {
+      "execution_id": "cycle001_y_to_x_channel3",
+      "operation": "projection",
+      "source_channel_zero_based": 1,
+      "destination_channel_zero_based": 2,
+      "register_sources": {
+        "state": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "relations": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "relations",
+          "value_decimal": "2440038881756251497"
+        },
+        "constraints": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "constraints",
+          "value_decimal": "3"
+        },
+        "observations": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "observations",
+          "value_decimal": "16001294889841558743"
+        },
+        "unresolved": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "unresolved",
+          "value_decimal": "4878934902219195843"
+        },
+        "context": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "context",
+          "value_decimal": "18432325641375220160"
+        },
+        "target": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "events": {
+          "source_execution_id": "cycle001_x_to_y_channel2",
+          "source_register": "events",
+          "value_decimal": "65202"
+        }
+      }
+    },
+    {
+      "execution_id": "cycle001_y_to_x_channel4",
+      "operation": "projection",
+      "source_channel_zero_based": 2,
+      "destination_channel_zero_based": 3,
+      "register_sources": {
+        "state": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "target",
+          "value_decimal": "5"
+        },
+        "relations": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "relations",
+          "value_decimal": "2"
+        },
+        "constraints": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "constraints",
+          "value_decimal": "1"
+        },
+        "observations": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "observations",
+          "value_decimal": "7673008636678371013"
+        },
+        "unresolved": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "unresolved",
+          "value_decimal": "2646636489666813165"
+        },
+        "context": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "context",
+          "value_decimal": "9752193264821728420"
+        },
+        "target": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "target",
+          "value_decimal": "5"
+        },
+        "events": {
+          "source_execution_id": "cycle001_x_to_y_channel3",
+          "source_register": "events",
+          "value_decimal": "75053"
+        }
+      }
+    },
+    {
+      "execution_id": "cycle001_y_to_x_channel1",
+      "operation": "projection",
+      "source_channel_zero_based": 3,
+      "destination_channel_zero_based": 0,
+      "register_sources": {
+        "state": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "relations": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "relations",
+          "value_decimal": "10567733952269713321"
+        },
+        "constraints": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "constraints",
+          "value_decimal": "6"
+        },
+        "observations": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "observations",
+          "value_decimal": "2722087200135991832"
+        },
+        "unresolved": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "unresolved",
+          "value_decimal": "7467004510476826436"
+        },
+        "context": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "context",
+          "value_decimal": "13197145682162580242"
+        },
+        "target": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "target",
+          "value_decimal": "1"
+        },
+        "events": {
+          "source_execution_id": "cycle001_x_to_y_channel4",
+          "source_register": "events",
+          "value_decimal": "69561"
+        }
+      }
+    }
+  ]
+}

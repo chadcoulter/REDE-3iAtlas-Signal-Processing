@@ -1,0 +1,56 @@
+{
+  "phase": [
+    "1",
+    "15275004092359177936",
+    "2",
+    "1"
+  ],
+  "registers_by_destination": [
+    {
+      "state": "1",
+      "relations": "0",
+      "constraints": "57",
+      "observations": "16138718676857440344",
+      "unresolved": "7974452998589489113",
+      "context": "1759975850108474941",
+      "target": "1",
+      "events": "116678"
+    },
+    {
+      "state": "1",
+      "relations": "5",
+      "constraints": "1",
+      "observations": "3612204410307941156",
+      "unresolved": "17968291158307969647",
+      "context": "15275004092359177935",
+      "target": "15275004092359177936",
+      "events": "129872"
+    },
+    {
+      "state": "1",
+      "relations": "2",
+      "constraints": "90",
+      "observations": "10934733898605350750",
+      "unresolved": "17235059475749166553",
+      "context": "2768588384713582385",
+      "target": "2",
+      "events": "139759"
+    },
+    {
+      "state": "1",
+      "relations": "16",
+      "constraints": "1",
+      "observations": "2887955320574219742",
+      "unresolved": "7487660342909319908",
+      "context": "17733586641752254786",
+      "target": "1",
+      "events": "134355"
+    }
+  ],
+  "source_execution_ids_by_destination": [
+    "cycle100_y_to_x_channel1",
+    "cycle100_y_to_x_channel2",
+    "cycle100_y_to_x_channel3",
+    "cycle100_y_to_x_channel4"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "test": "Cyclic n+1 register handoff with native target-vector phase feedback.",
+  "cycles": 1,
+  "native_programs_built_and_run": 8,
+  "native_programs_passed": 8,
+  "initial_phase": [
+    "1",
+    "14682301134823862838",
+    "2",
+    "1"
+  ],
+  "final_phase": [
+    "1",
+    "2575534699394867437",
+    "2",
+    "1"
+  ],
+  "initial_feedback_registers": [
+    {
+      "state": "1",
+      "relations": "0",
+      "constraints": "163",
+      "observations": "139585200436464062",
+      "unresolved": "10313243124162931083",
+      "context": "8289073189891983783",
+      "target": "1",
+      "events": "51628"
+    },
+    {
+      "state": "1",
+      "relations": "5",
+      "constraints": "1",
+      "observations": "12987477425939165642",
+      "unresolved": "13897417997859886758",
+      "context": "14682301134823862837",
+      "target": "14682301134823862838",
+      "events": "64822"
+    },
+    {
+      "state": "1",
+      "relations": "14",
+      "constraints": "94",
+      "observations": "15887544411260482880",
+      "unresolved": "7283792525027352111",
+      "context": "1890352290247067121",
+      "target": "2",
+      "events": "74709"
+    },
+    {
+      "state": "1",
+      "relations": "4",
+      "constraints": "1",
+      "observations": "4683748157146820982",
+      "unresolved": "1456000778129704969",
+      "context": "16825472496404509834",
+      "target": "1",
+      "events": "69305"
+    }
+  ],
+  "final_feedback_registers": [
+    {
+      "state": "1",
+      "relations": "0",
+      "constraints": "205",
+      "observations": "9358338219311175948",
+      "unresolved": "11669967321891263490",
+      "context": "10894334580640306385",
+      "target": "1",
+      "events": "69882"
+    },
+    {
+      "state": "1",
+      "relations": "5",
+      "constraints": "1",
+      "observations": "14406695070489110273",
+      "unresolved": "3843156793917842613",
+      "context": "2575534699394867436",
+      "target": "2575534699394867437",
+      "events": "52329"
+    },
+    {
+      "state": "1",
+      "relations": "14",
+      "constraints": "89",
+      "observations": "13809542538597284059",
+      "unresolved": "12988924104837791672",
+      "context": "12691563319987532078",
+      "target": "2",
+      "events": "65546"
+    },
+    {
+      "state": "1",
+      "relations": "252",
+      "constraints": "1",
+      "observations": "9404653279939483886",
+      "unresolved": "3534376187889452872",
+      "context": "5140345691209862794",
+      "target": "1",
+      "events": "75309"
+    }
+  ],
+  "source_case": "replace_1_state",
+  "source_result": "rotated_register_test_results/rotated_register_test.json",
+  "source_result_sha256": "8ba77eabcfeabfdafc6699a2c7501bc6d16814541a3c5da809f1868317734da2",
+  "mapping_zero_based": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 0
+  },
+  "phase_seed_mapping": {
+    "0": "state",
+    "1": "relations",
+    "2": "constraints",
+    "3": "observations"
+  },
+  "phase_entry_rule": "At each reflection entry, phase fills the four existing input slots; remaining registers retain preceding same-destination projection output.",
+  "turn_rule": "Copy all eight actual native reflection registers to next channel, substitute state <- target only; no endpoint reseeding at the turn.",
+  "phase_feedback_rule": "Projection targets ordered by destination positions 0,1,2,3 are the next cycle phase array.",
+  "signal_chain_values_per_channel": [
+    1934,
+    1934,
+    1934,
+    1934
+  ],
+  "signal_chain_sha256": [
+    "dc862d9e70fb7d94e7e778272dc4cf5b2ea04cbf1124d828cb8af7e4bd469f5e",
+    "3d5683db2df47fd15c81b21ff8dc3e6fa90b89e86b88b50e358a6a41edec099f",
+    "e86344fbe3de2b9ee4d6acf1bf0c908f8baf4bd3915097c96699c286862ade90",
+    "600fc00bd3ff83fd6ea9881d7b9a534bc5c8f785a5e8add58cfe4b046d71f6a0"
+  ],
+  "signal_chains_unchanged": true,
+  "signal_instruction_bodies_unchanged": true,
+  "native_output_drives_all_feedback": true,
+  "phase_repetitions": [],
+  "complete_register_state_repetitions": [],
+  "zero_observations": [
+    {
+      "cycle": 1,
+      "channel_zero_based": 0,
+      "register": "relations"
+    }
+  ],
+  "observed_pattern_cycles": {
+    "2222": [],
+    "1117": [],
+    "2151": []
+  },
+  "patterns_are_observations_not_new_failure_or_eof_labels": true,
+  "word_encoding": "Exact uint64 decimal strings; native output also retained as hexadecimal.",
+  "operator_reference_validation_cases": 11340,
+  "source_archive_sha256": "bc5d445eabf6e83edf2bc8f23b6ed49269dd961a939741715b0be092d49e274c"
+}

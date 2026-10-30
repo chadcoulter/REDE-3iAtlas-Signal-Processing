@@ -1,0 +1,172 @@
+[
+  {
+    "cycle": 1,
+    "phase_in": [
+      "1",
+      "14682301134823862838",
+      "2",
+      "1"
+    ],
+    "feedback_registers_before_reflection": [
+      {
+        "state": "1",
+        "relations": "0",
+        "constraints": "163",
+        "observations": "139585200436464062",
+        "unresolved": "10313243124162931083",
+        "context": "8289073189891983783",
+        "target": "1",
+        "events": "51628"
+      },
+      {
+        "state": "1",
+        "relations": "5",
+        "constraints": "1",
+        "observations": "12987477425939165642",
+        "unresolved": "13897417997859886758",
+        "context": "14682301134823862837",
+        "target": "14682301134823862838",
+        "events": "64822"
+      },
+      {
+        "state": "1",
+        "relations": "14",
+        "constraints": "94",
+        "observations": "15887544411260482880",
+        "unresolved": "7283792525027352111",
+        "context": "1890352290247067121",
+        "target": "2",
+        "events": "74709"
+      },
+      {
+        "state": "1",
+        "relations": "4",
+        "constraints": "1",
+        "observations": "4683748157146820982",
+        "unresolved": "1456000778129704969",
+        "context": "16825472496404509834",
+        "target": "1",
+        "events": "69305"
+      }
+    ],
+    "reflection_execution_ids": [
+      "cycle001_x_to_y_channel1",
+      "cycle001_x_to_y_channel2",
+      "cycle001_x_to_y_channel3",
+      "cycle001_x_to_y_channel4"
+    ],
+    "reflection_target_vector": [
+      "2",
+      "1",
+      "5",
+      "1"
+    ],
+    "handoffs": [
+      {
+        "source_zero_based": 0,
+        "destination_zero_based": 1,
+        "reflection_execution_id": "cycle001_x_to_y_channel1",
+        "projection_execution_id": "cycle001_y_to_x_channel2",
+        "substituted_register": "state",
+        "function_output_register": "target",
+        "substitution_before_decimal": "6135117142431464136",
+        "substitution_after_decimal": "2",
+        "handoff_registers": {
+          "state": "2",
+          "relations": "6135117142431464137",
+          "constraints": "200",
+          "observations": "13189717449965608578",
+          "unresolved": "6234635995189564852",
+          "context": "16298274895382570061",
+          "target": "2",
+          "events": "51949"
+        }
+      },
+      {
+        "source_zero_based": 1,
+        "destination_zero_based": 2,
+        "reflection_execution_id": "cycle001_x_to_y_channel2",
+        "projection_execution_id": "cycle001_y_to_x_channel3",
+        "substituted_register": "state",
+        "function_output_register": "target",
+        "substitution_before_decimal": "1",
+        "substitution_after_decimal": "1",
+        "handoff_registers": {
+          "state": "1",
+          "relations": "2440038881756251497",
+          "constraints": "3",
+          "observations": "16001294889841558743",
+          "unresolved": "4878934902219195843",
+          "context": "18432325641375220160",
+          "target": "1",
+          "events": "65202"
+        }
+      },
+      {
+        "source_zero_based": 2,
+        "destination_zero_based": 3,
+        "reflection_execution_id": "cycle001_x_to_y_channel3",
+        "projection_execution_id": "cycle001_y_to_x_channel4",
+        "substituted_register": "state",
+        "function_output_register": "target",
+        "substitution_before_decimal": "4",
+        "substitution_after_decimal": "5",
+        "handoff_registers": {
+          "state": "5",
+          "relations": "2",
+          "constraints": "1",
+          "observations": "7673008636678371013",
+          "unresolved": "2646636489666813165",
+          "context": "9752193264821728420",
+          "target": "5",
+          "events": "75053"
+        }
+      },
+      {
+        "source_zero_based": 3,
+        "destination_zero_based": 0,
+        "reflection_execution_id": "cycle001_x_to_y_channel4",
+        "projection_execution_id": "cycle001_y_to_x_channel1",
+        "substituted_register": "state",
+        "function_output_register": "target",
+        "substitution_before_decimal": "1",
+        "substitution_after_decimal": "1",
+        "handoff_registers": {
+          "state": "1",
+          "relations": "10567733952269713321",
+          "constraints": "6",
+          "observations": "2722087200135991832",
+          "unresolved": "7467004510476826436",
+          "context": "13197145682162580242",
+          "target": "1",
+          "events": "69561"
+        }
+      }
+    ],
+    "projection_execution_ids_by_destination": [
+      "cycle001_y_to_x_channel1",
+      "cycle001_y_to_x_channel2",
+      "cycle001_y_to_x_channel3",
+      "cycle001_y_to_x_channel4"
+    ],
+    "projection_state_vector": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "projection_relations_vector": [
+      "0",
+      "5",
+      "14",
+      "252"
+    ],
+    "phase_out": [
+      "1",
+      "2575534699394867437",
+      "2",
+      "1"
+    ],
+    "phase_out_supplies_next_cycle": true
+  }
+]

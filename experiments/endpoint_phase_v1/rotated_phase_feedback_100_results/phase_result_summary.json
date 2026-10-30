@@ -1,0 +1,514 @@
+{
+  "initial_phase": [
+    "1",
+    "14682301134823862838",
+    "2",
+    "1"
+  ],
+  "final_phase": [
+    "1",
+    "15275004092359177936",
+    "2",
+    "1"
+  ],
+  "cycles": 100,
+  "native_programs_passed": 800,
+  "distinct_output_phase_arrays": 100,
+  "repeated_phase_arrays_including_initial": 0,
+  "complete_register_state_repeats": 0,
+  "per_position": [
+    {
+      "position_zero_based": 0,
+      "unique_output_values": 9,
+      "constant": false,
+      "minimum_decimal": "1",
+      "maximum_decimal": "126",
+      "values_with_counts": [
+        {
+          "value_decimal": "1",
+          "count": 73
+        },
+        {
+          "value_decimal": "2",
+          "count": 14
+        },
+        {
+          "value_decimal": "6",
+          "count": 4
+        },
+        {
+          "value_decimal": "14",
+          "count": 3
+        },
+        {
+          "value_decimal": "7",
+          "count": 2
+        },
+        {
+          "value_decimal": "62",
+          "count": 1
+        },
+        {
+          "value_decimal": "30",
+          "count": 1
+        },
+        {
+          "value_decimal": "3",
+          "count": 1
+        },
+        {
+          "value_decimal": "126",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "position_zero_based": 1,
+      "unique_output_values": 100,
+      "constant": false,
+      "minimum_decimal": "36595633785467264",
+      "maximum_decimal": "18091802862644521067",
+      "values_with_counts": [
+        {
+          "value_decimal": "2575534699394867437",
+          "count": 1
+        },
+        {
+          "value_decimal": "18091802862644521067",
+          "count": 1
+        },
+        {
+          "value_decimal": "17523574276137979103",
+          "count": 1
+        },
+        {
+          "value_decimal": "3475635789106100896",
+          "count": 1
+        },
+        {
+          "value_decimal": "16145381471321741015",
+          "count": 1
+        },
+        {
+          "value_decimal": "15262931526143384549",
+          "count": 1
+        },
+        {
+          "value_decimal": "8783601758217422193",
+          "count": 1
+        },
+        {
+          "value_decimal": "13151039822388721386",
+          "count": 1
+        },
+        {
+          "value_decimal": "11484128318548640713",
+          "count": 1
+        },
+        {
+          "value_decimal": "1701107593123116351",
+          "count": 1
+        },
+        {
+          "value_decimal": "12625120052426114371",
+          "count": 1
+        },
+        {
+          "value_decimal": "6387354054401757700",
+          "count": 1
+        },
+        {
+          "value_decimal": "2886714230174787611",
+          "count": 1
+        },
+        {
+          "value_decimal": "9256416890099684049",
+          "count": 1
+        },
+        {
+          "value_decimal": "807980887614887981",
+          "count": 1
+        },
+        {
+          "value_decimal": "7884876174348730974",
+          "count": 1
+        },
+        {
+          "value_decimal": "114212225638071781",
+          "count": 1
+        },
+        {
+          "value_decimal": "7444335842233248803",
+          "count": 1
+        },
+        {
+          "value_decimal": "11799668221380597655",
+          "count": 1
+        },
+        {
+          "value_decimal": "9995386277120311640",
+          "count": 1
+        },
+        {
+          "value_decimal": "2753555907555925615",
+          "count": 1
+        },
+        {
+          "value_decimal": "2994694135671683533",
+          "count": 1
+        },
+        {
+          "value_decimal": "11511165983311987593",
+          "count": 1
+        },
+        {
+          "value_decimal": "7914564024010713282",
+          "count": 1
+        },
+        {
+          "value_decimal": "14299569984820715969",
+          "count": 1
+        },
+        {
+          "value_decimal": "11498036999222479705",
+          "count": 1
+        },
+        {
+          "value_decimal": "10378868075483920219",
+          "count": 1
+        },
+        {
+          "value_decimal": "11032732885816339372",
+          "count": 1
+        },
+        {
+          "value_decimal": "6566514701641480051",
+          "count": 1
+        },
+        {
+          "value_decimal": "12671798335986311593",
+          "count": 1
+        },
+        {
+          "value_decimal": "15062703423886148405",
+          "count": 1
+        },
+        {
+          "value_decimal": "9716491998937956262",
+          "count": 1
+        },
+        {
+          "value_decimal": "11229573669594298013",
+          "count": 1
+        },
+        {
+          "value_decimal": "1314695412995394939",
+          "count": 1
+        },
+        {
+          "value_decimal": "9500736344315933231",
+          "count": 1
+        },
+        {
+          "value_decimal": "10615656636314525680",
+          "count": 1
+        },
+        {
+          "value_decimal": "15035667160314397855",
+          "count": 1
+        },
+        {
+          "value_decimal": "2567956277725942421",
+          "count": 1
+        },
+        {
+          "value_decimal": "4748444889827214337",
+          "count": 1
+        },
+        {
+          "value_decimal": "5614790420320276858",
+          "count": 1
+        },
+        {
+          "value_decimal": "5852916204580740921",
+          "count": 1
+        },
+        {
+          "value_decimal": "9548811142013535183",
+          "count": 1
+        },
+        {
+          "value_decimal": "938852529960595635",
+          "count": 1
+        },
+        {
+          "value_decimal": "11736270923858132276",
+          "count": 1
+        },
+        {
+          "value_decimal": "12459117439654706667",
+          "count": 1
+        },
+        {
+          "value_decimal": "5331439813198292065",
+          "count": 1
+        },
+        {
+          "value_decimal": "4262880259778912349",
+          "count": 1
+        },
+        {
+          "value_decimal": "4387809249585848558",
+          "count": 1
+        },
+        {
+          "value_decimal": "15329987959700788581",
+          "count": 1
+        },
+        {
+          "value_decimal": "16122107970592807315",
+          "count": 1
+        },
+        {
+          "value_decimal": "6340755238908798919",
+          "count": 1
+        },
+        {
+          "value_decimal": "5438959919315419784",
+          "count": 1
+        },
+        {
+          "value_decimal": "253419203847660479",
+          "count": 1
+        },
+        {
+          "value_decimal": "15683351122297217917",
+          "count": 1
+        },
+        {
+          "value_decimal": "16797646210026839417",
+          "count": 1
+        },
+        {
+          "value_decimal": "9141555062074087538",
+          "count": 1
+        },
+        {
+          "value_decimal": "10146367107625963345",
+          "count": 1
+        },
+        {
+          "value_decimal": "11788651127898047783",
+          "count": 1
+        },
+        {
+          "value_decimal": "11762140239423775019",
+          "count": 1
+        },
+        {
+          "value_decimal": "7880609830472686300",
+          "count": 1
+        },
+        {
+          "value_decimal": "11428448619769148067",
+          "count": 1
+        },
+        {
+          "value_decimal": "5790718671701250201",
+          "count": 1
+        },
+        {
+          "value_decimal": "10640600595711125029",
+          "count": 1
+        },
+        {
+          "value_decimal": "10898754808381849622",
+          "count": 1
+        },
+        {
+          "value_decimal": "4154075358725966157",
+          "count": 1
+        },
+        {
+          "value_decimal": "1578201490047776523",
+          "count": 1
+        },
+        {
+          "value_decimal": "4410951212743947263",
+          "count": 1
+        },
+        {
+          "value_decimal": "36595633785467264",
+          "count": 1
+        },
+        {
+          "value_decimal": "14490550730109609207",
+          "count": 1
+        },
+        {
+          "value_decimal": "10208502180254981509",
+          "count": 1
+        },
+        {
+          "value_decimal": "779652599229026577",
+          "count": 1
+        },
+        {
+          "value_decimal": "13526836682299036042",
+          "count": 1
+        },
+        {
+          "value_decimal": "11620668003982304553",
+          "count": 1
+        },
+        {
+          "value_decimal": "17751891922464784735",
+          "count": 1
+        },
+        {
+          "value_decimal": "17558051002158021219",
+          "count": 1
+        },
+        {
+          "value_decimal": "17647167052719854564",
+          "count": 1
+        },
+        {
+          "value_decimal": "5984396880640716027",
+          "count": 1
+        },
+        {
+          "value_decimal": "8032992160423839729",
+          "count": 1
+        },
+        {
+          "value_decimal": "17462992727456415117",
+          "count": 1
+        },
+        {
+          "value_decimal": "7705369110212421374",
+          "count": 1
+        },
+        {
+          "value_decimal": "4693254224854553621",
+          "count": 1
+        },
+        {
+          "value_decimal": "12935867440384875715",
+          "count": 1
+        },
+        {
+          "value_decimal": "7981276379432526639",
+          "count": 1
+        },
+        {
+          "value_decimal": "12783867268099748308",
+          "count": 1
+        },
+        {
+          "value_decimal": "406335061455355727",
+          "count": 1
+        },
+        {
+          "value_decimal": "13876790350365286317",
+          "count": 1
+        },
+        {
+          "value_decimal": "319602209293174735",
+          "count": 1
+        },
+        {
+          "value_decimal": "14374224355739936418",
+          "count": 1
+        },
+        {
+          "value_decimal": "2822500406568170721",
+          "count": 1
+        },
+        {
+          "value_decimal": "9669507753994689815",
+          "count": 1
+        },
+        {
+          "value_decimal": "279766789596494523",
+          "count": 1
+        },
+        {
+          "value_decimal": "16911577038181327052",
+          "count": 1
+        },
+        {
+          "value_decimal": "7361870532641607955",
+          "count": 1
+        },
+        {
+          "value_decimal": "7905221496412599817",
+          "count": 1
+        },
+        {
+          "value_decimal": "805221982824193109",
+          "count": 1
+        },
+        {
+          "value_decimal": "9733896012638498054",
+          "count": 1
+        },
+        {
+          "value_decimal": "13379995799977776125",
+          "count": 1
+        },
+        {
+          "value_decimal": "8274615085089449435",
+          "count": 1
+        },
+        {
+          "value_decimal": "17259711101729474959",
+          "count": 1
+        },
+        {
+          "value_decimal": "15275004092359177936",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "position_zero_based": 2,
+      "unique_output_values": 1,
+      "constant": true,
+      "minimum_decimal": "2",
+      "maximum_decimal": "2",
+      "values_with_counts": [
+        {
+          "value_decimal": "2",
+          "count": 100
+        }
+      ]
+    },
+    {
+      "position_zero_based": 3,
+      "unique_output_values": 1,
+      "constant": true,
+      "minimum_decimal": "1",
+      "maximum_decimal": "1",
+      "values_with_counts": [
+        {
+          "value_decimal": "1",
+          "count": 100
+        }
+      ]
+    }
+  ],
+  "projection_state_always_1111": true,
+  "observed_pattern_cycles": {
+    "2222": [],
+    "1117": [],
+    "2151": []
+  },
+  "final_projection_relations": [
+    "0",
+    "5",
+    "2",
+    "16"
+  ],
+  "signal_chains_unchanged": true
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "cycle001_x_to_y_channel1",
+    "cycle": 1,
+    "channel_one_based": 1,
+    "channel_zero_based": 0,
+    "operation": "reflection",
+    "direction": "x_to_y",
+    "source_execution_ids": [
+      "replace_1_state_reflection4_projection1"
+    ],
+    "seed_registers": {
+      "state": "1",
+      "relations": "14682301134823862838",
+      "constraints": "2",
+      "observations": "1",
+      "unresolved": "10313243124162931083",
+      "context": "8289073189891983783",
+      "target": "1",
+      "events": "51628"
+    },
+    "native_ending_registers": {
+      "state": "6135117142431464136",
+      "relations": "6135117142431464137",
+      "constraints": "200",
+      "observations": "13189717449965608578",
+      "unresolved": "6234635995189564852",
+      "context": "16298274895382570061",
+      "target": "2",
+      "events": "51949"
+    },
+    "output_hex": "c87a092a89502455c97a092a89502455c800000000000000829ef87c234a0bb7b45523b567e085564de4f156aa1a2fe20200000000000000edca000000000000",
+    "operator_invocations": 10231,
+    "chain_values": 1934,
+    "chain_sha256": "dc862d9e70fb7d94e7e778272dc4cf5b2ea04cbf1124d828cb8af7e4bd469f5e",
+    "signal_instruction_body_sha256": "f9d4bf6783fb063c0cf78c9208d3e04fcdf258a446a9848fda7b14bb46b3a30e",
+    "source_sha256": "0cd9aaaf56c56541e30d978472d97ec1483801c4706dfb482f8b0f560633d96c",
+    "executable_sha256": "7ee98ef450c446f1b47b5d7487f51d93070a0f2b9621178f00f3094cca5000af",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  },
+  {
+    "id": "cycle001_x_to_y_channel2",
+    "cycle": 1,
+    "channel_one_based": 2,
+    "channel_zero_based": 1,
+    "operation": "reflection",
+    "direction": "x_to_y",
+    "source_execution_ids": [
+      "replace_1_state_reflection1_projection2"
+    ],
+    "seed_registers": {
+      "state": "1",
+      "relations": "14682301134823862838",
+      "constraints": "2",
+      "observations": "1",
+      "unresolved": "13897417997859886758",
+      "context": "14682301134823862837",
+      "target": "14682301134823862838",
+      "events": "64822"
+    },
+    "native_ending_registers": {
+      "state": "1",
+      "relations": "2440038881756251497",
+      "constraints": "3",
+      "observations": "16001294889841558743",
+      "unresolved": "4878934902219195843",
+      "context": "18432325641375220160",
+      "target": "1",
+      "events": "65202"
+    },
+    "output_hex": "0100000000000000690539616fc2dc210300000000000000d784477fec0410dec3c507a17175b543c0817e1e83c6ccff0100000000000000b2fe000000000000",
+    "operator_invocations": 10944,
+    "chain_values": 1934,
+    "chain_sha256": "3d5683db2df47fd15c81b21ff8dc3e6fa90b89e86b88b50e358a6a41edec099f",
+    "signal_instruction_body_sha256": "e7059e8fe85840247b7ea37169cf8a002722c16f6735a44e8751e092d10bf219",
+    "source_sha256": "b7a45bd294197512bc1636fb5a88211bf0c78429d4cf96eadd6c7177f4906706",
+    "executable_sha256": "188e88e093e7ed4f6d1f07fec791e5379678d69135a624f87c5ff6db116b5dcb",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  },
+  {
+    "id": "cycle001_x_to_y_channel3",
+    "cycle": 1,
+    "channel_one_based": 3,
+    "channel_zero_based": 2,
+    "operation": "reflection",
+    "direction": "x_to_y",
+    "source_execution_ids": [
+      "replace_1_state_reflection2_projection3"
+    ],
+    "seed_registers": {
+      "state": "1",
+      "relations": "14682301134823862838",
+      "constraints": "2",
+      "observations": "1",
+      "unresolved": "7283792525027352111",
+      "context": "1890352290247067121",
+      "target": "2",
+      "events": "74709"
+    },
+    "native_ending_registers": {
+      "state": "4",
+      "relations": "2",
+      "constraints": "1",
+      "observations": "7673008636678371013",
+      "unresolved": "2646636489666813165",
+      "context": "9752193264821728420",
+      "target": "5",
+      "events": "75053"
+    },
+    "output_hex": "040000000000000002000000000000000100000000000000c5f6b7a3b3007c6aed5c2d68ddbdba24a4f4a7e21ac0568705000000000000002d25010000000000",
+    "operator_invocations": 9865,
+    "chain_values": 1934,
+    "chain_sha256": "e86344fbe3de2b9ee4d6acf1bf0c908f8baf4bd3915097c96699c286862ade90",
+    "signal_instruction_body_sha256": "a643b38c315396ce40d7d6b641a53a2028918254732f597d88a41786f539fe04",
+    "source_sha256": "81e97818604d1ce0aaedc16078d17d1d250e20572af8564aae2de2492ace1ad8",
+    "executable_sha256": "f2e33ea568a40db614b0d2fe92991093b822d217b919caad034168a96f0a2ca9",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  },
+  {
+    "id": "cycle001_x_to_y_channel4",
+    "cycle": 1,
+    "channel_one_based": 4,
+    "channel_zero_based": 3,
+    "operation": "reflection",
+    "direction": "x_to_y",
+    "source_execution_ids": [
+      "replace_1_state_reflection3_projection4"
+    ],
+    "seed_registers": {
+      "state": "1",
+      "relations": "14682301134823862838",
+      "constraints": "2",
+      "observations": "1",
+      "unresolved": "1456000778129704969",
+      "context": "16825472496404509834",
+      "target": "1",
+      "events": "69305"
+    },
+    "native_ending_registers": {
+      "state": "1",
+      "relations": "10567733952269713321",
+      "constraints": "6",
+      "observations": "2722087200135991832",
+      "unresolved": "7467004510476826436",
+      "context": "13197145682162580242",
+      "target": "1",
+      "events": "69561"
+    },
+    "output_hex": "0100000000000000a9ffde110a22a89206000000000000001852bee3e2cbc62544f735570a21a067127b619213ae25b70100000000000000b90f010000000000",
+    "operator_invocations": 9720,
+    "chain_values": 1934,
+    "chain_sha256": "600fc00bd3ff83fd6ea9881d7b9a534bc5c8f785a5e8add58cfe4b046d71f6a0",
+    "signal_instruction_body_sha256": "935cdb2cafc0d615b6896037575a27879a156d7f27d7438d617ce166b91b1dbe",
+    "source_sha256": "7752d2b333ba6dee86972afa55c0605735879a29fbc19597cf0c5ca5eb7f5289",
+    "executable_sha256": "60e7e2fa91668909c7ca086562e71c35e47071d6b7b7ab103cb4e05a56e81105",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  },
+  {
+    "id": "cycle001_y_to_x_channel2",
+    "cycle": 1,
+    "channel_one_based": 2,
+    "channel_zero_based": 1,
+    "operation": "projection",
+    "direction": "y_to_x",
+    "source_execution_ids": [
+      "cycle001_x_to_y_channel1"
+    ],
+    "seed_registers": {
+      "state": "2",
+      "relations": "6135117142431464137",
+      "constraints": "200",
+      "observations": "13189717449965608578",
+      "unresolved": "6234635995189564852",
+      "context": "16298274895382570061",
+      "target": "2",
+      "events": "51949"
+    },
+    "native_ending_registers": {
+      "state": "1",
+      "relations": "5",
+      "constraints": "1",
+      "observations": "14406695070489110273",
+      "unresolved": "3843156793917842613",
+      "context": "2575534699394867436",
+      "target": "2575534699394867437",
+      "events": "52329"
+    },
+    "output_hex": "01000000000000000500000000000000010000000000000001e7df2fd6dceec7b5249afdbda25535eca01fd02923be23eda01fd02923be2369cc000000000000",
+    "operator_invocations": 10944,
+    "chain_values": 1934,
+    "chain_sha256": "3d5683db2df47fd15c81b21ff8dc3e6fa90b89e86b88b50e358a6a41edec099f",
+    "signal_instruction_body_sha256": "f4851be8ec9809ce90170e6f673dd18bd5db7e066b63460da18a4907265d1bfb",
+    "source_sha256": "639f461e8bcf0c6bbe8b9058275bad6ef51054637d9b8d5a4eddc1a1af16b06a",
+    "executable_sha256": "d228d02bcfb09a946c979f47f29c7ecc5022ecc090a645e8b4bd955d9c7a381e",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  },
+  {
+    "id": "cycle001_y_to_x_channel3",
+    "cycle": 1,
+    "channel_one_based": 3,
+    "channel_zero_based": 2,
+    "operation": "projection",
+    "direction": "y_to_x",
+    "source_execution_ids": [
+      "cycle001_x_to_y_channel2"
+    ],
+    "seed_registers": {
+      "state": "1",
+      "relations": "2440038881756251497",
+      "constraints": "3",
+      "observations": "16001294889841558743",
+      "unresolved": "4878934902219195843",
+      "context": "18432325641375220160",
+      "target": "1",
+      "events": "65202"
+    },
+    "native_ending_registers": {
+      "state": "1",
+      "relations": "14",
+      "constraints": "89",
+      "observations": "13809542538597284059",
+      "unresolved": "12988924104837791672",
+      "context": "12691563319987532078",
+      "target": "2",
+      "events": "65546"
+    },
+    "output_hex": "01000000000000000e000000000000005900000000000000dbb8bcd3c559a5bfb87f5db3a7ed41b42ef13bc4987d21b002000000000000000a00010000000000",
+    "operator_invocations": 9865,
+    "chain_values": 1934,
+    "chain_sha256": "e86344fbe3de2b9ee4d6acf1bf0c908f8baf4bd3915097c96699c286862ade90",
+    "signal_instruction_body_sha256": "be64b630c2f34dea5d7dcb4851359e226362d58a164a96d57a06489e4a7e88ba",
+    "source_sha256": "a10c93bca68db9a8d52d3d5b293fa589a9ced475571fa8a0049ea6cf2edce82a",
+    "executable_sha256": "fc084cfb827ff7dcf90d7f33b0d051efbeec6ce49ce93a23558135631c53c267",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  },
+  {
+    "id": "cycle001_y_to_x_channel4",
+    "cycle": 1,
+    "channel_one_based": 4,
+    "channel_zero_based": 3,
+    "operation": "projection",
+    "direction": "y_to_x",
+    "source_execution_ids": [
+      "cycle001_x_to_y_channel3"
+    ],
+    "seed_registers": {
+      "state": "5",
+      "relations": "2",
+      "constraints": "1",
+      "observations": "7673008636678371013",
+      "unresolved": "2646636489666813165",
+      "context": "9752193264821728420",
+      "target": "5",
+      "events": "75053"
+    },
+    "native_ending_registers": {
+      "state": "1",
+      "relations": "252",
+      "constraints": "1",
+      "observations": "9404653279939483886",
+      "unresolved": "3534376187889452872",
+      "context": "5140345691209862794",
+      "target": "1",
+      "events": "75309"
+    },
+    "output_hex": "0100000000000000fc000000000000000100000000000000ee588182540a84824807c0bd6aa00c318a0e46e32b2d564701000000000000002d26010000000000",
+    "operator_invocations": 9720,
+    "chain_values": 1934,
+    "chain_sha256": "600fc00bd3ff83fd6ea9881d7b9a534bc5c8f785a5e8add58cfe4b046d71f6a0",
+    "signal_instruction_body_sha256": "d441064851dcdfa07c4abf81f363de7102872131f0a7b8fd0425a8a2d26975de",
+    "source_sha256": "328f278aea288ffbb98bcd969057486a03be0decd2b401ed7145a37f0ba86eeb",
+    "executable_sha256": "4310bae2fb5172ece3aa48b58795ef2d6403f27abee0e29f90b9e33c056cb33d",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  },
+  {
+    "id": "cycle001_y_to_x_channel1",
+    "cycle": 1,
+    "channel_one_based": 1,
+    "channel_zero_based": 0,
+    "operation": "projection",
+    "direction": "y_to_x",
+    "source_execution_ids": [
+      "cycle001_x_to_y_channel4"
+    ],
+    "seed_registers": {
+      "state": "1",
+      "relations": "10567733952269713321",
+      "constraints": "6",
+      "observations": "2722087200135991832",
+      "unresolved": "7467004510476826436",
+      "context": "13197145682162580242",
+      "target": "1",
+      "events": "69561"
+    },
+    "native_ending_registers": {
+      "state": "1",
+      "relations": "0",
+      "constraints": "205",
+      "observations": "9358338219311175948",
+      "unresolved": "11669967321891263490",
+      "context": "10894334580640306385",
+      "target": "1",
+      "events": "69882"
+    },
+    "output_hex": "01000000000000000000000000000000cd000000000000000c190122077fdf8102d4bef9720df4a1d1d45197947330970100000000000000fa10010000000000",
+    "operator_invocations": 10231,
+    "chain_values": 1934,
+    "chain_sha256": "dc862d9e70fb7d94e7e778272dc4cf5b2ea04cbf1124d828cb8af7e4bd469f5e",
+    "signal_instruction_body_sha256": "ff90a39c32cf48496653c9dc5a768aa19a961d2c0f051b78600697c4cc367eaf",
+    "source_sha256": "38f78278b52e3e03269c520693099d24e6a153bf098a9637699cdb75e576ecf5",
+    "executable_sha256": "73312cf4eb7b1c0a247a1b8fa07e8d7936dd6d833496e7ae8c022d79dfbe6318",
+    "checks": {
+      "assembled": true,
+      "linked": true,
+      "native_exit": 0,
+      "native_matches_reference": true
+    }
+  }
+]

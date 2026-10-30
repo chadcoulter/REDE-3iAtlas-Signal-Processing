@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "cycles_checked": 100,
+  "native_programs_checked": 800,
+  "phase_array_continuity_exact": true,
+  "all_phase_and_retained_register_sources_exact": true,
+  "all_cyclic_n_plus_one_handoffs_exact": true,
+  "only_state_substituted_at_turn": true,
+  "native_output_and_artifact_hashes_exact": true,
+  "signal_chain_values_unchanged": true,
+  "all_eight_directional_signal_bodies_unchanged": true,
+  "first_cycle_matches_independent_smoke": true,
+  "final_phase": [
+    "1",
+    "15275004092359177936",
+    "2",
+    "1"
+  ]
+}
