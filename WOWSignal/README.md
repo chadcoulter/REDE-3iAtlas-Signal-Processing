@@ -4,19 +4,24 @@ Workspace for the requested signal-to-gematria, instruction, and message-reading
 
 ## Current input
 
-The recording being downloaded is a **3I/ATLAS observation**, retained here under the user-requested folder name `WOWSignal`.
+The intended input is the **Wow! signal observation from Big Ear on August 15, 1977**. The earlier Parkes 3I/ATLAS download link was supplied in error and is not the input to this experiment.
 
-- File: `guppi_60887_52472_6690873992_3IATLAS_R_0001.0000.fil`
-- Observatory/session: Parkes (Murriyang), July 31, 2025.
-- Source: https://bldata.berkeley.edu/ATLAS/PKS_Jul_31_2025/blc00/guppi_60887_52472_6690873992_3IATLAS_R_0001.0000.fil
-- Archive: https://bldata.berkeley.edu/ATLAS/PKS_Jul_31_2025/blc00/
-- Existing extraction metadata: `../data/metadata(2).json`.
-- Acquisition status: user downloading; local file and checksum not yet verified.
+- Source archive: https://github.com/planetaryhablab/Ohio-SETI
+- CSV transcription: `oseti_19770815_220410.csv`.
+- TXT transcription: `oseti_19770815_220410.txt`.
+- Printout scan: `oseti_19770815_220410.jpg`.
+- Reanalysis data: `oseti_19770815_220410.sav` (IDL Save format).
+- Available printout measurements: 50 frequency channels by 82 rows.
+- Provenance: Arecibo Wow! project, Planetary Habitability Laboratory, University of Puerto Rico at Arecibo; original transcription credited to MichaelHotaling.
+- Archive license: Creative Commons Attribution 4.0 International.
+- Acquisition status: source located; local download and checksum not yet verified.
+
+The CSV/TXT files transcribe the historical computer printout. They are not waveform or raw-voltage recordings. Keep those transcribed values distinct from the calibrated quantities in the reanalysis file.
 
 ## Planned sequence
 
-1. Register the completed download: absolute path, byte count, SHA-256, and parsed SIGPROC header.
-2. Extract numerical measurements using the existing bounded-memory extractor. Preserve frame, time, frequency, amplitude, and extraction settings.
+1. Register the downloaded scan and transcription: source revision, absolute path, byte count, and SHA-256.
+2. Parse and verify the transcription against the scan. Preserve spaces, channel positions, row ordering, time fields, and original intensity characters. Convert intensity codes to their recorded numeric bins, retaining the originals. The existing SIGPROC extractor is not applicable to this printout dataset.
 3. Encode the selected measurements as Greek numerals using the existing rounding and decimal-grouping rules.
 4. Explicitly map numeral glyph occurrences to REDΣ Book II instructions, retaining measurement and glyph provenance.
 5. Execute the instruction sequence and preserve complete register-state traces and feedback settings.
