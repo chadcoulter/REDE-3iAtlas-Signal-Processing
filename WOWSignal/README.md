@@ -12,7 +12,7 @@ The expanded [historical narrative](sources/WowDecodeNarrative.md) is preserved 
 
 As clarified by Chad on November 4, 2026, the immediate aim is to reproduce the original Wow! decode as faithfully as the surviving material permits and recover what emerged the first time. Preserve the original choices and intermediate results, including choices Chad would now change. Record known mistakes and proposed corrections separately; apply corrections only in a subsequent comparison with the reconstructed original process. Changes to the 3I/ATLAS method and exploration of the background/remainder are later work.
 
-Work proceeds one step at a time. **Step 1 is complete and documented; Step 2 has not started in the recorded reconstruction.** On return, review [Step 1](steps/01-source-data/run-001.md), then recover and document the original [grid traversals](steps/02-grid-traversals/README.md). Exact historical V8 definitions and mappings remain open source-recovery tasks; retain the distinction between recovered evidence and a new implementation choice.
+Work proceeds one step at a time. **Step 1 is complete; Step 2 has a source-only traversal pass, with historical selections still unresolved.** Review [Step 1](steps/01-source-data/run-001.md) and [Step 2, run 001](steps/02-grid-traversals/run-001.md). Exact historical V8 definitions and mappings remain open source-recovery tasks; retain the distinction between recovered evidence and a new implementation choice. As clarified by Chad, processing uses the recorded measurements and excludes handwriting, circles, and the handwritten word “Wow!” from input and path selection.
 
 ## Current input
 
@@ -69,4 +69,4 @@ Use the original V8 TAO source as the method authority once recovered. The repos
 - `steps/`: numbered step folders, current findings, dependencies, and a template for recording each attempt.
 - `sources/`: preserved V8 TAO resolver note and Python package with original source URLs and content identifiers.
 
-Step 1 has reconstructed and checked the archived printout data. The [data-pass record](steps/01-source-data/run-001.md) includes results and retained source flags. No later traversal analysis, gematria conversion, operator execution, or message reading has been run as part of this recorded workflow.
+Step 1 reconstructed and checked the archived printout data. Step 2's [source-only traversal pass](steps/02-grid-traversals/run-001.md) preserves all straight path families, reversals, intersections, and candidate three-cell windows. No gematria conversion, Greek operator execution, or message reading has been run as part of this recorded workflow.

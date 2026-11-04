@@ -1,6 +1,6 @@
 # 02 — Traverse the two-dimensional structure
 
-Status: **Not started.**
+Status: **In progress — source-only traversal pass recorded; historical selection and nested grouping unresolved.**
 
 ## Purpose
 
@@ -13,5 +13,5 @@ Record horizontal, vertical, diagonal, intersecting, and reverse paths, includin
 
 ## Attempts and results
 
-No attempt or result recorded. Use [the run template](../RUN_TEMPLATE.md) for each attempt and link it here. Preserve the inputs, exact method, intermediate states, output artifacts, and unresolved remainder.
+[Run 001 — source-only traversal pass](run-001.md) retains every horizontal, vertical, and maximal diagonal path with exact reversal, coordinates, geometric intersections, and candidate three-cell windows. Handwriting and markings are excluded from processing and selection. This is a systematic reconstruction attempt, not confirmation of the historical top/middle/bottom selections or nested triples.
 
