@@ -11,6 +11,8 @@ Status: **Partial — candidate sources located; historical Wow! transformations
 
 These Git blob identifiers identify retrieved content; they are not SHA-256 acquisition hashes or repository commit IDs.
 
+The candidate V8 resolver note and Python package are now preserved in [sources](../../sources/README.md), including their supporting types, serialization, and package exports. The source inventory records the original path and blob identifier for each file.
+
 ## What the candidate method establishes
 
 Theatre defines the boundary, Act specifies the permitted transformation, and Operate applies it. Information states remain distinct; unresolved remainder and trace survive. The V8 note calls for backward validation to recover the admitted Theatre and Act without introducing unsupported information.

@@ -34,5 +34,6 @@ Use the original V8 TAO source as the method authority once recovered. The repos
 - `data/`: local recording location and acquisition notes; large recordings are ignored by Git.
 - `results/`: generated extraction, instruction, state-trace, and interpretation artifacts.
 - `steps/`: numbered step folders, current findings, dependencies, and a template for recording each attempt.
+- `sources/`: preserved V8 TAO resolver note and Python package with original source URLs and content identifiers.
 
 This branch currently establishes the workspace only. No extraction, operator execution, or message reading has been run.
