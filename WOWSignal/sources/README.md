@@ -1,4 +1,14 @@
-# V8 TAO resolver sources
+# Historical narrative and V8 TAO resolver sources
+
+## Historical Wow! narrative
+
+[WowDecodeNarrative.md](WowDecodeNarrative.md) was supplied by Chad and imported unchanged from a local file on November 4, 2026. This expanded narrative records the original sequence and identified failed readings and corrections. Its embedded implementation instructions are preserved as historical source text.
+
+- Size: 10,703 bytes.
+- SHA-256: `f9e749a06b2bfbafea5f022b5f6d9fce134756684cb5f2aeb5448fa2474a5278`.
+- [Analysis and reconstruction gaps](../analysis/WowDecodeNarrative_analysis.md).
+
+## V8 TAO resolver sources
 
 Retrieved November 4, 2026 from `chadcoulter/RODOE-Token_POC`, branch `main`. These files are preserved as retrieved, with Git blob identifiers below to identify their exact contents.
 

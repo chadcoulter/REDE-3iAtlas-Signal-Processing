@@ -25,6 +25,8 @@ The local Atlas branch contains the pasted process but no additional V8/TAO text
 
 ## Still required
 
+The expanded [user-supplied narrative](../../sources/WowDecodeNarrative.md), imported November 4, 2026, adds the ART candidate, withdrawn punctuation mapping, vertical-plus-three-horizontal geometry, nested triples, 3 × 3 reduction, and directional revisions. Its [analysis](../../analysis/WowDecodeNarrative_analysis.md) records the remaining operational gaps. It does not resolve the exact numeral-to-ASTRA mapping or horizontal path coordinates.
+
 - Confirm the V8 source used in the historical Wow! investigation; check the Library first, or receive the user's copy.
 - Recover exact measurement-to-character mappings and their relation to gematria.
 - Recover traversal selection/order, original operator definitions, and the ΛΤϜ reflection sequence.
