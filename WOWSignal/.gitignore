@@ -1,0 +1,7 @@
+# Keep multi-gigabyte telescope recordings out of version control.
+*.fil
+*.h5
+*.hdf5
+*.raw
+__pycache__/
+*.pyc
