@@ -6,6 +6,12 @@ Workspace for reconstructing the original Wow! signal investigation using V8 TAO
 
 The project proceeds one step at a time: recover the surviving signal measurements, examine their two-dimensional structure, recover and apply the original transformation definitions, and trace any resulting interpretation back to its source data. Each step preserves its inputs, operations, intermediate states, results, and unresolved questions. Historical readings such as `ASTRA` and “Look there” are comparison targets to reconstruct through documented operations.
 
+## Reconstruction agreement and return point
+
+As clarified by Chad on November 4, 2026, the immediate aim is to reproduce the original Wow! decode as faithfully as the surviving material permits and recover what emerged the first time. Preserve the original choices and intermediate results, including choices Chad would now change. Record known mistakes and proposed corrections separately; apply corrections only in a subsequent comparison with the reconstructed original process. Changes to the 3I/ATLAS method and exploration of the background/remainder are later work.
+
+Work proceeds one step at a time. **Step 1 is complete and documented; Step 2 has not started in the recorded reconstruction.** On return, review [Step 1](steps/01-source-data/run-001.md), then recover and document the original [grid traversals](steps/02-grid-traversals/README.md). Exact historical V8 definitions and mappings remain open source-recovery tasks; retain the distinction between recovered evidence and a new implementation choice.
+
 ## Current input
 
 The intended input is the **Wow! signal observation from Big Ear on August 15, 1977**. The earlier Parkes 3I/ATLAS download link was supplied in error and is not the input to this experiment.
