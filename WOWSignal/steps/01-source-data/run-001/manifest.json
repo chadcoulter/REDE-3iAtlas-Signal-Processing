@@ -1,0 +1,89 @@
+{
+  "run_id": "run-001",
+  "step": 1,
+  "executed_at_utc": "2026-11-04T13:55:15.176151+00:00",
+  "executed_at_america_chicago": "America/Chicago; execution UTC timestamp retained separately",
+  "source_repository": "https://github.com/planetaryhablab/Ohio-SETI",
+  "source_commit": "28624a1eaf955ced940db347684cee61c8e4fd61",
+  "attribution": "Ohio SETI Data, PHL @ UPR Arecibo; source credits MichaelHotaling for original transcription",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "sources": [
+    {
+      "local_path": "data/ohio-seti/oseti_19770815_220410.csv",
+      "original_filename": "oseti_19770815_220410.csv",
+      "source_url": "https://github.com/planetaryhablab/Ohio-SETI/blob/28624a1eaf955ced940db347684cee61c8e4fd61/oseti_19770815_220410.csv",
+      "retrieved_utc_date": "2026-11-04",
+      "bytes": 12184,
+      "sha256": "5abc2e54d4346b8d44fc1c680d75b3d46231d7394e42fbf7432b52e4c2c9f8e4",
+      "git_blob_sha1": "7f340d309ebb6a9b5c52eea125c13fa8160465dd",
+      "expected_git_blob_sha1": "7f340d309ebb6a9b5c52eea125c13fa8160465dd",
+      "verification": "matches connector-returned blob"
+    },
+    {
+      "local_path": "data/ohio-seti/oseti_19770815_220410.txt",
+      "original_filename": "oseti_19770815_220410.txt",
+      "source_url": "https://github.com/planetaryhablab/Ohio-SETI/blob/28624a1eaf955ced940db347684cee61c8e4fd61/oseti_19770815_220410.txt",
+      "retrieved_utc_date": "2026-11-04",
+      "bytes": 8856,
+      "sha256": "ff0cf8bcd1d8d1bfe389bb1b39685351060dade7f5705a0c1abc427dab44c6a2",
+      "git_blob_sha1": "093658ac810e4165200ca41e93e2a2710fb76375",
+      "expected_git_blob_sha1": "093658ac810e4165200ca41e93e2a2710fb76375",
+      "verification": "matches connector-returned blob"
+    },
+    {
+      "local_path": "data/ohio-seti/oseti_19770815_220410.jpg",
+      "original_filename": "oseti_19770815_220410.jpg",
+      "source_url": "https://github.com/planetaryhablab/Ohio-SETI/blob/28624a1eaf955ced940db347684cee61c8e4fd61/oseti_19770815_220410.jpg",
+      "retrieved_utc_date": "2026-11-04",
+      "bytes": 1287497,
+      "sha256": "3ca862b4cca91ce7f86ff86e0db624deea198bdcc3ff4f348de3372e929c906a",
+      "git_blob_sha1": "150e373976d09d33194e1bcb1e342af790b4f24a",
+      "expected_git_blob_sha1": null,
+      "verification": "downloaded from pinned commit; SHA-256 recorded"
+    },
+    {
+      "local_path": "data/ohio-seti/UPSTREAM_README.md",
+      "original_filename": "README.md",
+      "source_url": "https://github.com/planetaryhablab/Ohio-SETI/blob/28624a1eaf955ced940db347684cee61c8e4fd61/README.md",
+      "retrieved_utc_date": "2026-11-04",
+      "bytes": 5164,
+      "sha256": "02a0a4c9067975145ea1069625b8704d575dadc8f6bbf5ec3a3f3b767aa6b9cc",
+      "git_blob_sha1": "c92b837b651ed4c0ddd97350fd8dc1ff4aebe256",
+      "expected_git_blob_sha1": "c92b837b651ed4c0ddd97350fd8dc1ff4aebe256",
+      "verification": "matches connector-returned blob"
+    }
+  ],
+  "script": {
+    "path": "WOWSignal/scripts/step01_data_pass.py",
+    "sha256": "3d1c07e07f83473c36717dbfe500ebe31673025d55fbc9ee04cdc120188bca46"
+  },
+  "python_version": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "artifacts": [
+    {
+      "filename": "cells.csv",
+      "bytes": 340981,
+      "sha256": "1e0c236b2a5a15fdf7b616c49bec53c27661c1983396c048c21428fb362cab79"
+    },
+    {
+      "filename": "numeric_grid.json",
+      "bytes": 43123,
+      "sha256": "54e1a7d91addbbd61a73d1a83f633501415268472eb5338c8b57f047689d97d2"
+    },
+    {
+      "filename": "raw_grid.json",
+      "bytes": 50937,
+      "sha256": "bfb94ffb9a728dba6a8136170829482cefff130cb7afa9726036c252c73e004c"
+    },
+    {
+      "filename": "row_metadata.csv",
+      "bytes": 4919,
+      "sha256": "727cfd26f66f9825d184f6ee40ac159234d9a45dd0125861d61afe4ec9bfe1fa"
+    },
+    {
+      "filename": "validation.json",
+      "bytes": 2806,
+      "sha256": "f7d050c5b79a47303002f32ee6f7b5662077b600e66d914bb0ae4752074123a1"
+    }
+  ]
+}

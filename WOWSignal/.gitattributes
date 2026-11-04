@@ -1,0 +1,3 @@
+# Preserve acquired source bytes and hashed run artifacts across checkouts.
+data/ohio-seti/** -text
+steps/01-source-data/run-*/** -text

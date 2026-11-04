@@ -1,0 +1,100 @@
+{
+  "status": "PASS_WITH_SOURCE_METADATA_FLAGS",
+  "intensity_cells": 4100,
+  "csv_txt_intensity_matches": 4100,
+  "csv_txt_intensity_differences": 0,
+  "csv_txt_metadata_rows_matched": 82,
+  "all_cells_character_bin_round_trip": true,
+  "blank_cells": 2988,
+  "nonblank_cells": 1112,
+  "character_distribution": {
+    " ": 2988,
+    "1": 897,
+    "2": 163,
+    "3": 31,
+    "4": 9,
+    "5": 3,
+    "6": 4,
+    "7": 1,
+    "E": 1,
+    "J": 1,
+    "Q": 1,
+    "U": 1
+  },
+  "printed_first_time": "22 04 10",
+  "printed_last_time": "22 20 21",
+  "valid_adjacent_printed_time_delta_counts": {
+    "11": 4,
+    "12": 76,
+    "15": 1
+  },
+  "source_metadata_flags": [
+    {
+      "row_0based": 1,
+      "previous_row_0based": 0,
+      "field": "EASTERN STD TIME",
+      "issue": "printed interval outside 11–13 seconds; no resampling or correction",
+      "delta_seconds": 15
+    }
+  ],
+  "known_sequence_spot_check": [
+    {
+      "row_0based": 57,
+      "row_1based": 58,
+      "channel_1based": 2,
+      "source_csv_line": 59,
+      "raw_character": "6",
+      "numeric_bin": 6,
+      "eastern_std_time_printed": "22 15 35"
+    },
+    {
+      "row_0based": 58,
+      "row_1based": 59,
+      "channel_1based": 2,
+      "source_csv_line": 60,
+      "raw_character": "E",
+      "numeric_bin": 14,
+      "eastern_std_time_printed": "22 15 47"
+    },
+    {
+      "row_0based": 59,
+      "row_1based": 60,
+      "channel_1based": 2,
+      "source_csv_line": 61,
+      "raw_character": "Q",
+      "numeric_bin": 26,
+      "eastern_std_time_printed": "22 15 59"
+    },
+    {
+      "row_0based": 60,
+      "row_1based": 61,
+      "channel_1based": 2,
+      "source_csv_line": 62,
+      "raw_character": "U",
+      "numeric_bin": 30,
+      "eastern_std_time_printed": "22 16 10"
+    },
+    {
+      "row_0based": 61,
+      "row_1based": 62,
+      "channel_1based": 2,
+      "source_csv_line": 63,
+      "raw_character": "J",
+      "numeric_bin": 19,
+      "eastern_std_time_printed": "22 16 22"
+    },
+    {
+      "row_0based": 62,
+      "row_1based": 63,
+      "channel_1based": 2,
+      "source_csv_line": 64,
+      "raw_character": "5",
+      "numeric_bin": 5,
+      "eastern_std_time_printed": "22 16 34"
+    }
+  ],
+  "scan_review": "human-style visual inspection by assistant: orientation and visible 6EQUJ5 spot-checked; not a cell-by-cell transcription audit",
+  "independence_limit": "CSV and TXT belong to the same published transcription; agreement does not independently validate all cells against the scan",
+  "historical_identity_limit": "archive matches narrative dimensions and sequence; exact identity with the file used in the earlier investigation is unconfirmed",
+  "later_steps_executed": false
+}

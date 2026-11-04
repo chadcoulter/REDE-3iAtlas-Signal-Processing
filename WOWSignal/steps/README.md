@@ -7,7 +7,7 @@ Each step has its own folder. Its README records purpose, dependencies, and curr
 | Step | Record | Status |
 |---|---|---|
 | 00 | [Recover method sources](00-source-recovery/README.md) | Partial: candidate sources located |
-| 01 | [Recover the original signal data](01-source-data/README.md) | Not started |
+| 01 | [Recover the original signal data](01-source-data/README.md) | Complete: [run 001](01-source-data/run-001.md), timing flag retained |
 | 02 | [Traverse the two-dimensional structure](02-grid-traversals/README.md) | Not started |
 | 03 | [Apply V8 TAO](03-v8-tao/README.md) | Not started |
 | 04 | [Process nested transversals](04-nested-reflections/README.md) | Not started |

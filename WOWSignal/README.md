@@ -14,7 +14,7 @@ The intended input is the **Wow! signal observation from Big Ear on August 15, 1
 - Available printout measurements: 50 frequency channels by 82 rows.
 - Provenance: Arecibo Wow! project, Planetary Habitability Laboratory, University of Puerto Rico at Arecibo; original transcription credited to MichaelHotaling.
 - Archive license: Creative Commons Attribution 4.0 International.
-- Acquisition status: source located; local download and checksum not yet verified.
+- Acquisition status: source acquired and hashed at pinned revision; see [Step 1, run 001](steps/01-source-data/run-001.md).
 
 The CSV/TXT files transcribe the historical computer printout. They are not waveform or raw-voltage recordings. Keep those transcribed values distinct from the calibrated quantities in the reanalysis file.
 
@@ -36,4 +36,4 @@ Use the original V8 TAO source as the method authority once recovered. The repos
 - `steps/`: numbered step folders, current findings, dependencies, and a template for recording each attempt.
 - `sources/`: preserved V8 TAO resolver note and Python package with original source URLs and content identifiers.
 
-This branch currently establishes the workspace only. No extraction, operator execution, or message reading has been run.
+Step 1 has reconstructed and checked the archived printout data. The [data-pass record](steps/01-source-data/run-001.md) includes results and retained source flags. No later traversal analysis, gematria conversion, operator execution, or message reading has been run as part of this recorded workflow.
