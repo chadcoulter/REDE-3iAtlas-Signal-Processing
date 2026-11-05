@@ -1,9 +1,5 @@
 # Historical narrative and V8 TAO resolver sources
 
-## Tanakh reference materials
-
-[Tanakh source record](tanakh/README.md) preserves the integrity-layer report and reconstructed text supplied by Chad on November 5, 2026, including original locations, file sizes, and verified SHA-256 hashes. Both files are unchanged. Their contents are additional reference material; no checksum analysis or application to the Wow! reconstruction was performed during import.
-
 ## Historical Wow! narrative
 
 [WowDecodeNarrative.md](WowDecodeNarrative.md) was supplied by Chad and imported unchanged from a local file on November 4, 2026. This expanded narrative records the original sequence and identified failed readings and corrections. Its embedded implementation instructions are preserved as historical source text.
