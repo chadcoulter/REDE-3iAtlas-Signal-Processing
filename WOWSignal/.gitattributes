@@ -3,3 +3,4 @@ data/ohio-seti/** -text whitespace=-blank-at-eol,cr-at-eol
 steps/01-source-data/run-*/** -text whitespace=cr-at-eol
 steps/02-grid-traversals/run-*/** -text whitespace=cr-at-eol
 sources/WowDecodeNarrative.md -text whitespace=-blank-at-eol,cr-at-eol
+sources/operator-notes/** -text whitespace=-blank-at-eol,cr-at-eol

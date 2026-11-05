@@ -1,0 +1,59 @@
+{
+  "run_id": "run-002",
+  "kind": "backward-reconstruction-probes",
+  "executed_at_utc": "2026-11-05T03:45:31.080051+00:00",
+  "inputs": [
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/raw_grid.json",
+      "sha256": "bfb94ffb9a728dba6a8136170829482cefff130cb7afa9726036c252c73e004c"
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/numeric_grid.json",
+      "sha256": "54e1a7d91addbbd61a73d1a83f633501415268472eb5338c8b57f047689d97d2"
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/manifest.json",
+      "sha256": "3dc500ce2e3d31f9416194d0852d03ecb3b073dada9e723ddd8f8705cfe19e6e"
+    },
+    {
+      "path": "skills/character-transform-reasoning/scripts/redsigma_band_extract.py",
+      "sha256": "297c380d81cfe9a2608fa3a6d2d7176d58ad3fe7d197b1c3afccd5a6b663cad7"
+    },
+    {
+      "path": "WOWSignal/sources/WowDecodeNarrative.md",
+      "sha256": "f9e749a06b2bfbafea5f022b5f6d9fce134756684cb5f2aeb5448fa2474a5278"
+    },
+    {
+      "path": "WOWSignal/sources/v8-resolve-through-monads.md",
+      "sha256": "8a0611f550f75a27288219b77aa03b4c9478cd2bcabbe2a15802496f4b9563cd"
+    },
+    {
+      "path": "WOWSignal/sources/operator-notes/digamma_reresolution_operator.md",
+      "sha256": "8316626e946d649093a3db66abfccd0c97c43689e1d016f07b658ee341f71444"
+    },
+    {
+      "path": "WOWSignal/sources/operator-notes/README.md",
+      "sha256": "9ea534b90341d9307eab15a26a38dc2a31d64f85fc5f56729b2db14239bc2cca"
+    },
+    {
+      "path": "WOWSignal/sources/operator-notes/sigma_math_cartagraphy_complete.md",
+      "sha256": "1366e87649a096a1942ef28a61297fd2b834b0cf8b6c4e52646b496b9540114d"
+    },
+    {
+      "path": "WOWSignal/sources/operator-notes/TRANSVERSAL_CORRECTIONS.md",
+      "sha256": "ce89017b5c3418c14d7f763b67ef7ebd2e18662f1d1627f3660f13954d011318"
+    }
+  ],
+  "script_sha256": "cca0fd2e90c95b81cbae9cdf8ec56040bce2a7b5969143638ff38b1cc25581dd",
+  "artifacts": [
+    {
+      "file": "candidate_results.json",
+      "sha256": "448bf29d53048ec792f41d0eb1e4367964e967d034cb42aa8c35bdecd4d24820"
+    },
+    {
+      "file": "tao_trace.json",
+      "sha256": "976267531d51016670e8c0a2440a8b6a25f841c67f922950b5eac3647b6226bc"
+    }
+  ],
+  "historical_decode_reproduced": false
+}

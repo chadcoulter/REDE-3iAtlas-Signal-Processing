@@ -20,8 +20,12 @@ Retrieved November 4, 2026 from `chadcoulter/RODOE-Token_POC`, branch `main`. Th
 | [tao_parser/__init__.py](tao_parser/__init__.py) | [src/tao_parser/__init__.py](https://github.com/chadcoulter/RODOE-Token_POC/blob/main/src/tao_parser/__init__.py) | `b786c6fd18436810c723583ce9438cf864cc6930` |
 | [tao_parser/serialize.py](tao_parser/serialize.py) | [src/tao_parser/serialize.py](https://github.com/chadcoulter/RODOE-Token_POC/blob/main/src/tao_parser/serialize.py) | `dd8982012a0cbbfa94896374b0f87c058a8fec8e` |
 
-The resolver note describes Theatre, Act, Operate, preservation of information state, sufficient closure, and backward validation. The Python package includes the resolver, types, serialization, and original package exports; it requires Python 3.10 or later.
+The resolver note describes Theatre, Act, Operate, preservation of information state, sufficient closure, and backward validation. The Python package includes the resolver, types, serialization, and original package exports; it requires Python 3.11 or later because it imports `enum.StrEnum`.
 
 These are candidate sources for understanding V8 TAO. Their equivalence to the historical Wow! implementation remains unconfirmed. The original Wow! numeral/character mappings, traversal choices, and ΛΤϜ operations have not yet been recovered from these files.
 
 No local changes have been made to the copied source files. Keep experiment adaptations elsewhere and preserve these originals for comparison. See [source recovery](../steps/00-source-recovery/README.md).
+
+## Additional versioned operator notes
+
+[Operator notes](operator-notes/README.md) preserve candidate transversal corrections, a current Sigma Math specification, and a working Digamma re-resolution hypothesis. These are comparison sources with differing definition histories, not automatically adopted as the historical Wow! implementation.
