@@ -1,0 +1,14 @@
+{
+  "cycles": 100,
+  "executions_compared": 800,
+  "register_words_compared": 6400,
+  "all_registers_match": true,
+  "native_output_bytes": 51200,
+  "output_sha256": "e38685a723b769cbb1a573bf8accab0f9064b40d49773b0c5feed16016658d5e",
+  "final_phase": [
+    "1",
+    "15275004092359177936",
+    "2",
+    "1"
+  ]
+}

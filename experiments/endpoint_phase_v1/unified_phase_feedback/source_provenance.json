@@ -1,0 +1,42 @@
+[
+  {
+    "routine": "reflect_channel1",
+    "archive_member": "cycle001_x_to_y_channel1.S",
+    "body_sha256": "001c9426f0f341e693e2e4f15f13259293decbce56e73be63cc27a967180040c"
+  },
+  {
+    "routine": "reflect_channel2",
+    "archive_member": "cycle001_x_to_y_channel2.S",
+    "body_sha256": "4102c5417db726198ce9f87d1d378e0df4a89f8936226aeb17c85c1c459b545b"
+  },
+  {
+    "routine": "reflect_channel3",
+    "archive_member": "cycle001_x_to_y_channel3.S",
+    "body_sha256": "c5609d11faca490f8c53e23fdba2861fe50c923f26935a8e5c2ea4afd816ca60"
+  },
+  {
+    "routine": "reflect_channel4",
+    "archive_member": "cycle001_x_to_y_channel4.S",
+    "body_sha256": "d16d09336210fdea1f1d93e9c912b74a0d67beb081710bc696de8c2a7cdab1e2"
+  },
+  {
+    "routine": "project_channel1",
+    "archive_member": "cycle001_y_to_x_channel1.S",
+    "body_sha256": "0d19dc343cf9b3a8d3bba03e708e15b6a137163b18e1b10d760ebd15e0f375cb"
+  },
+  {
+    "routine": "project_channel2",
+    "archive_member": "cycle001_y_to_x_channel2.S",
+    "body_sha256": "b6372eb272dba171afa48f4440a8a68c34169e2f40e0dd1dd1eba4eb15804bac"
+  },
+  {
+    "routine": "project_channel3",
+    "archive_member": "cycle001_y_to_x_channel3.S",
+    "body_sha256": "c39c5a006533ac7cd93f582b7da1b17d789a30a457fc59b72100dc119e86ce5d"
+  },
+  {
+    "routine": "project_channel4",
+    "archive_member": "cycle001_y_to_x_channel4.S",
+    "body_sha256": "addec8461287a4f2e7276b91156afb147b0a4961799cb9f5b90d316c9c3da5da"
+  }
+]
