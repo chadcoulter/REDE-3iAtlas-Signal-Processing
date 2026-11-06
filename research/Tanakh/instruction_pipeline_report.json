@@ -1,0 +1,132 @@
+{
+  "pipeline": [
+    "exact Hebrew source",
+    "explicit ordinary gematria",
+    "Atlas Greek numeral encoding",
+    "parser instruction records",
+    "archived Atlas instruction bodies",
+    "x86-64 assembly"
+  ],
+  "instruction_occurrences": 1172332,
+  "used_instruction_definitions": 22,
+  "display_frame_letters": 10,
+  "frame_count": 117234,
+  "instruction_data_split": "not imposed; each character is a parser instruction",
+  "source_round_trip_verified": true,
+  "assembly_identical_to_successfully_assembled_source": true,
+  "ir": "tanakh_parser_instructions.jsonl",
+  "library": "atlas_instruction_library.json",
+  "assembly": "tanakh_from_instruction_ir.S",
+  "first10": [
+    {
+      "index": 0,
+      "source": "ד",
+      "value": 4,
+      "operator": "Δ",
+      "opcode": "OP_0394",
+      "assembly": [
+        "incq state(%rip)"
+      ]
+    },
+    {
+      "index": 1,
+      "source": "ב",
+      "value": 2,
+      "operator": "Β",
+      "opcode": "OP_0392",
+      "assembly": [
+        "incq context(%rip)"
+      ]
+    },
+    {
+      "index": 2,
+      "source": "ר",
+      "value": 200,
+      "operator": "Σ",
+      "opcode": "OP_03A3",
+      "assembly": [
+        "movq relations(%rip), %rax",
+        "addq %rax, state(%rip)",
+        "incq state(%rip)"
+      ]
+    },
+    {
+      "index": 3,
+      "source": "י",
+      "value": 10,
+      "operator": "Ι",
+      "opcode": "OP_0399",
+      "assembly": [
+        "incq events(%rip)"
+      ]
+    },
+    {
+      "index": 4,
+      "source": "ע",
+      "value": 70,
+      "operator": "Ο",
+      "opcode": "OP_039F",
+      "assembly": [
+        "movq state(%rip), %rax",
+        "xorq relations(%rip), %rax",
+        "addq %rax, observations(%rip)"
+      ]
+    },
+    {
+      "index": 5,
+      "source": "ם",
+      "value": 40,
+      "operator": "Μ",
+      "opcode": "OP_039C",
+      "assembly": [
+        "movq state(%rip), %rax",
+        "addq %rax, observations(%rip)"
+      ]
+    },
+    {
+      "index": 6,
+      "source": "ו",
+      "value": 6,
+      "operator": "Ϛ",
+      "opcode": "OP_03DA",
+      "assembly": [
+        "incq unresolved(%rip)"
+      ]
+    },
+    {
+      "index": 7,
+      "source": "ס",
+      "value": 60,
+      "operator": "Ξ",
+      "opcode": "OP_039E",
+      "assembly": [
+        "movq state(%rip), %rax",
+        "xorq target(%rip), %rax",
+        "addq %rax, unresolved(%rip)"
+      ]
+    },
+    {
+      "index": 8,
+      "source": "א",
+      "value": 1,
+      "operator": "Α",
+      "opcode": "OP_0391",
+      "assembly": [
+        "movq $1, state(%rip)"
+      ]
+    },
+    {
+      "index": 9,
+      "source": "ש",
+      "value": 300,
+      "operator": "Τ",
+      "opcode": "OP_03A4",
+      "assembly": [
+        "movq state(%rip), %rax",
+        "addq relations(%rip), %rax",
+        "addq constraints(%rip), %rax",
+        "movq %rax, target(%rip)"
+      ]
+    }
+  ]
+}

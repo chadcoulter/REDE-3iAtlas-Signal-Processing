@@ -1,0 +1,64 @@
+{
+  "source": "tanakh_reconstructed.txt",
+  "source_sha256": "ccac05725f0eb71e8acee26ee7824b6a0f17b2360f903f562d7d89537caf3aaa",
+  "hypothesis": "10 Unicode code points per block: first 5 candidate instruction, next 5 candidate data; no operator execution or inferred semantics",
+  "order": "source storage order, with no reversal or normalization",
+  "offsets": "zero-based Unicode code points; end exclusive",
+  "characters": 1172332,
+  "complete_blocks": 117233,
+  "remainder_characters": 2,
+  "remainder": "רץ",
+  "output": "blocks_10_candidate_5_instruction_5_data.csv",
+  "first_blocks": [
+    {
+      "index": 0,
+      "instruction": "דבריע",
+      "data": "םוסאש"
+    },
+    {
+      "index": 1,
+      "instruction": "רהיהב",
+      "data": "ןקדים"
+    },
+    {
+      "index": 2,
+      "instruction": "םתקוע",
+      "data": "אשרחז"
+    },
+    {
+      "index": 3,
+      "instruction": "העליש",
+      "data": "ראלבי"
+    },
+    {
+      "index": 4,
+      "instruction": "םיעזי",
+      "data": "הםלךי"
+    },
+    {
+      "index": 5,
+      "instruction": "הודהו",
+      "data": "ביםיי"
+    },
+    {
+      "index": 6,
+      "instruction": "רבעםב",
+      "data": "ןיואש"
+    },
+    {
+      "index": 7,
+      "instruction": "םלךיש",
+      "data": "ראלשן"
+    },
+    {
+      "index": 8,
+      "instruction": "תיםלף",
+      "data": "ןיהרע"
+    },
+    {
+      "index": 9,
+      "instruction": "שויאם",
+      "data": "ריהוה"
+    }
+  ]
+}

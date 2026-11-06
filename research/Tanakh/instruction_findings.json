@@ -1,0 +1,611 @@
+{
+  "source_characters": 1172332,
+  "distinct_source_glyphs": 22,
+  "distinct_operators": 22,
+  "instruction_frequencies": [
+    {
+      "operator": "Ι",
+      "count": 134915,
+      "percent": 11.5083,
+      "source_glyphs": [
+        "י"
+      ]
+    },
+    {
+      "operator": "Ϛ",
+      "count": 126589,
+      "percent": 10.7981,
+      "source_glyphs": [
+        "ו"
+      ]
+    },
+    {
+      "operator": "Ε",
+      "count": 99160,
+      "percent": 8.4584,
+      "source_glyphs": [
+        "ה"
+      ]
+    },
+    {
+      "operator": "Μ",
+      "count": 96466,
+      "percent": 8.2286,
+      "source_glyphs": [
+        "ם",
+        "מ"
+      ]
+    },
+    {
+      "operator": "Α",
+      "count": 93474,
+      "percent": 7.9733,
+      "source_glyphs": [
+        "א"
+      ]
+    },
+    {
+      "operator": "Λ",
+      "count": 86374,
+      "percent": 7.3677,
+      "source_glyphs": [
+        "ל"
+      ]
+    },
+    {
+      "operator": "Σ",
+      "count": 66430,
+      "percent": 5.6665,
+      "source_glyphs": [
+        "ר"
+      ]
+    },
+    {
+      "operator": "Β",
+      "count": 63722,
+      "percent": 5.4355,
+      "source_glyphs": [
+        "ב"
+      ]
+    },
+    {
+      "operator": "Υ",
+      "count": 61784,
+      "percent": 5.2702,
+      "source_glyphs": [
+        "ת"
+      ]
+    },
+    {
+      "operator": "Τ",
+      "count": 56880,
+      "percent": 4.8519,
+      "source_glyphs": [
+        "ש"
+      ]
+    },
+    {
+      "operator": "Ν",
+      "count": 54071,
+      "percent": 4.6123,
+      "source_glyphs": [
+        "ן",
+        "נ"
+      ]
+    },
+    {
+      "operator": "Κ",
+      "count": 46328,
+      "percent": 3.9518,
+      "source_glyphs": [
+        "ך",
+        "כ"
+      ]
+    },
+    {
+      "operator": "Ο",
+      "count": 43894,
+      "percent": 3.7442,
+      "source_glyphs": [
+        "ע"
+      ]
+    },
+    {
+      "operator": "Δ",
+      "count": 31621,
+      "percent": 2.6973,
+      "source_glyphs": [
+        "ד"
+      ]
+    },
+    {
+      "operator": "Η",
+      "count": 27113,
+      "percent": 2.3127,
+      "source_glyphs": [
+        "ח"
+      ]
+    },
+    {
+      "operator": "Π",
+      "count": 19073,
+      "percent": 1.6269,
+      "source_glyphs": [
+        "ף",
+        "פ"
+      ]
+    },
+    {
+      "operator": "Ρ",
+      "count": 15970,
+      "percent": 1.3622,
+      "source_glyphs": [
+        "ק"
+      ]
+    },
+    {
+      "operator": "Ϟ",
+      "count": 14611,
+      "percent": 1.2463,
+      "source_glyphs": [
+        "ץ",
+        "צ"
+      ]
+    },
+    {
+      "operator": "Γ",
+      "count": 9815,
+      "percent": 0.8372,
+      "source_glyphs": [
+        "ג"
+      ]
+    },
+    {
+      "operator": "Ξ",
+      "count": 8922,
+      "percent": 0.761,
+      "source_glyphs": [
+        "ס"
+      ]
+    },
+    {
+      "operator": "Ζ",
+      "count": 8914,
+      "percent": 0.7604,
+      "source_glyphs": [
+        "ז"
+      ]
+    },
+    {
+      "operator": "Θ",
+      "count": 6206,
+      "percent": 0.5294,
+      "source_glyphs": [
+        "ט"
+      ]
+    }
+  ],
+  "state_reset": {
+    "count": 93474,
+    "first_index": 8,
+    "last_index": 1172329,
+    "maximum_distance_between_resets": 427,
+    "mean_distance_between_resets": 12.541814213730168,
+    "scope": "Only state is overwritten; other cells retain their histories."
+  },
+  "conditional_branches": {
+    "odd_increment_context": 34079,
+    "even_increment_relations": 27705
+  },
+  "control_flow": "Sequential dispatch; only forward local branches inside Υ; no backward program branches, calls, or data-dependent source-position selection.",
+  "register_feedback": "Cells carry across every character and ten-letter display boundary.",
+  "numeric_encoding": "Gematria values are represented as Greek numerals, not alphabet-position transliteration.",
+  "numerical_aliases": {
+    "ב/כ/ך": "Β and Κ have identical archived bodies: increment context",
+    "final_forms": "Final and ordinary forms with equal gematria dispatch to the same operator; original glyphs are retained in IR."
+  },
+  "display_frame_alignment_comparison": [
+    {
+      "offset": 0,
+      "complete_frames": 117233,
+      "distinct_frames": 113580,
+      "repeated_frame_types": 2447,
+      "top_frames": [
+        {
+          "operators": "ϚΙΑΜΣΙΕϚΕΑ",
+          "count": 26
+        },
+        {
+          "operators": "ΣΙΕϚΕΑΛΜΤΕ",
+          "count": 22
+        },
+        {
+          "operators": "ΙΔΒΣΙΕϚΕΑΛ",
+          "count": 20
+        },
+        {
+          "operators": "ΑΜΣΑΔΝΙΙΕϚ",
+          "count": 18
+        },
+        {
+          "operators": "ΙΑΜΣΙΕϚΕΑΛ",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "offset": 1,
+      "complete_frames": 117233,
+      "distinct_frames": 113499,
+      "repeated_frame_types": 2499,
+      "top_frames": [
+        {
+          "operators": "ΙΑΜΣΙΕϚΕΑΛ",
+          "count": 27
+        },
+        {
+          "operators": "ΜΣΑΔΝΙΙΕϚΕ",
+          "count": 18
+        },
+        {
+          "operators": "ΕΑΛΕΙΙΤΣΑΛ",
+          "count": 18
+        },
+        {
+          "operators": "ΚΕΑΜΣΑΔΝΙΙ",
+          "count": 17
+        },
+        {
+          "operators": "ΔΒΣΙΕϚΕΑΛΙ",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "offset": 2,
+      "complete_frames": 117233,
+      "distinct_frames": 113540,
+      "repeated_frame_types": 2463,
+      "top_frames": [
+        {
+          "operators": "ΙΕϚΕΑΛΕΙΚΜ",
+          "count": 21
+        },
+        {
+          "operators": "ΙΔΒΣΙΕϚΕΑΛ",
+          "count": 18
+        },
+        {
+          "operators": "ϚΙΑΜΣΙΕϚΕΑ",
+          "count": 18
+        },
+        {
+          "operators": "ΕΑΜΣΑΔΝΙΙΕ",
+          "count": 17
+        },
+        {
+          "operators": "ΚΕΑΜΣΑΔΝΙΙ",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "offset": 3,
+      "complete_frames": 117232,
+      "distinct_frames": 113516,
+      "repeated_frame_types": 2513,
+      "top_frames": [
+        {
+          "operators": "ΙΔΒΣΙΕϚΕΑΛ",
+          "count": 20
+        },
+        {
+          "operators": "ΑΜΣΑΔΝΙΙΕϚ",
+          "count": 19
+        },
+        {
+          "operators": "ΙΕϚΕΑΛΕΙΚΜ",
+          "count": 18
+        },
+        {
+          "operators": "ΙΑΜΣΙΕϚΕΑΛ",
+          "count": 18
+        },
+        {
+          "operators": "ΕΑΜΣΑΔΝΙΙΕ",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "offset": 4,
+      "complete_frames": 117232,
+      "distinct_frames": 113541,
+      "repeated_frame_types": 2522,
+      "top_frames": [
+        {
+          "operators": "ΣΙΕϚΕΑΛΜΤΕ",
+          "count": 22
+        },
+        {
+          "operators": "ΜΣΑΔΝΙΙΕϚΕ",
+          "count": 19
+        },
+        {
+          "operators": "ΑΜΣΑΔΝΙΙΕϚ",
+          "count": 17
+        },
+        {
+          "operators": "ϚΙΑΜΣΙΕϚΕΑ",
+          "count": 16
+        },
+        {
+          "operators": "ϚΙΔΒΣΙΕϚΕΑ",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "offset": 5,
+      "complete_frames": 117232,
+      "distinct_frames": 113583,
+      "repeated_frame_types": 2471,
+      "top_frames": [
+        {
+          "operators": "ΚΕΑΜΣΑΔΝΙΙ",
+          "count": 19
+        },
+        {
+          "operators": "ΙΔΒΣΙΕϚΕΑΛ",
+          "count": 18
+        },
+        {
+          "operators": "ΜΣΑΔΝΙΙΕϚΕ",
+          "count": 17
+        },
+        {
+          "operators": "ΙΑΜΣΙΕϚΕΑΛ",
+          "count": 16
+        },
+        {
+          "operators": "ΣΙΕϚΕΑΛΜΤΕ",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "offset": 6,
+      "complete_frames": 117232,
+      "distinct_frames": 113649,
+      "repeated_frame_types": 2459,
+      "top_frames": [
+        {
+          "operators": "ΙΔΒΣΙΕϚΕΑΛ",
+          "count": 24
+        },
+        {
+          "operators": "ΙΕϚΕΑΛΕΙΚΜ",
+          "count": 20
+        },
+        {
+          "operators": "ΕΑΜΣΑΔΝΙΙΕ",
+          "count": 19
+        },
+        {
+          "operators": "ϚΙΑΜΣΙΕϚΕΑ",
+          "count": 19
+        },
+        {
+          "operators": "ΣΙΕϚΕΑΛΜΤΕ",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "offset": 7,
+      "complete_frames": 117232,
+      "distinct_frames": 113678,
+      "repeated_frame_types": 2444,
+      "top_frames": [
+        {
+          "operators": "ΙΔΒΣΙΕϚΕΑΛ",
+          "count": 26
+        },
+        {
+          "operators": "ΑΤΣϞϚΕΙΕϚΕ",
+          "count": 21
+        },
+        {
+          "operators": "ΙΕϚΕΑΛΕΙΚΜ",
+          "count": 20
+        },
+        {
+          "operators": "ΑΜΣΑΔΝΙΙΕϚ",
+          "count": 19
+        },
+        {
+          "operators": "ΙΑΜΣΙΕϚΕΑΛ",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "offset": 8,
+      "complete_frames": 117232,
+      "distinct_frames": 113677,
+      "repeated_frame_types": 2426,
+      "top_frames": [
+        {
+          "operators": "ΣΙΕϚΕΑΛΜΤΕ",
+          "count": 25
+        },
+        {
+          "operators": "ϚΙΑΜΣΙΕϚΕΑ",
+          "count": 23
+        },
+        {
+          "operators": "ΙΕϚΕΑΛΕΙΚΜ",
+          "count": 21
+        },
+        {
+          "operators": "ΜΣΑΔΝΙΙΕϚΕ",
+          "count": 19
+        },
+        {
+          "operators": "ΙΕϚΕΑΛΕΙΙΤ",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "offset": 9,
+      "complete_frames": 117232,
+      "distinct_frames": 113660,
+      "repeated_frame_types": 2420,
+      "top_frames": [
+        {
+          "operators": "ΙΑΜΣΙΕϚΕΑΛ",
+          "count": 23
+        },
+        {
+          "operators": "ϚΙΑΜΣΙΕϚΕΑ",
+          "count": 18
+        },
+        {
+          "operators": "ΕϚΕΑΛΕΙΙΤΣ",
+          "count": 18
+        },
+        {
+          "operators": "ΕΑΜΣΑΔΝΙΙΕ",
+          "count": 17
+        },
+        {
+          "operators": "ϚΕΑΛΕΙΙΤΣΑ",
+          "count": 17
+        }
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "case": "source_order_seed_1",
+      "final_registers": {
+        "state": 134978,
+        "relations": 68,
+        "constraints": 63,
+        "observations": 140233572240,
+        "unresolved": 9389981278,
+        "context": 144130,
+        "target": 270016,
+        "events": 134916
+      }
+    },
+    {
+      "case": "source_order_seed_0",
+      "final_registers": {
+        "state": 134907,
+        "relations": 506,
+        "constraints": 5,
+        "observations": 112195574666,
+        "unresolved": 7983458582,
+        "context": 143885,
+        "target": 269814,
+        "events": 134915
+      }
+    },
+    {
+      "case": "source_order_seed_2",
+      "final_registers": {
+        "state": 134921,
+        "relations": 2,
+        "constraints": 5,
+        "observations": 124976653916,
+        "unresolved": 9361154250,
+        "context": 143887,
+        "target": 269842,
+        "events": 134917
+      }
+    },
+    {
+      "case": "reverse_order",
+      "final_registers": {
+        "state": 135168,
+        "relations": 135165,
+        "constraints": 10,
+        "observations": 18894089146943,
+        "unresolved": 1368663356399,
+        "context": 143635,
+        "target": 270343,
+        "events": 134916
+      }
+    },
+    {
+      "case": "shuffled_seed_231",
+      "final_registers": {
+        "state": 1,
+        "relations": 134871,
+        "constraints": 212,
+        "observations": 240374604851,
+        "unresolved": 11540093918,
+        "context": 145128,
+        "target": 1,
+        "events": 134916
+      }
+    }
+  ],
+  "two_control_three_data": {
+    "candidate_roles": {
+      "control": 468934,
+      "data": 703398
+    },
+    "status": "No existing operand rule connects the three proposed data symbols to the first two operators. Current Atlas bodies use fixed register operands."
+  },
+  "interpretation": "These are behaviors of the selected Atlas mapping on this supplied reconstructed file. Repetition and execution alone do not establish recovered instruction boundaries or a purpose.",
+  "source_final_form_inventory": [
+    {
+      "ordinary": "כ",
+      "ordinary_count": 0,
+      "final": "ך",
+      "final_count": 46328
+    },
+    {
+      "ordinary": "מ",
+      "ordinary_count": 0,
+      "final": "ם",
+      "final_count": 96466
+    },
+    {
+      "ordinary": "נ",
+      "ordinary_count": 0,
+      "final": "ן",
+      "final_count": 54071
+    },
+    {
+      "ordinary": "פ",
+      "ordinary_count": 0,
+      "final": "ף",
+      "final_count": 19073
+    },
+    {
+      "ordinary": "צ",
+      "ordinary_count": 0,
+      "final": "ץ",
+      "final_count": 14611
+    }
+  ],
+  "native_execution": {
+    "status": "passed",
+    "native_output": {
+      "state": 134978,
+      "relations": 68,
+      "constraints": 63,
+      "observations": 140233572240,
+      "unresolved": 9389981278,
+      "context": 144130,
+      "target": 270016,
+      "events": 134916
+    },
+    "matches_reference_evaluator": true,
+    "method": "linked original assembled routine with Linux entry point; routine output emitted as eight little-endian uint64 cells"
+  }
+}

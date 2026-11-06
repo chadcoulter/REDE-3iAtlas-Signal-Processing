@@ -1,0 +1,165 @@
+{
+  "OP_0391": {
+    "operator": "Α",
+    "assembly": [
+      "movq $1, state(%rip)"
+    ]
+  },
+  "OP_0392": {
+    "operator": "Β",
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  "OP_0393": {
+    "operator": "Γ",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "andq $255, %rax",
+      "movq %rax, constraints(%rip)"
+    ]
+  },
+  "OP_0394": {
+    "operator": "Δ",
+    "assembly": [
+      "incq state(%rip)"
+    ]
+  },
+  "OP_0395": {
+    "operator": "Ε",
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  "OP_03DA": {
+    "operator": "Ϛ",
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  "OP_0396": {
+    "operator": "Ζ",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq %rax, relations(%rip)"
+    ]
+  },
+  "OP_0397": {
+    "operator": "Η",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  "OP_0398": {
+    "operator": "Θ",
+    "assembly": [
+      "incq constraints(%rip)"
+    ]
+  },
+  "OP_0399": {
+    "operator": "Ι",
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  "OP_039A": {
+    "operator": "Κ",
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  "OP_039B": {
+    "operator": "Λ",
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "xorq %rax, state(%rip)"
+    ]
+  },
+  "OP_039C": {
+    "operator": "Μ",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  "OP_039D": {
+    "operator": "Ν",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "incq %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  "OP_039E": {
+    "operator": "Ξ",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq target(%rip), %rax",
+      "addq %rax, unresolved(%rip)"
+    ]
+  },
+  "OP_039F": {
+    "operator": "Ο",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq relations(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  "OP_03A0": {
+    "operator": "Π",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq context(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  "OP_03DE": {
+    "operator": "Ϟ",
+    "assembly": [
+      "movq events(%rip), %rax",
+      "xorq %rax, relations(%rip)"
+    ]
+  },
+  "OP_03A1": {
+    "operator": "Ρ",
+    "assembly": [
+      "movq target(%rip), %rax",
+      "xorq %rax, relations(%rip)"
+    ]
+  },
+  "OP_03A3": {
+    "operator": "Σ",
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  "OP_03A4": {
+    "operator": "Τ",
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  "OP_03A5": {
+    "operator": "Υ",
+    "assembly": [
+      "movq constraints(%rip), %rax",
+      "testq $1, %rax",
+      "jz 1f",
+      "incq context(%rip)",
+      "jmp 2f",
+      "1:",
+      "incq relations(%rip)",
+      "2:"
+    ]
+  }
+}

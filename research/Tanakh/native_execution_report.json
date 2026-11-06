@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "native_output": {
+    "state": 134978,
+    "relations": 68,
+    "constraints": 63,
+    "observations": 140233572240,
+    "unresolved": 9389981278,
+    "context": 144130,
+    "target": 270016,
+    "events": 134916
+  },
+  "matches_reference_evaluator": true,
+  "method": "linked original assembled routine with Linux entry point; routine output emitted as eight little-endian uint64 cells"
+}

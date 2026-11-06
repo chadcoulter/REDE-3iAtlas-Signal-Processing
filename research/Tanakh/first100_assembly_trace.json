@@ -1,0 +1,3125 @@
+[
+  {
+    "index": 0,
+    "source": "ד",
+    "gematria": 4,
+    "greek": "Δ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 1,
+      "target": 1,
+      "events": 1
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 1,
+      "target": 1,
+      "events": 1
+    },
+    "assembly": [
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 1,
+    "source": "ב",
+    "gematria": 2,
+    "greek": "Β",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 1,
+      "target": 1,
+      "events": 1
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 1
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 2,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 1
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 1
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 3,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 1
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 4,
+    "source": "ע",
+    "gematria": 70,
+    "greek": "Ο",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 1,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 6,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq relations(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 5,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 6,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 6,
+    "source": "ו",
+    "gematria": 6,
+    "greek": "Ϛ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 1,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 2,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 7,
+    "source": "ס",
+    "gematria": 60,
+    "greek": "Ξ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 2,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq target(%rip), %rax",
+      "addq %rax, unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 8,
+    "source": "א",
+    "gematria": 1,
+    "greek": "Α",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "assembly": [
+      "movq $1, state(%rip)"
+    ]
+  },
+  {
+    "index": 9,
+    "source": "ש",
+    "gematria": 300,
+    "greek": "Τ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 1,
+      "events": 2
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 2
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 10,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 2
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 2
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 11,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 2
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 2
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 12,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 2
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 3
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 13,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 3
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 3
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 14,
+    "source": "ב",
+    "gematria": 2,
+    "greek": "Β",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 2,
+      "target": 3,
+      "events": 3
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 3,
+      "events": 3
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 15,
+    "source": "ן",
+    "gematria": 50,
+    "greek": "Ν",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 3,
+      "events": 3
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 3
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "incq %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 16,
+    "source": "ק",
+    "gematria": 100,
+    "greek": "Ρ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 3
+    },
+    "after": {
+      "state": 3,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 3
+    },
+    "assembly": [
+      "movq target(%rip), %rax",
+      "xorq %rax, relations(%rip)"
+    ]
+  },
+  {
+    "index": 17,
+    "source": "ד",
+    "gematria": 4,
+    "greek": "Δ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 3
+    },
+    "after": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 3
+    },
+    "assembly": [
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 18,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 3
+    },
+    "after": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 19,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 10,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 14,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 20,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 14,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 21,
+    "source": "ת",
+    "gematria": 400,
+    "greek": "Υ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 7,
+      "context": 3,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 7,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "movq constraints(%rip), %rax",
+      "testq $1, %rax",
+      "jz 1f",
+      "incq context(%rip)",
+      "jmp 2f",
+      "1:",
+      "incq relations(%rip)",
+      "2:"
+    ]
+  },
+  {
+    "index": 22,
+    "source": "ק",
+    "gematria": 100,
+    "greek": "Ρ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 5,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 7,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 7,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "movq target(%rip), %rax",
+      "xorq %rax, relations(%rip)"
+    ]
+  },
+  {
+    "index": 23,
+    "source": "ו",
+    "gematria": 6,
+    "greek": "Ϛ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 7,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 24,
+    "source": "ע",
+    "gematria": 70,
+    "greek": "Ο",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 18,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq relations(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 25,
+    "source": "א",
+    "gematria": 1,
+    "greek": "Α",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 4,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "assembly": [
+      "movq $1, state(%rip)"
+    ]
+  },
+  {
+    "index": 26,
+    "source": "ש",
+    "gematria": 300,
+    "greek": "Τ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 4
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 27,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 28,
+    "source": "ח",
+    "gematria": 8,
+    "greek": "Η",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 29,
+    "source": "ז",
+    "gematria": 7,
+    "greek": "Ζ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq %rax, relations(%rip)"
+    ]
+  },
+  {
+    "index": 30,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 31,
+    "source": "ע",
+    "gematria": 70,
+    "greek": "Ο",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 23,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq relations(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 32,
+    "source": "ל",
+    "gematria": 30,
+    "greek": "Λ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "after": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "xorq %rax, state(%rip)"
+    ]
+  },
+  {
+    "index": 33,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 4
+    },
+    "after": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 5
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 34,
+    "source": "ש",
+    "gematria": 300,
+    "greek": "Τ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 3,
+      "events": 5
+    },
+    "after": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 35,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "after": {
+      "state": 4,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 36,
+    "source": "א",
+    "gematria": 1,
+    "greek": "Α",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 4,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "after": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "assembly": [
+      "movq $1, state(%rip)"
+    ]
+  },
+  {
+    "index": 37,
+    "source": "ל",
+    "gematria": 30,
+    "greek": "Λ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "xorq %rax, state(%rip)"
+    ]
+  },
+  {
+    "index": 38,
+    "source": "ב",
+    "gematria": 2,
+    "greek": "Β",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 4,
+      "target": 4,
+      "events": 5
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 5
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 39,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 5
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 6
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 40,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 24,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 6
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 27,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 6
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 41,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 27,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 6
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 27,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 7
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 42,
+    "source": "ע",
+    "gematria": 70,
+    "greek": "Ο",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 27,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 7
+    },
+    "after": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 7
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq relations(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 43,
+    "source": "ז",
+    "gematria": 7,
+    "greek": "Ζ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 2,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 7
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 7
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq %rax, relations(%rip)"
+    ]
+  },
+  {
+    "index": 44,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 7
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 45,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 46,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 28,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 47,
+    "source": "ל",
+    "gematria": 30,
+    "greek": "Λ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "xorq %rax, state(%rip)"
+    ]
+  },
+  {
+    "index": 48,
+    "source": "ך",
+    "gematria": 20,
+    "greek": "Κ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 5,
+      "target": 4,
+      "events": 8
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 6,
+      "target": 4,
+      "events": 8
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 49,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 6,
+      "target": 4,
+      "events": 8
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 50,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 51,
+    "source": "ו",
+    "gematria": 6,
+    "greek": "Ϛ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 8,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 9,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 52,
+    "source": "ד",
+    "gematria": 4,
+    "greek": "Δ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 9,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 9,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "assembly": [
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 53,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 9,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 9,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 54,
+    "source": "ו",
+    "gematria": 6,
+    "greek": "Ϛ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 9,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 10,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 55,
+    "source": "ב",
+    "gematria": 2,
+    "greek": "Β",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 10,
+      "context": 6,
+      "target": 4,
+      "events": 9
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 9
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 56,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 9
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 10
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 57,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 31,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 10
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 10
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 58,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 10
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 11
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 59,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 11
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 12
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 60,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 12
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 12
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 61,
+    "source": "ב",
+    "gematria": 2,
+    "greek": "Β",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 7,
+      "target": 4,
+      "events": 12
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 8,
+      "target": 4,
+      "events": 12
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 62,
+    "source": "ע",
+    "gematria": 70,
+    "greek": "Ο",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 34,
+      "unresolved": 10,
+      "context": 8,
+      "target": 4,
+      "events": 12
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 38,
+      "unresolved": 10,
+      "context": 8,
+      "target": 4,
+      "events": 12
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq relations(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 63,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 38,
+      "unresolved": 10,
+      "context": 8,
+      "target": 4,
+      "events": 12
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 8,
+      "target": 4,
+      "events": 12
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 64,
+    "source": "ב",
+    "gematria": 2,
+    "greek": "Β",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 8,
+      "target": 4,
+      "events": 12
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 9,
+      "target": 4,
+      "events": 12
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 65,
+    "source": "ן",
+    "gematria": 50,
+    "greek": "Ν",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 9,
+      "target": 4,
+      "events": 12
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 9,
+      "target": 6,
+      "events": 12
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "incq %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 66,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 9,
+      "target": 6,
+      "events": 12
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 9,
+      "target": 6,
+      "events": 13
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 67,
+    "source": "ו",
+    "gematria": 6,
+    "greek": "Ϛ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 10,
+      "context": 9,
+      "target": 6,
+      "events": 13
+    },
+    "after": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 11,
+      "context": 9,
+      "target": 6,
+      "events": 13
+    },
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 68,
+    "source": "א",
+    "gematria": 1,
+    "greek": "Α",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 5,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 11,
+      "context": 9,
+      "target": 6,
+      "events": 13
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 11,
+      "context": 9,
+      "target": 6,
+      "events": 13
+    },
+    "assembly": [
+      "movq $1, state(%rip)"
+    ]
+  },
+  {
+    "index": 69,
+    "source": "ש",
+    "gematria": 300,
+    "greek": "Τ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 11,
+      "context": 9,
+      "target": 6,
+      "events": 13
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 11,
+      "context": 9,
+      "target": 3,
+      "events": 13
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 70,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 43,
+      "unresolved": 11,
+      "context": 9,
+      "target": 3,
+      "events": 13
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 9,
+      "target": 3,
+      "events": 13
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 71,
+    "source": "ל",
+    "gematria": 30,
+    "greek": "Λ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 9,
+      "target": 3,
+      "events": 13
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 9,
+      "target": 3,
+      "events": 13
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "xorq %rax, state(%rip)"
+    ]
+  },
+  {
+    "index": 72,
+    "source": "ך",
+    "gematria": 20,
+    "greek": "Κ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 9,
+      "target": 3,
+      "events": 13
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 3,
+      "events": 13
+    },
+    "assembly": [
+      "incq context(%rip)"
+    ]
+  },
+  {
+    "index": 73,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 3,
+      "events": 13
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 3,
+      "events": 14
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 74,
+    "source": "ש",
+    "gematria": 300,
+    "greek": "Τ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 3,
+      "events": 14
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 75,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "after": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 76,
+    "source": "א",
+    "gematria": 1,
+    "greek": "Α",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 2,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "assembly": [
+      "movq $1, state(%rip)"
+    ]
+  },
+  {
+    "index": 77,
+    "source": "ל",
+    "gematria": 30,
+    "greek": "Λ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "xorq %rax, state(%rip)"
+    ]
+  },
+  {
+    "index": 78,
+    "source": "ש",
+    "gematria": 300,
+    "greek": "Τ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 79,
+    "source": "ן",
+    "gematria": 50,
+    "greek": "Ν",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 2,
+      "events": 14
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 1,
+      "events": 14
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "incq %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 80,
+    "source": "ת",
+    "gematria": 400,
+    "greek": "Υ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 10,
+      "target": 1,
+      "events": 14
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 14
+    },
+    "assembly": [
+      "movq constraints(%rip), %rax",
+      "testq $1, %rax",
+      "jz 1f",
+      "incq context(%rip)",
+      "jmp 2f",
+      "1:",
+      "incq relations(%rip)",
+      "2:"
+    ]
+  },
+  {
+    "index": 81,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 14
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 15
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 82,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 15
+    },
+    "after": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 15
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 83,
+    "source": "ל",
+    "gematria": 30,
+    "greek": "Λ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 0,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 15
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 15
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "xorq %rax, state(%rip)"
+    ]
+  },
+  {
+    "index": 84,
+    "source": "ף",
+    "gematria": 80,
+    "greek": "Π",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 1,
+      "events": 15
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 12,
+      "events": 15
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq context(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 85,
+    "source": "ן",
+    "gematria": 50,
+    "greek": "Ν",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 12,
+      "events": 15
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 15
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "incq %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 86,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 15
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 87,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 88,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 89,
+    "source": "ע",
+    "gematria": 70,
+    "greek": "Ο",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 44,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "xorq relations(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 90,
+    "source": "ש",
+    "gematria": 300,
+    "greek": "Τ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 11,
+      "context": 11,
+      "target": 2,
+      "events": 16
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 11,
+      "context": 11,
+      "target": 5,
+      "events": 16
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq relations(%rip), %rax",
+      "addq constraints(%rip), %rax",
+      "movq %rax, target(%rip)"
+    ]
+  },
+  {
+    "index": 91,
+    "source": "ו",
+    "gematria": 6,
+    "greek": "Ϛ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 11,
+      "context": 11,
+      "target": 5,
+      "events": 16
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 16
+    },
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 92,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 16
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 93,
+    "source": "א",
+    "gematria": 1,
+    "greek": "Α",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "assembly": [
+      "movq $1, state(%rip)"
+    ]
+  },
+  {
+    "index": 94,
+    "source": "ם",
+    "gematria": 40,
+    "greek": "Μ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 46,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "after": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "assembly": [
+      "movq state(%rip), %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 95,
+    "source": "ר",
+    "gematria": 200,
+    "greek": "Σ",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 1,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "assembly": [
+      "movq relations(%rip), %rax",
+      "addq %rax, state(%rip)",
+      "incq state(%rip)"
+    ]
+  },
+  {
+    "index": 96,
+    "source": "י",
+    "gematria": 10,
+    "greek": "Ι",
+    "candidate_5_symbol_role": "control",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 17
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 18
+    },
+    "assembly": [
+      "incq events(%rip)"
+    ]
+  },
+  {
+    "index": 97,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 18
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 18
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  },
+  {
+    "index": 98,
+    "source": "ו",
+    "gematria": 6,
+    "greek": "Ϛ",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 12,
+      "context": 11,
+      "target": 5,
+      "events": 18
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 13,
+      "context": 11,
+      "target": 5,
+      "events": 18
+    },
+    "assembly": [
+      "incq unresolved(%rip)"
+    ]
+  },
+  {
+    "index": 99,
+    "source": "ה",
+    "gematria": 5,
+    "greek": "Ε",
+    "candidate_5_symbol_role": "data",
+    "before": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 13,
+      "context": 11,
+      "target": 5,
+      "events": 18
+    },
+    "after": {
+      "state": 3,
+      "relations": 1,
+      "constraints": 1,
+      "observations": 47,
+      "unresolved": 13,
+      "context": 11,
+      "target": 5,
+      "events": 18
+    },
+    "assembly": [
+      "cmpq $0, constraints(%rip)",
+      "sete %al",
+      "movzbq %al, %rax",
+      "addq %rax, observations(%rip)"
+    ]
+  }
+]

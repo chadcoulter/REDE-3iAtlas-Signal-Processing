@@ -1,0 +1,28 @@
+﻿hebrew,codepoint,gematria,greek_numeral_operator,assembly
+א,U+05D0,1,Α,"movq $1, state(%rip)"
+ב,U+05D1,2,Β,incq context(%rip)
+ג,U+05D2,3,Γ,"movq state(%rip), %rax; andq $255, %rax; movq %rax, constraints(%rip)"
+ד,U+05D3,4,Δ,incq state(%rip)
+ה,U+05D4,5,Ε,"cmpq $0, constraints(%rip); sete %al; movzbq %al, %rax; addq %rax, observations(%rip)"
+ו,U+05D5,6,Ϛ,incq unresolved(%rip)
+ז,U+05D6,7,Ζ,"movq state(%rip), %rax; xorq %rax, relations(%rip)"
+ח,U+05D7,8,Η,"movq state(%rip), %rax; movq %rax, target(%rip)"
+ט,U+05D8,9,Θ,incq constraints(%rip)
+י,U+05D9,10,Ι,incq events(%rip)
+ך,U+05DA,20,Κ,incq context(%rip)
+כ,U+05DB,20,Κ,incq context(%rip)
+ל,U+05DC,30,Λ,"movq relations(%rip), %rax; xorq %rax, state(%rip)"
+ם,U+05DD,40,Μ,"movq state(%rip), %rax; addq %rax, observations(%rip)"
+מ,U+05DE,40,Μ,"movq state(%rip), %rax; addq %rax, observations(%rip)"
+ן,U+05DF,50,Ν,"movq state(%rip), %rax; incq %rax; movq %rax, target(%rip)"
+נ,U+05E0,50,Ν,"movq state(%rip), %rax; incq %rax; movq %rax, target(%rip)"
+ס,U+05E1,60,Ξ,"movq state(%rip), %rax; xorq target(%rip), %rax; addq %rax, unresolved(%rip)"
+ע,U+05E2,70,Ο,"movq state(%rip), %rax; xorq relations(%rip), %rax; addq %rax, observations(%rip)"
+ף,U+05E3,80,Π,"movq state(%rip), %rax; addq context(%rip), %rax; movq %rax, target(%rip)"
+פ,U+05E4,80,Π,"movq state(%rip), %rax; addq context(%rip), %rax; movq %rax, target(%rip)"
+ץ,U+05E5,90,Ϟ,"movq events(%rip), %rax; xorq %rax, relations(%rip)"
+צ,U+05E6,90,Ϟ,"movq events(%rip), %rax; xorq %rax, relations(%rip)"
+ק,U+05E7,100,Ρ,"movq target(%rip), %rax; xorq %rax, relations(%rip)"
+ר,U+05E8,200,Σ,"movq relations(%rip), %rax; addq %rax, state(%rip); incq state(%rip)"
+ש,U+05E9,300,Τ,"movq state(%rip), %rax; addq relations(%rip), %rax; addq constraints(%rip), %rax; movq %rax, target(%rip)"
+ת,U+05EA,400,Υ,"movq constraints(%rip), %rax; testq $1, %rax; jz 1f; incq context(%rip); jmp 2f; 1:; incq relations(%rip); 2:"

@@ -1,0 +1,76 @@
+{
+  "source": "tanakh_reconstructed.txt",
+  "source_sha256": "ccac05725f0eb71e8acee26ee7824b6a0f17b2360f903f562d7d89537caf3aaa",
+  "encoding": "UTF-8",
+  "bytes": 2344664,
+  "segment_bytes": 10,
+  "candidate_instruction_bytes": 5,
+  "candidate_data_bytes": 5,
+  "complete_segments": 234466,
+  "remainder_bytes": 4,
+  "remainder_hex": "d7 a8 d7 a5",
+  "split_note": "5-byte midpoint can bisect a UTF-8 character; halves retained as raw bytes, not decoded or assigned opcodes",
+  "round_trip_verified": true,
+  "examples": [
+    [
+      0,
+      0,
+      10,
+      "d7 93 d7 91 d7 a8 d7 99 d7 a2",
+      "d7 93 d7 91 d7",
+      "a8 d7 99 d7 a2",
+      "דבריע",
+      true
+    ],
+    [
+      1,
+      10,
+      20,
+      "d7 9d d7 95 d7 a1 d7 90 d7 a9",
+      "d7 9d d7 95 d7",
+      "a1 d7 90 d7 a9",
+      "םוסאש",
+      true
+    ],
+    [
+      2,
+      20,
+      30,
+      "d7 a8 d7 94 d7 99 d7 94 d7 91",
+      "d7 a8 d7 94 d7",
+      "99 d7 94 d7 91",
+      "רהיהב",
+      true
+    ],
+    [
+      3,
+      30,
+      40,
+      "d7 9f d7 a7 d7 93 d7 99 d7 9d",
+      "d7 9f d7 a7 d7",
+      "93 d7 99 d7 9d",
+      "ןקדים",
+      true
+    ],
+    [
+      4,
+      40,
+      50,
+      "d7 9d d7 aa d7 a7 d7 95 d7 a2",
+      "d7 9d d7 aa d7",
+      "a7 d7 95 d7 a2",
+      "םתקוע",
+      true
+    ],
+    [
+      5,
+      50,
+      60,
+      "d7 90 d7 a9 d7 a8 d7 97 d7 96",
+      "d7 90 d7 a9 d7",
+      "a8 d7 97 d7 96",
+      "אשרחז",
+      true
+    ]
+  ]
+}
