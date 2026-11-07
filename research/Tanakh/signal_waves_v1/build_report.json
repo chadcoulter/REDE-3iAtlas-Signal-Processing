@@ -1,0 +1,26 @@
+{
+  "source": "research/Tanakh/tanakh_reconstructed.txt",
+  "source_sha256": "ccac05725f0eb71e8acee26ee7824b6a0f17b2360f903f562d7d89537caf3aaa",
+  "source_characters": 1172332,
+  "base_points": 1172332,
+  "child_points_per_wave": 1172331,
+  "modulus": 231,
+  "multiplier": 22,
+  "columns": [
+    "sample_index",
+    "source_index",
+    "base_value",
+    "next_source_index",
+    "next_base_value",
+    "sum_wave",
+    "linear_wave",
+    "product_wave"
+  ],
+  "alignment": "Adjacent mapped base values; anchored at first sample; final child values blank. Source indices are Unicode code-point offsets.",
+  "base_mapping": "Ordinary Hebrew gematria, final forms share ordinary values.",
+  "wave_formulas": {
+    "sum": "(a+b)%231",
+    "linear": "(22*a+b)%231",
+    "product": "(a*b)%231"
+  }
+}

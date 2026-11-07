@@ -1,0 +1,5 @@
+node_modules/
+wave_rows.jsonl
+preview.png
+test_*.csv
+tmp*/
