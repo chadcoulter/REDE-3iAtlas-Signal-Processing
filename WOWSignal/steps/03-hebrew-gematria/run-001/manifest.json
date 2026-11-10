@@ -1,0 +1,156 @@
+{
+  "run_id": "run-001",
+  "step": "03-hebrew-gematria",
+  "executed_at_utc": "2026-11-09T23:57:03.044822+00:00",
+  "report_date_america_chicago": "2026-11-09",
+  "input_manifest": {
+    "path": "WOWSignal/steps/01-source-data/run-001/manifest.json",
+    "sha256": "3dc500ce2e3d31f9416194d0852d03ecb3b073dada9e723ddd8f8705cfe19e6e"
+  },
+  "inputs": [
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/raw_grid.json",
+      "sha256": "bfb94ffb9a728dba6a8136170829482cefff130cb7afa9726036c252c73e004c",
+      "bytes": 50937
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/numeric_grid.json",
+      "sha256": "54e1a7d91addbbd61a73d1a83f633501415268472eb5338c8b57f047689d97d2",
+      "bytes": 43123
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/cells.csv",
+      "sha256": "1e0c236b2a5a15fdf7b616c49bec53c27661c1983396c048c21428fb362cab79",
+      "bytes": 340981
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/row_metadata.csv",
+      "sha256": "727cfd26f66f9825d184f6ee40ac159234d9a45dd0125861d61afe4ec9bfe1fa",
+      "bytes": 4919
+    }
+  ],
+  "script": {
+    "path": "WOWSignal/scripts/step03_hebrew_gematria.py",
+    "sha256": "3b0f2b94b1f7ae97ddbc768eba36750ee1b3167502572fd95581eac61e1af34c"
+  },
+  "source_repository": "https://github.com/planetaryhablab/Ohio-SETI",
+  "source_commit": "28624a1eaf955ced940db347684cee61c8e4fd61",
+  "attribution": "Ohio SETI Data, PHL @ UPR Arecibo; source credits MichaelHotaling for original transcription",
+  "license": "CC BY 4.0",
+  "encoding": {
+    "namespace": "hebrew_standard_additive_numerals",
+    "letter_values": {
+      "א": 1,
+      "ב": 2,
+      "ג": 3,
+      "ד": 4,
+      "ה": 5,
+      "ו": 6,
+      "ז": 7,
+      "ח": 8,
+      "ט": 9,
+      "י": 10,
+      "כ": 20,
+      "ל": 30,
+      "מ": 40,
+      "נ": 50,
+      "ס": 60,
+      "ע": 70,
+      "פ": 80,
+      "צ": 90,
+      "ק": 100,
+      "ר": 200,
+      "ש": 300,
+      "ת": 400
+    },
+    "ordering": "descending additive numeral components",
+    "exceptions": {
+      "15": "טו",
+      "16": "טז"
+    },
+    "zero_token": "0",
+    "final_forms": "not selected",
+    "source_values": "preserved integer bins; no new rounding"
+  },
+  "stream_order": "channel ascending, then frame ascending",
+  "time_reference": "printed EST relative to source row 1; not a corrected physical integration epoch",
+  "operator_execution": "none; Hebrew operator mapping is not defined by this encoder",
+  "validation": {
+    "source_input_hashes_verified": 4,
+    "records": 4100,
+    "streams": 50,
+    "readings_per_stream": {
+      "WOW_CH01": 82,
+      "WOW_CH02": 82,
+      "WOW_CH03": 82,
+      "WOW_CH04": 82,
+      "WOW_CH05": 82,
+      "WOW_CH06": 82,
+      "WOW_CH07": 82,
+      "WOW_CH08": 82,
+      "WOW_CH09": 82,
+      "WOW_CH10": 82,
+      "WOW_CH11": 82,
+      "WOW_CH12": 82,
+      "WOW_CH13": 82,
+      "WOW_CH14": 82,
+      "WOW_CH15": 82,
+      "WOW_CH16": 82,
+      "WOW_CH17": 82,
+      "WOW_CH18": 82,
+      "WOW_CH19": 82,
+      "WOW_CH20": 82,
+      "WOW_CH21": 82,
+      "WOW_CH22": 82,
+      "WOW_CH23": 82,
+      "WOW_CH24": 82,
+      "WOW_CH25": 82,
+      "WOW_CH26": 82,
+      "WOW_CH27": 82,
+      "WOW_CH28": 82,
+      "WOW_CH29": 82,
+      "WOW_CH30": 82,
+      "WOW_CH31": 82,
+      "WOW_CH32": 82,
+      "WOW_CH33": 82,
+      "WOW_CH34": 82,
+      "WOW_CH35": 82,
+      "WOW_CH36": 82,
+      "WOW_CH37": 82,
+      "WOW_CH38": 82,
+      "WOW_CH39": 82,
+      "WOW_CH40": 82,
+      "WOW_CH41": 82,
+      "WOW_CH42": 82,
+      "WOW_CH43": 82,
+      "WOW_CH44": 82,
+      "WOW_CH45": 82,
+      "WOW_CH46": 82,
+      "WOW_CH47": 82,
+      "WOW_CH48": 82,
+      "WOW_CH49": 82,
+      "WOW_CH50": 82
+    },
+    "unique_source_occurrences": 4100,
+    "value_roundtrips": 4100,
+    "blank_cells_retained": 2988,
+    "zero_bins_retained": 2988
+  },
+  "artifacts": [
+    {
+      "filename": "hebrew_grid.json",
+      "bytes": 47565,
+      "sha256": "5918e4b6221af0e41a26151c9bccd008ef9f33aae3391372f323da3454b4904d"
+    },
+    {
+      "filename": "README.md",
+      "bytes": 6300,
+      "sha256": "add173ca2a13db168c862427b6eac549bb131735267ad0563cd300b1394a5df3"
+    },
+    {
+      "filename": "streams.csv",
+      "bytes": 538074,
+      "sha256": "b0d107e9d29ee4ce407991a54670160ac54eed583cdc7c3775fa97ab60abd7a3"
+    }
+  ]
+}
