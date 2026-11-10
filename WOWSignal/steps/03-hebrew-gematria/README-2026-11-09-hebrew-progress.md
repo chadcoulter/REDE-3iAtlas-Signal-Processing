@@ -117,6 +117,8 @@ The saved outputs were read back and checked independently against the source:
 - A rerun into the existing output folder was refused, and the files' hashes remained unchanged.
 - The combined text was parsed back into its 50 channel blocks; every one of its 4,100 tokens matches the corresponding CSV token exactly.
 
+Before pushing, Git reported that automatic Windows line-ending conversion could change the hashed script and run files on a later checkout. The existing [WOWSignal attributes](../../.gitattributes) were extended to preserve those bytes, following the existing policy for source acquisitions and prior generated runs. The files were checked again against their hashes after applying that rule.
+
 These checks establish numerical fidelity and reproducibility of the representation. Hebrew word interpretation, operator-state execution, directional feedback passes, and recurrence analysis remain subsequent work.
 
 ## 7. Reproduce the numerical encoding
@@ -174,9 +176,9 @@ assert hashlib.sha256(rendered.encode('utf-8')).hexdigest() == (
 print('Combined Hebrew text reproduced: 50 streams, 82 readings each.')
 ```
 
-## 9. Complete file inventory included with this progress commit
+## 9. Complete file inventory included with this progress push
 
-All eight files are additions. No previously tracked file is modified, deleted, or renamed.
+Eight files are additions. One previously tracked file, WOWSignal/.gitattributes, is modified to preserve hashed bytes across checkouts. No file is deleted or renamed.
 
 | Added file | Purpose |
 |---|---|
@@ -188,5 +190,9 @@ All eight files are additions. No previously tracked file is modified, deleted, 
 | [hebrew_grid.json](run-001/hebrew_grid.json) | Original grid alignment with Hebrew tokens |
 | [manifest.json](run-001/manifest.json) | Input, script, and original run-output provenance |
 | [hebrew_streams.txt](run-001/hebrew_streams.txt) | All Hebrew channel streams in one text file |
+
+| Modified file | Purpose |
+|---|---|
+| [WOWSignal/.gitattributes](../../.gitattributes) | Preserve the Hebrew script and generated run bytes across checkouts |
 
 Source attribution remains Ohio SETI Data, PHL @ UPR Arecibo, with the upstream credit to MichaelHotaling's transcription; CC BY 4.0. The preserved upstream source commit is `28624a1eaf955ced940db347684cee61c8e4fd61`.
