@@ -4,5 +4,9 @@ steps/01-source-data/run-*/** -text whitespace=cr-at-eol
 steps/02-grid-traversals/run-*/** -text whitespace=cr-at-eol
 steps/03-hebrew-gematria/run-*/** -text whitespace=cr-at-eol
 scripts/step03_hebrew_gematria.py -text
+scripts/step03_numerology_exploration.py -text
+scripts/step03_greek_root_exploration.py -text
+scripts/step03_greek_translation_values.py -text
+scripts/step03_container_part_expansion.py -text
 sources/WowDecodeNarrative.md -text whitespace=-blank-at-eol,cr-at-eol
 sources/operator-notes/** -text whitespace=-blank-at-eol,cr-at-eol
