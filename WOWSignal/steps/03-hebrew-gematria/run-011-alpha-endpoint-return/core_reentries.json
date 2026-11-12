@@ -1,0 +1,1636 @@
+[
+  {
+    "route": "P06",
+    "origin": [
+      72,
+      5
+    ],
+    "coordinate": [
+      59,
+      2
+    ],
+    "value": 14,
+    "hebrew": "יד",
+    "greek": "ΙΔ",
+    "arrival_from": [
+      59,
+      3
+    ],
+    "inherited_native_before_entry": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 19,
+        "container_index": 19,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          59,
+          2
+        ],
+        "numeric_container": 14,
+        "hebrew_container": "יד",
+        "canonical_greek_container": "ΙΔ",
+        "glyph": "Ι",
+        "book_ii_role": "Instance",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "events"
+        ],
+        "native_assembly": [
+          "incq events(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            59,
+            2
+          ],
+          "neighbors": [
+            [
+              58,
+              2
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              59,
+              3
+            ],
+            [
+              60,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      },
+      {
+        "occurrence": 20,
+        "container_index": 19,
+        "glyph_index_in_executed_container": 2,
+        "coordinate": [
+          59,
+          2
+        ],
+        "numeric_container": 14,
+        "hebrew_container": "יד",
+        "canonical_greek_container": "ΙΔ",
+        "glyph": "Δ",
+        "book_ii_role": "Change",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "state"
+        ],
+        "native_assembly": [
+          "incq state(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            59,
+            2
+          ],
+          "neighbors": [
+            [
+              58,
+              2
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              59,
+              3
+            ],
+            [
+              60,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        58,
+        2
+      ],
+      [
+        59,
+        1
+      ],
+      [
+        60,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          58,
+          2
+        ],
+        "value": 6,
+        "hebrew": "ו",
+        "greek": "Ϛ",
+        "neighbors": [
+          [
+            59,
+            2
+          ]
+        ],
+        "degree": 1,
+        "core": true
+      },
+      {
+        "coordinate": [
+          59,
+          1
+        ],
+        "value": 1,
+        "hebrew": "א",
+        "greek": "Α",
+        "neighbors": [
+          [
+            59,
+            2
+          ]
+        ],
+        "degree": 1,
+        "core": false
+      },
+      {
+        "coordinate": [
+          60,
+          2
+        ],
+        "value": 26,
+        "hebrew": "כו",
+        "greek": "ΚϚ",
+        "neighbors": [
+          [
+            59,
+            2
+          ],
+          [
+            61,
+            2
+          ]
+        ],
+        "degree": 2,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      72,
+      5
+    ]
+  },
+  {
+    "route": "P07",
+    "origin": [
+      73,
+      4
+    ],
+    "coordinate": [
+      59,
+      2
+    ],
+    "value": 14,
+    "hebrew": "יד",
+    "greek": "ΙΔ",
+    "arrival_from": [
+      59,
+      3
+    ],
+    "inherited_native_before_entry": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 19,
+        "container_index": 19,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          59,
+          2
+        ],
+        "numeric_container": 14,
+        "hebrew_container": "יד",
+        "canonical_greek_container": "ΙΔ",
+        "glyph": "Ι",
+        "book_ii_role": "Instance",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "events"
+        ],
+        "native_assembly": [
+          "incq events(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            59,
+            2
+          ],
+          "neighbors": [
+            [
+              58,
+              2
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              59,
+              3
+            ],
+            [
+              60,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      },
+      {
+        "occurrence": 20,
+        "container_index": 19,
+        "glyph_index_in_executed_container": 2,
+        "coordinate": [
+          59,
+          2
+        ],
+        "numeric_container": 14,
+        "hebrew_container": "יד",
+        "canonical_greek_container": "ΙΔ",
+        "glyph": "Δ",
+        "book_ii_role": "Change",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "state"
+        ],
+        "native_assembly": [
+          "incq state(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            59,
+            2
+          ],
+          "neighbors": [
+            [
+              58,
+              2
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              59,
+              3
+            ],
+            [
+              60,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        58,
+        2
+      ],
+      [
+        59,
+        1
+      ],
+      [
+        60,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          58,
+          2
+        ],
+        "value": 6,
+        "hebrew": "ו",
+        "greek": "Ϛ",
+        "neighbors": [
+          [
+            59,
+            2
+          ]
+        ],
+        "degree": 1,
+        "core": true
+      },
+      {
+        "coordinate": [
+          59,
+          1
+        ],
+        "value": 1,
+        "hebrew": "א",
+        "greek": "Α",
+        "neighbors": [
+          [
+            59,
+            2
+          ]
+        ],
+        "degree": 1,
+        "core": false
+      },
+      {
+        "coordinate": [
+          60,
+          2
+        ],
+        "value": 26,
+        "hebrew": "כו",
+        "greek": "ΚϚ",
+        "neighbors": [
+          [
+            59,
+            2
+          ],
+          [
+            61,
+            2
+          ]
+        ],
+        "degree": 2,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      73,
+      4
+    ]
+  },
+  {
+    "route": "P12",
+    "origin": [
+      72,
+      5
+    ],
+    "coordinate": [
+      61,
+      2
+    ],
+    "value": 30,
+    "hebrew": "ל",
+    "greek": "Λ",
+    "arrival_from": [
+      61,
+      3
+    ],
+    "inherited_native_before_entry": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 15,
+        "container_index": 15,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          61,
+          2
+        ],
+        "numeric_container": 30,
+        "hebrew_container": "ל",
+        "canonical_greek_container": "Λ",
+        "glyph": "Λ",
+        "book_ii_role": "Lattice resolution",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [
+          "state"
+        ],
+        "native_assembly": [
+          "movq relations(%rip), %rax",
+          "xorq %rax, state(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            61,
+            2
+          ],
+          "neighbors": [
+            [
+              60,
+              2
+            ],
+            [
+              61,
+              3
+            ],
+            [
+              62,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        60,
+        2
+      ],
+      [
+        62,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          60,
+          2
+        ],
+        "value": 26,
+        "hebrew": "כו",
+        "greek": "ΚϚ",
+        "neighbors": [
+          [
+            59,
+            2
+          ],
+          [
+            61,
+            2
+          ]
+        ],
+        "degree": 2,
+        "core": true
+      },
+      {
+        "coordinate": [
+          62,
+          2
+        ],
+        "value": 19,
+        "hebrew": "יט",
+        "greek": "ΙΘ",
+        "neighbors": [
+          [
+            61,
+            2
+          ],
+          [
+            62,
+            1
+          ],
+          [
+            62,
+            3
+          ],
+          [
+            63,
+            2
+          ]
+        ],
+        "degree": 4,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      72,
+      5
+    ]
+  },
+  {
+    "route": "P13",
+    "origin": [
+      73,
+      4
+    ],
+    "coordinate": [
+      61,
+      2
+    ],
+    "value": 30,
+    "hebrew": "ל",
+    "greek": "Λ",
+    "arrival_from": [
+      61,
+      3
+    ],
+    "inherited_native_before_entry": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 15,
+        "container_index": 15,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          61,
+          2
+        ],
+        "numeric_container": 30,
+        "hebrew_container": "ל",
+        "canonical_greek_container": "Λ",
+        "glyph": "Λ",
+        "book_ii_role": "Lattice resolution",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [
+          "state"
+        ],
+        "native_assembly": [
+          "movq relations(%rip), %rax",
+          "xorq %rax, state(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            61,
+            2
+          ],
+          "neighbors": [
+            [
+              60,
+              2
+            ],
+            [
+              61,
+              3
+            ],
+            [
+              62,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        60,
+        2
+      ],
+      [
+        62,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          60,
+          2
+        ],
+        "value": 26,
+        "hebrew": "כו",
+        "greek": "ΚϚ",
+        "neighbors": [
+          [
+            59,
+            2
+          ],
+          [
+            61,
+            2
+          ]
+        ],
+        "degree": 2,
+        "core": true
+      },
+      {
+        "coordinate": [
+          62,
+          2
+        ],
+        "value": 19,
+        "hebrew": "יט",
+        "greek": "ΙΘ",
+        "neighbors": [
+          [
+            61,
+            2
+          ],
+          [
+            62,
+            1
+          ],
+          [
+            62,
+            3
+          ],
+          [
+            63,
+            2
+          ]
+        ],
+        "degree": 4,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      73,
+      4
+    ]
+  },
+  {
+    "route": "P19",
+    "origin": [
+      72,
+      5
+    ],
+    "coordinate": [
+      62,
+      2
+    ],
+    "value": 19,
+    "hebrew": "יט",
+    "greek": "ΙΘ",
+    "arrival_from": [
+      62,
+      3
+    ],
+    "inherited_native_before_entry": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 14,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          62,
+          2
+        ],
+        "numeric_container": 19,
+        "hebrew_container": "יט",
+        "canonical_greek_container": "ΙΘ",
+        "glyph": "Ι",
+        "book_ii_role": "Instance",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "events"
+        ],
+        "native_assembly": [
+          "incq events(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            62,
+            2
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              62,
+              1
+            ],
+            [
+              62,
+              3
+            ],
+            [
+              63,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      },
+      {
+        "occurrence": 15,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 2,
+        "coordinate": [
+          62,
+          2
+        ],
+        "numeric_container": 19,
+        "hebrew_container": "יט",
+        "canonical_greek_container": "ΙΘ",
+        "glyph": "Θ",
+        "book_ii_role": "Constraint",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "native_after": [
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "constraints"
+        ],
+        "native_assembly": [
+          "incq constraints(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            62,
+            2
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              62,
+              1
+            ],
+            [
+              62,
+              3
+            ],
+            [
+              63,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      1,
+      1,
+      4,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        61,
+        2
+      ],
+      [
+        62,
+        1
+      ],
+      [
+        63,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          61,
+          2
+        ],
+        "value": 30,
+        "hebrew": "ל",
+        "greek": "Λ",
+        "neighbors": [
+          [
+            60,
+            2
+          ],
+          [
+            61,
+            3
+          ],
+          [
+            62,
+            2
+          ]
+        ],
+        "degree": 3,
+        "core": true
+      },
+      {
+        "coordinate": [
+          62,
+          1
+        ],
+        "value": 2,
+        "hebrew": "ב",
+        "greek": "Β",
+        "neighbors": [
+          [
+            62,
+            2
+          ]
+        ],
+        "degree": 1,
+        "core": false
+      },
+      {
+        "coordinate": [
+          63,
+          2
+        ],
+        "value": 5,
+        "hebrew": "ה",
+        "greek": "Ε",
+        "neighbors": [
+          [
+            62,
+            2
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "degree": 2,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      72,
+      5
+    ]
+  },
+  {
+    "route": "P20",
+    "origin": [
+      73,
+      4
+    ],
+    "coordinate": [
+      62,
+      2
+    ],
+    "value": 19,
+    "hebrew": "יט",
+    "greek": "ΙΘ",
+    "arrival_from": [
+      62,
+      3
+    ],
+    "inherited_native_before_entry": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 14,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          62,
+          2
+        ],
+        "numeric_container": 19,
+        "hebrew_container": "יט",
+        "canonical_greek_container": "ΙΘ",
+        "glyph": "Ι",
+        "book_ii_role": "Instance",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "events"
+        ],
+        "native_assembly": [
+          "incq events(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            62,
+            2
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              62,
+              1
+            ],
+            [
+              62,
+              3
+            ],
+            [
+              63,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      },
+      {
+        "occurrence": 15,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 2,
+        "coordinate": [
+          62,
+          2
+        ],
+        "numeric_container": 19,
+        "hebrew_container": "יט",
+        "canonical_greek_container": "ΙΘ",
+        "glyph": "Θ",
+        "book_ii_role": "Constraint",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "native_after": [
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "native_changed_registers": [
+          "constraints"
+        ],
+        "native_assembly": [
+          "incq constraints(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            62,
+            2
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              62,
+              1
+            ],
+            [
+              62,
+              3
+            ],
+            [
+              63,
+              2
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      1,
+      1,
+      4,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        61,
+        2
+      ],
+      [
+        62,
+        1
+      ],
+      [
+        63,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          61,
+          2
+        ],
+        "value": 30,
+        "hebrew": "ל",
+        "greek": "Λ",
+        "neighbors": [
+          [
+            60,
+            2
+          ],
+          [
+            61,
+            3
+          ],
+          [
+            62,
+            2
+          ]
+        ],
+        "degree": 3,
+        "core": true
+      },
+      {
+        "coordinate": [
+          62,
+          1
+        ],
+        "value": 2,
+        "hebrew": "ב",
+        "greek": "Β",
+        "neighbors": [
+          [
+            62,
+            2
+          ]
+        ],
+        "degree": 1,
+        "core": false
+      },
+      {
+        "coordinate": [
+          63,
+          2
+        ],
+        "value": 5,
+        "hebrew": "ה",
+        "greek": "Ε",
+        "neighbors": [
+          [
+            62,
+            2
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "degree": 2,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      73,
+      4
+    ]
+  },
+  {
+    "route": "P25",
+    "origin": [
+      72,
+      5
+    ],
+    "coordinate": [
+      63,
+      2
+    ],
+    "value": 5,
+    "hebrew": "ה",
+    "greek": "Ε",
+    "arrival_from": [
+      63,
+      3
+    ],
+    "inherited_native_before_entry": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 13,
+        "container_index": 13,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          63,
+          2
+        ],
+        "numeric_container": 5,
+        "hebrew_container": "ה",
+        "canonical_greek_container": "Ε",
+        "glyph": "Ε",
+        "book_ii_role": "Threshold",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [],
+        "native_assembly": [
+          "cmpq $0, constraints(%rip)",
+          "sete %al",
+          "movzbq %al, %rax",
+          "addq %rax, observations(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            63,
+            2
+          ],
+          "neighbors": [
+            [
+              62,
+              2
+            ],
+            [
+              63,
+              3
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        62,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          62,
+          2
+        ],
+        "value": 19,
+        "hebrew": "יט",
+        "greek": "ΙΘ",
+        "neighbors": [
+          [
+            61,
+            2
+          ],
+          [
+            62,
+            1
+          ],
+          [
+            62,
+            3
+          ],
+          [
+            63,
+            2
+          ]
+        ],
+        "degree": 4,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      72,
+      5
+    ]
+  },
+  {
+    "route": "P26",
+    "origin": [
+      73,
+      4
+    ],
+    "coordinate": [
+      63,
+      2
+    ],
+    "value": 5,
+    "hebrew": "ה",
+    "greek": "Ε",
+    "arrival_from": [
+      63,
+      3
+    ],
+    "inherited_native_before_entry": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "native_operations_at_entry": [
+      {
+        "occurrence": 13,
+        "container_index": 13,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          63,
+          2
+        ],
+        "numeric_container": 5,
+        "hebrew_container": "ה",
+        "canonical_greek_container": "Ε",
+        "glyph": "Ε",
+        "book_ii_role": "Threshold",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [],
+        "native_assembly": [
+          "cmpq $0, constraints(%rip)",
+          "sete %al",
+          "movzbq %al, %rax",
+          "addq %rax, observations(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            63,
+            2
+          ],
+          "neighbors": [
+            [
+              62,
+              2
+            ],
+            [
+              63,
+              3
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "native_after_entry": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "onward_neighbors_excluding_arrival": [
+      [
+        62,
+        2
+      ]
+    ],
+    "onward_containers": [
+      {
+        "coordinate": [
+          62,
+          2
+        ],
+        "value": 19,
+        "hebrew": "יט",
+        "greek": "ΙΘ",
+        "neighbors": [
+          [
+            61,
+            2
+          ],
+          [
+            62,
+            1
+          ],
+          [
+            62,
+            3
+          ],
+          [
+            63,
+            2
+          ]
+        ],
+        "degree": 4,
+        "core": true
+      }
+    ],
+    "source_origin_retained": [
+      73,
+      4
+    ]
+  }
+]

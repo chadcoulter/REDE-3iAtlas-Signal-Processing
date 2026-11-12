@@ -1,0 +1,220 @@
+{
+  "numeric_and_coordinate_claim_checks": [
+    {
+      "claim": "first nonzero row-major",
+      "computed": 1,
+      "mcp_stated": 1,
+      "matches": true
+    },
+    {
+      "claim": "first nonzero coordinate",
+      "computed": [
+        1,
+        4
+      ],
+      "mcp_stated": [
+        1,
+        4
+      ],
+      "matches": true
+    },
+    {
+      "claim": "last nonzero coordinate",
+      "computed": [
+        82,
+        44
+      ],
+      "mcp_stated": [
+        82,
+        44
+      ],
+      "matches": true
+    },
+    {
+      "claim": "r57c2",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "r58c2",
+      "computed": 6,
+      "mcp_stated": 6,
+      "matches": true
+    },
+    {
+      "claim": "r59c2",
+      "computed": 14,
+      "mcp_stated": 14,
+      "matches": true
+    },
+    {
+      "claim": "r60c2",
+      "computed": 26,
+      "mcp_stated": 26,
+      "matches": true
+    },
+    {
+      "claim": "r61c2",
+      "computed": 30,
+      "mcp_stated": 30,
+      "matches": true
+    },
+    {
+      "claim": "r62c2",
+      "computed": 19,
+      "mcp_stated": 19,
+      "matches": true
+    },
+    {
+      "claim": "r63c2",
+      "computed": 5,
+      "mcp_stated": 5,
+      "matches": true
+    },
+    {
+      "claim": "r64c2",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "r59c1",
+      "computed": 1,
+      "mcp_stated": 1,
+      "matches": true
+    },
+    {
+      "claim": "r59c3",
+      "computed": 2,
+      "mcp_stated": 2,
+      "matches": true
+    },
+    {
+      "claim": "r59c4",
+      "computed": 4,
+      "mcp_stated": 4,
+      "matches": true
+    },
+    {
+      "claim": "r59c5",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "r63c3",
+      "computed": 1,
+      "mcp_stated": 1,
+      "matches": true
+    },
+    {
+      "claim": "r64c3",
+      "computed": 1,
+      "mcp_stated": 1,
+      "matches": true
+    },
+    {
+      "claim": "r64c4",
+      "computed": 4,
+      "mcp_stated": 4,
+      "matches": true
+    },
+    {
+      "claim": "r65c4",
+      "computed": 3,
+      "mcp_stated": 3,
+      "matches": true
+    },
+    {
+      "claim": "r1c3",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "r1c4",
+      "computed": 2,
+      "mcp_stated": 2,
+      "matches": true
+    },
+    {
+      "claim": "r1c5",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "r2c4",
+      "computed": 1,
+      "mcp_stated": 1,
+      "matches": true
+    },
+    {
+      "claim": "r82c43",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "r82c44",
+      "computed": 1,
+      "mcp_stated": 1,
+      "matches": true
+    },
+    {
+      "claim": "r82c45",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "r81c44",
+      "computed": 0,
+      "mcp_stated": 0,
+      "matches": true
+    },
+    {
+      "claim": "source nonzero count",
+      "computed": 1112,
+      "mcp_stated": 1112,
+      "matches": true
+    },
+    {
+      "claim": "source zero count",
+      "computed": 2988,
+      "mcp_stated": 2988,
+      "matches": true
+    },
+    {
+      "claim": "source sum",
+      "computed": 1487,
+      "mcp_stated": 1487,
+      "matches": true
+    },
+    {
+      "claim": "core sum",
+      "computed": 100,
+      "mcp_stated": 100,
+      "matches": true
+    },
+    {
+      "claim": "forward first three original core containers",
+      "computed": 46,
+      "mcp_stated": 46,
+      "matches": true
+    },
+    {
+      "claim": "Greek encoded operator occurrences",
+      "computed": 1115,
+      "mcp_stated": 1115,
+      "matches": true
+    }
+  ],
+  "interpretation_note": "Coordinate/arithmetic checks do not certify inferred source semantics. The earlier[6,14,1] candidate is a generated-chain candidate, not a substitution into the original[6,14,26] triple.",
+  "occurrence_counts": {
+    "operator": 1115,
+    "structural": 2988,
+    "container_boundary": 4100
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "trial": "expanded-hebrew-parser-001",
+  "source_sha256": "3fd4aac335b1bfe542f8d60952474c54b36c89f73980e853ba974f4fe76a6499",
+  "files_except_this_manifest": [
+    {
+      "path": "WOWSignal/scripts/step03_expanded_hebrew_relations.py",
+      "bytes": 14914,
+      "sha256": "e07d0166bd2f58a89ceafe7941fcad1abea440798f4f39c3359e76caf5f35703"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-004-expanded-hebrew-parser/results.json",
+      "bytes": 1718886,
+      "sha256": "23703985303410ee444101c0fd5cd86b432e226bc3c3534522d2c00155862180"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-004-expanded-hebrew-parser/orientation_followup.json",
+      "bytes": 5952,
+      "sha256": "8a223eda138036da3ad0b1695b2567eead386bc570872e4eb3f74b71ffb7b81f"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-004-expanded-hebrew-parser/README.md",
+      "bytes": 7237,
+      "sha256": "658ba9c28caacbe109a769ace13db5462023c8c24f993eedccc83b766a71dee3"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-001/hebrew_streams_updated.txt",
+      "bytes": 1976512,
+      "sha256": "eecbdc3c9b8d6e71fe19dde8083cbcb5b68228ba78f1f9406039a876af7e58b5"
+    },
+    {
+      "path": "WOWSignal/.gitattributes",
+      "bytes": 900,
+      "sha256": "fa51359d420330dcf78448b5109bf2dd7997d38da03c93f14a3c12c2cfae1579"
+    }
+  ],
+  "file_changes_this_pass": [
+    {
+      "path": "WOWSignal/scripts/step03_expanded_hebrew_relations.py",
+      "status": "added"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-004-expanded-hebrew-parser/results.json",
+      "status": "added"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-004-expanded-hebrew-parser/orientation_followup.json",
+      "status": "added"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-004-expanded-hebrew-parser/README.md",
+      "status": "added"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-001/hebrew_streams_updated.txt",
+      "status": "modified"
+    },
+    {
+      "path": "WOWSignal/.gitattributes",
+      "status": "modified"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-004-expanded-hebrew-parser/manifest.json",
+      "status": "added"
+    }
+  ],
+  "checks": {
+    "numeric_trial_tokens_traced": 3612,
+    "orientation_views": 36,
+    "exact_word_occurrences_checked": 912,
+    "all_unmatched_glyphs_retained": true,
+    "original_working_text_prefix_preserved": true,
+    "orientation_dependent_vida_lanes": [
+      1,
+      3
+    ],
+    "parser_status": "IN-PROGRESS",
+    "semantic_message_validated": false
+  }
+}

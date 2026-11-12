@@ -1,0 +1,1665 @@
+{
+  "pass_records_validated": 79200,
+  "instruction_connections_validated": 720388,
+  "source_unit_records": 24600,
+  "source_zero_bins_preserved": 2988,
+  "source_nonzero_bins_preserved": 1112,
+  "nonzero_runs_across_both_axes": 1416,
+  "all_paths_have_nonzero_data": true,
+  "repeat_summary": {
+    "period1": 479,
+    "period2": 62,
+    "no_repeat_within100": 251
+  },
+  "coordinate_meaning": "Source_unit_execution.csv maps every original cell to its exact first-pass execution state in both axes and all3 orientations, including zero-operation cells. Source positions and pass numbers are distinct axes.",
+  "end_state_groups": [
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_01__whole_container_total__forward",
+        "channel_01__whole_container_total__container_reverse",
+        "channel_01__whole_container_total__full_glyph_reverse",
+        "channel_08__intact_parts__forward",
+        "channel_08__intact_parts__container_reverse",
+        "channel_08__intact_parts__full_glyph_reverse",
+        "channel_11__intact_parts__forward",
+        "channel_11__intact_parts__container_reverse",
+        "channel_11__intact_parts__full_glyph_reverse",
+        "channel_12__intact_parts__forward",
+        "channel_12__intact_parts__container_reverse",
+        "channel_12__intact_parts__full_glyph_reverse",
+        "channel_14__intact_parts__forward",
+        "channel_14__intact_parts__container_reverse",
+        "channel_14__intact_parts__full_glyph_reverse",
+        "channel_15__whole_container_total__forward",
+        "channel_15__whole_container_total__container_reverse",
+        "channel_15__whole_container_total__full_glyph_reverse",
+        "channel_21__intact_parts__forward",
+        "channel_21__intact_parts__container_reverse",
+        "channel_21__intact_parts__full_glyph_reverse",
+        "channel_22__intact_parts__forward",
+        "channel_22__intact_parts__container_reverse",
+        "channel_22__intact_parts__full_glyph_reverse",
+        "channel_22__whole_container_total__forward",
+        "channel_22__whole_container_total__container_reverse",
+        "channel_22__whole_container_total__full_glyph_reverse",
+        "channel_23__whole_container_total__forward",
+        "channel_23__whole_container_total__container_reverse",
+        "channel_23__whole_container_total__full_glyph_reverse",
+        "channel_24__intact_parts__forward",
+        "channel_24__intact_parts__container_reverse",
+        "channel_24__intact_parts__full_glyph_reverse",
+        "channel_27__intact_parts__forward",
+        "channel_27__intact_parts__container_reverse",
+        "channel_27__intact_parts__full_glyph_reverse",
+        "channel_28__intact_parts__forward",
+        "channel_28__intact_parts__container_reverse",
+        "channel_28__intact_parts__full_glyph_reverse",
+        "channel_29__intact_parts__forward",
+        "channel_29__intact_parts__container_reverse",
+        "channel_29__intact_parts__full_glyph_reverse",
+        "channel_32__whole_container_total__forward",
+        "channel_32__whole_container_total__container_reverse",
+        "channel_32__whole_container_total__full_glyph_reverse",
+        "channel_36__intact_parts__forward",
+        "channel_36__intact_parts__container_reverse",
+        "channel_36__intact_parts__full_glyph_reverse",
+        "channel_39__whole_container_total__forward",
+        "channel_39__whole_container_total__container_reverse",
+        "channel_39__whole_container_total__full_glyph_reverse",
+        "channel_44__intact_parts__forward",
+        "channel_44__intact_parts__container_reverse",
+        "channel_44__intact_parts__full_glyph_reverse",
+        "channel_44__whole_container_total__forward",
+        "channel_44__whole_container_total__container_reverse",
+        "channel_44__whole_container_total__full_glyph_reverse",
+        "channel_45__whole_container_total__forward",
+        "channel_45__whole_container_total__container_reverse",
+        "channel_45__whole_container_total__full_glyph_reverse",
+        "channel_47__whole_container_total__forward",
+        "channel_47__whole_container_total__container_reverse",
+        "channel_47__whole_container_total__full_glyph_reverse",
+        "channel_48__whole_container_total__forward",
+        "channel_48__whole_container_total__container_reverse",
+        "channel_48__whole_container_total__full_glyph_reverse",
+        "row_01__intact_parts__forward",
+        "row_01__intact_parts__container_reverse",
+        "row_01__intact_parts__full_glyph_reverse",
+        "row_02__intact_parts__forward",
+        "row_02__intact_parts__container_reverse",
+        "row_02__intact_parts__full_glyph_reverse",
+        "row_03__intact_parts__forward",
+        "row_03__intact_parts__container_reverse",
+        "row_03__intact_parts__full_glyph_reverse",
+        "row_04__intact_parts__forward",
+        "row_04__intact_parts__container_reverse",
+        "row_04__intact_parts__full_glyph_reverse",
+        "row_05__intact_parts__forward",
+        "row_05__intact_parts__container_reverse",
+        "row_05__intact_parts__full_glyph_reverse",
+        "row_06__intact_parts__forward",
+        "row_06__intact_parts__container_reverse",
+        "row_06__intact_parts__full_glyph_reverse",
+        "row_07__whole_container_total__forward",
+        "row_07__whole_container_total__container_reverse",
+        "row_07__whole_container_total__full_glyph_reverse",
+        "row_10__intact_parts__forward",
+        "row_10__intact_parts__container_reverse",
+        "row_10__intact_parts__full_glyph_reverse",
+        "row_12__intact_parts__forward",
+        "row_12__intact_parts__container_reverse",
+        "row_12__intact_parts__full_glyph_reverse",
+        "row_13__intact_parts__forward",
+        "row_13__intact_parts__container_reverse",
+        "row_13__intact_parts__full_glyph_reverse",
+        "row_14__intact_parts__forward",
+        "row_14__intact_parts__container_reverse",
+        "row_14__intact_parts__full_glyph_reverse",
+        "row_16__intact_parts__forward",
+        "row_16__intact_parts__container_reverse",
+        "row_16__intact_parts__full_glyph_reverse",
+        "row_17__intact_parts__forward",
+        "row_17__intact_parts__container_reverse",
+        "row_17__intact_parts__full_glyph_reverse",
+        "row_18__intact_parts__forward",
+        "row_18__intact_parts__container_reverse",
+        "row_18__intact_parts__full_glyph_reverse",
+        "row_19__intact_parts__forward",
+        "row_19__intact_parts__container_reverse",
+        "row_19__intact_parts__full_glyph_reverse",
+        "row_20__whole_container_total__forward",
+        "row_20__whole_container_total__container_reverse",
+        "row_20__whole_container_total__full_glyph_reverse",
+        "row_21__intact_parts__forward",
+        "row_21__intact_parts__container_reverse",
+        "row_21__intact_parts__full_glyph_reverse",
+        "row_22__intact_parts__forward",
+        "row_22__intact_parts__container_reverse",
+        "row_22__intact_parts__full_glyph_reverse",
+        "row_23__intact_parts__forward",
+        "row_23__intact_parts__container_reverse",
+        "row_23__intact_parts__full_glyph_reverse",
+        "row_24__intact_parts__forward",
+        "row_24__intact_parts__container_reverse",
+        "row_24__intact_parts__full_glyph_reverse",
+        "row_30__intact_parts__forward",
+        "row_30__intact_parts__container_reverse",
+        "row_30__intact_parts__full_glyph_reverse",
+        "row_31__whole_container_total__forward",
+        "row_31__whole_container_total__container_reverse",
+        "row_31__whole_container_total__full_glyph_reverse",
+        "row_32__intact_parts__forward",
+        "row_32__intact_parts__container_reverse",
+        "row_32__intact_parts__full_glyph_reverse",
+        "row_33__intact_parts__forward",
+        "row_33__intact_parts__container_reverse",
+        "row_33__intact_parts__full_glyph_reverse",
+        "row_33__whole_container_total__forward",
+        "row_33__whole_container_total__container_reverse",
+        "row_33__whole_container_total__full_glyph_reverse",
+        "row_35__intact_parts__forward",
+        "row_35__intact_parts__container_reverse",
+        "row_35__intact_parts__full_glyph_reverse",
+        "row_38__intact_parts__forward",
+        "row_38__intact_parts__container_reverse",
+        "row_38__intact_parts__full_glyph_reverse",
+        "row_39__intact_parts__forward",
+        "row_39__intact_parts__container_reverse",
+        "row_39__intact_parts__full_glyph_reverse",
+        "row_41__intact_parts__forward",
+        "row_41__intact_parts__container_reverse",
+        "row_41__intact_parts__full_glyph_reverse",
+        "row_43__whole_container_total__forward",
+        "row_43__whole_container_total__container_reverse",
+        "row_43__whole_container_total__full_glyph_reverse",
+        "row_45__intact_parts__forward",
+        "row_45__intact_parts__container_reverse",
+        "row_45__intact_parts__full_glyph_reverse",
+        "row_46__intact_parts__forward",
+        "row_46__intact_parts__container_reverse",
+        "row_46__intact_parts__full_glyph_reverse",
+        "row_48__intact_parts__forward",
+        "row_48__intact_parts__container_reverse",
+        "row_48__intact_parts__full_glyph_reverse",
+        "row_50__intact_parts__forward",
+        "row_50__intact_parts__container_reverse",
+        "row_50__intact_parts__full_glyph_reverse",
+        "row_51__whole_container_total__forward",
+        "row_51__whole_container_total__container_reverse",
+        "row_51__whole_container_total__full_glyph_reverse",
+        "row_52__intact_parts__forward",
+        "row_52__intact_parts__container_reverse",
+        "row_52__intact_parts__full_glyph_reverse",
+        "row_53__whole_container_total__forward",
+        "row_53__whole_container_total__container_reverse",
+        "row_53__whole_container_total__full_glyph_reverse",
+        "row_54__whole_container_total__forward",
+        "row_54__whole_container_total__container_reverse",
+        "row_54__whole_container_total__full_glyph_reverse",
+        "row_57__intact_parts__forward",
+        "row_57__intact_parts__container_reverse",
+        "row_57__intact_parts__full_glyph_reverse",
+        "row_63__intact_parts__forward",
+        "row_63__intact_parts__container_reverse",
+        "row_63__intact_parts__full_glyph_reverse",
+        "row_64__intact_parts__forward",
+        "row_64__intact_parts__container_reverse",
+        "row_64__intact_parts__full_glyph_reverse",
+        "row_65__intact_parts__forward",
+        "row_65__intact_parts__container_reverse",
+        "row_65__intact_parts__full_glyph_reverse",
+        "row_65__whole_container_total__forward",
+        "row_65__whole_container_total__container_reverse",
+        "row_65__whole_container_total__full_glyph_reverse",
+        "row_66__intact_parts__forward",
+        "row_66__intact_parts__container_reverse",
+        "row_66__intact_parts__full_glyph_reverse",
+        "row_66__whole_container_total__forward",
+        "row_66__whole_container_total__container_reverse",
+        "row_66__whole_container_total__full_glyph_reverse",
+        "row_67__intact_parts__forward",
+        "row_67__whole_container_total__forward",
+        "row_67__whole_container_total__container_reverse",
+        "row_67__whole_container_total__full_glyph_reverse",
+        "row_68__intact_parts__forward",
+        "row_68__intact_parts__container_reverse",
+        "row_68__intact_parts__full_glyph_reverse",
+        "row_69__intact_parts__forward",
+        "row_69__intact_parts__container_reverse",
+        "row_69__intact_parts__full_glyph_reverse",
+        "row_70__intact_parts__forward",
+        "row_70__intact_parts__container_reverse",
+        "row_70__intact_parts__full_glyph_reverse",
+        "row_71__intact_parts__forward",
+        "row_71__intact_parts__container_reverse",
+        "row_71__intact_parts__full_glyph_reverse",
+        "row_72__intact_parts__forward",
+        "row_72__intact_parts__container_reverse",
+        "row_72__intact_parts__full_glyph_reverse",
+        "row_72__whole_container_total__forward",
+        "row_72__whole_container_total__container_reverse",
+        "row_72__whole_container_total__full_glyph_reverse",
+        "row_73__intact_parts__forward",
+        "row_73__intact_parts__container_reverse",
+        "row_73__intact_parts__full_glyph_reverse",
+        "row_74__intact_parts__forward",
+        "row_74__intact_parts__container_reverse",
+        "row_74__intact_parts__full_glyph_reverse",
+        "row_75__intact_parts__forward",
+        "row_75__whole_container_total__forward",
+        "row_75__whole_container_total__container_reverse",
+        "row_75__whole_container_total__full_glyph_reverse",
+        "row_76__intact_parts__forward",
+        "row_76__intact_parts__container_reverse",
+        "row_76__intact_parts__full_glyph_reverse",
+        "row_77__whole_container_total__forward",
+        "row_77__whole_container_total__container_reverse",
+        "row_77__whole_container_total__full_glyph_reverse",
+        "row_78__whole_container_total__forward",
+        "row_78__whole_container_total__container_reverse",
+        "row_78__whole_container_total__full_glyph_reverse",
+        "row_79__intact_parts__forward",
+        "row_79__intact_parts__container_reverse",
+        "row_79__intact_parts__full_glyph_reverse",
+        "row_82__intact_parts__forward",
+        "row_82__intact_parts__container_reverse",
+        "row_82__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 248
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_05__whole_container_total__forward",
+        "channel_05__whole_container_total__container_reverse",
+        "channel_05__whole_container_total__full_glyph_reverse",
+        "channel_06__intact_parts__forward",
+        "channel_06__intact_parts__container_reverse",
+        "channel_06__intact_parts__full_glyph_reverse",
+        "channel_09__intact_parts__forward",
+        "channel_09__intact_parts__container_reverse",
+        "channel_09__intact_parts__full_glyph_reverse",
+        "channel_10__intact_parts__forward",
+        "channel_10__intact_parts__container_reverse",
+        "channel_10__intact_parts__full_glyph_reverse",
+        "channel_15__intact_parts__forward",
+        "channel_15__intact_parts__container_reverse",
+        "channel_15__intact_parts__full_glyph_reverse",
+        "channel_16__whole_container_total__forward",
+        "channel_16__whole_container_total__container_reverse",
+        "channel_16__whole_container_total__full_glyph_reverse",
+        "channel_17__intact_parts__forward",
+        "channel_17__intact_parts__container_reverse",
+        "channel_17__intact_parts__full_glyph_reverse",
+        "channel_25__intact_parts__forward",
+        "channel_25__intact_parts__container_reverse",
+        "channel_25__intact_parts__full_glyph_reverse",
+        "channel_26__intact_parts__forward",
+        "channel_26__intact_parts__container_reverse",
+        "channel_26__intact_parts__full_glyph_reverse",
+        "channel_30__intact_parts__forward",
+        "channel_30__intact_parts__container_reverse",
+        "channel_30__intact_parts__full_glyph_reverse",
+        "channel_31__whole_container_total__forward",
+        "channel_31__whole_container_total__container_reverse",
+        "channel_31__whole_container_total__full_glyph_reverse",
+        "channel_33__whole_container_total__forward",
+        "channel_33__whole_container_total__container_reverse",
+        "channel_33__whole_container_total__full_glyph_reverse",
+        "channel_35__whole_container_total__full_glyph_reverse",
+        "channel_36__whole_container_total__full_glyph_reverse",
+        "channel_38__whole_container_total__forward",
+        "channel_38__whole_container_total__container_reverse",
+        "channel_38__whole_container_total__full_glyph_reverse",
+        "channel_40__intact_parts__forward",
+        "channel_40__intact_parts__container_reverse",
+        "channel_40__intact_parts__full_glyph_reverse",
+        "channel_42__whole_container_total__full_glyph_reverse",
+        "channel_43__whole_container_total__forward",
+        "channel_43__whole_container_total__container_reverse",
+        "channel_49__intact_parts__forward",
+        "channel_49__intact_parts__container_reverse",
+        "channel_49__intact_parts__full_glyph_reverse",
+        "channel_50__intact_parts__forward",
+        "channel_50__intact_parts__container_reverse",
+        "channel_50__intact_parts__full_glyph_reverse",
+        "row_14__whole_container_total__forward",
+        "row_14__whole_container_total__container_reverse",
+        "row_14__whole_container_total__full_glyph_reverse",
+        "row_15__intact_parts__forward",
+        "row_15__intact_parts__container_reverse",
+        "row_15__intact_parts__full_glyph_reverse",
+        "row_18__whole_container_total__forward",
+        "row_18__whole_container_total__container_reverse",
+        "row_18__whole_container_total__full_glyph_reverse",
+        "row_28__intact_parts__forward",
+        "row_28__intact_parts__container_reverse",
+        "row_28__intact_parts__full_glyph_reverse",
+        "row_36__intact_parts__forward",
+        "row_36__intact_parts__container_reverse",
+        "row_36__intact_parts__full_glyph_reverse",
+        "row_40__intact_parts__forward",
+        "row_40__intact_parts__container_reverse",
+        "row_40__intact_parts__full_glyph_reverse",
+        "row_47__intact_parts__forward",
+        "row_47__intact_parts__container_reverse",
+        "row_47__intact_parts__full_glyph_reverse",
+        "row_56__intact_parts__forward",
+        "row_56__intact_parts__container_reverse",
+        "row_56__intact_parts__full_glyph_reverse",
+        "row_58__whole_container_total__forward",
+        "row_58__whole_container_total__container_reverse",
+        "row_58__whole_container_total__full_glyph_reverse",
+        "row_80__intact_parts__forward",
+        "row_80__intact_parts__container_reverse",
+        "row_80__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 83
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_13__intact_parts__forward",
+        "channel_13__intact_parts__container_reverse",
+        "channel_13__intact_parts__full_glyph_reverse",
+        "channel_18__intact_parts__forward",
+        "channel_18__intact_parts__container_reverse",
+        "channel_18__intact_parts__full_glyph_reverse",
+        "channel_24__whole_container_total__forward",
+        "channel_24__whole_container_total__container_reverse",
+        "channel_24__whole_container_total__full_glyph_reverse",
+        "channel_31__intact_parts__forward",
+        "channel_31__intact_parts__container_reverse",
+        "channel_31__intact_parts__full_glyph_reverse",
+        "channel_32__intact_parts__forward",
+        "channel_32__intact_parts__container_reverse",
+        "channel_32__intact_parts__full_glyph_reverse",
+        "channel_33__intact_parts__forward",
+        "channel_33__intact_parts__container_reverse",
+        "channel_33__intact_parts__full_glyph_reverse",
+        "channel_38__intact_parts__forward",
+        "channel_38__intact_parts__container_reverse",
+        "channel_38__intact_parts__full_glyph_reverse",
+        "channel_39__intact_parts__forward",
+        "channel_39__intact_parts__container_reverse",
+        "channel_39__intact_parts__full_glyph_reverse",
+        "channel_45__intact_parts__forward",
+        "channel_45__intact_parts__container_reverse",
+        "channel_45__intact_parts__full_glyph_reverse",
+        "channel_47__intact_parts__forward",
+        "channel_47__intact_parts__container_reverse",
+        "channel_47__intact_parts__full_glyph_reverse",
+        "channel_48__intact_parts__forward",
+        "channel_48__intact_parts__container_reverse",
+        "channel_48__intact_parts__full_glyph_reverse",
+        "row_09__intact_parts__forward",
+        "row_09__intact_parts__container_reverse",
+        "row_09__intact_parts__full_glyph_reverse",
+        "row_11__intact_parts__forward",
+        "row_11__intact_parts__container_reverse",
+        "row_11__intact_parts__full_glyph_reverse",
+        "row_20__intact_parts__forward",
+        "row_20__intact_parts__container_reverse",
+        "row_20__intact_parts__full_glyph_reverse",
+        "row_26__intact_parts__forward",
+        "row_26__intact_parts__container_reverse",
+        "row_26__intact_parts__full_glyph_reverse",
+        "row_27__whole_container_total__forward",
+        "row_27__whole_container_total__container_reverse",
+        "row_27__whole_container_total__full_glyph_reverse",
+        "row_29__intact_parts__forward",
+        "row_29__intact_parts__container_reverse",
+        "row_29__intact_parts__full_glyph_reverse",
+        "row_34__intact_parts__forward",
+        "row_34__intact_parts__container_reverse",
+        "row_34__intact_parts__full_glyph_reverse",
+        "row_37__intact_parts__forward",
+        "row_37__intact_parts__container_reverse",
+        "row_37__intact_parts__full_glyph_reverse",
+        "row_43__intact_parts__forward",
+        "row_43__intact_parts__container_reverse",
+        "row_43__intact_parts__full_glyph_reverse",
+        "row_44__whole_container_total__forward",
+        "row_44__whole_container_total__container_reverse",
+        "row_44__whole_container_total__full_glyph_reverse",
+        "row_49__intact_parts__forward",
+        "row_49__intact_parts__container_reverse",
+        "row_49__intact_parts__full_glyph_reverse",
+        "row_51__intact_parts__forward",
+        "row_51__intact_parts__container_reverse",
+        "row_51__intact_parts__full_glyph_reverse",
+        "row_67__intact_parts__container_reverse",
+        "row_67__intact_parts__full_glyph_reverse",
+        "row_78__intact_parts__forward",
+        "row_78__intact_parts__container_reverse",
+        "row_78__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 74
+    },
+    {
+      "pass100_state": [
+        1,
+        2,
+        2,
+        70,
+        82,
+        171,
+        2,
+        53
+      ],
+      "branches": [
+        "channel_02__whole_container_total__container_reverse",
+        "channel_10__whole_container_total__container_reverse",
+        "channel_11__whole_container_total__container_reverse",
+        "channel_12__whole_container_total__container_reverse",
+        "channel_17__whole_container_total__container_reverse",
+        "channel_21__whole_container_total__container_reverse",
+        "channel_25__whole_container_total__container_reverse",
+        "channel_28__whole_container_total__container_reverse",
+        "channel_30__whole_container_total__container_reverse",
+        "channel_40__whole_container_total__container_reverse",
+        "channel_41__whole_container_total__container_reverse",
+        "row_01__whole_container_total__container_reverse",
+        "row_02__whole_container_total__container_reverse",
+        "row_03__whole_container_total__container_reverse",
+        "row_08__whole_container_total__container_reverse",
+        "row_09__whole_container_total__container_reverse",
+        "row_11__whole_container_total__container_reverse",
+        "row_12__whole_container_total__container_reverse",
+        "row_13__whole_container_total__container_reverse",
+        "row_15__whole_container_total__container_reverse",
+        "row_16__whole_container_total__container_reverse",
+        "row_17__whole_container_total__container_reverse",
+        "row_19__whole_container_total__container_reverse",
+        "row_21__whole_container_total__container_reverse",
+        "row_23__whole_container_total__container_reverse",
+        "row_25__whole_container_total__container_reverse",
+        "row_26__whole_container_total__container_reverse",
+        "row_29__whole_container_total__container_reverse",
+        "row_30__whole_container_total__container_reverse",
+        "row_32__whole_container_total__container_reverse",
+        "row_34__whole_container_total__container_reverse",
+        "row_35__whole_container_total__container_reverse",
+        "row_36__whole_container_total__container_reverse",
+        "row_39__whole_container_total__container_reverse",
+        "row_40__whole_container_total__container_reverse",
+        "row_41__whole_container_total__container_reverse",
+        "row_45__whole_container_total__container_reverse",
+        "row_52__whole_container_total__container_reverse",
+        "row_57__whole_container_total__container_reverse",
+        "row_63__whole_container_total__container_reverse",
+        "row_69__whole_container_total__container_reverse",
+        "row_71__whole_container_total__container_reverse",
+        "row_76__whole_container_total__container_reverse",
+        "row_79__whole_container_total__container_reverse",
+        "row_80__whole_container_total__container_reverse",
+        "row_81__whole_container_total__container_reverse"
+      ],
+      "branch_count": 46
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        1,
+        1253,
+        36,
+        857,
+        2,
+        53
+      ],
+      "branches": [
+        "channel_02__whole_container_total__full_glyph_reverse",
+        "channel_10__whole_container_total__full_glyph_reverse",
+        "channel_11__whole_container_total__full_glyph_reverse",
+        "channel_12__whole_container_total__full_glyph_reverse",
+        "channel_17__whole_container_total__full_glyph_reverse",
+        "channel_21__whole_container_total__full_glyph_reverse",
+        "channel_25__whole_container_total__full_glyph_reverse",
+        "channel_28__whole_container_total__full_glyph_reverse",
+        "channel_30__whole_container_total__full_glyph_reverse",
+        "channel_40__whole_container_total__full_glyph_reverse",
+        "channel_41__whole_container_total__full_glyph_reverse",
+        "row_01__whole_container_total__full_glyph_reverse",
+        "row_02__whole_container_total__full_glyph_reverse",
+        "row_03__whole_container_total__full_glyph_reverse",
+        "row_08__whole_container_total__full_glyph_reverse",
+        "row_09__whole_container_total__full_glyph_reverse",
+        "row_11__whole_container_total__full_glyph_reverse",
+        "row_12__whole_container_total__full_glyph_reverse",
+        "row_13__whole_container_total__full_glyph_reverse",
+        "row_15__whole_container_total__full_glyph_reverse",
+        "row_16__whole_container_total__full_glyph_reverse",
+        "row_17__whole_container_total__full_glyph_reverse",
+        "row_19__whole_container_total__full_glyph_reverse",
+        "row_21__whole_container_total__full_glyph_reverse",
+        "row_23__whole_container_total__full_glyph_reverse",
+        "row_25__whole_container_total__full_glyph_reverse",
+        "row_26__whole_container_total__full_glyph_reverse",
+        "row_29__whole_container_total__full_glyph_reverse",
+        "row_30__whole_container_total__full_glyph_reverse",
+        "row_32__whole_container_total__full_glyph_reverse",
+        "row_34__whole_container_total__full_glyph_reverse",
+        "row_35__whole_container_total__full_glyph_reverse",
+        "row_36__whole_container_total__full_glyph_reverse",
+        "row_39__whole_container_total__full_glyph_reverse",
+        "row_40__whole_container_total__full_glyph_reverse",
+        "row_41__whole_container_total__full_glyph_reverse",
+        "row_45__whole_container_total__full_glyph_reverse",
+        "row_52__whole_container_total__full_glyph_reverse",
+        "row_57__whole_container_total__full_glyph_reverse",
+        "row_63__whole_container_total__full_glyph_reverse",
+        "row_69__whole_container_total__full_glyph_reverse",
+        "row_71__whole_container_total__full_glyph_reverse",
+        "row_76__whole_container_total__full_glyph_reverse",
+        "row_79__whole_container_total__full_glyph_reverse",
+        "row_80__whole_container_total__full_glyph_reverse",
+        "row_81__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 46
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        1,
+        3,
+        7,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_08__whole_container_total__forward",
+        "channel_08__whole_container_total__container_reverse",
+        "channel_08__whole_container_total__full_glyph_reverse",
+        "channel_14__whole_container_total__forward",
+        "channel_14__whole_container_total__container_reverse",
+        "channel_14__whole_container_total__full_glyph_reverse",
+        "channel_19__intact_parts__forward",
+        "channel_19__intact_parts__container_reverse",
+        "channel_19__intact_parts__full_glyph_reverse",
+        "channel_27__whole_container_total__forward",
+        "channel_27__whole_container_total__container_reverse",
+        "channel_27__whole_container_total__full_glyph_reverse",
+        "channel_41__intact_parts__forward",
+        "channel_41__intact_parts__container_reverse",
+        "channel_41__intact_parts__full_glyph_reverse",
+        "channel_46__intact_parts__forward",
+        "channel_46__intact_parts__container_reverse",
+        "channel_46__intact_parts__full_glyph_reverse",
+        "row_07__intact_parts__forward",
+        "row_07__intact_parts__container_reverse",
+        "row_07__intact_parts__full_glyph_reverse",
+        "row_27__intact_parts__forward",
+        "row_27__intact_parts__container_reverse",
+        "row_27__intact_parts__full_glyph_reverse",
+        "row_42__intact_parts__forward",
+        "row_42__intact_parts__container_reverse",
+        "row_42__intact_parts__full_glyph_reverse",
+        "row_53__intact_parts__forward",
+        "row_53__intact_parts__container_reverse",
+        "row_53__intact_parts__full_glyph_reverse",
+        "row_58__intact_parts__forward",
+        "row_58__intact_parts__container_reverse",
+        "row_58__intact_parts__full_glyph_reverse",
+        "row_64__whole_container_total__forward",
+        "row_64__whole_container_total__container_reverse",
+        "row_64__whole_container_total__full_glyph_reverse",
+        "row_81__intact_parts__forward",
+        "row_81__intact_parts__container_reverse",
+        "row_81__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 39
+    },
+    {
+      "pass100_state": [
+        1,
+        81,
+        1,
+        3800,
+        45988,
+        3796,
+        3797,
+        86
+      ],
+      "branches": [
+        "channel_10__whole_container_total__forward",
+        "channel_11__whole_container_total__forward",
+        "channel_12__whole_container_total__forward",
+        "channel_21__whole_container_total__forward",
+        "channel_25__whole_container_total__forward",
+        "channel_28__whole_container_total__forward",
+        "channel_30__whole_container_total__forward",
+        "channel_40__whole_container_total__forward",
+        "channel_41__whole_container_total__forward",
+        "row_01__whole_container_total__forward",
+        "row_08__whole_container_total__forward",
+        "row_09__whole_container_total__forward",
+        "row_11__whole_container_total__forward",
+        "row_13__whole_container_total__forward",
+        "row_15__whole_container_total__forward",
+        "row_16__whole_container_total__forward",
+        "row_17__whole_container_total__forward",
+        "row_19__whole_container_total__forward",
+        "row_25__whole_container_total__forward",
+        "row_26__whole_container_total__forward",
+        "row_29__whole_container_total__forward",
+        "row_30__whole_container_total__forward",
+        "row_32__whole_container_total__forward",
+        "row_34__whole_container_total__forward",
+        "row_35__whole_container_total__forward",
+        "row_36__whole_container_total__forward",
+        "row_39__whole_container_total__forward",
+        "row_40__whole_container_total__forward",
+        "row_45__whole_container_total__forward",
+        "row_52__whole_container_total__forward",
+        "row_57__whole_container_total__forward",
+        "row_69__whole_container_total__forward",
+        "row_71__whole_container_total__forward",
+        "row_76__whole_container_total__forward",
+        "row_79__whole_container_total__forward",
+        "row_80__whole_container_total__forward",
+        "row_81__whole_container_total__forward"
+      ],
+      "branch_count": 37
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        5,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_01__intact_parts__forward",
+        "channel_01__intact_parts__container_reverse",
+        "channel_01__intact_parts__full_glyph_reverse",
+        "channel_05__intact_parts__forward",
+        "channel_05__intact_parts__container_reverse",
+        "channel_05__intact_parts__full_glyph_reverse",
+        "channel_23__intact_parts__forward",
+        "channel_23__intact_parts__container_reverse",
+        "channel_23__intact_parts__full_glyph_reverse",
+        "row_08__intact_parts__forward",
+        "row_08__intact_parts__container_reverse",
+        "row_08__intact_parts__full_glyph_reverse",
+        "row_25__intact_parts__forward",
+        "row_25__intact_parts__container_reverse",
+        "row_25__intact_parts__full_glyph_reverse",
+        "row_31__intact_parts__forward",
+        "row_31__intact_parts__container_reverse",
+        "row_31__intact_parts__full_glyph_reverse",
+        "row_44__intact_parts__forward",
+        "row_44__intact_parts__container_reverse",
+        "row_44__intact_parts__full_glyph_reverse",
+        "row_54__intact_parts__container_reverse",
+        "row_54__intact_parts__full_glyph_reverse",
+        "row_75__intact_parts__container_reverse",
+        "row_75__intact_parts__full_glyph_reverse",
+        "row_77__intact_parts__forward",
+        "row_77__intact_parts__container_reverse",
+        "row_77__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 28
+    },
+    {
+      "pass100_state": [
+        3797,
+        3716,
+        213,
+        7597,
+        45990,
+        7594,
+        11391,
+        86
+      ],
+      "branches": [
+        "channel_29__whole_container_total__forward",
+        "row_04__whole_container_total__forward",
+        "row_05__whole_container_total__forward",
+        "row_10__whole_container_total__forward",
+        "row_22__whole_container_total__forward",
+        "row_24__whole_container_total__forward",
+        "row_38__whole_container_total__forward",
+        "row_42__whole_container_total__forward",
+        "row_46__whole_container_total__forward",
+        "row_47__whole_container_total__forward",
+        "row_56__whole_container_total__forward",
+        "row_68__whole_container_total__forward",
+        "row_70__whole_container_total__forward",
+        "row_74__whole_container_total__forward",
+        "row_82__whole_container_total__forward"
+      ],
+      "branch_count": 15
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        72,
+        82,
+        175,
+        173,
+        53
+      ],
+      "branches": [
+        "channel_29__whole_container_total__container_reverse",
+        "row_04__whole_container_total__container_reverse",
+        "row_05__whole_container_total__container_reverse",
+        "row_10__whole_container_total__container_reverse",
+        "row_22__whole_container_total__container_reverse",
+        "row_24__whole_container_total__container_reverse",
+        "row_38__whole_container_total__container_reverse",
+        "row_42__whole_container_total__container_reverse",
+        "row_46__whole_container_total__container_reverse",
+        "row_47__whole_container_total__container_reverse",
+        "row_56__whole_container_total__container_reverse",
+        "row_68__whole_container_total__container_reverse",
+        "row_70__whole_container_total__container_reverse",
+        "row_74__whole_container_total__container_reverse",
+        "row_82__whole_container_total__container_reverse"
+      ],
+      "branch_count": 15
+    },
+    {
+      "pass100_state": [
+        1,
+        2,
+        1,
+        1253,
+        37,
+        858,
+        1,
+        53
+      ],
+      "branches": [
+        "channel_29__whole_container_total__full_glyph_reverse",
+        "row_04__whole_container_total__full_glyph_reverse",
+        "row_05__whole_container_total__full_glyph_reverse",
+        "row_10__whole_container_total__full_glyph_reverse",
+        "row_22__whole_container_total__full_glyph_reverse",
+        "row_24__whole_container_total__full_glyph_reverse",
+        "row_38__whole_container_total__full_glyph_reverse",
+        "row_42__whole_container_total__full_glyph_reverse",
+        "row_46__whole_container_total__full_glyph_reverse",
+        "row_47__whole_container_total__full_glyph_reverse",
+        "row_56__whole_container_total__full_glyph_reverse",
+        "row_68__whole_container_total__full_glyph_reverse",
+        "row_70__whole_container_total__full_glyph_reverse",
+        "row_74__whole_container_total__full_glyph_reverse",
+        "row_82__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 15
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_13__whole_container_total__forward",
+        "channel_13__whole_container_total__container_reverse",
+        "channel_13__whole_container_total__full_glyph_reverse",
+        "channel_18__whole_container_total__forward",
+        "channel_18__whole_container_total__container_reverse",
+        "channel_18__whole_container_total__full_glyph_reverse",
+        "row_55__whole_container_total__forward",
+        "row_55__whole_container_total__container_reverse",
+        "row_55__whole_container_total__full_glyph_reverse",
+        "row_61__intact_parts__forward",
+        "row_61__intact_parts__container_reverse",
+        "row_61__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 12
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_04__whole_container_total__forward",
+        "channel_04__whole_container_total__container_reverse",
+        "channel_04__whole_container_total__full_glyph_reverse",
+        "channel_06__whole_container_total__forward",
+        "channel_06__whole_container_total__container_reverse",
+        "channel_06__whole_container_total__full_glyph_reverse",
+        "channel_09__whole_container_total__forward",
+        "channel_09__whole_container_total__container_reverse",
+        "channel_09__whole_container_total__full_glyph_reverse",
+        "channel_43__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 10
+    },
+    {
+      "pass100_state": [
+        9,
+        50,
+        10,
+        103,
+        43,
+        188,
+        10,
+        50
+      ],
+      "branches": [
+        "channel_02__whole_container_total__forward",
+        "channel_17__whole_container_total__forward",
+        "row_02__whole_container_total__forward",
+        "row_03__whole_container_total__forward",
+        "row_12__whole_container_total__forward",
+        "row_21__whole_container_total__forward",
+        "row_23__whole_container_total__forward",
+        "row_41__whole_container_total__forward",
+        "row_63__whole_container_total__forward"
+      ],
+      "branch_count": 9
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        7,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_26__whole_container_total__forward",
+        "channel_26__whole_container_total__container_reverse",
+        "channel_26__whole_container_total__full_glyph_reverse",
+        "channel_46__whole_container_total__forward",
+        "channel_46__whole_container_total__container_reverse",
+        "channel_46__whole_container_total__full_glyph_reverse",
+        "row_55__intact_parts__forward",
+        "row_55__intact_parts__container_reverse",
+        "row_55__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 9
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        7,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_34__intact_parts__forward",
+        "channel_34__intact_parts__container_reverse",
+        "channel_34__intact_parts__full_glyph_reverse",
+        "channel_35__intact_parts__forward",
+        "channel_35__intact_parts__container_reverse",
+        "channel_35__intact_parts__full_glyph_reverse",
+        "channel_42__intact_parts__forward",
+        "channel_42__intact_parts__container_reverse",
+        "channel_42__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 9
+    },
+    {
+      "pass100_state": [
+        1,
+        3803,
+        221,
+        11402,
+        45992,
+        7595,
+        7596,
+        89
+      ],
+      "branches": [
+        "channel_49__whole_container_total__forward",
+        "channel_50__whole_container_total__forward",
+        "row_06__whole_container_total__forward",
+        "row_49__whole_container_total__forward",
+        "row_50__whole_container_total__forward",
+        "row_54__intact_parts__forward",
+        "row_59__intact_parts__forward",
+        "row_73__whole_container_total__forward"
+      ],
+      "branch_count": 8
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        77,
+        82,
+        177,
+        176,
+        53
+      ],
+      "branches": [
+        "channel_49__whole_container_total__container_reverse",
+        "channel_50__whole_container_total__container_reverse",
+        "row_06__whole_container_total__container_reverse",
+        "row_49__whole_container_total__container_reverse",
+        "row_50__whole_container_total__container_reverse",
+        "row_59__intact_parts__container_reverse",
+        "row_73__whole_container_total__container_reverse"
+      ],
+      "branch_count": 7
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        2,
+        1253,
+        37,
+        859,
+        3,
+        53
+      ],
+      "branches": [
+        "channel_49__whole_container_total__full_glyph_reverse",
+        "channel_50__whole_container_total__full_glyph_reverse",
+        "row_06__whole_container_total__full_glyph_reverse",
+        "row_49__whole_container_total__full_glyph_reverse",
+        "row_50__whole_container_total__full_glyph_reverse",
+        "row_59__intact_parts__full_glyph_reverse",
+        "row_73__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 7
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        3,
+        9,
+        4,
+        53,
+        3,
+        4
+      ],
+      "branches": [
+        "channel_19__whole_container_total__container_reverse",
+        "channel_34__whole_container_total__container_reverse",
+        "channel_37__whole_container_total__container_reverse",
+        "row_59__whole_container_total__container_reverse",
+        "row_60__whole_container_total__container_reverse"
+      ],
+      "branch_count": 5
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        0,
+        1,
+        3,
+        37,
+        1,
+        4
+      ],
+      "branches": [
+        "channel_03__whole_container_total__full_glyph_reverse",
+        "channel_07__whole_container_total__container_reverse",
+        "channel_20__whole_container_total__full_glyph_reverse",
+        "row_62__whole_container_total__container_reverse"
+      ],
+      "branch_count": 4
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        78,
+        161,
+        138,
+        1,
+        73
+      ],
+      "branches": [
+        "channel_34__whole_container_total__full_glyph_reverse",
+        "channel_37__whole_container_total__full_glyph_reverse",
+        "row_59__whole_container_total__full_glyph_reverse",
+        "row_60__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 4
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_36__whole_container_total__forward",
+        "channel_36__whole_container_total__container_reverse",
+        "channel_42__whole_container_total__forward",
+        "channel_42__whole_container_total__container_reverse"
+      ],
+      "branch_count": 4
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        1,
+        3,
+        37,
+        1,
+        4
+      ],
+      "branches": [
+        "channel_07__whole_container_total__full_glyph_reverse",
+        "row_61__whole_container_total__full_glyph_reverse",
+        "row_62__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 3
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        3,
+        1058,
+        757,
+        1059,
+        2,
+        69
+      ],
+      "branches": [
+        "channel_19__whole_container_total__forward",
+        "channel_37__whole_container_total__forward",
+        "row_59__whole_container_total__forward"
+      ],
+      "branch_count": 3
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        8,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_37__intact_parts__forward",
+        "channel_37__intact_parts__container_reverse",
+        "channel_37__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 3
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        2,
+        3799,
+        45819,
+        11367,
+        11369,
+        83
+      ],
+      "branches": [
+        "row_28__whole_container_total__forward",
+        "row_37__whole_container_total__forward",
+        "row_48__whole_container_total__forward"
+      ],
+      "branch_count": 3
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        64,
+        79,
+        170,
+        2,
+        53
+      ],
+      "branches": [
+        "row_28__whole_container_total__container_reverse",
+        "row_37__whole_container_total__container_reverse",
+        "row_48__whole_container_total__container_reverse"
+      ],
+      "branch_count": 3
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        1,
+        1253,
+        35,
+        856,
+        2,
+        53
+      ],
+      "branches": [
+        "row_28__whole_container_total__full_glyph_reverse",
+        "row_37__whole_container_total__full_glyph_reverse",
+        "row_48__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 3
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "branches": [
+        "row_60__intact_parts__forward",
+        "row_60__intact_parts__container_reverse",
+        "row_60__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 3
+    },
+    {
+      "pass100_state": [
+        1,
+        175,
+        100,
+        2632,
+        882,
+        105,
+        1,
+        67
+      ],
+      "branches": [
+        "channel_03__whole_container_total__forward",
+        "channel_20__whole_container_total__forward"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        5,
+        1,
+        484,
+        227,
+        186,
+        185,
+        47
+      ],
+      "branches": [
+        "channel_03__whole_container_total__container_reverse",
+        "channel_20__whole_container_total__container_reverse"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        7,
+        13602064,
+        32396776,
+        13601994,
+        7,
+        103
+      ],
+      "branches": [
+        "channel_04__intact_parts__forward",
+        "channel_07__intact_parts__forward"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        2,
+        1,
+        149,
+        72,
+        145,
+        2,
+        55
+      ],
+      "branches": [
+        "channel_04__intact_parts__container_reverse",
+        "channel_07__intact_parts__container_reverse"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        2,
+        1,
+        57977,
+        252712,
+        57956,
+        80,
+        82
+      ],
+      "branches": [
+        "channel_04__intact_parts__full_glyph_reverse",
+        "channel_07__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        80,
+        110,
+        80,
+        5946,
+        558,
+        206,
+        17,
+        64
+      ],
+      "branches": [
+        "channel_07__whole_container_total__forward",
+        "row_62__whole_container_total__forward"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        3,
+        308692,
+        3,
+        617388,
+        749119,
+        5,
+        8,
+        71
+      ],
+      "branches": [
+        "channel_20__intact_parts__forward",
+        "channel_43__intact_parts__forward"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        1,
+        47,
+        134,
+        173,
+        1,
+        76
+      ],
+      "branches": [
+        "channel_20__intact_parts__container_reverse",
+        "channel_43__intact_parts__container_reverse"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        2,
+        160,
+        88,
+        166,
+        2,
+        40
+      ],
+      "branches": [
+        "channel_20__intact_parts__full_glyph_reverse",
+        "channel_43__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "branches": [
+        "channel_35__whole_container_total__forward",
+        "channel_35__whole_container_total__container_reverse"
+      ],
+      "branch_count": 2
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        1,
+        124,
+        51,
+        179,
+        1,
+        58
+      ],
+      "branches": [
+        "channel_02__intact_parts__forward"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        2,
+        975,
+        6460,
+        838,
+        3,
+        70
+      ],
+      "branches": [
+        "channel_02__intact_parts__container_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        870,
+        1,
+        4670,
+        80,
+        1015,
+        1014,
+        81
+      ],
+      "branches": [
+        "channel_02__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        2,
+        49,
+        2,
+        126,
+        43,
+        199,
+        3,
+        55
+      ],
+      "branches": [
+        "channel_03__intact_parts__forward"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        1,
+        90,
+        84,
+        178,
+        2,
+        53
+      ],
+      "branches": [
+        "channel_03__intact_parts__container_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        2,
+        1257,
+        46,
+        864,
+        3,
+        53
+      ],
+      "branches": [
+        "channel_03__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        63,
+        2,
+        201,
+        1068,
+        203,
+        2,
+        62
+      ],
+      "branches": [
+        "channel_16__intact_parts__forward"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        23,
+        2,
+        2136,
+        632,
+        157,
+        1,
+        82
+      ],
+      "branches": [
+        "channel_16__intact_parts__container_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        3,
+        1,
+        1110,
+        427,
+        212,
+        5,
+        44
+      ],
+      "branches": [
+        "channel_16__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        3,
+        1,
+        1
+      ],
+      "branches": [
+        "channel_19__whole_container_total__full_glyph_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        3,
+        1058,
+        760,
+        1060,
+        2,
+        69
+      ],
+      "branches": [
+        "channel_34__whole_container_total__forward"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        0,
+        2,
+        1058,
+        760,
+        1059,
+        1,
+        69
+      ],
+      "branches": [
+        "row_60__whole_container_total__forward"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        194,
+        100,
+        2807,
+        991,
+        108,
+        108,
+        67
+      ],
+      "branches": [
+        "row_61__whole_container_total__forward"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        14,
+        1,
+        485,
+        228,
+        188,
+        196,
+        47
+      ],
+      "branches": [
+        "row_61__whole_container_total__container_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        1,
+        64,
+        55,
+        174,
+        1,
+        33
+      ],
+      "branches": [
+        "row_62__intact_parts__forward"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        2,
+        41,
+        48,
+        173,
+        1,
+        45
+      ],
+      "branches": [
+        "row_62__intact_parts__container_reverse"
+      ],
+      "branch_count": 1
+    },
+    {
+      "pass100_state": [
+        1,
+        1,
+        0,
+        481,
+        103,
+        157,
+        158,
+        37
+      ],
+      "branches": [
+        "row_62__intact_parts__full_glyph_reverse"
+      ],
+      "branch_count": 1
+    }
+  ],
+  "boundary_conclusion": "No source-authored start/end rule has been identified. Many different source paths yield the same pass100 register vector, so the vector alone does not identify a unique source span. All coordinate and run transitions remain recorded for further comparisons."
+}

@@ -1,0 +1,31 @@
+{
+  "user_authorized_scope": "All6 lateral exits through the28-cell component, both directions, coordinates/transforms, saved process/data. No sentence construction.",
+  "source_sha256": "54e1a7d91addbbd61a73d1a83f633501415268472eb5338c8b57f047689d97d2",
+  "prior_frame_sha256": "808de1dbf604707676f53cf47d949b3718ec84f1b58294f97845dc7dcdfe03d2",
+  "register_order": [
+    "state",
+    "relations",
+    "constraints",
+    "observations",
+    "unresolved",
+    "context",
+    "target",
+    "events"
+  ],
+  "graph_rule": "Original4-neighbor nonzero component, all28 cells and30 edges; zeros and page edges retained in perimeter.",
+  "route_rule": "For each crossing edge, recursively retain every simple continuation in the non-core forest. Stop a single route at the next core return or graph leaf, but retain every sibling branch and endpoint onward references. No message closure follows.",
+  "corridor_rule": "Split at degree!=2, all core cells and exit-neighbor cells; every graph edge belongs to exactly one corridor.",
+  "cycles": "BFS spanning tree and all3 non-tree edges give a fundamental cycle basis; routes may compose with the original core spine for graph returns.",
+  "directions": "Outward and reverse-container order retain canonical internal encodings; reverse-all-glyphs also reverses each internal encoding.",
+  "native_comparison": "Explicit independent all-ones trials for every route/direction; every operation compared with original instruction interpreter; no register-feedback expansion in this run. BookII conceptual roles are separate.",
+  "live_mcp": "Complete graph, all26 routes, original BookII reference, and source perimeter supplied. Preserve exact request/response and qualification records.",
+  "status": "IN-PROGRESS",
+  "occurrence_followup": "490 explicit incoming/action/output/remainder records for52 primary directions. Contextual BookII applications are interpretation, actual retained source/path relationships are data, and native trial states remain separate. No repeated character occurrence is merged.",
+  "live_feedback_handling": "Preserve the original first response and generated critique, fill the specific occurrence-record gap, and supply actual trial vectors in a second live call.",
+  "live_steps": {
+    "plan": "see response-plan.json",
+    "relations": "step_1b8ef60fbc4400e3",
+    "occurrences": "step_be6c499af4b04c46"
+  },
+  "external_side_effects": "Live MCP generated-feedback may update its own local replay/adapter state; exact paths and counters are retained in the original response envelopes."
+}

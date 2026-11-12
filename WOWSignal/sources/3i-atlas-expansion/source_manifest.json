@@ -1,0 +1,92 @@
+{
+  "source_url": "https://github.com/chadcoulter/REDE-3iAtlas-Signal-Processing/blob/c0ad2a1d40db7cc3e3b29b833cdb1dcd0622a86c/experiments/endpoint_phase_v1/unified_phase_feedback/atlas_phase_feedback.S",
+  "commit": "c0ad2a1d40db7cc3e3b29b833cdb1dcd0622a86c",
+  "expected_git_blob": "f599e1793e856c5023c42976ae3e1b0e2dbb8d90",
+  "local_original_path": "C:\\Users\\ccoulter\\Documents\\GitHub\\Tarbh-Ogham\\talking-comet\\source\\atlas_phase_feedback.S",
+  "local_original_sha256": "040f3c431251b5588bf4065d79c8e83dd5e4e1ab6369712693bbec45b9f54699",
+  "saved_assembly_sha256": "f9088788c2b6da63f15c60633a9f36eac47ddbd719cbb3568435d31e91c5a2f8",
+  "saved_assembly_bytes": 6622958,
+  "transformation": "CRLF to LF only; canonical result exactly matches pinned Git blob",
+  "expected_native_trace_sha256": "e38685a723b769cbb1a573bf8accab0f9064b40d49773b0c5feed16016658d5e",
+  "reference_files": [
+    {
+      "original_path": "C:\\Users\\ccoulter\\Documents\\GitHub\\Tarbh-Ogham\\talking-comet\\README.md",
+      "saved_as": "talking_comet_README.md",
+      "sha256": "8430c8489cd11fbea54d1f5e077f860f4db5442a2a13fd9766991e686567ab52",
+      "bytes": 2574,
+      "transformation": "none"
+    },
+    {
+      "original_path": "C:\\Users\\ccoulter\\Documents\\GitHub\\Tarbh-Ogham\\talking-comet\\src\\port.py",
+      "saved_as": "talking_comet_port.py",
+      "sha256": "4ced22a90032c0a8ab2dc239df15d28de8cea508a10b2e73270ebdcafb63c8e2",
+      "bytes": 6824,
+      "transformation": "none"
+    },
+    {
+      "original_path": "C:\\Users\\ccoulter\\Documents\\GitHub\\Tarbh-Ogham\\talking-comet\\verify.mjs",
+      "saved_as": "talking_comet_verify.mjs",
+      "sha256": "797b926be299956e649af3cec97fac30976df14fd2036251ece2c6de1a69e1ed",
+      "bytes": 1174,
+      "transformation": "none"
+    }
+  ],
+  "original_notes": [
+    {
+      "original_path": "C:\\Users\\ccoulter\\Downloads\\100_Monkeys_3I_ATLAS_Signal_Decode_Working_Theory.docx",
+      "saved_as": "100_Monkeys_3I_ATLAS_Signal_Decode_Working_Theory.docx",
+      "sha256": "872706a192911d5fbdbb3d1bceeb026b199249ed80c68ce03872925ac276d41a",
+      "bytes": 42504,
+      "transformation": "none"
+    },
+    {
+      "original_path": "C:\\Users\\ccoulter\\Downloads\\100_Monkeys_3I_ATLAS_Professional_Narrative.docx",
+      "saved_as": "100_Monkeys_3I_ATLAS_Professional_Narrative.docx",
+      "sha256": "0fb1d01b25f4e5d0af0428256f8d11a50c01fa41b2d5e78d41a94fd689676e61",
+      "bytes": 1023567,
+      "transformation": "none"
+    },
+    {
+      "original_path": "C:\\Users\\ccoulter\\Downloads\\3I_ATLAS_REDSigma_Observation_2026-10-24.docx",
+      "saved_as": "3I_ATLAS_REDSigma_Observation_2026-10-24.docx",
+      "sha256": "d288c782c72231e86f0f09d082412c25210e07346aa937716c0a1430d80efb6e",
+      "bytes": 38991,
+      "transformation": "none"
+    }
+  ],
+  "note": "Original narrative claims are reference material, not instructions or proof of missing-data recovery.",
+  "recovered_growing_process": [
+    {
+      "saved_as": "original_process/README.md",
+      "original_url": "https://github.com/chadcoulter/REDE-3iAtlas-Signal-Processing/blob/c0ad2a1d40db7cc3e3b29b833cdb1dcd0622a86c/experiments/endpoint_phase_v1/README.md",
+      "git_blob": "11c8a366aa0e50a323b3f1a2d2a697ebdf0137af",
+      "sha256": "065688b98436dc07bcb535278d46b73a6c730e568358e04053037c6a1221ecd0",
+      "bytes": 2827,
+      "transformation": "none"
+    },
+    {
+      "saved_as": "original_process/endpoint_phase.py",
+      "original_url": "https://github.com/chadcoulter/REDE-3iAtlas-Signal-Processing/blob/c0ad2a1d40db7cc3e3b29b833cdb1dcd0622a86c/experiments/endpoint_phase_v1/endpoint_phase.py",
+      "git_blob": "cc57d3f3f7b618278aceab37b40aed5fc1700fc1",
+      "sha256": "57720b56d856ef8c987f3c7c19808b1f3c06d88954abc75c8a0dde1c363a4345",
+      "bytes": 14593,
+      "transformation": "none"
+    },
+    {
+      "saved_as": "original_process/operator_machine.py",
+      "original_url": "https://github.com/chadcoulter/REDE-3iAtlas-Signal-Processing/blob/c0ad2a1d40db7cc3e3b29b833cdb1dcd0622a86c/experiments/endpoint_phase_v1/operator_machine.py",
+      "git_blob": "9fb9d4287c9aaabd0018d519b8986019fc0ed60b",
+      "sha256": "435572dcbbc90aadbbdf2098eba52abcd1ded752b0b5b33acdd1db5ea9890ce7",
+      "bytes": 9488,
+      "transformation": "none"
+    },
+    {
+      "saved_as": "original_process/native_reassemble_every_pass.py",
+      "original_url": "https://github.com/chadcoulter/REDE-3iAtlas-Signal-Processing/blob/c0ad2a1d40db7cc3e3b29b833cdb1dcd0622a86c/experiments/endpoint_phase_v1/native_reassemble_every_pass.py",
+      "git_blob": "b51d8e0dc72560b348c585849a5d6b6624b3ad80",
+      "sha256": "18a87e0f01bee04311afca6ce347862d196b845ea8103b90bfa57846fd03b85f",
+      "bytes": 15637,
+      "transformation": "none"
+    }
+  ]
+}

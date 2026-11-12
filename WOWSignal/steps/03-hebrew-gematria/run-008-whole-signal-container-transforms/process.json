@@ -1,0 +1,60 @@
+{
+  "source_files": [
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/numeric_grid.json",
+      "sha256": "54e1a7d91addbbd61a73d1a83f633501415268472eb5338c8b57f047689d97d2"
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/raw_grid.json",
+      "sha256": "bfb94ffb9a728dba6a8136170829482cefff130cb7afa9726036c252c73e004c"
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/cells.csv",
+      "sha256": "1e0c236b2a5a15fdf7b616c49bec53c27661c1983396c048c21428fb362cab79"
+    },
+    {
+      "path": "WOWSignal/steps/01-source-data/run-001/row_metadata.csv",
+      "sha256": "727cfd26f66f9825d184f6ee40ac159234d9a45dd0125861d61afe4ec9bfe1fa"
+    }
+  ],
+  "register_order": [
+    "state",
+    "relations",
+    "constraints",
+    "observations",
+    "unresolved",
+    "context",
+    "target",
+    "events"
+  ],
+  "seed": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "seed_policy": "New full-source adapter: original all-ones bootstrap; no external Atlas measurements or selected-container generating states.",
+  "path_policy": "50 complete vertical channels and82 complete horizontal rows. Each cell is covered once per axis in the intact-parts branch input.",
+  "modes": [
+    "intact_parts",
+    "whole_container_total"
+  ],
+  "orientations": [
+    "forward",
+    "container_reverse",
+    "full_glyph_reverse"
+  ],
+  "passes": 100,
+  "feedback": "Pass1 encodes the complete source path (or its sum). Every following pass encodes all8 previous output registers in fixed REGS order and carries that same state. This is the same experimental register-feedback rule as runs005–007, not a claimed source-authored decompressor.",
+  "orientation": "Forward executes encoded units as listed. Container reverse reverses unit order and preserves each encoded unit. Full glyph reverse reverses all executable Greek glyphs. Numeric zeros and positional provenance remain recorded;0 and numeric grouping separators emit no operations.",
+  "operation_checks": "Every executed recovered operator is checked against the preserved original interpreter from its preceding register vector.",
+  "repeat_policy": "Detect repeated complete output state; future state/program repeat under this deterministic rule. Run every branch to100 without pruning; repetition is not halt or source EOF.",
+  "boundary_policy": "Record source page/path endpoints, all nonzero run transitions, and execution repeats separately. No linguistic or target-value heuristic declares a message start/end.",
+  "source_limit": "This is the entire preserved82x50 printout grid, not a raw voltage waveform or observations outside that page.",
+  "ledger_schema": "JSONL.gz contains branch, pass, input units, encoded blocks, exact program, initial/final states, Greek/Hebrew output, and instruction triples[index,glyph,before8,after8]. Source pass input unit i references the coordinate mapping in path_definitions.json.",
+  "status": "IN-PROGRESS"
+}

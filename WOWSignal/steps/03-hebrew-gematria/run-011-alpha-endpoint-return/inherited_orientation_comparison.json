@@ -1,0 +1,1278 @@
+[
+  {
+    "route": "P06",
+    "outward_r65c04_Gamma": {
+      "occurrence": 12,
+      "container_index": 11,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [
+      {
+        "occurrence": 14,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          61,
+          3
+        ],
+        "numeric_container": 3,
+        "hebrew_container": "ג",
+        "canonical_greek_container": "Γ",
+        "glyph": "Γ",
+        "book_ii_role": "Boundary frame / transform operator",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [
+          "constraints"
+        ],
+        "native_assembly": [
+          "movq state(%rip), %rax",
+          "andq $255, %rax",
+          "movq %rax, constraints(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            61,
+            3
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              61,
+              4
+            ],
+            [
+              62,
+              3
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  },
+  {
+    "route": "P07",
+    "outward_r65c04_Gamma": {
+      "occurrence": 12,
+      "container_index": 11,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [
+      {
+        "occurrence": 14,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          61,
+          3
+        ],
+        "numeric_container": 3,
+        "hebrew_container": "ג",
+        "canonical_greek_container": "Γ",
+        "glyph": "Γ",
+        "book_ii_role": "Boundary frame / transform operator",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [
+          "constraints"
+        ],
+        "native_assembly": [
+          "movq state(%rip), %rax",
+          "andq $255, %rax",
+          "movq %rax, constraints(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            61,
+            3
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              61,
+              4
+            ],
+            [
+              62,
+              3
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  },
+  {
+    "route": "P12",
+    "outward_r65c04_Gamma": {
+      "occurrence": 7,
+      "container_index": 7,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [
+      {
+        "occurrence": 14,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          61,
+          3
+        ],
+        "numeric_container": 3,
+        "hebrew_container": "ג",
+        "canonical_greek_container": "Γ",
+        "glyph": "Γ",
+        "book_ii_role": "Boundary frame / transform operator",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [
+          "constraints"
+        ],
+        "native_assembly": [
+          "movq state(%rip), %rax",
+          "andq $255, %rax",
+          "movq %rax, constraints(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            61,
+            3
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              61,
+              4
+            ],
+            [
+              62,
+              3
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  },
+  {
+    "route": "P13",
+    "outward_r65c04_Gamma": {
+      "occurrence": 7,
+      "container_index": 7,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [
+      {
+        "occurrence": 14,
+        "container_index": 14,
+        "glyph_index_in_executed_container": 1,
+        "coordinate": [
+          61,
+          3
+        ],
+        "numeric_container": 3,
+        "hebrew_container": "ג",
+        "canonical_greek_container": "Γ",
+        "glyph": "Γ",
+        "book_ii_role": "Boundary frame / transform operator",
+        "case_rule": "Uppercase tells how to resolve the observable.",
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_changed_registers": [
+          "constraints"
+        ],
+        "native_assembly": [
+          "movq state(%rip), %rax",
+          "andq $255, %rax",
+          "movq %rax, constraints(%rip)"
+        ],
+        "retained_remainder": {
+          "source_coordinate": [
+            61,
+            3
+          ],
+          "neighbors": [
+            [
+              61,
+              2
+            ],
+            [
+              61,
+              4
+            ],
+            [
+              62,
+              3
+            ]
+          ],
+          "other_exit_routes_remain_open": true,
+          "source_message_delimiter_status": "unresolved"
+        }
+      }
+    ],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  },
+  {
+    "route": "P19",
+    "outward_r65c04_Gamma": {
+      "occurrence": 7,
+      "container_index": 6,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "native_changed_registers": [],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  },
+  {
+    "route": "P20",
+    "outward_r65c04_Gamma": {
+      "occurrence": 7,
+      "container_index": 6,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "native_changed_registers": [],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  },
+  {
+    "route": "P25",
+    "outward_r65c04_Gamma": {
+      "occurrence": 5,
+      "container_index": 5,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  },
+  {
+    "route": "P26",
+    "outward_r65c04_Gamma": {
+      "occurrence": 5,
+      "container_index": 5,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r65c04_Gamma": {
+      "occurrence": 9,
+      "container_index": 9,
+      "glyph_index_in_executed_container": 1,
+      "coordinate": [
+        65,
+        4
+      ],
+      "numeric_container": 3,
+      "hebrew_container": "ג",
+      "canonical_greek_container": "Γ",
+      "glyph": "Γ",
+      "book_ii_role": "Boundary frame / transform operator",
+      "case_rule": "Uppercase tells how to resolve the observable.",
+      "native_before": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_after": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "native_changed_registers": [
+        "constraints"
+      ],
+      "native_assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "retained_remainder": {
+        "source_coordinate": [
+          65,
+          4
+        ],
+        "neighbors": [
+          [
+            64,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "other_exit_routes_remain_open": true,
+        "source_message_delimiter_status": "unresolved"
+      }
+    },
+    "return_r61c03_Gamma": [],
+    "interpretation_scope": "Measured native register ordering effect from inherited run010 traces; conceptual BookII framing is separately attributed. Both endpoint origins remain in the coordinate/provenance record."
+  }
+]

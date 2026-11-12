@@ -1,0 +1,51 @@
+{
+  "skill_path": "C:/Users/ccoulter/.codex/skills/character-transform-reasoning/SKILL.md",
+  "authority": "Chad Coulter, REDΣ BookII version0.1 October13,2026; reference supplied verbatim in request001",
+  "whole_grid_supplied_to_live_reasoning": true,
+  "whole_hebrew_grid_supplied_to_live_tokenizer": true,
+  "coordinate_map": "container_map.json",
+  "tokenizer_adapter": "Flatten complete Hebrew numeral grid row-major with explicit pipe delimiters. Record each container character span before calling MCP; regroup returned letter values by these exact spans. Preserve source0 as a zero-valued structural placeholder and do not interpret tokenizer fallback letters as Greek values.",
+  "relationship_graph": "All4100 cells retain up/down/left/right neighbors including zeros, without pruning. Connected nonzero components are descriptive4-neighbor groups, not assumed sentences.",
+  "occurrence_ledger": "Every encoded Greek character and representation delimiter is retained. BookII roles are attributed to the skill. Actual machine actions are separately replayed from run008 horizontal-forward all-ones state. This local ledger is not claimed to be a model-generated per-cell inference.",
+  "request001": "Entire82x50 numeric grid, full authoritative BookII reference, explicit cell-container policy, descriptive spatial summary, and prior-run limitations. Ask live reasoning for actual coordinate-specific relationships, reverse traversal, scoped partial boundaries, retained remainders, and alternative endpoint hypotheses without sentence construction.",
+  "request002": "Live gematria tokenizer receives every Hebrew source-cell numeral in a single complete string.",
+  "response_capture": "Complete response payloads retained. First2 response save attempts through the shell failed; exact error cause was not captured. apply_patch saved the retained responses without rerunning the calls. First2 call timestamps are unavailable; both later reasoning envelopes include timestamps.",
+  "verification_policy": "Check MCP numeric assertions against frozen source coordinates; structural_checksum is not a semantic or empirical truth certificate. Preserve corrections and disagreements rather than overwrite responses.",
+  "source_bounds": "All4100 cells of the frozen printout grid; no raw waveform or unobserved outside-page samples.",
+  "status": "IN-PROGRESS",
+  "whole_grid_run_comparison": "Enumerate every maximal nonzero horizontal and vertical run; retain before/after coordinates, values, reverse values, and lateral nonzero exits. Compare run lengths, sums, and signatures across all1416 runs.",
+  "threshold_comparison": "Sweep every distinct nonzero source-bin value as inclusive threshold over the whole grid, recording component sizes and exact core-intersecting cells. Original cells remain unfiltered in the primary graph.",
+  "live_call_sequence": [
+    {
+      "request": "request-001-reason.json",
+      "response": "response-reason.json",
+      "scope": "Full numeric grid, fullBookII reference, structural summary",
+      "step": "step_3e9aac7237fdc6af"
+    },
+    {
+      "request": "request-002-tokenize.json",
+      "response": "response-tokenize.json",
+      "scope": "Every Hebrew numeric source container with positional regrouping"
+    },
+    {
+      "request": "request-003-followup.json",
+      "response": "response-followup.json",
+      "scope": "Whole-grid1416-run comparison, threshold sweep, original reasoning readout",
+      "step": "step_97800fded8fe0427"
+    },
+    {
+      "request": "request-004-hierarchy-followup.json",
+      "response": "response-hierarchy.json",
+      "scope": "Complete620-node component hierarchy and symmetric scoped boundary interpretation",
+      "step": "step_3bd2ed5914e34daf"
+    }
+  ],
+  "component_hierarchy": "Construct every4-neighbor component at every unique observed nonzero threshold. Link every higher-threshold component to its unique containing component in the previous threshold level. Group exact cell memberships across thresholds; compare core persistence against all other components, not just a selected area.",
+  "local_scripts": [
+    "WOWSignal/scripts/step03_live_mcp_container_records.py",
+    "WOWSignal/scripts/step03_live_mcp_audit.py",
+    "WOWSignal/scripts/step03_live_mcp_boundary_hierarchy.py"
+  ],
+  "retrieval_check": "Direct explain call succeeded; original last-response claim of an internal approval failure is unsupported in parent-session evidence and retained with correction.",
+  "external_side_effects": "MCP automatic generated-feedback reports replay/adapter updates in its own state directory. Original response captures adapter path and update counters."
+}

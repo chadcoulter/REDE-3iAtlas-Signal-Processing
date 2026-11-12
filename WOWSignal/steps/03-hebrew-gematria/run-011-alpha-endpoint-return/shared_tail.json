@@ -1,0 +1,7441 @@
+[
+  {
+    "coordinate": [
+      72,
+      4
+    ],
+    "value": 1,
+    "hebrew": "א",
+    "greek": "Α",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              72,
+              5
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            73,
+            4
+          ]
+        ]
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              73,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            72,
+            5
+          ]
+        ]
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              72,
+              5
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            73,
+            4
+          ]
+        ]
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              73,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            72,
+            5
+          ]
+        ]
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              72,
+              5
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            73,
+            4
+          ]
+        ]
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              73,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            72,
+            5
+          ]
+        ]
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              72,
+              5
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            73,
+            4
+          ]
+        ]
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 1,
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 1,
+            "coordinate": [
+              73,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            72,
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      71,
+      4
+    ],
+    "value": 1,
+    "hebrew": "א",
+    "greek": "Α",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 2,
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 2,
+            "coordinate": [
+              72,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      70,
+      4
+    ],
+    "value": 1,
+    "hebrew": "א",
+    "greek": "Α",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 3,
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 3,
+            "coordinate": [
+              71,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      69,
+      4
+    ],
+    "value": 1,
+    "hebrew": "א",
+    "greek": "Α",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 4,
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 4,
+            "coordinate": [
+              70,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      68,
+      4
+    ],
+    "value": 1,
+    "hebrew": "א",
+    "greek": "Α",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 5,
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 5,
+            "coordinate": [
+              69,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      67,
+      4
+    ],
+    "value": 4,
+    "hebrew": "ד",
+    "greek": "Δ",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 6,
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      66,
+      4
+    ],
+    "value": 4,
+    "hebrew": "ד",
+    "greek": "Δ",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 7,
+          "coordinate": [
+            67,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ]
+        ],
+        "native_before": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      65,
+      4
+    ],
+    "value": 3,
+    "hebrew": "ג",
+    "greek": "Γ",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 8,
+          "coordinate": [
+            66,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      64,
+      4
+    ],
+    "value": 4,
+    "hebrew": "ד",
+    "greek": "Δ",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 9,
+          "coordinate": [
+            65,
+            4
+          ],
+          "glyph": "Γ",
+          "container_value": 3
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ]
+        ],
+        "native_before": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      64,
+      3
+    ],
+    "value": 1,
+    "hebrew": "א",
+    "greek": "Α",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 10,
+          "coordinate": [
+            64,
+            4
+          ],
+          "glyph": "Δ",
+          "container_value": 4
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 6,
+            "coordinate": [
+              68,
+              4
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ],
+        "native_before": [
+          4,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": []
+      }
+    ]
+  },
+  {
+    "coordinate": [
+      63,
+      3
+    ],
+    "value": 1,
+    "hebrew": "א",
+    "greek": "Α",
+    "all8_same_native_before": true,
+    "all8_same_native_after": true,
+    "separate_arrival_histories": [
+      {
+        "route": "P06",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P06",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P06",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            63,
+            2
+          ]
+        ]
+      },
+      {
+        "route": "P07",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P07",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P07",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            63,
+            2
+          ]
+        ]
+      },
+      {
+        "route": "P12",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P12",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P12",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            63,
+            2
+          ]
+        ]
+      },
+      {
+        "route": "P13",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P13",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P13",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            63,
+            2
+          ]
+        ]
+      },
+      {
+        "route": "P19",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P19",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P19",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            63,
+            2
+          ]
+        ]
+      },
+      {
+        "route": "P20",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P20",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P20",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            63,
+            2
+          ]
+        ]
+      },
+      {
+        "route": "P25",
+        "origin": [
+          72,
+          5
+        ],
+        "input_previous_occurrence": {
+          "route": "P25",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P25",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            72,
+            5
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            62,
+            3
+          ]
+        ]
+      },
+      {
+        "route": "P26",
+        "origin": [
+          73,
+          4
+        ],
+        "input_previous_occurrence": {
+          "route": "P26",
+          "direction": "reverse_containers",
+          "occurrence": 11,
+          "coordinate": [
+            64,
+            3
+          ],
+          "glyph": "Α",
+          "container_value": 1
+        },
+        "input_previous_origin": [
+          {
+            "route": "P26",
+            "direction": "reverse_containers",
+            "occurrence": 11,
+            "coordinate": [
+              64,
+              3
+            ],
+            "glyph": "Α",
+            "container_value": 1
+          }
+        ],
+        "retained_source_history": [
+          [
+            73,
+            4
+          ],
+          [
+            72,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            68,
+            4
+          ],
+          [
+            67,
+            4
+          ],
+          [
+            66,
+            4
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            63,
+            3
+          ]
+        ],
+        "native_before": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "native_after": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "other_neighbors": [
+          [
+            62,
+            3
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-12",
+  "user_authorized_scope": "Follow two Alpha endpoints back through shared tail into core, preserve coordinates/transforms, save data/process.",
+  "inputs": [
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-010-six-lateral-exits/transform_trials.json",
+      "sha256": "ddb7450c4affc320511fd14b6d64481f6d21ad7d1bf9b23bee2bd928bb5889da"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-010-six-lateral-exits/graph.json",
+      "sha256": "b67ee106538d9461d7099312c29a56a9a40f6a5bc3ffd883c429c22c48964103"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-010-six-lateral-exits/relational_occurrences.json",
+      "sha256": "8a2cce2202bf6ab39ac9ee1d981dc051861267aebd746c73cadcaeec71b85459"
+    }
+  ],
+  "authority": {
+    "path": "C:\\Users\\ccoulter\\.codex\\skills\\character-transform-reasoning\\references\\book-ii-alphabet.txt",
+    "sha256": "6628ad7c647f12ccae377766cee157179b9211c205904b9f2d306ab2996f45c5"
+  },
+  "rules": [
+    "Reuse8 existing reverse-container routes verbatim; no new machine seed/trial or feedback pass.",
+    "Preserve both endpoint identities and every distinct occurrence record.",
+    "Compute exact pair comparisons and11 shared spatial positions; equal vectors do not merge origin/source paths.",
+    "Record all4 re-entry ports, exact native per-glyph changes, and onward source neighbors including open branches.",
+    "Use full graph and original perimeter as context; no deletion of zeros or outside-page distinctions.",
+    "Live MCP receives all8 paths, every native occurrence, original BookII reference and graph. Interpretative contextual readings remain separate from measured source/native data.",
+    "Append report, route streams and live readout to the existing working Hebrew file; preserve earlier bytes. No commit/push."
+  ],
+  "status": "IN-PROGRESS",
+  "live_return_step": "step_5346854d2c4c37ef",
+  "skill_path": "C:/Users/ccoulter/.codex/skills/character-transform-reasoning/SKILL.md",
+  "skill_application": "Reuse skill already read in this chat: exact source/container preservation, distinct character occurrences, original BookII definitions, arrival/action/result/remainder records, and scoped partial resolution with open alternatives retained.",
+  "native_reexecution_count": 0,
+  "inherited_native_occurrences": 126,
+  "external_side_effects": "Live MCP automatic generated-feedback may update its own adapter/replay state, reported in the original response envelopes."
+}

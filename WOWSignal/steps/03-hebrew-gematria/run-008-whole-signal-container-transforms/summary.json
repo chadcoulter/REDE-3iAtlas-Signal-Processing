@@ -1,0 +1,35 @@
+{
+  "paths": 132,
+  "vertical_paths": 50,
+  "horizontal_paths": 82,
+  "branches": 792,
+  "passes": 79200,
+  "instruction_checks": 720388,
+  "source_cells": 4100,
+  "source_zero_bins": 2988,
+  "source_nonzero_bins": 1112,
+  "branches_with_repeats": 541,
+  "repeat_period_counts": {
+    "1": 479,
+    "2": 62
+  },
+  "first_repeat_pass_counts": {
+    "2": 258,
+    "3": 215,
+    "23": 4,
+    "22": 3,
+    "7": 15,
+    "4": 4,
+    "5": 24,
+    "29": 3,
+    "8": 9,
+    "28": 1,
+    "97": 1,
+    "98": 2,
+    "27": 1,
+    "96": 1
+  },
+  "source_start_marker_identified": false,
+  "source_end_marker_identified": false,
+  "elapsed_seconds": 17.819
+}

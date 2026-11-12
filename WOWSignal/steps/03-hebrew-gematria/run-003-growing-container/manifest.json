@@ -1,0 +1,274 @@
+{
+  "baseline_commit": "094df32ecbe70547a61349df421d329b24f19da1",
+  "branch": "codex/wow-signal",
+  "file_changes": [
+    {
+      "status": "M",
+      "path": "WOWSignal/.gitattributes"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/scripts/step03_atlas_growing_chain.py"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/scripts/step03_original_atlas_expansion.py"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/100_Monkeys_3I_ATLAS_Professional_Narrative.docx"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/100_Monkeys_3I_ATLAS_Signal_Decode_Working_Theory.docx"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/3I_ATLAS_REDSigma_Observation_2026-10-24.docx"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/atlas_phase_feedback.S"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/README.md"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/endpoint_phase.py"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/native_reassemble_every_pass.py"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/operator_machine.py"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/source_manifest.json"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/talking_comet_README.md"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/talking_comet_port.py"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/talking_comet_verify.mjs"
+    },
+    {
+      "status": "M",
+      "path": "WOWSignal/steps/03-hebrew-gematria/README-2026-11-10-container-expansion-status.md"
+    },
+    {
+      "status": "M",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-001/hebrew_streams_updated.txt"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/circuit_trace.csv"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/reference.u64le"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/results.json"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/wow_forward.u64le"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/wow_reverse.u64le"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/zero_phase.u64le"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-003-growing-container/README.md"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-003-growing-container/manifest.json"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-003-growing-container/results.json"
+    }
+  ],
+  "artifacts_except_this_manifest": [
+    {
+      "status": "M",
+      "path": "WOWSignal/.gitattributes",
+      "bytes": 849,
+      "sha256": "2b951362962c1ef6c6632be7750bd1dc0d96fe52b211a4f76628c1d45391a2f5"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/scripts/step03_atlas_growing_chain.py",
+      "bytes": 8506,
+      "sha256": "ca0307bae029d391d448d95ce5043b817f66719b9912a8a0393e8ef2e46135ae"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/scripts/step03_original_atlas_expansion.py",
+      "bytes": 12461,
+      "sha256": "8ab9954748707929451947cd018e8634c9ac93a03ad12435d953499506e27e70"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/100_Monkeys_3I_ATLAS_Professional_Narrative.docx",
+      "bytes": 1023567,
+      "sha256": "0fb1d01b25f4e5d0af0428256f8d11a50c01fa41b2d5e78d41a94fd689676e61"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/100_Monkeys_3I_ATLAS_Signal_Decode_Working_Theory.docx",
+      "bytes": 42504,
+      "sha256": "872706a192911d5fbdbb3d1bceeb026b199249ed80c68ce03872925ac276d41a"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/3I_ATLAS_REDSigma_Observation_2026-10-24.docx",
+      "bytes": 38991,
+      "sha256": "d288c782c72231e86f0f09d082412c25210e07346aa937716c0a1430d80efb6e"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/atlas_phase_feedback.S",
+      "bytes": 6622958,
+      "sha256": "f9088788c2b6da63f15c60633a9f36eac47ddbd719cbb3568435d31e91c5a2f8"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/README.md",
+      "bytes": 2827,
+      "sha256": "065688b98436dc07bcb535278d46b73a6c730e568358e04053037c6a1221ecd0"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/endpoint_phase.py",
+      "bytes": 14593,
+      "sha256": "57720b56d856ef8c987f3c7c19808b1f3c06d88954abc75c8a0dde1c363a4345"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/native_reassemble_every_pass.py",
+      "bytes": 15637,
+      "sha256": "18a87e0f01bee04311afca6ce347862d196b845ea8103b90bfa57846fd03b85f"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/original_process/operator_machine.py",
+      "bytes": 9488,
+      "sha256": "435572dcbbc90aadbbdf2098eba52abcd1ded752b0b5b33acdd1db5ea9890ce7"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/source_manifest.json",
+      "bytes": 4865,
+      "sha256": "d1bbf3de0b8a86d367a86431fabefc011775eeb4597f6687f9d5c3aefcbd84fc"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/talking_comet_README.md",
+      "bytes": 2574,
+      "sha256": "8430c8489cd11fbea54d1f5e077f860f4db5442a2a13fd9766991e686567ab52"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/talking_comet_port.py",
+      "bytes": 6824,
+      "sha256": "4ced22a90032c0a8ab2dc239df15d28de8cea508a10b2e73270ebdcafb63c8e2"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/sources/3i-atlas-expansion/talking_comet_verify.mjs",
+      "bytes": 1174,
+      "sha256": "797b926be299956e649af3cec97fac30976df14fd2036251ece2c6de1a69e1ed"
+    },
+    {
+      "status": "M",
+      "path": "WOWSignal/steps/03-hebrew-gematria/README-2026-11-10-container-expansion-status.md",
+      "bytes": 15011,
+      "sha256": "e418be4b8e39ab284ebf183af08b037febbdac1df845067344f88b5359f6a123"
+    },
+    {
+      "status": "M",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-001/hebrew_streams_updated.txt",
+      "bytes": 1943566,
+      "sha256": "a88248c01c5f126451fdc02ead7f22fd381764bc994bfccd4e5a5d5c251ca62f"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/circuit_trace.csv",
+      "bytes": 362863,
+      "sha256": "c62bd0b7d9e19467477584e44dfdd4dd3d23cd6657b86e44ca96952e051baeae"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/reference.u64le",
+      "bytes": 51200,
+      "sha256": "e38685a723b769cbb1a573bf8accab0f9064b40d49773b0c5feed16016658d5e"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/results.json",
+      "bytes": 24577,
+      "sha256": "3054529eda3edb2ec79d1feae16242f1c8aa526fa80a87c04c611f6dfe17865d"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/wow_forward.u64le",
+      "bytes": 51200,
+      "sha256": "b7f43b1628a2b6f8e88456898b4d57d6febdf9f5c132901655ca109f27fdd8f5"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/wow_reverse.u64le",
+      "bytes": 51200,
+      "sha256": "4a0bc813b7102ca86efc7f4be887bcf1953b61f3e5c918e7a7ca7f4774d51a4d"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-002-original-atlas/zero_phase.u64le",
+      "bytes": 51200,
+      "sha256": "63581086069d7db60b8a6dbb09d1fb4110a73f9222aea2e1b7d51b96ecdd751f"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-003-growing-container/README.md",
+      "bytes": 10392,
+      "sha256": "280603a56af9cde61e66dcd2ad9147b3326da6f54ef81bfcab2a18b194b02977"
+    },
+    {
+      "status": "??",
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-003-growing-container/results.json",
+      "bytes": 3290951,
+      "sha256": "3fd4aac335b1bfe542f8d60952474c54b36c89f73980e853ba974f4fe76a6499"
+    }
+  ],
+  "working_text_original_prefix_preserved": true,
+  "checks": {
+    "original_fixed_native_trace_words": 6400,
+    "original_fixed_native_trace_sha256": "e38685a723b769cbb1a573bf8accab0f9064b40d49773b0c5feed16016658d5e",
+    "original_operator_validation_cases": 2835,
+    "cross_interpreter_chain_execution_comparisons": 84,
+    "growth_cycles_per_case": 100,
+    "chain_length_per_lane": 301,
+    "cases": 3,
+    "native_reassembly_performed": false
+  },
+  "no_new_observed_measurements_or_confirmed_message": true
+}

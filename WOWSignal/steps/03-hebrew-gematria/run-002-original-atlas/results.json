@@ -1,0 +1,1308 @@
+{
+  "source_manifest": "WOWSignal/sources/3i-atlas-expansion/source_manifest.json",
+  "native_reference_match": true,
+  "expected_native_sha256": "e38685a723b769cbb1a573bf8accab0f9064b40d49773b0c5feed16016658d5e",
+  "source_assembly_sha256": "f9088788c2b6da63f15c60633a9f36eac47ddbd719cbb3568435d31e91c5a2f8",
+  "runner_sha256": "8ab9954748707929451947cd018e8634c9ac93a03ad12435d953499506e27e70",
+  "registers": [
+    "state",
+    "relations",
+    "constraints",
+    "observations",
+    "unresolved",
+    "context",
+    "target",
+    "events"
+  ],
+  "scope": {
+    "display": "וידכ | ול",
+    "source_tokens": [
+      "ו",
+      "יד",
+      "כו",
+      "ל"
+    ],
+    "source_bins": [
+      6,
+      14,
+      26,
+      30
+    ],
+    "rows": [
+      58,
+      61
+    ],
+    "channel": 2,
+    "outside_unchanged": "יטה"
+  },
+  "mapping_correction": "Original compiler uses Ϛ for6. The earlier Ϝ retention trial is retained as a different method.",
+  "operators": {
+    "Α": {
+      "assembly": [
+        "movq $1, state(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[0]=1\n    return a,z\n"
+    },
+    "Ρ": {
+      "assembly": [
+        "movq target(%rip), %rax",
+        "xorq %rax, relations(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[6]\n    r[1]=(r[1]^a)&MASK\n    z=(r[1]==0)\n    return a,z\n"
+    },
+    "Κ": {
+      "assembly": [
+        "incq context(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[5]=(r[5]+1)&MASK\n    z=(r[5]==0)\n    return a,z\n"
+    },
+    "Ϛ": {
+      "assembly": [
+        "incq unresolved(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[4]=(r[4]+1)&MASK\n    z=(r[4]==0)\n    return a,z\n"
+    },
+    "Ι": {
+      "assembly": [
+        "incq events(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[7]=(r[7]+1)&MASK\n    z=(r[7]==0)\n    return a,z\n"
+    },
+    "Η": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "movq %rax, target(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    r[6]=a\n    return a,z\n"
+    },
+    "Λ": {
+      "assembly": [
+        "movq relations(%rip), %rax",
+        "xorq %rax, state(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[1]\n    r[0]=(r[0]^a)&MASK\n    z=(r[0]==0)\n    return a,z\n"
+    },
+    "Ω": {
+      "assembly": [
+        "movq target(%rip), %rax",
+        "movq %rax, state(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[6]\n    r[0]=a\n    return a,z\n"
+    },
+    "Ϟ": {
+      "assembly": [
+        "movq events(%rip), %rax",
+        "xorq %rax, relations(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[7]\n    r[1]=(r[1]^a)&MASK\n    z=(r[1]==0)\n    return a,z\n"
+    },
+    "Ε": {
+      "assembly": [
+        "cmpq $0, constraints(%rip)",
+        "sete %al",
+        "movzbq %al, %rax",
+        "addq %rax, observations(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    z=(r[2]==0)\n    a=(a&(~255&MASK))|int(z)\n    a=a&255\n    r[3]=(r[3]+a)&MASK\n    z=(r[3]==0)\n    return a,z\n"
+    },
+    "Υ": {
+      "assembly": [
+        "movq constraints(%rip), %rax",
+        "testq $1, %rax",
+        "jz 1f",
+        "incq context(%rip)",
+        "jmp 2f",
+        "1:",
+        "incq relations(%rip)",
+        "2:"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[2]\n    z=((a&1)==0)\n    if z:\n        r[1]=(r[1]+1)&MASK\n        z=(r[1]==0)\n    else:\n        r[5]=(r[5]+1)&MASK\n        z=(r[5]==0)\n    return a,z\n"
+    },
+    "Ο": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "xorq relations(%rip), %rax",
+        "addq %rax, observations(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    a=(a^r[1])&MASK\n    z=(a==0)\n    r[3]=(r[3]+a)&MASK\n    z=(r[3]==0)\n    return a,z\n"
+    },
+    "Β": {
+      "assembly": [
+        "incq context(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[5]=(r[5]+1)&MASK\n    z=(r[5]==0)\n    return a,z\n"
+    },
+    "Ν": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "incq %rax",
+        "movq %rax, target(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    a=(a+1)&MASK\n    z=(a==0)\n    r[6]=a\n    return a,z\n"
+    },
+    "Χ": {
+      "assembly": [
+        "movq target(%rip), %rax",
+        "xchgq %rax, state(%rip)",
+        "movq %rax, target(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[6]\n    tmp=a\n    a=r[0]\n    r[0]=tmp\n    r[6]=a\n    return a,z\n"
+    },
+    "Θ": {
+      "assembly": [
+        "incq constraints(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[2]=(r[2]+1)&MASK\n    z=(r[2]==0)\n    return a,z\n"
+    },
+    "Γ": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "andq $255, %rax",
+        "movq %rax, constraints(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    a=(a&255)&MASK\n    z=(a==0)\n    r[2]=a\n    return a,z\n"
+    },
+    "Ζ": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "xorq %rax, relations(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    r[1]=(r[1]^a)&MASK\n    z=(r[1]==0)\n    return a,z\n"
+    },
+    "Φ": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "xorq context(%rip), %rax",
+        "movq %rax, target(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    a=(a^r[5])&MASK\n    z=(a==0)\n    r[6]=a\n    return a,z\n"
+    },
+    "Μ": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "addq %rax, observations(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    r[3]=(r[3]+a)&MASK\n    z=(r[3]==0)\n    return a,z\n"
+    },
+    "Δ": {
+      "assembly": [
+        "incq state(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[0]=(r[0]+1)&MASK\n    z=(r[0]==0)\n    return a,z\n"
+    },
+    "Ψ": {
+      "assembly": [
+        "movq observations(%rip), %rax",
+        "xorq relations(%rip), %rax",
+        "movq %rax, context(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[3]\n    a=(a^r[1])&MASK\n    z=(a==0)\n    r[5]=a\n    return a,z\n"
+    },
+    "Π": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "addq context(%rip), %rax",
+        "movq %rax, target(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    a=(a+r[5])&MASK\n    z=(a==0)\n    r[6]=a\n    return a,z\n"
+    },
+    "Σ": {
+      "assembly": [
+        "movq relations(%rip), %rax",
+        "addq %rax, state(%rip)",
+        "incq state(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[1]\n    r[0]=(r[0]+a)&MASK\n    z=(r[0]==0)\n    r[0]=(r[0]+1)&MASK\n    z=(r[0]==0)\n    return a,z\n"
+    },
+    "Τ": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "addq relations(%rip), %rax",
+        "addq constraints(%rip), %rax",
+        "movq %rax, target(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    a=(a+r[1])&MASK\n    z=(a==0)\n    a=(a+r[2])&MASK\n    z=(a==0)\n    r[6]=a\n    return a,z\n"
+    },
+    "Ϡ": {
+      "assembly": [
+        "incq context(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    r[5]=(r[5]+1)&MASK\n    z=(r[5]==0)\n    return a,z\n"
+    },
+    "Ξ": {
+      "assembly": [
+        "movq state(%rip), %rax",
+        "xorq target(%rip), %rax",
+        "addq %rax, unresolved(%rip)"
+      ],
+      "translated_python": "def apply(r,a,z):\n    a=r[0]\n    a=(a^r[6])&MASK\n    z=(a==0)\n    r[4]=(r[4]+a)&MASK\n    z=(r[4]==0)\n    return a,z\n"
+    }
+  },
+  "chain_operator_counts": {
+    "reflect_channel1": 10231,
+    "reflect_channel2": 10944,
+    "reflect_channel3": 9865,
+    "reflect_channel4": 9720,
+    "project_channel1": 10231,
+    "project_channel2": 10944,
+    "project_channel3": 9865,
+    "project_channel4": 9720
+  },
+  "trials": {
+    "reference": {
+      "inputs": [
+        1,
+        14682301134823862838,
+        2,
+        1
+      ],
+      "trace_sha256": "e38685a723b769cbb1a573bf8accab0f9064b40d49773b0c5feed16016658d5e",
+      "snapshots": 800,
+      "final_phase": [
+        1,
+        15275004092359177936,
+        2,
+        1
+      ],
+      "last_registers": {
+        "state": 1,
+        "relations": 0,
+        "constraints": 57,
+        "observations": 16138718676857440344,
+        "unresolved": 7974452998589489113,
+        "context": 1759975850108474941,
+        "target": 1,
+        "events": 116678
+      },
+      "snapshots_different_from_reference": 0,
+      "last_different_snapshot": null
+    },
+    "wow_forward": {
+      "inputs": [
+        6,
+        14,
+        26,
+        30
+      ],
+      "trace_sha256": "b7f43b1628a2b6f8e88456898b4d57d6febdf9f5c132901655ca109f27fdd8f5",
+      "snapshots": 800,
+      "final_phase": [
+        1,
+        15275004092359177936,
+        2,
+        1
+      ],
+      "last_registers": {
+        "state": 1,
+        "relations": 0,
+        "constraints": 57,
+        "observations": 16138718676857440344,
+        "unresolved": 13311666746176944502,
+        "context": 1759975850108474941,
+        "target": 1,
+        "events": 116678
+      },
+      "snapshots_different_from_reference": 800,
+      "last_different_snapshot": 800
+    },
+    "wow_reverse": {
+      "inputs": [
+        30,
+        26,
+        14,
+        6
+      ],
+      "trace_sha256": "4a0bc813b7102ca86efc7f4be887bcf1953b61f3e5c918e7a7ca7f4774d51a4d",
+      "snapshots": 800,
+      "final_phase": [
+        1,
+        15275004092359177936,
+        2,
+        1
+      ],
+      "last_registers": {
+        "state": 1,
+        "relations": 0,
+        "constraints": 57,
+        "observations": 16138718676857440344,
+        "unresolved": 14115376437480164882,
+        "context": 1759975850108474941,
+        "target": 1,
+        "events": 116678
+      },
+      "snapshots_different_from_reference": 800,
+      "last_different_snapshot": 800
+    },
+    "zero_phase": {
+      "inputs": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "trace_sha256": "63581086069d7db60b8a6dbb09d1fb4110a73f9222aea2e1b7d51b96ecdd751f",
+      "snapshots": 800,
+      "final_phase": [
+        1,
+        15275004092359177936,
+        2,
+        1
+      ],
+      "last_registers": {
+        "state": 1,
+        "relations": 0,
+        "constraints": 57,
+        "observations": 16138718676857440344,
+        "unresolved": 16661484303554060032,
+        "context": 1759975850108474941,
+        "target": 1,
+        "events": 116678
+      },
+      "snapshots_different_from_reference": 800,
+      "last_different_snapshot": 800
+    }
+  },
+  "scoped_original_operator_trace": [
+    {
+      "direction": "forward",
+      "pass": 1,
+      "step": 1,
+      "glyph": "Ϛ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 1,
+      "step": 2,
+      "glyph": "Ι",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 1,
+      "step": 3,
+      "glyph": "Δ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      "after": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 1,
+      "step": 4,
+      "glyph": "Κ",
+      "before": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      "after": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 1,
+      "step": 5,
+      "glyph": "Ϛ",
+      "before": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        2,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 1,
+      "step": 6,
+      "glyph": "Λ",
+      "before": [
+        2,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 2,
+      "step": 1,
+      "glyph": "Ϛ",
+      "before": [
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        3,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 2,
+      "step": 2,
+      "glyph": "Ι",
+      "before": [
+        3,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        3,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 2,
+      "step": 3,
+      "glyph": "Δ",
+      "before": [
+        3,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        3
+      ],
+      "after": [
+        4,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 2,
+      "step": 4,
+      "glyph": "Κ",
+      "before": [
+        4,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        3
+      ],
+      "after": [
+        4,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 2,
+      "step": 5,
+      "glyph": "Ϛ",
+      "before": [
+        4,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        4,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 2,
+      "step": 6,
+      "glyph": "Λ",
+      "before": [
+        4,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        5,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 3,
+      "step": 1,
+      "glyph": "Ϛ",
+      "before": [
+        5,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        5,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 3,
+      "step": 2,
+      "glyph": "Ι",
+      "before": [
+        5,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        5,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 3,
+      "step": 3,
+      "glyph": "Δ",
+      "before": [
+        5,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        4
+      ],
+      "after": [
+        6,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 3,
+      "step": 4,
+      "glyph": "Κ",
+      "before": [
+        6,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        4
+      ],
+      "after": [
+        6,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 3,
+      "step": 5,
+      "glyph": "Ϛ",
+      "before": [
+        6,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        4
+      ],
+      "after": [
+        6,
+        1,
+        1,
+        1,
+        7,
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "direction": "forward",
+      "pass": 3,
+      "step": 6,
+      "glyph": "Λ",
+      "before": [
+        6,
+        1,
+        1,
+        1,
+        7,
+        4,
+        1,
+        4
+      ],
+      "after": [
+        7,
+        1,
+        1,
+        1,
+        7,
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 1,
+      "step": 1,
+      "glyph": "Λ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 1,
+      "step": 2,
+      "glyph": "Ϛ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 1,
+      "step": 3,
+      "glyph": "Κ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 1,
+      "step": 4,
+      "glyph": "Δ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 1,
+      "step": 5,
+      "glyph": "Ι",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 1,
+      "step": 6,
+      "glyph": "Ϛ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 2,
+      "step": 1,
+      "glyph": "Λ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 2,
+      "step": 2,
+      "glyph": "Ϛ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 2,
+      "step": 3,
+      "glyph": "Κ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        4,
+        2,
+        1,
+        2
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 2,
+      "step": 4,
+      "glyph": "Δ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        2
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 2,
+      "step": 5,
+      "glyph": "Ι",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        2
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 2,
+      "step": 6,
+      "glyph": "Ϛ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 3,
+      "step": 1,
+      "glyph": "Λ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 3,
+      "step": 2,
+      "glyph": "Ϛ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        5,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 3,
+      "step": 3,
+      "glyph": "Κ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        6,
+        3,
+        1,
+        3
+      ],
+      "after": [
+        0,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 3,
+      "step": 4,
+      "glyph": "Δ",
+      "before": [
+        0,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        3
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 3,
+      "step": 5,
+      "glyph": "Ι",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        3
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "direction": "reverse",
+      "pass": 3,
+      "step": 6,
+      "glyph": "Ϛ",
+      "before": [
+        1,
+        1,
+        1,
+        1,
+        6,
+        4,
+        1,
+        4
+      ],
+      "after": [
+        1,
+        1,
+        1,
+        1,
+        7,
+        4,
+        1,
+        4
+      ]
+    }
+  ],
+  "external_contributions": "Full circuit retains all original Atlas operator chains and four original feedback banks. Only its four initial phase cells change. Generated states are NOT exclusively Wow-derived payload.",
+  "input_adapter": "Place four source bins into the four initial phase cells, as in the recovered Talking Comet input adapter. This is an experimental input adapter, not an original Wow decoder.",
+  "scope_only_operator_run": "Apply only the six scoped codes using recovered operator bodies; seed all eight registers1, three feedback passes per direction, as in the earlier trace procedure.",
+  "payload_status": "No source-selected register-to-message extraction rule has been recovered. Register values are generated computational states, not recovered letters.",
+  "seconds": 8.437
+}

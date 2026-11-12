@@ -1,0 +1,2869 @@
+{
+  "policy": "Actual native occurrence data for all8 tail routes in both primary directions. Retain differing starting sources and selected leaves; no route prefix is merged.",
+  "records": [
+    {
+      "route": "P06",
+      "direction": "outward",
+      "incoming_start": [
+        59,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P06",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        72,
+        5
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P07",
+      "direction": "outward",
+      "incoming_start": [
+        59,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P07",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        73,
+        4
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P12",
+      "direction": "outward",
+      "incoming_start": [
+        61,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P12",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        72,
+        5
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P13",
+      "direction": "outward",
+      "incoming_start": [
+        61,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P13",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        73,
+        4
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P19",
+      "direction": "outward",
+      "incoming_start": [
+        62,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P19",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        72,
+        5
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P20",
+      "direction": "outward",
+      "incoming_start": [
+        62,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P20",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        73,
+        4
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P25",
+      "direction": "outward",
+      "incoming_start": [
+        63,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P25",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        72,
+        5
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P26",
+      "direction": "outward",
+      "incoming_start": [
+        63,
+        2
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            4,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": [
+            "state"
+          ]
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    },
+    {
+      "route": "P26",
+      "direction": "reverse_containers",
+      "incoming_start": [
+        73,
+        4
+      ],
+      "occurrences": [
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "glyph": "Α",
+          "native_before": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "native_after": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "changed_registers": []
+        }
+      ]
+    }
+  ]
+}

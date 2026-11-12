@@ -1,0 +1,101 @@
+{
+  "policy": "Exact frozen row metadata for the candidate scope and its bounding rows. Metadata marks observation coordinates, not a decoded message direction.",
+  "rows": [
+    {
+      "row_0based": "56",
+      "row_1based": "57",
+      "source_csv_line": "58",
+      "source_txt_line": "57",
+      "RT. ASCEN": "19 16 36",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.183",
+      "GAL LAT": "-17.69",
+      "GAL LON": "11.14",
+      "EASTERN STD TIME": "22 15 23"
+    },
+    {
+      "row_0based": "57",
+      "row_1based": "58",
+      "source_csv_line": "59",
+      "source_txt_line": "58",
+      "RT. ASCEN": "19 16 48",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.184",
+      "GAL LAT": "-17.74",
+      "GAL LON": "11.16",
+      "EASTERN STD TIME": "22 15 35"
+    },
+    {
+      "row_0based": "58",
+      "row_1based": "59",
+      "source_csv_line": "60",
+      "source_txt_line": "59",
+      "RT. ASCEN": "19 17 00",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.184",
+      "GAL LAT": "-17.78",
+      "GAL LON": "11.17",
+      "EASTERN STD TIME": "22 15 47"
+    },
+    {
+      "row_0based": "59",
+      "row_1based": "60",
+      "source_csv_line": "61",
+      "source_txt_line": "60",
+      "RT. ASCEN": "19 17 12",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.184",
+      "GAL LAT": "-17.82",
+      "GAL LON": "11.19",
+      "EASTERN STD TIME": "22 15 59"
+    },
+    {
+      "row_0based": "60",
+      "row_1based": "61",
+      "source_csv_line": "62",
+      "source_txt_line": "61",
+      "RT. ASCEN": "19 17 24",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.185",
+      "GAL LAT": "-17.86",
+      "GAL LON": "11.21",
+      "EASTERN STD TIME": "22 16 10"
+    },
+    {
+      "row_0based": "61",
+      "row_1based": "62",
+      "source_csv_line": "63",
+      "source_txt_line": "62",
+      "RT. ASCEN": "19 17 36",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.185",
+      "GAL LAT": "-17.90",
+      "GAL LON": "11.23",
+      "EASTERN STD TIME": "22 16 22"
+    },
+    {
+      "row_0based": "62",
+      "row_1based": "63",
+      "source_csv_line": "64",
+      "source_txt_line": "63",
+      "RT. ASCEN": "19 17 48",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.185",
+      "GAL LAT": "-17.94",
+      "GAL LON": "11.24",
+      "EASTERN STD TIME": "22 16 34"
+    },
+    {
+      "row_0based": "63",
+      "row_1based": "64",
+      "source_csv_line": "65",
+      "source_txt_line": "64",
+      "RT. ASCEN": "19 18 00",
+      "DECLIN": "-27 03",
+      "2ND LO FREQ": "120.186",
+      "GAL LAT": "-17.98",
+      "GAL LON": "11.26",
+      "EASTERN STD TIME": "22 16 46"
+    }
+  ]
+}

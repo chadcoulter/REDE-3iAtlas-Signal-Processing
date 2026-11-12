@@ -1,0 +1,625 @@
+Six-exit route transform streams. Source coordinates and all repeated containers retained. Register order: state, relations, constraints, observations, unresolved, context, target, events
+
+P01 E1 outward (graph_leaf)
+Coordinates: r59c02 ↔ r59c01
+Numeric containers: 14 | 1
+Hebrew source containers: יד | א
+Canonical Greek source containers: ΙΔ | Α
+Executed Greek glyphs: ΙΔΑ
+Independent trial output registers: [1, 1, 1, 1, 1, 1, 1, 2]
+
+P01 E1 reverse_containers (graph_leaf)
+Coordinates: r59c01 ↔ r59c02
+Numeric containers: 1 | 14
+Hebrew source containers: א | יד
+Canonical Greek source containers: Α | ΙΔ
+Executed Greek glyphs: ΑΙΔ
+Independent trial output registers: [2, 1, 1, 1, 1, 1, 1, 2]
+
+P01 E1 reverse_all_glyphs (graph_leaf)
+Coordinates: r59c01 ↔ r59c02
+Numeric containers: 1 | 14
+Hebrew source containers: א | יד
+Canonical Greek source containers: Α | ΙΔ
+Executed Greek glyphs: ΑΔΙ
+Independent trial output registers: [2, 1, 1, 1, 1, 1, 1, 2]
+
+P02 E2 outward (graph_leaf)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r58c04
+Numeric containers: 14 | 2 | 4 | 2
+Hebrew source containers: יד | ב | ד | ב
+Canonical Greek source containers: ΙΔ | Β | Δ | Β
+Executed Greek glyphs: ΙΔΒΔΒ
+Independent trial output registers: [3, 1, 1, 1, 1, 3, 1, 2]
+
+P02 E2 reverse_containers (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 2 | 4 | 2 | 14
+Hebrew source containers: ב | ד | ב | יד
+Canonical Greek source containers: Β | Δ | Β | ΙΔ
+Executed Greek glyphs: ΒΔΒΙΔ
+Independent trial output registers: [3, 1, 1, 1, 1, 3, 1, 2]
+
+P02 E2 reverse_all_glyphs (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 2 | 4 | 2 | 14
+Hebrew source containers: ב | ד | ב | יד
+Canonical Greek source containers: Β | Δ | Β | ΙΔ
+Executed Greek glyphs: ΒΔΒΔΙ
+Independent trial output registers: [3, 1, 1, 1, 1, 3, 1, 2]
+
+P03 E2 outward (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r61c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 30
+Hebrew source containers: יד | ב | ד | א | א | ג | ל
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Λ
+Executed Greek glyphs: ΙΔΒΔΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 2, 1, 2]
+
+P03 E2 reverse_containers (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 30 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: ל | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Λ | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΛΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 0, 1, 1, 2, 1, 2]
+
+P03 E2 reverse_all_glyphs (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 30 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: ל | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Λ | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΛΓΑΑΔΒΔΙ
+Independent trial output registers: [3, 1, 0, 1, 1, 2, 1, 2]
+
+P04 E2 outward (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 19
+Hebrew source containers: יד | ב | ד | א | א | ג | א | יט
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | ΙΘ
+Executed Greek glyphs: ΙΔΒΔΑΑΓΑΙΘ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 3]
+
+P04 E2 reverse_containers (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 19 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: יט | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: ΙΘ | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΙΘΑΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 3]
+
+P04 E2 reverse_all_glyphs (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 19 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: יט | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: ΙΘ | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΘΙΑΓΑΑΔΒΔΙ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 3]
+
+P05 E2 outward (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 1 | 5
+Hebrew source containers: יד | ב | ד | א | א | ג | א | א | ה
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | Α | Ε
+Executed Greek glyphs: ΙΔΒΔΑΑΓΑΑΕ
+Independent trial output registers: [1, 1, 1, 1, 1, 2, 1, 2]
+
+P05 E2 reverse_containers (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 5 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: ה | א | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Ε | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΕΑΑΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P05 E2 reverse_all_glyphs (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 5 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: ה | א | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Ε | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΕΑΑΓΑΑΔΒΔΙ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P06 E2 outward (graph_leaf)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r72c05
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: יד | ב | ד | א | א | ג | א | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΙΔΒΔΑΑΓΑΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 2]
+
+P06 E2 reverse_containers (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P06 E2 reverse_all_glyphs (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΑΑΔΒΔΙ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P07 E2 outward (graph_leaf)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r73c04
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: יד | ב | ד | א | א | ג | א | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΙΔΒΔΑΑΓΑΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 2]
+
+P07 E2 reverse_containers (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P07 E2 reverse_all_glyphs (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΑΑΔΒΔΙ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P08 E3 outward (graph_leaf)
+Coordinates: r61c02 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r58c04
+Numeric containers: 30 | 3 | 1 | 1 | 4 | 2
+Hebrew source containers: ל | ג | א | א | ד | ב
+Canonical Greek source containers: Λ | Γ | Α | Α | Δ | Β
+Executed Greek glyphs: ΛΓΑΑΔΒ
+Independent trial output registers: [2, 1, 0, 1, 1, 2, 1, 1]
+
+P08 E3 reverse_containers (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r61c02
+Numeric containers: 2 | 4 | 1 | 1 | 3 | 30
+Hebrew source containers: ב | ד | א | א | ג | ל
+Canonical Greek source containers: Β | Δ | Α | Α | Γ | Λ
+Executed Greek glyphs: ΒΔΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 2, 1, 1]
+
+P08 E3 reverse_all_glyphs (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r61c02
+Numeric containers: 2 | 4 | 1 | 1 | 3 | 30
+Hebrew source containers: ב | ד | א | א | ג | ל
+Canonical Greek source containers: Β | Δ | Α | Α | Γ | Λ
+Executed Greek glyphs: ΒΔΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 2, 1, 1]
+
+P09 E3 outward (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 30 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: ל | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Λ | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΛΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 0, 1, 1, 2, 1, 2]
+
+P09 E3 reverse_containers (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r61c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 30
+Hebrew source containers: יד | ב | ד | א | א | ג | ל
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Λ
+Executed Greek glyphs: ΙΔΒΔΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 2, 1, 2]
+
+P09 E3 reverse_all_glyphs (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r61c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 30
+Hebrew source containers: יד | ב | ד | א | א | ג | ל
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Λ
+Executed Greek glyphs: ΔΙΒΔΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 2, 1, 2]
+
+P10 E3 outward (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 30 | 3 | 1 | 19
+Hebrew source containers: ל | ג | א | יט
+Canonical Greek source containers: Λ | Γ | Α | ΙΘ
+Executed Greek glyphs: ΛΓΑΙΘ
+Independent trial output registers: [1, 1, 1, 1, 1, 1, 1, 2]
+
+P10 E3 reverse_containers (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 19 | 1 | 3 | 30
+Hebrew source containers: יט | א | ג | ל
+Canonical Greek source containers: ΙΘ | Α | Γ | Λ
+Executed Greek glyphs: ΙΘΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 2]
+
+P10 E3 reverse_all_glyphs (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 19 | 1 | 3 | 30
+Hebrew source containers: יט | א | ג | ל
+Canonical Greek source containers: ΙΘ | Α | Γ | Λ
+Executed Greek glyphs: ΘΙΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 2]
+
+P11 E3 outward (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 30 | 3 | 1 | 1 | 5
+Hebrew source containers: ל | ג | א | א | ה
+Canonical Greek source containers: Λ | Γ | Α | Α | Ε
+Executed Greek glyphs: ΛΓΑΑΕ
+Independent trial output registers: [1, 1, 0, 2, 1, 1, 1, 1]
+
+P11 E3 reverse_containers (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 5 | 1 | 1 | 3 | 30
+Hebrew source containers: ה | א | א | ג | ל
+Canonical Greek source containers: Ε | Α | Α | Γ | Λ
+Executed Greek glyphs: ΕΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P11 E3 reverse_all_glyphs (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 5 | 1 | 1 | 3 | 30
+Hebrew source containers: ה | א | א | ג | ל
+Canonical Greek source containers: Ε | Α | Α | Γ | Λ
+Executed Greek glyphs: ΕΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P12 E3 outward (graph_leaf)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r72c05
+Numeric containers: 30 | 3 | 1 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: ל | ג | א | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: Λ | Γ | Α | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΛΓΑΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 1]
+
+P12 E3 reverse_containers (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 30
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | ל
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Λ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P12 E3 reverse_all_glyphs (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 30
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | ל
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Λ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P13 E3 outward (graph_leaf)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r73c04
+Numeric containers: 30 | 3 | 1 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: ל | ג | א | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: Λ | Γ | Α | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΛΓΑΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 1]
+
+P13 E3 reverse_containers (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 30
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | ל
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Λ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P13 E3 reverse_all_glyphs (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 30
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | ל
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Λ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P14 E4 outward (graph_leaf)
+Coordinates: r62c02 ↔ r62c01
+Numeric containers: 19 | 2
+Hebrew source containers: יט | ב
+Canonical Greek source containers: ΙΘ | Β
+Executed Greek glyphs: ΙΘΒ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 2]
+
+P14 E4 reverse_containers (graph_leaf)
+Coordinates: r62c01 ↔ r62c02
+Numeric containers: 2 | 19
+Hebrew source containers: ב | יט
+Canonical Greek source containers: Β | ΙΘ
+Executed Greek glyphs: ΒΙΘ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 2]
+
+P14 E4 reverse_all_glyphs (graph_leaf)
+Coordinates: r62c01 ↔ r62c02
+Numeric containers: 2 | 19
+Hebrew source containers: ב | יט
+Canonical Greek source containers: Β | ΙΘ
+Executed Greek glyphs: ΒΘΙ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 2]
+
+P15 E5 outward (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 19 | 1 | 3 | 30
+Hebrew source containers: יט | א | ג | ל
+Canonical Greek source containers: ΙΘ | Α | Γ | Λ
+Executed Greek glyphs: ΙΘΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 2]
+
+P15 E5 reverse_containers (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 30 | 3 | 1 | 19
+Hebrew source containers: ל | ג | א | יט
+Canonical Greek source containers: Λ | Γ | Α | ΙΘ
+Executed Greek glyphs: ΛΓΑΙΘ
+Independent trial output registers: [1, 1, 1, 1, 1, 1, 1, 2]
+
+P15 E5 reverse_all_glyphs (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 30 | 3 | 1 | 19
+Hebrew source containers: ל | ג | א | יט
+Canonical Greek source containers: Λ | Γ | Α | ΙΘ
+Executed Greek glyphs: ΛΓΑΘΙ
+Independent trial output registers: [1, 1, 1, 1, 1, 1, 1, 2]
+
+P16 E5 outward (graph_leaf)
+Coordinates: r62c02 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r58c04
+Numeric containers: 19 | 1 | 3 | 1 | 1 | 4 | 2
+Hebrew source containers: יט | א | ג | א | א | ד | ב
+Canonical Greek source containers: ΙΘ | Α | Γ | Α | Α | Δ | Β
+Executed Greek glyphs: ΙΘΑΓΑΑΔΒ
+Independent trial output registers: [2, 1, 1, 1, 1, 2, 1, 2]
+
+P16 E5 reverse_containers (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 2 | 4 | 1 | 1 | 3 | 1 | 19
+Hebrew source containers: ב | ד | א | א | ג | א | יט
+Canonical Greek source containers: Β | Δ | Α | Α | Γ | Α | ΙΘ
+Executed Greek glyphs: ΒΔΑΑΓΑΙΘ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 2]
+
+P16 E5 reverse_all_glyphs (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 2 | 4 | 1 | 1 | 3 | 1 | 19
+Hebrew source containers: ב | ד | א | א | ג | א | יט
+Canonical Greek source containers: Β | Δ | Α | Α | Γ | Α | ΙΘ
+Executed Greek glyphs: ΒΔΑΑΓΑΘΙ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 2]
+
+P17 E5 outward (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 19 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: יט | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: ΙΘ | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΙΘΑΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 3]
+
+P17 E5 reverse_containers (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 19
+Hebrew source containers: יד | ב | ד | א | א | ג | א | יט
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | ΙΘ
+Executed Greek glyphs: ΙΔΒΔΑΑΓΑΙΘ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 3]
+
+P17 E5 reverse_all_glyphs (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 19
+Hebrew source containers: יד | ב | ד | א | א | ג | א | יט
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | ΙΘ
+Executed Greek glyphs: ΔΙΒΔΑΑΓΑΘΙ
+Independent trial output registers: [1, 1, 2, 1, 1, 2, 1, 3]
+
+P18 E5 outward (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 19 | 1 | 1 | 5
+Hebrew source containers: יט | א | א | ה
+Canonical Greek source containers: ΙΘ | Α | Α | Ε
+Executed Greek glyphs: ΙΘΑΑΕ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P18 E5 reverse_containers (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 5 | 1 | 1 | 19
+Hebrew source containers: ה | א | א | יט
+Canonical Greek source containers: Ε | Α | Α | ΙΘ
+Executed Greek glyphs: ΕΑΑΙΘ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P18 E5 reverse_all_glyphs (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 5 | 1 | 1 | 19
+Hebrew source containers: ה | א | א | יט
+Canonical Greek source containers: Ε | Α | Α | ΙΘ
+Executed Greek glyphs: ΕΑΑΘΙ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P19 E5 outward (graph_leaf)
+Coordinates: r62c02 ↔ r62c03 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r72c05
+Numeric containers: 19 | 1 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: יט | א | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: ΙΘ | Α | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΙΘΑΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P19 E5 reverse_containers (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 19
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | יט
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | ΙΘ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΙΘ
+Independent trial output registers: [1, 1, 4, 1, 1, 1, 1, 2]
+
+P19 E5 reverse_all_glyphs (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 19
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | יט
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | ΙΘ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΘΙ
+Independent trial output registers: [1, 1, 4, 1, 1, 1, 1, 2]
+
+P20 E5 outward (graph_leaf)
+Coordinates: r62c02 ↔ r62c03 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r73c04
+Numeric containers: 19 | 1 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: יט | א | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: ΙΘ | Α | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΙΘΑΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P20 E5 reverse_containers (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 19
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | יט
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | ΙΘ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΙΘ
+Independent trial output registers: [1, 1, 4, 1, 1, 1, 1, 2]
+
+P20 E5 reverse_all_glyphs (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 19
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | יט
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | ΙΘ
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΑΘΙ
+Independent trial output registers: [1, 1, 4, 1, 1, 1, 1, 2]
+
+P21 E6 outward (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric containers: 5 | 1 | 1 | 3 | 30
+Hebrew source containers: ה | א | א | ג | ל
+Canonical Greek source containers: Ε | Α | Α | Γ | Λ
+Executed Greek glyphs: ΕΑΑΓΛ
+Independent trial output registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P21 E6 reverse_containers (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 30 | 3 | 1 | 1 | 5
+Hebrew source containers: ל | ג | א | א | ה
+Canonical Greek source containers: Λ | Γ | Α | Α | Ε
+Executed Greek glyphs: ΛΓΑΑΕ
+Independent trial output registers: [1, 1, 0, 2, 1, 1, 1, 1]
+
+P21 E6 reverse_all_glyphs (core_return)
+Coordinates: r61c02 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 30 | 3 | 1 | 1 | 5
+Hebrew source containers: ל | ג | א | א | ה
+Canonical Greek source containers: Λ | Γ | Α | Α | Ε
+Executed Greek glyphs: ΛΓΑΑΕ
+Independent trial output registers: [1, 1, 0, 2, 1, 1, 1, 1]
+
+P22 E6 outward (graph_leaf)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r58c04
+Numeric containers: 5 | 1 | 1 | 3 | 1 | 1 | 4 | 2
+Hebrew source containers: ה | א | א | ג | א | א | ד | ב
+Canonical Greek source containers: Ε | Α | Α | Γ | Α | Α | Δ | Β
+Executed Greek glyphs: ΕΑΑΓΑΑΔΒ
+Independent trial output registers: [2, 1, 1, 1, 1, 2, 1, 1]
+
+P22 E6 reverse_containers (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 2 | 4 | 1 | 1 | 3 | 1 | 1 | 5
+Hebrew source containers: ב | ד | א | א | ג | א | א | ה
+Canonical Greek source containers: Β | Δ | Α | Α | Γ | Α | Α | Ε
+Executed Greek glyphs: ΒΔΑΑΓΑΑΕ
+Independent trial output registers: [1, 1, 1, 1, 1, 2, 1, 1]
+
+P22 E6 reverse_all_glyphs (graph_leaf)
+Coordinates: r58c04 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 2 | 4 | 1 | 1 | 3 | 1 | 1 | 5
+Hebrew source containers: ב | ד | א | א | ג | א | א | ה
+Canonical Greek source containers: Β | Δ | Α | Α | Γ | Α | Α | Ε
+Executed Greek glyphs: ΒΔΑΑΓΑΑΕ
+Independent trial output registers: [1, 1, 1, 1, 1, 2, 1, 1]
+
+P23 E6 outward (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric containers: 5 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew source containers: ה | א | א | ג | א | א | ד | ב | יד
+Canonical Greek source containers: Ε | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Executed Greek glyphs: ΕΑΑΓΑΑΔΒΙΔ
+Independent trial output registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P23 E6 reverse_containers (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 1 | 5
+Hebrew source containers: יד | ב | ד | א | א | ג | א | א | ה
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | Α | Ε
+Executed Greek glyphs: ΙΔΒΔΑΑΓΑΑΕ
+Independent trial output registers: [1, 1, 1, 1, 1, 2, 1, 2]
+
+P23 E6 reverse_all_glyphs (core_return)
+Coordinates: r59c02 ↔ r59c03 ↔ r59c04 ↔ r60c04 ↔ r61c04 ↔ r61c03 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 14 | 2 | 4 | 1 | 1 | 3 | 1 | 1 | 5
+Hebrew source containers: יד | ב | ד | א | א | ג | א | א | ה
+Canonical Greek source containers: ΙΔ | Β | Δ | Α | Α | Γ | Α | Α | Ε
+Executed Greek glyphs: ΔΙΒΔΑΑΓΑΑΕ
+Independent trial output registers: [1, 1, 1, 1, 1, 2, 1, 2]
+
+P24 E6 outward (core_return)
+Coordinates: r63c02 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric containers: 5 | 1 | 1 | 19
+Hebrew source containers: ה | א | א | יט
+Canonical Greek source containers: Ε | Α | Α | ΙΘ
+Executed Greek glyphs: ΕΑΑΙΘ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P24 E6 reverse_containers (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 19 | 1 | 1 | 5
+Hebrew source containers: יט | א | א | ה
+Canonical Greek source containers: ΙΘ | Α | Α | Ε
+Executed Greek glyphs: ΙΘΑΑΕ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P24 E6 reverse_all_glyphs (core_return)
+Coordinates: r62c02 ↔ r62c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 19 | 1 | 1 | 5
+Hebrew source containers: יט | א | א | ה
+Canonical Greek source containers: ΙΘ | Α | Α | Ε
+Executed Greek glyphs: ΘΙΑΑΕ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 2]
+
+P25 E6 outward (graph_leaf)
+Coordinates: r63c02 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r72c05
+Numeric containers: 5 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: ה | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: Ε | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΕΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 1]
+
+P25 E6 reverse_containers (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 5
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | ה
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Ε
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΕ
+Independent trial output registers: [1, 1, 3, 1, 1, 1, 1, 1]
+
+P25 E6 reverse_all_glyphs (graph_leaf)
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 5
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | ה
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Ε
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΕ
+Independent trial output registers: [1, 1, 3, 1, 1, 1, 1, 1]
+
+P26 E6 outward (graph_leaf)
+Coordinates: r63c02 ↔ r63c03 ↔ r64c03 ↔ r64c04 ↔ r65c04 ↔ r66c04 ↔ r67c04 ↔ r68c04 ↔ r69c04 ↔ r70c04 ↔ r71c04 ↔ r72c04 ↔ r73c04
+Numeric containers: 5 | 1 | 1 | 4 | 3 | 4 | 4 | 1 | 1 | 1 | 1 | 1 | 1
+Hebrew source containers: ה | א | א | ד | ג | ד | ד | א | א | א | א | א | א
+Canonical Greek source containers: Ε | Α | Α | Δ | Γ | Δ | Δ | Α | Α | Α | Α | Α | Α
+Executed Greek glyphs: ΕΑΑΔΓΔΔΑΑΑΑΑΑ
+Independent trial output registers: [1, 1, 2, 1, 1, 1, 1, 1]
+
+P26 E6 reverse_containers (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 5
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | ה
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Ε
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΕ
+Independent trial output registers: [1, 1, 3, 1, 1, 1, 1, 1]
+
+P26 E6 reverse_all_glyphs (graph_leaf)
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r63c02
+Numeric containers: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 5
+Hebrew source containers: א | א | א | א | א | א | ד | ד | ג | ד | א | א | ה
+Canonical Greek source containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Ε
+Executed Greek glyphs: ΑΑΑΑΑΑΔΔΓΔΑΑΕ
+Independent trial output registers: [1, 1, 3, 1, 1, 1, 1, 1]

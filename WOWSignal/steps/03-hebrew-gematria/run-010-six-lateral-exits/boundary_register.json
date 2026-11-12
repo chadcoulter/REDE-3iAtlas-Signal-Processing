@@ -1,0 +1,678 @@
+[
+  {
+    "id": "B01",
+    "from": [
+      58,
+      2
+    ],
+    "to": [
+      57,
+      2
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B02",
+    "from": [
+      58,
+      2
+    ],
+    "to": [
+      58,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B03",
+    "from": [
+      58,
+      2
+    ],
+    "to": [
+      58,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B04",
+    "from": [
+      58,
+      4
+    ],
+    "to": [
+      57,
+      4
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B05",
+    "from": [
+      58,
+      4
+    ],
+    "to": [
+      58,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B06",
+    "from": [
+      58,
+      4
+    ],
+    "to": [
+      58,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B07",
+    "from": [
+      59,
+      1
+    ],
+    "to": [
+      58,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B08",
+    "from": [
+      59,
+      1
+    ],
+    "to": [
+      60,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B09",
+    "from": [
+      59,
+      1
+    ],
+    "to": [
+      59,
+      0
+    ],
+    "kind": "outside_page_unobserved",
+    "value": null
+  },
+  {
+    "id": "B10",
+    "from": [
+      59,
+      3
+    ],
+    "to": [
+      58,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B11",
+    "from": [
+      59,
+      3
+    ],
+    "to": [
+      60,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B12",
+    "from": [
+      59,
+      4
+    ],
+    "to": [
+      59,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B13",
+    "from": [
+      60,
+      2
+    ],
+    "to": [
+      60,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B14",
+    "from": [
+      60,
+      2
+    ],
+    "to": [
+      60,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B15",
+    "from": [
+      60,
+      4
+    ],
+    "to": [
+      60,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B16",
+    "from": [
+      60,
+      4
+    ],
+    "to": [
+      60,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B17",
+    "from": [
+      61,
+      2
+    ],
+    "to": [
+      61,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B18",
+    "from": [
+      61,
+      3
+    ],
+    "to": [
+      60,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B19",
+    "from": [
+      61,
+      4
+    ],
+    "to": [
+      62,
+      4
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B20",
+    "from": [
+      61,
+      4
+    ],
+    "to": [
+      61,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B21",
+    "from": [
+      62,
+      1
+    ],
+    "to": [
+      61,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B22",
+    "from": [
+      62,
+      1
+    ],
+    "to": [
+      63,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B23",
+    "from": [
+      62,
+      1
+    ],
+    "to": [
+      62,
+      0
+    ],
+    "kind": "outside_page_unobserved",
+    "value": null
+  },
+  {
+    "id": "B24",
+    "from": [
+      62,
+      3
+    ],
+    "to": [
+      62,
+      4
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B25",
+    "from": [
+      63,
+      2
+    ],
+    "to": [
+      64,
+      2
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B26",
+    "from": [
+      63,
+      2
+    ],
+    "to": [
+      63,
+      1
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B27",
+    "from": [
+      63,
+      3
+    ],
+    "to": [
+      63,
+      4
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B28",
+    "from": [
+      64,
+      3
+    ],
+    "to": [
+      65,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B29",
+    "from": [
+      64,
+      3
+    ],
+    "to": [
+      64,
+      2
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B30",
+    "from": [
+      64,
+      4
+    ],
+    "to": [
+      63,
+      4
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B31",
+    "from": [
+      64,
+      4
+    ],
+    "to": [
+      64,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B32",
+    "from": [
+      65,
+      4
+    ],
+    "to": [
+      65,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B33",
+    "from": [
+      65,
+      4
+    ],
+    "to": [
+      65,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B34",
+    "from": [
+      66,
+      4
+    ],
+    "to": [
+      66,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B35",
+    "from": [
+      66,
+      4
+    ],
+    "to": [
+      66,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B36",
+    "from": [
+      67,
+      4
+    ],
+    "to": [
+      67,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B37",
+    "from": [
+      67,
+      4
+    ],
+    "to": [
+      67,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B38",
+    "from": [
+      68,
+      4
+    ],
+    "to": [
+      68,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B39",
+    "from": [
+      68,
+      4
+    ],
+    "to": [
+      68,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B40",
+    "from": [
+      69,
+      4
+    ],
+    "to": [
+      69,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B41",
+    "from": [
+      69,
+      4
+    ],
+    "to": [
+      69,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B42",
+    "from": [
+      70,
+      4
+    ],
+    "to": [
+      70,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B43",
+    "from": [
+      70,
+      4
+    ],
+    "to": [
+      70,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B44",
+    "from": [
+      71,
+      4
+    ],
+    "to": [
+      71,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B45",
+    "from": [
+      71,
+      4
+    ],
+    "to": [
+      71,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B46",
+    "from": [
+      72,
+      4
+    ],
+    "to": [
+      72,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B47",
+    "from": [
+      72,
+      5
+    ],
+    "to": [
+      71,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B48",
+    "from": [
+      72,
+      5
+    ],
+    "to": [
+      73,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B49",
+    "from": [
+      72,
+      5
+    ],
+    "to": [
+      72,
+      6
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B50",
+    "from": [
+      73,
+      4
+    ],
+    "to": [
+      74,
+      4
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B51",
+    "from": [
+      73,
+      4
+    ],
+    "to": [
+      73,
+      3
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  },
+  {
+    "id": "B52",
+    "from": [
+      73,
+      4
+    ],
+    "to": [
+      73,
+      5
+    ],
+    "kind": "observed_source_cell",
+    "value": 0
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "thresholds_checked": 11,
+  "nodes_checked": 620,
+  "inclusion_edges_checked": 225,
+  "all_threshold_memberships_complete_disjoint_connected_and_maximal": true,
+  "all_nonzero_source_cells_covered_once_per_axis_in_run_comparison": true
+}

@@ -1,0 +1,8586 @@
+{
+  "summary": {
+    "numeric_histogram": {
+      "0": 2988,
+      "1": 897,
+      "2": 163,
+      "3": 31,
+      "4": 9,
+      "5": 3,
+      "6": 4,
+      "7": 1,
+      "14": 1,
+      "19": 1,
+      "26": 1,
+      "30": 1
+    },
+    "nonzero_counts_per_row": [
+      9,
+      15,
+      16,
+      11,
+      11,
+      15,
+      16,
+      14,
+      12,
+      11,
+      15,
+      16,
+      14,
+      4,
+      13,
+      7,
+      17,
+      7,
+      11,
+      16,
+      15,
+      9,
+      13,
+      13,
+      11,
+      13,
+      15,
+      9,
+      8,
+      16,
+      18,
+      12,
+      18,
+      12,
+      13,
+      10,
+      6,
+      17,
+      13,
+      14,
+      16,
+      14,
+      13,
+      18,
+      9,
+      12,
+      12,
+      7,
+      13,
+      14,
+      17,
+      16,
+      16,
+      13,
+      20,
+      12,
+      8,
+      17,
+      20,
+      15,
+      12,
+      28,
+      12,
+      20,
+      16,
+      17,
+      18,
+      10,
+      11,
+      13,
+      16,
+      16,
+      15,
+      14,
+      16,
+      10,
+      18,
+      15,
+      13,
+      10,
+      10,
+      15
+    ],
+    "nonzero_counts_per_channel": [
+      16,
+      18,
+      32,
+      53,
+      24,
+      7,
+      49,
+      23,
+      7,
+      10,
+      12,
+      10,
+      24,
+      21,
+      4,
+      50,
+      17,
+      24,
+      32,
+      40,
+      9,
+      19,
+      17,
+      23,
+      15,
+      6,
+      25,
+      12,
+      9,
+      11,
+      26,
+      25,
+      28,
+      36,
+      32,
+      31,
+      34,
+      27,
+      29,
+      11,
+      20,
+      23,
+      25,
+      19,
+      29,
+      31,
+      18,
+      17,
+      16,
+      16
+    ],
+    "four_neighbor_nonzero_components": 395,
+    "component_size_histogram": {
+      "3": 43,
+      "1": 230,
+      "2": 62,
+      "49": 1,
+      "9": 7,
+      "13": 2,
+      "6": 9,
+      "4": 12,
+      "8": 5,
+      "15": 1,
+      "38": 1,
+      "7": 3,
+      "5": 11,
+      "27": 1,
+      "33": 1,
+      "21": 1,
+      "11": 1,
+      "55": 1,
+      "28": 1,
+      "10": 1,
+      "35": 1
+    },
+    "core_cell_components": {
+      "r58c2": 259,
+      "r59c2": 259,
+      "r60c2": 259,
+      "r61c2": 259,
+      "r62c2": 259,
+      "r63c2": 259
+    }
+  },
+  "components": [
+    {
+      "id": 1,
+      "cells": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "size": 3,
+      "min_row": 1,
+      "max_row": 3,
+      "min_channel": 4,
+      "max_channel": 4
+    },
+    {
+      "id": 2,
+      "cells": [
+        [
+          1,
+          10
+        ]
+      ],
+      "size": 1,
+      "min_row": 1,
+      "max_row": 1,
+      "min_channel": 10,
+      "max_channel": 10
+    },
+    {
+      "id": 3,
+      "cells": [
+        [
+          1,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 1,
+      "max_row": 1,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 4,
+      "cells": [
+        [
+          1,
+          27
+        ],
+        [
+          2,
+          27
+        ]
+      ],
+      "size": 2,
+      "min_row": 1,
+      "max_row": 2,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 5,
+      "cells": [
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          33
+        ],
+        [
+          2,
+          32
+        ],
+        [
+          2,
+          33
+        ],
+        [
+          2,
+          35
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          3,
+          30
+        ],
+        [
+          3,
+          32
+        ],
+        [
+          3,
+          33
+        ],
+        [
+          3,
+          34
+        ],
+        [
+          3,
+          35
+        ],
+        [
+          4,
+          30
+        ],
+        [
+          4,
+          31
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          5,
+          31
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          5,
+          34
+        ],
+        [
+          6,
+          32
+        ],
+        [
+          6,
+          33
+        ],
+        [
+          6,
+          34
+        ],
+        [
+          6,
+          35
+        ],
+        [
+          6,
+          36
+        ],
+        [
+          6,
+          37
+        ],
+        [
+          7,
+          32
+        ],
+        [
+          7,
+          33
+        ],
+        [
+          7,
+          35
+        ],
+        [
+          7,
+          36
+        ],
+        [
+          8,
+          33
+        ],
+        [
+          8,
+          35
+        ],
+        [
+          9,
+          32
+        ],
+        [
+          9,
+          33
+        ],
+        [
+          9,
+          34
+        ],
+        [
+          9,
+          35
+        ],
+        [
+          9,
+          36
+        ],
+        [
+          10,
+          34
+        ],
+        [
+          10,
+          35
+        ],
+        [
+          11,
+          30
+        ],
+        [
+          11,
+          31
+        ],
+        [
+          11,
+          32
+        ],
+        [
+          11,
+          33
+        ],
+        [
+          11,
+          34
+        ],
+        [
+          12,
+          33
+        ],
+        [
+          12,
+          34
+        ],
+        [
+          12,
+          35
+        ],
+        [
+          13,
+          31
+        ],
+        [
+          13,
+          32
+        ],
+        [
+          13,
+          33
+        ],
+        [
+          13,
+          34
+        ]
+      ],
+      "size": 49,
+      "min_row": 1,
+      "max_row": 13,
+      "min_channel": 29,
+      "max_channel": 37
+    },
+    {
+      "id": 6,
+      "cells": [
+        [
+          1,
+          36
+        ]
+      ],
+      "size": 1,
+      "min_row": 1,
+      "max_row": 1,
+      "min_channel": 36,
+      "max_channel": 36
+    },
+    {
+      "id": 7,
+      "cells": [
+        [
+          1,
+          38
+        ],
+        [
+          2,
+          38
+        ]
+      ],
+      "size": 2,
+      "min_row": 1,
+      "max_row": 2,
+      "min_channel": 38,
+      "max_channel": 38
+    },
+    {
+      "id": 8,
+      "cells": [
+        [
+          1,
+          47
+        ]
+      ],
+      "size": 1,
+      "min_row": 1,
+      "max_row": 1,
+      "min_channel": 47,
+      "max_channel": 47
+    },
+    {
+      "id": 9,
+      "cells": [
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "size": 3,
+      "min_row": 2,
+      "max_row": 3,
+      "min_channel": 7,
+      "max_channel": 8
+    },
+    {
+      "id": 10,
+      "cells": [
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          13
+        ]
+      ],
+      "size": 2,
+      "min_row": 2,
+      "max_row": 3,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 11,
+      "cells": [
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          20
+        ]
+      ],
+      "size": 3,
+      "min_row": 2,
+      "max_row": 3,
+      "min_channel": 19,
+      "max_channel": 20
+    },
+    {
+      "id": 12,
+      "cells": [
+        [
+          2,
+          22
+        ],
+        [
+          3,
+          22
+        ]
+      ],
+      "size": 2,
+      "min_row": 2,
+      "max_row": 3,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 13,
+      "cells": [
+        [
+          2,
+          24
+        ],
+        [
+          2,
+          25
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          7,
+          24
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          8,
+          25
+        ]
+      ],
+      "size": 9,
+      "min_row": 2,
+      "max_row": 8,
+      "min_channel": 24,
+      "max_channel": 25
+    },
+    {
+      "id": 14,
+      "cells": [
+        [
+          2,
+          40
+        ]
+      ],
+      "size": 1,
+      "min_row": 2,
+      "max_row": 2,
+      "min_channel": 40,
+      "max_channel": 40
+    },
+    {
+      "id": 15,
+      "cells": [
+        [
+          3,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 3,
+      "max_row": 3,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 16,
+      "cells": [
+        [
+          3,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 3,
+      "max_row": 3,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 17,
+      "cells": [
+        [
+          3,
+          39
+        ]
+      ],
+      "size": 1,
+      "min_row": 3,
+      "max_row": 3,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 18,
+      "cells": [
+        [
+          3,
+          46
+        ]
+      ],
+      "size": 1,
+      "min_row": 3,
+      "max_row": 3,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 19,
+      "cells": [
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "size": 3,
+      "min_row": 4,
+      "max_row": 5,
+      "min_channel": 2,
+      "max_channel": 3
+    },
+    {
+      "id": 20,
+      "cells": [
+        [
+          4,
+          5
+        ]
+      ],
+      "size": 1,
+      "min_row": 4,
+      "max_row": 4,
+      "min_channel": 5,
+      "max_channel": 5
+    },
+    {
+      "id": 21,
+      "cells": [
+        [
+          4,
+          10
+        ]
+      ],
+      "size": 1,
+      "min_row": 4,
+      "max_row": 4,
+      "min_channel": 10,
+      "max_channel": 10
+    },
+    {
+      "id": 22,
+      "cells": [
+        [
+          4,
+          19
+        ]
+      ],
+      "size": 1,
+      "min_row": 4,
+      "max_row": 4,
+      "min_channel": 19,
+      "max_channel": 19
+    },
+    {
+      "id": 23,
+      "cells": [
+        [
+          4,
+          27
+        ],
+        [
+          4,
+          28
+        ]
+      ],
+      "size": 2,
+      "min_row": 4,
+      "max_row": 4,
+      "min_channel": 27,
+      "max_channel": 28
+    },
+    {
+      "id": 24,
+      "cells": [
+        [
+          4,
+          38
+        ],
+        [
+          5,
+          38
+        ]
+      ],
+      "size": 2,
+      "min_row": 4,
+      "max_row": 5,
+      "min_channel": 38,
+      "max_channel": 38
+    },
+    {
+      "id": 25,
+      "cells": [
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          13,
+          8
+        ]
+      ],
+      "size": 13,
+      "min_row": 5,
+      "max_row": 13,
+      "min_channel": 7,
+      "max_channel": 8
+    },
+    {
+      "id": 26,
+      "cells": [
+        [
+          5,
+          12
+        ]
+      ],
+      "size": 1,
+      "min_row": 5,
+      "max_row": 5,
+      "min_channel": 12,
+      "max_channel": 12
+    },
+    {
+      "id": 27,
+      "cells": [
+        [
+          5,
+          16
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          8,
+          16
+        ]
+      ],
+      "size": 6,
+      "min_row": 5,
+      "max_row": 8,
+      "min_channel": 16,
+      "max_channel": 17
+    },
+    {
+      "id": 28,
+      "cells": [
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "size": 4,
+      "min_row": 6,
+      "max_row": 8,
+      "min_channel": 4,
+      "max_channel": 5
+    },
+    {
+      "id": 29,
+      "cells": [
+        [
+          6,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 6,
+      "max_row": 6,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 30,
+      "cells": [
+        [
+          6,
+          19
+        ]
+      ],
+      "size": 1,
+      "min_row": 6,
+      "max_row": 6,
+      "min_channel": 19,
+      "max_channel": 19
+    },
+    {
+      "id": 31,
+      "cells": [
+        [
+          6,
+          22
+        ],
+        [
+          7,
+          22
+        ]
+      ],
+      "size": 2,
+      "min_row": 6,
+      "max_row": 7,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 32,
+      "cells": [
+        [
+          6,
+          28
+        ]
+      ],
+      "size": 1,
+      "min_row": 6,
+      "max_row": 6,
+      "min_channel": 28,
+      "max_channel": 28
+    },
+    {
+      "id": 33,
+      "cells": [
+        [
+          7,
+          13
+        ],
+        [
+          8,
+          13
+        ]
+      ],
+      "size": 2,
+      "min_row": 7,
+      "max_row": 8,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 34,
+      "cells": [
+        [
+          7,
+          26
+        ]
+      ],
+      "size": 1,
+      "min_row": 7,
+      "max_row": 7,
+      "min_channel": 26,
+      "max_channel": 26
+    },
+    {
+      "id": 35,
+      "cells": [
+        [
+          7,
+          43
+        ]
+      ],
+      "size": 1,
+      "min_row": 7,
+      "max_row": 7,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 36,
+      "cells": [
+        [
+          7,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 7,
+      "max_row": 7,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 37,
+      "cells": [
+        [
+          8,
+          18
+        ],
+        [
+          8,
+          19
+        ],
+        [
+          8,
+          20
+        ]
+      ],
+      "size": 3,
+      "min_row": 8,
+      "max_row": 8,
+      "min_channel": 18,
+      "max_channel": 20
+    },
+    {
+      "id": 38,
+      "cells": [
+        [
+          8,
+          37
+        ]
+      ],
+      "size": 1,
+      "min_row": 8,
+      "max_row": 8,
+      "min_channel": 37,
+      "max_channel": 37
+    },
+    {
+      "id": 39,
+      "cells": [
+        [
+          8,
+          46
+        ],
+        [
+          9,
+          46
+        ]
+      ],
+      "size": 2,
+      "min_row": 8,
+      "max_row": 9,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 40,
+      "cells": [
+        [
+          9,
+          22
+        ],
+        [
+          9,
+          23
+        ]
+      ],
+      "size": 2,
+      "min_row": 9,
+      "max_row": 9,
+      "min_channel": 22,
+      "max_channel": 23
+    },
+    {
+      "id": 41,
+      "cells": [
+        [
+          9,
+          27
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          11,
+          27
+        ],
+        [
+          11,
+          28
+        ],
+        [
+          12,
+          28
+        ],
+        [
+          13,
+          27
+        ],
+        [
+          13,
+          28
+        ]
+      ],
+      "size": 8,
+      "min_row": 9,
+      "max_row": 13,
+      "min_channel": 27,
+      "max_channel": 28
+    },
+    {
+      "id": 42,
+      "cells": [
+        [
+          9,
+          39
+        ],
+        [
+          10,
+          39
+        ]
+      ],
+      "size": 2,
+      "min_row": 9,
+      "max_row": 10,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 43,
+      "cells": [
+        [
+          10,
+          5
+        ]
+      ],
+      "size": 1,
+      "min_row": 10,
+      "max_row": 10,
+      "min_channel": 5,
+      "max_channel": 5
+    },
+    {
+      "id": 44,
+      "cells": [
+        [
+          10,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 10,
+      "max_row": 10,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 45,
+      "cells": [
+        [
+          10,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 10,
+      "max_row": 10,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 46,
+      "cells": [
+        [
+          10,
+          21
+        ]
+      ],
+      "size": 1,
+      "min_row": 10,
+      "max_row": 10,
+      "min_channel": 21,
+      "max_channel": 21
+    },
+    {
+      "id": 47,
+      "cells": [
+        [
+          10,
+          43
+        ]
+      ],
+      "size": 1,
+      "min_row": 10,
+      "max_row": 10,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 48,
+      "cells": [
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ]
+      ],
+      "size": 2,
+      "min_row": 11,
+      "max_row": 11,
+      "min_channel": 3,
+      "max_channel": 4
+    },
+    {
+      "id": 49,
+      "cells": [
+        [
+          11,
+          15
+        ]
+      ],
+      "size": 1,
+      "min_row": 11,
+      "max_row": 11,
+      "min_channel": 15,
+      "max_channel": 15
+    },
+    {
+      "id": 50,
+      "cells": [
+        [
+          11,
+          19
+        ]
+      ],
+      "size": 1,
+      "min_row": 11,
+      "max_row": 11,
+      "min_channel": 19,
+      "max_channel": 19
+    },
+    {
+      "id": 51,
+      "cells": [
+        [
+          11,
+          40
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          13,
+          40
+        ]
+      ],
+      "size": 3,
+      "min_row": 11,
+      "max_row": 13,
+      "min_channel": 40,
+      "max_channel": 40
+    },
+    {
+      "id": 52,
+      "cells": [
+        [
+          11,
+          46
+        ]
+      ],
+      "size": 1,
+      "min_row": 11,
+      "max_row": 11,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 53,
+      "cells": [
+        [
+          11,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 11,
+      "max_row": 11,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 54,
+      "cells": [
+        [
+          12,
+          2
+        ]
+      ],
+      "size": 1,
+      "min_row": 12,
+      "max_row": 12,
+      "min_channel": 2,
+      "max_channel": 2
+    },
+    {
+      "id": 55,
+      "cells": [
+        [
+          12,
+          5
+        ]
+      ],
+      "size": 1,
+      "min_row": 12,
+      "max_row": 12,
+      "min_channel": 5,
+      "max_channel": 5
+    },
+    {
+      "id": 56,
+      "cells": [
+        [
+          12,
+          16
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          12,
+          18
+        ]
+      ],
+      "size": 3,
+      "min_row": 12,
+      "max_row": 12,
+      "min_channel": 16,
+      "max_channel": 18
+    },
+    {
+      "id": 57,
+      "cells": [
+        [
+          12,
+          20
+        ],
+        [
+          13,
+          20
+        ]
+      ],
+      "size": 2,
+      "min_row": 12,
+      "max_row": 13,
+      "min_channel": 20,
+      "max_channel": 20
+    },
+    {
+      "id": 58,
+      "cells": [
+        [
+          12,
+          23
+        ]
+      ],
+      "size": 1,
+      "min_row": 12,
+      "max_row": 12,
+      "min_channel": 23,
+      "max_channel": 23
+    },
+    {
+      "id": 59,
+      "cells": [
+        [
+          12,
+          25
+        ]
+      ],
+      "size": 1,
+      "min_row": 12,
+      "max_row": 12,
+      "min_channel": 25,
+      "max_channel": 25
+    },
+    {
+      "id": 60,
+      "cells": [
+        [
+          12,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 12,
+      "max_row": 12,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 61,
+      "cells": [
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          4
+        ]
+      ],
+      "size": 3,
+      "min_row": 13,
+      "max_row": 14,
+      "min_channel": 3,
+      "max_channel": 4
+    },
+    {
+      "id": 62,
+      "cells": [
+        [
+          13,
+          13
+        ]
+      ],
+      "size": 1,
+      "min_row": 13,
+      "max_row": 13,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 63,
+      "cells": [
+        [
+          13,
+          38
+        ]
+      ],
+      "size": 1,
+      "min_row": 13,
+      "max_row": 13,
+      "min_channel": 38,
+      "max_channel": 38
+    },
+    {
+      "id": 64,
+      "cells": [
+        [
+          13,
+          49
+        ],
+        [
+          13,
+          50
+        ]
+      ],
+      "size": 2,
+      "min_row": 13,
+      "max_row": 13,
+      "min_channel": 49,
+      "max_channel": 50
+    },
+    {
+      "id": 65,
+      "cells": [
+        [
+          14,
+          7
+        ]
+      ],
+      "size": 1,
+      "min_row": 14,
+      "max_row": 14,
+      "min_channel": 7,
+      "max_channel": 7
+    },
+    {
+      "id": 66,
+      "cells": [
+        [
+          14,
+          42
+        ]
+      ],
+      "size": 1,
+      "min_row": 14,
+      "max_row": 14,
+      "min_channel": 42,
+      "max_channel": 42
+    },
+    {
+      "id": 67,
+      "cells": [
+        [
+          15,
+          5
+        ]
+      ],
+      "size": 1,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 5,
+      "max_channel": 5
+    },
+    {
+      "id": 68,
+      "cells": [
+        [
+          15,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 69,
+      "cells": [
+        [
+          15,
+          19
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          16
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          20,
+          17
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          21,
+          17
+        ]
+      ],
+      "size": 15,
+      "min_row": 15,
+      "max_row": 21,
+      "min_channel": 16,
+      "max_channel": 20
+    },
+    {
+      "id": 70,
+      "cells": [
+        [
+          15,
+          34
+        ],
+        [
+          15,
+          35
+        ]
+      ],
+      "size": 2,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 34,
+      "max_channel": 35
+    },
+    {
+      "id": 71,
+      "cells": [
+        [
+          15,
+          38
+        ]
+      ],
+      "size": 1,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 38,
+      "max_channel": 38
+    },
+    {
+      "id": 72,
+      "cells": [
+        [
+          15,
+          40
+        ]
+      ],
+      "size": 1,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 40,
+      "max_channel": 40
+    },
+    {
+      "id": 73,
+      "cells": [
+        [
+          15,
+          43
+        ]
+      ],
+      "size": 1,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 74,
+      "cells": [
+        [
+          15,
+          45
+        ],
+        [
+          15,
+          46
+        ]
+      ],
+      "size": 2,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 45,
+      "max_channel": 46
+    },
+    {
+      "id": 75,
+      "cells": [
+        [
+          15,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 76,
+      "cells": [
+        [
+          15,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 15,
+      "max_row": 15,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 77,
+      "cells": [
+        [
+          16,
+          8
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          18,
+          6
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          20,
+          8
+        ]
+      ],
+      "size": 9,
+      "min_row": 16,
+      "max_row": 20,
+      "min_channel": 6,
+      "max_channel": 8
+    },
+    {
+      "id": 78,
+      "cells": [
+        [
+          16,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 16,
+      "max_row": 16,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 79,
+      "cells": [
+        [
+          16,
+          23
+        ]
+      ],
+      "size": 1,
+      "min_row": 16,
+      "max_row": 16,
+      "min_channel": 23,
+      "max_channel": 23
+    },
+    {
+      "id": 80,
+      "cells": [
+        [
+          16,
+          39
+        ]
+      ],
+      "size": 1,
+      "min_row": 16,
+      "max_row": 16,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 81,
+      "cells": [
+        [
+          17,
+          3
+        ]
+      ],
+      "size": 1,
+      "min_row": 17,
+      "max_row": 17,
+      "min_channel": 3,
+      "max_channel": 3
+    },
+    {
+      "id": 82,
+      "cells": [
+        [
+          17,
+          22
+        ]
+      ],
+      "size": 1,
+      "min_row": 17,
+      "max_row": 17,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 83,
+      "cells": [
+        [
+          17,
+          24
+        ]
+      ],
+      "size": 1,
+      "min_row": 17,
+      "max_row": 17,
+      "min_channel": 24,
+      "max_channel": 24
+    },
+    {
+      "id": 84,
+      "cells": [
+        [
+          17,
+          28
+        ]
+      ],
+      "size": 1,
+      "min_row": 17,
+      "max_row": 17,
+      "min_channel": 28,
+      "max_channel": 28
+    },
+    {
+      "id": 85,
+      "cells": [
+        [
+          17,
+          33
+        ],
+        [
+          17,
+          34
+        ],
+        [
+          18,
+          34
+        ]
+      ],
+      "size": 3,
+      "min_row": 17,
+      "max_row": 18,
+      "min_channel": 33,
+      "max_channel": 34
+    },
+    {
+      "id": 86,
+      "cells": [
+        [
+          17,
+          37
+        ]
+      ],
+      "size": 1,
+      "min_row": 17,
+      "max_row": 17,
+      "min_channel": 37,
+      "max_channel": 37
+    },
+    {
+      "id": 87,
+      "cells": [
+        [
+          17,
+          40
+        ]
+      ],
+      "size": 1,
+      "min_row": 17,
+      "max_row": 17,
+      "min_channel": 40,
+      "max_channel": 40
+    },
+    {
+      "id": 88,
+      "cells": [
+        [
+          17,
+          45
+        ],
+        [
+          17,
+          46
+        ],
+        [
+          18,
+          46
+        ]
+      ],
+      "size": 3,
+      "min_row": 17,
+      "max_row": 18,
+      "min_channel": 45,
+      "max_channel": 46
+    },
+    {
+      "id": 89,
+      "cells": [
+        [
+          17,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 17,
+      "max_row": 17,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 90,
+      "cells": [
+        [
+          18,
+          4
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          19,
+          5
+        ],
+        [
+          20,
+          5
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          21,
+          4
+        ],
+        [
+          21,
+          5
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          22,
+          4
+        ],
+        [
+          22,
+          5
+        ],
+        [
+          23,
+          4
+        ],
+        [
+          24,
+          3
+        ],
+        [
+          24,
+          4
+        ],
+        [
+          24,
+          7
+        ],
+        [
+          24,
+          8
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          25,
+          4
+        ],
+        [
+          25,
+          5
+        ],
+        [
+          25,
+          6
+        ],
+        [
+          25,
+          7
+        ],
+        [
+          26,
+          4
+        ],
+        [
+          26,
+          5
+        ],
+        [
+          26,
+          7
+        ],
+        [
+          26,
+          8
+        ],
+        [
+          27,
+          5
+        ],
+        [
+          27,
+          7
+        ],
+        [
+          28,
+          4
+        ],
+        [
+          28,
+          5
+        ],
+        [
+          29,
+          3
+        ],
+        [
+          29,
+          4
+        ],
+        [
+          29,
+          5
+        ],
+        [
+          30,
+          3
+        ],
+        [
+          30,
+          4
+        ],
+        [
+          30,
+          5
+        ],
+        [
+          31,
+          2
+        ],
+        [
+          31,
+          3
+        ],
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          3
+        ]
+      ],
+      "size": 38,
+      "min_row": 18,
+      "max_row": 32,
+      "min_channel": 2,
+      "max_channel": 8
+    },
+    {
+      "id": 91,
+      "cells": [
+        [
+          18,
+          19
+        ]
+      ],
+      "size": 1,
+      "min_row": 18,
+      "max_row": 18,
+      "min_channel": 19,
+      "max_channel": 19
+    },
+    {
+      "id": 92,
+      "cells": [
+        [
+          19,
+          11
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          20,
+          11
+        ]
+      ],
+      "size": 3,
+      "min_row": 19,
+      "max_row": 20,
+      "min_channel": 10,
+      "max_channel": 11
+    },
+    {
+      "id": 93,
+      "cells": [
+        [
+          19,
+          13
+        ],
+        [
+          20,
+          13
+        ]
+      ],
+      "size": 2,
+      "min_row": 19,
+      "max_row": 20,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 94,
+      "cells": [
+        [
+          19,
+          35
+        ]
+      ],
+      "size": 1,
+      "min_row": 19,
+      "max_row": 19,
+      "min_channel": 35,
+      "max_channel": 35
+    },
+    {
+      "id": 95,
+      "cells": [
+        [
+          19,
+          41
+        ]
+      ],
+      "size": 1,
+      "min_row": 19,
+      "max_row": 19,
+      "min_channel": 41,
+      "max_channel": 41
+    },
+    {
+      "id": 96,
+      "cells": [
+        [
+          19,
+          44
+        ]
+      ],
+      "size": 1,
+      "min_row": 19,
+      "max_row": 19,
+      "min_channel": 44,
+      "max_channel": 44
+    },
+    {
+      "id": 97,
+      "cells": [
+        [
+          19,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 19,
+      "max_row": 19,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 98,
+      "cells": [
+        [
+          20,
+          1
+        ],
+        [
+          20,
+          2
+        ]
+      ],
+      "size": 2,
+      "min_row": 20,
+      "max_row": 20,
+      "min_channel": 1,
+      "max_channel": 2
+    },
+    {
+      "id": 99,
+      "cells": [
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          19
+        ],
+        [
+          21,
+          20
+        ]
+      ],
+      "size": 3,
+      "min_row": 20,
+      "max_row": 21,
+      "min_channel": 19,
+      "max_channel": 20
+    },
+    {
+      "id": 100,
+      "cells": [
+        [
+          20,
+          24
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          21,
+          24
+        ]
+      ],
+      "size": 3,
+      "min_row": 20,
+      "max_row": 21,
+      "min_channel": 23,
+      "max_channel": 24
+    },
+    {
+      "id": 101,
+      "cells": [
+        [
+          20,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 20,
+      "max_row": 20,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 102,
+      "cells": [
+        [
+          20,
+          32
+        ]
+      ],
+      "size": 1,
+      "min_row": 20,
+      "max_row": 20,
+      "min_channel": 32,
+      "max_channel": 32
+    },
+    {
+      "id": 103,
+      "cells": [
+        [
+          20,
+          42
+        ],
+        [
+          21,
+          42
+        ]
+      ],
+      "size": 2,
+      "min_row": 20,
+      "max_row": 21,
+      "min_channel": 42,
+      "max_channel": 42
+    },
+    {
+      "id": 104,
+      "cells": [
+        [
+          20,
+          45
+        ]
+      ],
+      "size": 1,
+      "min_row": 20,
+      "max_row": 20,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 105,
+      "cells": [
+        [
+          21,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 21,
+      "max_row": 21,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 106,
+      "cells": [
+        [
+          21,
+          36
+        ],
+        [
+          22,
+          36
+        ],
+        [
+          22,
+          37
+        ]
+      ],
+      "size": 3,
+      "min_row": 21,
+      "max_row": 22,
+      "min_channel": 36,
+      "max_channel": 37
+    },
+    {
+      "id": 107,
+      "cells": [
+        [
+          21,
+          39
+        ],
+        [
+          21,
+          40
+        ],
+        [
+          22,
+          40
+        ]
+      ],
+      "size": 3,
+      "min_row": 21,
+      "max_row": 22,
+      "min_channel": 39,
+      "max_channel": 40
+    },
+    {
+      "id": 108,
+      "cells": [
+        [
+          21,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 21,
+      "max_row": 21,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 109,
+      "cells": [
+        [
+          22,
+          10
+        ],
+        [
+          23,
+          10
+        ]
+      ],
+      "size": 2,
+      "min_row": 22,
+      "max_row": 23,
+      "min_channel": 10,
+      "max_channel": 10
+    },
+    {
+      "id": 110,
+      "cells": [
+        [
+          22,
+          27
+        ],
+        [
+          23,
+          27
+        ]
+      ],
+      "size": 2,
+      "min_row": 22,
+      "max_row": 23,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 111,
+      "cells": [
+        [
+          22,
+          46
+        ]
+      ],
+      "size": 1,
+      "min_row": 22,
+      "max_row": 22,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 112,
+      "cells": [
+        [
+          23,
+          1
+        ],
+        [
+          24,
+          1
+        ]
+      ],
+      "size": 2,
+      "min_row": 23,
+      "max_row": 24,
+      "min_channel": 1,
+      "max_channel": 1
+    },
+    {
+      "id": 113,
+      "cells": [
+        [
+          23,
+          13
+        ]
+      ],
+      "size": 1,
+      "min_row": 23,
+      "max_row": 23,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 114,
+      "cells": [
+        [
+          23,
+          18
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          23,
+          20
+        ],
+        [
+          24,
+          20
+        ],
+        [
+          25,
+          20
+        ],
+        [
+          26,
+          20
+        ]
+      ],
+      "size": 6,
+      "min_row": 23,
+      "max_row": 26,
+      "min_channel": 18,
+      "max_channel": 20
+    },
+    {
+      "id": 115,
+      "cells": [
+        [
+          23,
+          24
+        ],
+        [
+          24,
+          24
+        ]
+      ],
+      "size": 2,
+      "min_row": 23,
+      "max_row": 24,
+      "min_channel": 24,
+      "max_channel": 24
+    },
+    {
+      "id": 116,
+      "cells": [
+        [
+          23,
+          31
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          25,
+          31
+        ]
+      ],
+      "size": 3,
+      "min_row": 23,
+      "max_row": 25,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 117,
+      "cells": [
+        [
+          23,
+          35
+        ],
+        [
+          24,
+          34
+        ],
+        [
+          24,
+          35
+        ],
+        [
+          24,
+          36
+        ],
+        [
+          24,
+          37
+        ],
+        [
+          25,
+          33
+        ],
+        [
+          25,
+          34
+        ]
+      ],
+      "size": 7,
+      "min_row": 23,
+      "max_row": 25,
+      "min_channel": 33,
+      "max_channel": 37
+    },
+    {
+      "id": 118,
+      "cells": [
+        [
+          23,
+          39
+        ]
+      ],
+      "size": 1,
+      "min_row": 23,
+      "max_row": 23,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 119,
+      "cells": [
+        [
+          23,
+          45
+        ]
+      ],
+      "size": 1,
+      "min_row": 23,
+      "max_row": 23,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 120,
+      "cells": [
+        [
+          24,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 24,
+      "max_row": 24,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 121,
+      "cells": [
+        [
+          25,
+          16
+        ],
+        [
+          26,
+          16
+        ]
+      ],
+      "size": 2,
+      "min_row": 25,
+      "max_row": 26,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 122,
+      "cells": [
+        [
+          25,
+          25
+        ]
+      ],
+      "size": 1,
+      "min_row": 25,
+      "max_row": 25,
+      "min_channel": 25,
+      "max_channel": 25
+    },
+    {
+      "id": 123,
+      "cells": [
+        [
+          26,
+          14
+        ],
+        [
+          27,
+          12
+        ],
+        [
+          27,
+          13
+        ],
+        [
+          27,
+          14
+        ],
+        [
+          28,
+          13
+        ]
+      ],
+      "size": 5,
+      "min_row": 26,
+      "max_row": 28,
+      "min_channel": 12,
+      "max_channel": 14
+    },
+    {
+      "id": 124,
+      "cells": [
+        [
+          26,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 26,
+      "max_row": 26,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 125,
+      "cells": [
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          25
+        ],
+        [
+          27,
+          26
+        ]
+      ],
+      "size": 3,
+      "min_row": 26,
+      "max_row": 27,
+      "min_channel": 25,
+      "max_channel": 26
+    },
+    {
+      "id": 126,
+      "cells": [
+        [
+          26,
+          35
+        ],
+        [
+          26,
+          36
+        ],
+        [
+          27,
+          35
+        ]
+      ],
+      "size": 3,
+      "min_row": 26,
+      "max_row": 27,
+      "min_channel": 35,
+      "max_channel": 36
+    },
+    {
+      "id": 127,
+      "cells": [
+        [
+          26,
+          43
+        ]
+      ],
+      "size": 1,
+      "min_row": 26,
+      "max_row": 26,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 128,
+      "cells": [
+        [
+          26,
+          46
+        ]
+      ],
+      "size": 1,
+      "min_row": 26,
+      "max_row": 26,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 129,
+      "cells": [
+        [
+          27,
+          3
+        ]
+      ],
+      "size": 1,
+      "min_row": 27,
+      "max_row": 27,
+      "min_channel": 3,
+      "max_channel": 3
+    },
+    {
+      "id": 130,
+      "cells": [
+        [
+          27,
+          22
+        ]
+      ],
+      "size": 1,
+      "min_row": 27,
+      "max_row": 27,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 131,
+      "cells": [
+        [
+          27,
+          28
+        ]
+      ],
+      "size": 1,
+      "min_row": 27,
+      "max_row": 27,
+      "min_channel": 28,
+      "max_channel": 28
+    },
+    {
+      "id": 132,
+      "cells": [
+        [
+          27,
+          33
+        ]
+      ],
+      "size": 1,
+      "min_row": 27,
+      "max_row": 27,
+      "min_channel": 33,
+      "max_channel": 33
+    },
+    {
+      "id": 133,
+      "cells": [
+        [
+          27,
+          39
+        ]
+      ],
+      "size": 1,
+      "min_row": 27,
+      "max_row": 27,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 134,
+      "cells": [
+        [
+          27,
+          41
+        ]
+      ],
+      "size": 1,
+      "min_row": 27,
+      "max_row": 27,
+      "min_channel": 41,
+      "max_channel": 41
+    },
+    {
+      "id": 135,
+      "cells": [
+        [
+          27,
+          45
+        ],
+        [
+          28,
+          45
+        ]
+      ],
+      "size": 2,
+      "min_row": 27,
+      "max_row": 28,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 136,
+      "cells": [
+        [
+          28,
+          16
+        ],
+        [
+          29,
+          16
+        ],
+        [
+          30,
+          16
+        ],
+        [
+          31,
+          15
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          32,
+          16
+        ],
+        [
+          32,
+          17
+        ],
+        [
+          32,
+          18
+        ],
+        [
+          33,
+          16
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          33,
+          18
+        ],
+        [
+          34,
+          16
+        ],
+        [
+          35,
+          16
+        ],
+        [
+          35,
+          20
+        ],
+        [
+          36,
+          16
+        ],
+        [
+          36,
+          17
+        ],
+        [
+          36,
+          18
+        ],
+        [
+          36,
+          19
+        ],
+        [
+          36,
+          20
+        ],
+        [
+          37,
+          19
+        ],
+        [
+          38,
+          19
+        ],
+        [
+          38,
+          20
+        ],
+        [
+          39,
+          20
+        ],
+        [
+          40,
+          19
+        ],
+        [
+          40,
+          20
+        ],
+        [
+          40,
+          21
+        ],
+        [
+          41,
+          20
+        ]
+      ],
+      "size": 27,
+      "min_row": 28,
+      "max_row": 41,
+      "min_channel": 15,
+      "max_channel": 21
+    },
+    {
+      "id": 137,
+      "cells": [
+        [
+          28,
+          20
+        ],
+        [
+          29,
+          20
+        ]
+      ],
+      "size": 2,
+      "min_row": 28,
+      "max_row": 29,
+      "min_channel": 20,
+      "max_channel": 20
+    },
+    {
+      "id": 138,
+      "cells": [
+        [
+          28,
+          29
+        ],
+        [
+          28,
+          30
+        ]
+      ],
+      "size": 2,
+      "min_row": 28,
+      "max_row": 28,
+      "min_channel": 29,
+      "max_channel": 30
+    },
+    {
+      "id": 139,
+      "cells": [
+        [
+          28,
+          49
+        ]
+      ],
+      "size": 1,
+      "min_row": 28,
+      "max_row": 28,
+      "min_channel": 49,
+      "max_channel": 49
+    },
+    {
+      "id": 140,
+      "cells": [
+        [
+          29,
+          25
+        ]
+      ],
+      "size": 1,
+      "min_row": 29,
+      "max_row": 29,
+      "min_channel": 25,
+      "max_channel": 25
+    },
+    {
+      "id": 141,
+      "cells": [
+        [
+          29,
+          27
+        ],
+        [
+          30,
+          27
+        ],
+        [
+          31,
+          27
+        ],
+        [
+          32,
+          27
+        ],
+        [
+          33,
+          27
+        ]
+      ],
+      "size": 5,
+      "min_row": 29,
+      "max_row": 33,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 142,
+      "cells": [
+        [
+          29,
+          31
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          30,
+          32
+        ],
+        [
+          30,
+          33
+        ],
+        [
+          30,
+          34
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          31,
+          33
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "size": 8,
+      "min_row": 29,
+      "max_row": 32,
+      "min_channel": 31,
+      "max_channel": 34
+    },
+    {
+      "id": 143,
+      "cells": [
+        [
+          30,
+          7
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          31,
+          7
+        ],
+        [
+          31,
+          8
+        ]
+      ],
+      "size": 4,
+      "min_row": 30,
+      "max_row": 31,
+      "min_channel": 7,
+      "max_channel": 8
+    },
+    {
+      "id": 144,
+      "cells": [
+        [
+          30,
+          13
+        ],
+        [
+          31,
+          13
+        ],
+        [
+          32,
+          13
+        ],
+        [
+          33,
+          13
+        ],
+        [
+          33,
+          14
+        ],
+        [
+          34,
+          13
+        ],
+        [
+          35,
+          13
+        ],
+        [
+          36,
+          13
+        ]
+      ],
+      "size": 8,
+      "min_row": 30,
+      "max_row": 36,
+      "min_channel": 13,
+      "max_channel": 14
+    },
+    {
+      "id": 145,
+      "cells": [
+        [
+          30,
+          18
+        ],
+        [
+          30,
+          19
+        ],
+        [
+          31,
+          19
+        ],
+        [
+          31,
+          20
+        ],
+        [
+          31,
+          21
+        ],
+        [
+          31,
+          22
+        ]
+      ],
+      "size": 6,
+      "min_row": 30,
+      "max_row": 31,
+      "min_channel": 18,
+      "max_channel": 22
+    },
+    {
+      "id": 146,
+      "cells": [
+        [
+          30,
+          38
+        ],
+        [
+          30,
+          39
+        ]
+      ],
+      "size": 2,
+      "min_row": 30,
+      "max_row": 30,
+      "min_channel": 38,
+      "max_channel": 39
+    },
+    {
+      "id": 147,
+      "cells": [
+        [
+          31,
+          10
+        ]
+      ],
+      "size": 1,
+      "min_row": 31,
+      "max_row": 31,
+      "min_channel": 10,
+      "max_channel": 10
+    },
+    {
+      "id": 148,
+      "cells": [
+        [
+          31,
+          24
+        ]
+      ],
+      "size": 1,
+      "min_row": 31,
+      "max_row": 31,
+      "min_channel": 24,
+      "max_channel": 24
+    },
+    {
+      "id": 149,
+      "cells": [
+        [
+          31,
+          35
+        ]
+      ],
+      "size": 1,
+      "min_row": 31,
+      "max_row": 31,
+      "min_channel": 35,
+      "max_channel": 35
+    },
+    {
+      "id": 150,
+      "cells": [
+        [
+          31,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 31,
+      "max_row": 31,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 151,
+      "cells": [
+        [
+          32,
+          30
+        ]
+      ],
+      "size": 1,
+      "min_row": 32,
+      "max_row": 32,
+      "min_channel": 30,
+      "max_channel": 30
+    },
+    {
+      "id": 152,
+      "cells": [
+        [
+          32,
+          39
+        ],
+        [
+          33,
+          38
+        ],
+        [
+          33,
+          39
+        ],
+        [
+          34,
+          39
+        ],
+        [
+          35,
+          39
+        ]
+      ],
+      "size": 5,
+      "min_row": 32,
+      "max_row": 35,
+      "min_channel": 38,
+      "max_channel": 39
+    },
+    {
+      "id": 153,
+      "cells": [
+        [
+          32,
+          45
+        ]
+      ],
+      "size": 1,
+      "min_row": 32,
+      "max_row": 32,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 154,
+      "cells": [
+        [
+          32,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 32,
+      "max_row": 32,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 155,
+      "cells": [
+        [
+          33,
+          4
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          35,
+          4
+        ],
+        [
+          35,
+          5
+        ]
+      ],
+      "size": 4,
+      "min_row": 33,
+      "max_row": 35,
+      "min_channel": 4,
+      "max_channel": 5
+    },
+    {
+      "id": 156,
+      "cells": [
+        [
+          33,
+          23
+        ],
+        [
+          33,
+          24
+        ],
+        [
+          33,
+          25
+        ],
+        [
+          34,
+          24
+        ],
+        [
+          34,
+          25
+        ]
+      ],
+      "size": 5,
+      "min_row": 33,
+      "max_row": 34,
+      "min_channel": 23,
+      "max_channel": 25
+    },
+    {
+      "id": 157,
+      "cells": [
+        [
+          33,
+          31
+        ],
+        [
+          34,
+          31
+        ],
+        [
+          34,
+          32
+        ],
+        [
+          34,
+          33
+        ],
+        [
+          35,
+          31
+        ],
+        [
+          35,
+          32
+        ],
+        [
+          35,
+          33
+        ],
+        [
+          36,
+          33
+        ]
+      ],
+      "size": 8,
+      "min_row": 33,
+      "max_row": 36,
+      "min_channel": 31,
+      "max_channel": 33
+    },
+    {
+      "id": 158,
+      "cells": [
+        [
+          33,
+          34
+        ],
+        [
+          33,
+          35
+        ],
+        [
+          33,
+          36
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          34,
+          36
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          35,
+          37
+        ]
+      ],
+      "size": 7,
+      "min_row": 33,
+      "max_row": 35,
+      "min_channel": 34,
+      "max_channel": 37
+    },
+    {
+      "id": 159,
+      "cells": [
+        [
+          33,
+          42
+        ]
+      ],
+      "size": 1,
+      "min_row": 33,
+      "max_row": 33,
+      "min_channel": 42,
+      "max_channel": 42
+    },
+    {
+      "id": 160,
+      "cells": [
+        [
+          33,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 33,
+      "max_row": 33,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 161,
+      "cells": [
+        [
+          34,
+          7
+        ]
+      ],
+      "size": 1,
+      "min_row": 34,
+      "max_row": 34,
+      "min_channel": 7,
+      "max_channel": 7
+    },
+    {
+      "id": 162,
+      "cells": [
+        [
+          35,
+          8
+        ]
+      ],
+      "size": 1,
+      "min_row": 35,
+      "max_row": 35,
+      "min_channel": 8,
+      "max_channel": 8
+    },
+    {
+      "id": 163,
+      "cells": [
+        [
+          35,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 35,
+      "max_row": 35,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 164,
+      "cells": [
+        [
+          36,
+          3
+        ],
+        [
+          37,
+          3
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          37,
+          5
+        ]
+      ],
+      "size": 4,
+      "min_row": 36,
+      "max_row": 37,
+      "min_channel": 3,
+      "max_channel": 5
+    },
+    {
+      "id": 165,
+      "cells": [
+        [
+          36,
+          38
+        ]
+      ],
+      "size": 1,
+      "min_row": 36,
+      "max_row": 36,
+      "min_channel": 38,
+      "max_channel": 38
+    },
+    {
+      "id": 166,
+      "cells": [
+        [
+          36,
+          41
+        ]
+      ],
+      "size": 1,
+      "min_row": 36,
+      "max_row": 36,
+      "min_channel": 41,
+      "max_channel": 41
+    },
+    {
+      "id": 167,
+      "cells": [
+        [
+          37,
+          34
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          34
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          38,
+          36
+        ],
+        [
+          38,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          38,
+          40
+        ],
+        [
+          39,
+          34
+        ],
+        [
+          39,
+          36
+        ],
+        [
+          39,
+          37
+        ],
+        [
+          39,
+          38
+        ],
+        [
+          40,
+          36
+        ],
+        [
+          40,
+          37
+        ],
+        [
+          40,
+          38
+        ],
+        [
+          41,
+          36
+        ],
+        [
+          41,
+          37
+        ],
+        [
+          41,
+          38
+        ],
+        [
+          42,
+          37
+        ],
+        [
+          42,
+          38
+        ],
+        [
+          42,
+          39
+        ],
+        [
+          43,
+          36
+        ],
+        [
+          43,
+          37
+        ],
+        [
+          43,
+          38
+        ],
+        [
+          43,
+          39
+        ],
+        [
+          44,
+          37
+        ],
+        [
+          44,
+          38
+        ],
+        [
+          44,
+          39
+        ],
+        [
+          45,
+          37
+        ],
+        [
+          45,
+          38
+        ],
+        [
+          46,
+          37
+        ],
+        [
+          46,
+          38
+        ]
+      ],
+      "size": 33,
+      "min_row": 37,
+      "max_row": 46,
+      "min_channel": 34,
+      "max_channel": 40
+    },
+    {
+      "id": 168,
+      "cells": [
+        [
+          38,
+          9
+        ]
+      ],
+      "size": 1,
+      "min_row": 38,
+      "max_row": 38,
+      "min_channel": 9,
+      "max_channel": 9
+    },
+    {
+      "id": 169,
+      "cells": [
+        [
+          38,
+          13
+        ],
+        [
+          39,
+          13
+        ],
+        [
+          39,
+          14
+        ]
+      ],
+      "size": 3,
+      "min_row": 38,
+      "max_row": 39,
+      "min_channel": 13,
+      "max_channel": 14
+    },
+    {
+      "id": 170,
+      "cells": [
+        [
+          38,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 38,
+      "max_row": 38,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 171,
+      "cells": [
+        [
+          38,
+          22
+        ],
+        [
+          38,
+          23
+        ],
+        [
+          39,
+          23
+        ]
+      ],
+      "size": 3,
+      "min_row": 38,
+      "max_row": 39,
+      "min_channel": 22,
+      "max_channel": 23
+    },
+    {
+      "id": 172,
+      "cells": [
+        [
+          38,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 38,
+      "max_row": 38,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 173,
+      "cells": [
+        [
+          38,
+          32
+        ]
+      ],
+      "size": 1,
+      "min_row": 38,
+      "max_row": 38,
+      "min_channel": 32,
+      "max_channel": 32
+    },
+    {
+      "id": 174,
+      "cells": [
+        [
+          38,
+          42
+        ]
+      ],
+      "size": 1,
+      "min_row": 38,
+      "max_row": 38,
+      "min_channel": 42,
+      "max_channel": 42
+    },
+    {
+      "id": 175,
+      "cells": [
+        [
+          39,
+          3
+        ]
+      ],
+      "size": 1,
+      "min_row": 39,
+      "max_row": 39,
+      "min_channel": 3,
+      "max_channel": 3
+    },
+    {
+      "id": 176,
+      "cells": [
+        [
+          39,
+          7
+        ],
+        [
+          39,
+          8
+        ]
+      ],
+      "size": 2,
+      "min_row": 39,
+      "max_row": 39,
+      "min_channel": 7,
+      "max_channel": 8
+    },
+    {
+      "id": 177,
+      "cells": [
+        [
+          39,
+          46
+        ],
+        [
+          40,
+          44
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          40,
+          46
+        ],
+        [
+          41,
+          45
+        ],
+        [
+          41,
+          46
+        ],
+        [
+          42,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          42,
+          44
+        ],
+        [
+          42,
+          45
+        ],
+        [
+          42,
+          46
+        ],
+        [
+          43,
+          41
+        ],
+        [
+          43,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          43,
+          45
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          44,
+          41
+        ],
+        [
+          44,
+          42
+        ],
+        [
+          44,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          45
+        ]
+      ],
+      "size": 21,
+      "min_row": 39,
+      "max_row": 44,
+      "min_channel": 41,
+      "max_channel": 46
+    },
+    {
+      "id": 178,
+      "cells": [
+        [
+          39,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 39,
+      "max_row": 39,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 179,
+      "cells": [
+        [
+          40,
+          2
+        ]
+      ],
+      "size": 1,
+      "min_row": 40,
+      "max_row": 40,
+      "min_channel": 2,
+      "max_channel": 2
+    },
+    {
+      "id": 180,
+      "cells": [
+        [
+          40,
+          4
+        ],
+        [
+          40,
+          5
+        ],
+        [
+          41,
+          3
+        ],
+        [
+          41,
+          4
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          41,
+          6
+        ]
+      ],
+      "size": 6,
+      "min_row": 40,
+      "max_row": 41,
+      "min_channel": 3,
+      "max_channel": 6
+    },
+    {
+      "id": 181,
+      "cells": [
+        [
+          40,
+          16
+        ],
+        [
+          41,
+          16
+        ],
+        [
+          42,
+          16
+        ],
+        [
+          43,
+          16
+        ]
+      ],
+      "size": 4,
+      "min_row": 40,
+      "max_row": 43,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 182,
+      "cells": [
+        [
+          40,
+          31
+        ]
+      ],
+      "size": 1,
+      "min_row": 40,
+      "max_row": 40,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 183,
+      "cells": [
+        [
+          41,
+          9
+        ],
+        [
+          41,
+          10
+        ],
+        [
+          41,
+          11
+        ]
+      ],
+      "size": 3,
+      "min_row": 41,
+      "max_row": 41,
+      "min_channel": 9,
+      "max_channel": 11
+    },
+    {
+      "id": 184,
+      "cells": [
+        [
+          41,
+          23
+        ]
+      ],
+      "size": 1,
+      "min_row": 41,
+      "max_row": 41,
+      "min_channel": 23,
+      "max_channel": 23
+    },
+    {
+      "id": 185,
+      "cells": [
+        [
+          41,
+          29
+        ]
+      ],
+      "size": 1,
+      "min_row": 41,
+      "max_row": 41,
+      "min_channel": 29,
+      "max_channel": 29
+    },
+    {
+      "id": 186,
+      "cells": [
+        [
+          42,
+          22
+        ]
+      ],
+      "size": 1,
+      "min_row": 42,
+      "max_row": 42,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 187,
+      "cells": [
+        [
+          42,
+          24
+        ]
+      ],
+      "size": 1,
+      "min_row": 42,
+      "max_row": 42,
+      "min_channel": 24,
+      "max_channel": 24
+    },
+    {
+      "id": 188,
+      "cells": [
+        [
+          42,
+          26
+        ]
+      ],
+      "size": 1,
+      "min_row": 42,
+      "max_row": 42,
+      "min_channel": 26,
+      "max_channel": 26
+    },
+    {
+      "id": 189,
+      "cells": [
+        [
+          42,
+          33
+        ],
+        [
+          42,
+          34
+        ]
+      ],
+      "size": 2,
+      "min_row": 42,
+      "max_row": 42,
+      "min_channel": 33,
+      "max_channel": 34
+    },
+    {
+      "id": 190,
+      "cells": [
+        [
+          43,
+          7
+        ],
+        [
+          44,
+          6
+        ],
+        [
+          44,
+          7
+        ],
+        [
+          45,
+          7
+        ],
+        [
+          46,
+          7
+        ],
+        [
+          47,
+          7
+        ],
+        [
+          47,
+          8
+        ],
+        [
+          48,
+          7
+        ]
+      ],
+      "size": 8,
+      "min_row": 43,
+      "max_row": 48,
+      "min_channel": 6,
+      "max_channel": 8
+    },
+    {
+      "id": 191,
+      "cells": [
+        [
+          43,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 43,
+      "max_row": 43,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 192,
+      "cells": [
+        [
+          43,
+          20
+        ],
+        [
+          44,
+          20
+        ],
+        [
+          45,
+          20
+        ]
+      ],
+      "size": 3,
+      "min_row": 43,
+      "max_row": 45,
+      "min_channel": 20,
+      "max_channel": 20
+    },
+    {
+      "id": 193,
+      "cells": [
+        [
+          44,
+          3
+        ],
+        [
+          44,
+          4
+        ],
+        [
+          45,
+          3
+        ],
+        [
+          45,
+          4
+        ],
+        [
+          46,
+          4
+        ],
+        [
+          46,
+          5
+        ],
+        [
+          47,
+          3
+        ],
+        [
+          47,
+          4
+        ],
+        [
+          47,
+          5
+        ]
+      ],
+      "size": 9,
+      "min_row": 44,
+      "max_row": 47,
+      "min_channel": 3,
+      "max_channel": 5
+    },
+    {
+      "id": 194,
+      "cells": [
+        [
+          44,
+          9
+        ]
+      ],
+      "size": 1,
+      "min_row": 44,
+      "max_row": 44,
+      "min_channel": 9,
+      "max_channel": 9
+    },
+    {
+      "id": 195,
+      "cells": [
+        [
+          44,
+          23
+        ],
+        [
+          44,
+          24
+        ]
+      ],
+      "size": 2,
+      "min_row": 44,
+      "max_row": 44,
+      "min_channel": 23,
+      "max_channel": 24
+    },
+    {
+      "id": 196,
+      "cells": [
+        [
+          44,
+          47
+        ],
+        [
+          44,
+          48
+        ]
+      ],
+      "size": 2,
+      "min_row": 44,
+      "max_row": 44,
+      "min_channel": 47,
+      "max_channel": 48
+    },
+    {
+      "id": 197,
+      "cells": [
+        [
+          45,
+          16
+        ],
+        [
+          46,
+          16
+        ]
+      ],
+      "size": 2,
+      "min_row": 45,
+      "max_row": 46,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 198,
+      "cells": [
+        [
+          45,
+          33
+        ],
+        [
+          46,
+          33
+        ],
+        [
+          46,
+          34
+        ],
+        [
+          47,
+          33
+        ],
+        [
+          47,
+          34
+        ]
+      ],
+      "size": 5,
+      "min_row": 45,
+      "max_row": 47,
+      "min_channel": 33,
+      "max_channel": 34
+    },
+    {
+      "id": 199,
+      "cells": [
+        [
+          45,
+          46
+        ]
+      ],
+      "size": 1,
+      "min_row": 45,
+      "max_row": 45,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 200,
+      "cells": [
+        [
+          46,
+          18
+        ],
+        [
+          46,
+          19
+        ]
+      ],
+      "size": 2,
+      "min_row": 46,
+      "max_row": 46,
+      "min_channel": 18,
+      "max_channel": 19
+    },
+    {
+      "id": 201,
+      "cells": [
+        [
+          46,
+          44
+        ],
+        [
+          47,
+          44
+        ]
+      ],
+      "size": 2,
+      "min_row": 46,
+      "max_row": 47,
+      "min_channel": 44,
+      "max_channel": 44
+    },
+    {
+      "id": 202,
+      "cells": [
+        [
+          46,
+          47
+        ]
+      ],
+      "size": 1,
+      "min_row": 46,
+      "max_row": 46,
+      "min_channel": 47,
+      "max_channel": 47
+    },
+    {
+      "id": 203,
+      "cells": [
+        [
+          47,
+          1
+        ]
+      ],
+      "size": 1,
+      "min_row": 47,
+      "max_row": 47,
+      "min_channel": 1,
+      "max_channel": 1
+    },
+    {
+      "id": 204,
+      "cells": [
+        [
+          47,
+          13
+        ]
+      ],
+      "size": 1,
+      "min_row": 47,
+      "max_row": 47,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 205,
+      "cells": [
+        [
+          47,
+          30
+        ],
+        [
+          47,
+          31
+        ]
+      ],
+      "size": 2,
+      "min_row": 47,
+      "max_row": 47,
+      "min_channel": 30,
+      "max_channel": 31
+    },
+    {
+      "id": 206,
+      "cells": [
+        [
+          48,
+          28
+        ]
+      ],
+      "size": 1,
+      "min_row": 48,
+      "max_row": 48,
+      "min_channel": 28,
+      "max_channel": 28
+    },
+    {
+      "id": 207,
+      "cells": [
+        [
+          48,
+          35
+        ],
+        [
+          49,
+          35
+        ],
+        [
+          49,
+          36
+        ],
+        [
+          49,
+          37
+        ],
+        [
+          49,
+          38
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          51,
+          38
+        ]
+      ],
+      "size": 9,
+      "min_row": 48,
+      "max_row": 51,
+      "min_channel": 35,
+      "max_channel": 38
+    },
+    {
+      "id": 208,
+      "cells": [
+        [
+          48,
+          39
+        ]
+      ],
+      "size": 1,
+      "min_row": 48,
+      "max_row": 48,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 209,
+      "cells": [
+        [
+          48,
+          45
+        ],
+        [
+          48,
+          46
+        ],
+        [
+          49,
+          45
+        ]
+      ],
+      "size": 3,
+      "min_row": 48,
+      "max_row": 49,
+      "min_channel": 45,
+      "max_channel": 46
+    },
+    {
+      "id": 210,
+      "cells": [
+        [
+          48,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 48,
+      "max_row": 48,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 211,
+      "cells": [
+        [
+          49,
+          1
+        ],
+        [
+          50,
+          1
+        ]
+      ],
+      "size": 2,
+      "min_row": 49,
+      "max_row": 50,
+      "min_channel": 1,
+      "max_channel": 1
+    },
+    {
+      "id": 212,
+      "cells": [
+        [
+          49,
+          4
+        ],
+        [
+          50,
+          3
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          51,
+          2
+        ],
+        [
+          51,
+          3
+        ]
+      ],
+      "size": 5,
+      "min_row": 49,
+      "max_row": 51,
+      "min_channel": 2,
+      "max_channel": 4
+    },
+    {
+      "id": 213,
+      "cells": [
+        [
+          49,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 49,
+      "max_row": 49,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 214,
+      "cells": [
+        [
+          49,
+          19
+        ],
+        [
+          49,
+          20
+        ],
+        [
+          50,
+          19
+        ],
+        [
+          51,
+          15
+        ],
+        [
+          51,
+          16
+        ],
+        [
+          51,
+          17
+        ],
+        [
+          51,
+          18
+        ],
+        [
+          51,
+          19
+        ],
+        [
+          51,
+          20
+        ],
+        [
+          51,
+          21
+        ],
+        [
+          52,
+          16
+        ]
+      ],
+      "size": 11,
+      "min_row": 49,
+      "max_row": 52,
+      "min_channel": 15,
+      "max_channel": 21
+    },
+    {
+      "id": 215,
+      "cells": [
+        [
+          49,
+          22
+        ]
+      ],
+      "size": 1,
+      "min_row": 49,
+      "max_row": 49,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 216,
+      "cells": [
+        [
+          49,
+          47
+        ]
+      ],
+      "size": 1,
+      "min_row": 49,
+      "max_row": 49,
+      "min_channel": 47,
+      "max_channel": 47
+    },
+    {
+      "id": 217,
+      "cells": [
+        [
+          49,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 49,
+      "max_row": 49,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 218,
+      "cells": [
+        [
+          50,
+          10
+        ]
+      ],
+      "size": 1,
+      "min_row": 50,
+      "max_row": 50,
+      "min_channel": 10,
+      "max_channel": 10
+    },
+    {
+      "id": 219,
+      "cells": [
+        [
+          50,
+          23
+        ],
+        [
+          50,
+          24
+        ]
+      ],
+      "size": 2,
+      "min_row": 50,
+      "max_row": 50,
+      "min_channel": 23,
+      "max_channel": 24
+    },
+    {
+      "id": 220,
+      "cells": [
+        [
+          50,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 50,
+      "max_row": 50,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 221,
+      "cells": [
+        [
+          50,
+          31
+        ]
+      ],
+      "size": 1,
+      "min_row": 50,
+      "max_row": 50,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 222,
+      "cells": [
+        [
+          50,
+          42
+        ]
+      ],
+      "size": 1,
+      "min_row": 50,
+      "max_row": 50,
+      "min_channel": 42,
+      "max_channel": 42
+    },
+    {
+      "id": 223,
+      "cells": [
+        [
+          50,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 50,
+      "max_row": 50,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 224,
+      "cells": [
+        [
+          51,
+          7
+        ],
+        [
+          51,
+          8
+        ],
+        [
+          52,
+          7
+        ],
+        [
+          53,
+          7
+        ],
+        [
+          54,
+          7
+        ],
+        [
+          55,
+          7
+        ],
+        [
+          56,
+          7
+        ]
+      ],
+      "size": 7,
+      "min_row": 51,
+      "max_row": 56,
+      "min_channel": 7,
+      "max_channel": 8
+    },
+    {
+      "id": 225,
+      "cells": [
+        [
+          51,
+          11
+        ],
+        [
+          52,
+          11
+        ]
+      ],
+      "size": 2,
+      "min_row": 51,
+      "max_row": 52,
+      "min_channel": 11,
+      "max_channel": 11
+    },
+    {
+      "id": 226,
+      "cells": [
+        [
+          51,
+          44
+        ],
+        [
+          51,
+          45
+        ],
+        [
+          51,
+          46
+        ],
+        [
+          52,
+          44
+        ],
+        [
+          52,
+          45
+        ],
+        [
+          52,
+          46
+        ],
+        [
+          52,
+          47
+        ],
+        [
+          53,
+          45
+        ],
+        [
+          53,
+          46
+        ]
+      ],
+      "size": 9,
+      "min_row": 51,
+      "max_row": 53,
+      "min_channel": 44,
+      "max_channel": 47
+    },
+    {
+      "id": 227,
+      "cells": [
+        [
+          51,
+          49
+        ],
+        [
+          52,
+          49
+        ],
+        [
+          53,
+          49
+        ]
+      ],
+      "size": 3,
+      "min_row": 51,
+      "max_row": 53,
+      "min_channel": 49,
+      "max_channel": 49
+    },
+    {
+      "id": 228,
+      "cells": [
+        [
+          52,
+          4
+        ],
+        [
+          53,
+          4
+        ],
+        [
+          53,
+          5
+        ]
+      ],
+      "size": 3,
+      "min_row": 52,
+      "max_row": 53,
+      "min_channel": 4,
+      "max_channel": 5
+    },
+    {
+      "id": 229,
+      "cells": [
+        [
+          52,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 52,
+      "max_row": 52,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 230,
+      "cells": [
+        [
+          52,
+          22
+        ],
+        [
+          52,
+          23
+        ],
+        [
+          53,
+          22
+        ],
+        [
+          54,
+          22
+        ],
+        [
+          54,
+          23
+        ]
+      ],
+      "size": 5,
+      "min_row": 52,
+      "max_row": 54,
+      "min_channel": 22,
+      "max_channel": 23
+    },
+    {
+      "id": 231,
+      "cells": [
+        [
+          52,
+          31
+        ],
+        [
+          53,
+          31
+        ]
+      ],
+      "size": 2,
+      "min_row": 52,
+      "max_row": 53,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 232,
+      "cells": [
+        [
+          52,
+          34
+        ],
+        [
+          52,
+          35
+        ],
+        [
+          53,
+          35
+        ]
+      ],
+      "size": 3,
+      "min_row": 52,
+      "max_row": 53,
+      "min_channel": 34,
+      "max_channel": 35
+    },
+    {
+      "id": 233,
+      "cells": [
+        [
+          52,
+          37
+        ]
+      ],
+      "size": 1,
+      "min_row": 52,
+      "max_row": 52,
+      "min_channel": 37,
+      "max_channel": 37
+    },
+    {
+      "id": 234,
+      "cells": [
+        [
+          53,
+          17
+        ],
+        [
+          53,
+          18
+        ],
+        [
+          53,
+          19
+        ],
+        [
+          54,
+          19
+        ]
+      ],
+      "size": 4,
+      "min_row": 53,
+      "max_row": 54,
+      "min_channel": 17,
+      "max_channel": 19
+    },
+    {
+      "id": 235,
+      "cells": [
+        [
+          53,
+          24
+        ]
+      ],
+      "size": 1,
+      "min_row": 53,
+      "max_row": 53,
+      "min_channel": 24,
+      "max_channel": 24
+    },
+    {
+      "id": 236,
+      "cells": [
+        [
+          53,
+          39
+        ],
+        [
+          54,
+          39
+        ],
+        [
+          54,
+          41
+        ],
+        [
+          55,
+          39
+        ],
+        [
+          55,
+          40
+        ],
+        [
+          55,
+          41
+        ]
+      ],
+      "size": 6,
+      "min_row": 53,
+      "max_row": 55,
+      "min_channel": 39,
+      "max_channel": 41
+    },
+    {
+      "id": 237,
+      "cells": [
+        [
+          53,
+          42
+        ],
+        [
+          53,
+          43
+        ],
+        [
+          54,
+          43
+        ]
+      ],
+      "size": 3,
+      "min_row": 53,
+      "max_row": 54,
+      "min_channel": 42,
+      "max_channel": 43
+    },
+    {
+      "id": 238,
+      "cells": [
+        [
+          54,
+          1
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          56,
+          1
+        ]
+      ],
+      "size": 3,
+      "min_row": 54,
+      "max_row": 56,
+      "min_channel": 1,
+      "max_channel": 1
+    },
+    {
+      "id": 239,
+      "cells": [
+        [
+          54,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 54,
+      "max_row": 54,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 240,
+      "cells": [
+        [
+          54,
+          25
+        ],
+        [
+          55,
+          25
+        ],
+        [
+          55,
+          26
+        ]
+      ],
+      "size": 3,
+      "min_row": 54,
+      "max_row": 55,
+      "min_channel": 25,
+      "max_channel": 26
+    },
+    {
+      "id": 241,
+      "cells": [
+        [
+          54,
+          30
+        ]
+      ],
+      "size": 1,
+      "min_row": 54,
+      "max_row": 54,
+      "min_channel": 30,
+      "max_channel": 30
+    },
+    {
+      "id": 242,
+      "cells": [
+        [
+          54,
+          34
+        ],
+        [
+          55,
+          34
+        ],
+        [
+          55,
+          35
+        ],
+        [
+          56,
+          34
+        ],
+        [
+          57,
+          34
+        ]
+      ],
+      "size": 5,
+      "min_row": 54,
+      "max_row": 57,
+      "min_channel": 34,
+      "max_channel": 35
+    },
+    {
+      "id": 243,
+      "cells": [
+        [
+          54,
+          50
+        ],
+        [
+          55,
+          49
+        ],
+        [
+          55,
+          50
+        ],
+        [
+          56,
+          49
+        ]
+      ],
+      "size": 4,
+      "min_row": 54,
+      "max_row": 56,
+      "min_channel": 49,
+      "max_channel": 50
+    },
+    {
+      "id": 244,
+      "cells": [
+        [
+          55,
+          3
+        ],
+        [
+          55,
+          4
+        ],
+        [
+          56,
+          3
+        ],
+        [
+          56,
+          4
+        ],
+        [
+          57,
+          3
+        ]
+      ],
+      "size": 5,
+      "min_row": 55,
+      "max_row": 57,
+      "min_channel": 3,
+      "max_channel": 4
+    },
+    {
+      "id": 245,
+      "cells": [
+        [
+          55,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 55,
+      "max_row": 55,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 246,
+      "cells": [
+        [
+          55,
+          20
+        ],
+        [
+          56,
+          19
+        ],
+        [
+          56,
+          20
+        ],
+        [
+          57,
+          20
+        ]
+      ],
+      "size": 4,
+      "min_row": 55,
+      "max_row": 57,
+      "min_channel": 19,
+      "max_channel": 20
+    },
+    {
+      "id": 247,
+      "cells": [
+        [
+          55,
+          28
+        ],
+        [
+          55,
+          29
+        ]
+      ],
+      "size": 2,
+      "min_row": 55,
+      "max_row": 55,
+      "min_channel": 28,
+      "max_channel": 29
+    },
+    {
+      "id": 248,
+      "cells": [
+        [
+          55,
+          32
+        ]
+      ],
+      "size": 1,
+      "min_row": 55,
+      "max_row": 55,
+      "min_channel": 32,
+      "max_channel": 32
+    },
+    {
+      "id": 249,
+      "cells": [
+        [
+          55,
+          45
+        ]
+      ],
+      "size": 1,
+      "min_row": 55,
+      "max_row": 55,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 250,
+      "cells": [
+        [
+          55,
+          47
+        ]
+      ],
+      "size": 1,
+      "min_row": 55,
+      "max_row": 55,
+      "min_channel": 47,
+      "max_channel": 47
+    },
+    {
+      "id": 251,
+      "cells": [
+        [
+          56,
+          12
+        ]
+      ],
+      "size": 1,
+      "min_row": 56,
+      "max_row": 56,
+      "min_channel": 12,
+      "max_channel": 12
+    },
+    {
+      "id": 252,
+      "cells": [
+        [
+          56,
+          22
+        ]
+      ],
+      "size": 1,
+      "min_row": 56,
+      "max_row": 56,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 253,
+      "cells": [
+        [
+          56,
+          31
+        ]
+      ],
+      "size": 1,
+      "min_row": 56,
+      "max_row": 56,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 254,
+      "cells": [
+        [
+          56,
+          43
+        ]
+      ],
+      "size": 1,
+      "min_row": 56,
+      "max_row": 56,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 255,
+      "cells": [
+        [
+          57,
+          16
+        ],
+        [
+          58,
+          16
+        ],
+        [
+          58,
+          17
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          59,
+          17
+        ],
+        [
+          60,
+          17
+        ]
+      ],
+      "size": 6,
+      "min_row": 57,
+      "max_row": 60,
+      "min_channel": 16,
+      "max_channel": 17
+    },
+    {
+      "id": 256,
+      "cells": [
+        [
+          57,
+          36
+        ]
+      ],
+      "size": 1,
+      "min_row": 57,
+      "max_row": 57,
+      "min_channel": 36,
+      "max_channel": 36
+    },
+    {
+      "id": 257,
+      "cells": [
+        [
+          57,
+          44
+        ],
+        [
+          57,
+          46
+        ],
+        [
+          58,
+          42
+        ],
+        [
+          58,
+          43
+        ],
+        [
+          58,
+          44
+        ],
+        [
+          58,
+          45
+        ],
+        [
+          58,
+          46
+        ],
+        [
+          58,
+          47
+        ],
+        [
+          58,
+          48
+        ],
+        [
+          59,
+          42
+        ],
+        [
+          59,
+          44
+        ],
+        [
+          59,
+          46
+        ],
+        [
+          59,
+          47
+        ],
+        [
+          60,
+          41
+        ],
+        [
+          60,
+          42
+        ],
+        [
+          60,
+          47
+        ],
+        [
+          61,
+          42
+        ],
+        [
+          61,
+          43
+        ],
+        [
+          61,
+          48
+        ],
+        [
+          62,
+          41
+        ],
+        [
+          62,
+          42
+        ],
+        [
+          62,
+          43
+        ],
+        [
+          62,
+          44
+        ],
+        [
+          62,
+          46
+        ],
+        [
+          62,
+          47
+        ],
+        [
+          62,
+          48
+        ],
+        [
+          62,
+          49
+        ],
+        [
+          62,
+          50
+        ],
+        [
+          63,
+          41
+        ],
+        [
+          63,
+          42
+        ],
+        [
+          63,
+          43
+        ],
+        [
+          63,
+          47
+        ],
+        [
+          63,
+          49
+        ],
+        [
+          64,
+          41
+        ],
+        [
+          64,
+          42
+        ],
+        [
+          64,
+          43
+        ],
+        [
+          64,
+          44
+        ],
+        [
+          64,
+          45
+        ],
+        [
+          64,
+          46
+        ],
+        [
+          64,
+          47
+        ],
+        [
+          65,
+          41
+        ],
+        [
+          65,
+          42
+        ],
+        [
+          65,
+          44
+        ],
+        [
+          65,
+          45
+        ],
+        [
+          65,
+          46
+        ],
+        [
+          66,
+          41
+        ],
+        [
+          66,
+          42
+        ],
+        [
+          66,
+          43
+        ],
+        [
+          66,
+          45
+        ],
+        [
+          66,
+          46
+        ],
+        [
+          67,
+          42
+        ],
+        [
+          67,
+          43
+        ],
+        [
+          67,
+          44
+        ],
+        [
+          67,
+          45
+        ],
+        [
+          68,
+          42
+        ]
+      ],
+      "size": 55,
+      "min_row": 57,
+      "max_row": 68,
+      "min_channel": 41,
+      "max_channel": 50
+    },
+    {
+      "id": 258,
+      "cells": [
+        [
+          57,
+          50
+        ],
+        [
+          58,
+          50
+        ]
+      ],
+      "size": 2,
+      "min_row": 57,
+      "max_row": 58,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 259,
+      "cells": [
+        [
+          58,
+          2
+        ],
+        [
+          58,
+          4
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          59,
+          2
+        ],
+        [
+          59,
+          3
+        ],
+        [
+          59,
+          4
+        ],
+        [
+          60,
+          2
+        ],
+        [
+          60,
+          4
+        ],
+        [
+          61,
+          2
+        ],
+        [
+          61,
+          3
+        ],
+        [
+          61,
+          4
+        ],
+        [
+          62,
+          1
+        ],
+        [
+          62,
+          2
+        ],
+        [
+          62,
+          3
+        ],
+        [
+          63,
+          2
+        ],
+        [
+          63,
+          3
+        ],
+        [
+          64,
+          3
+        ],
+        [
+          64,
+          4
+        ],
+        [
+          65,
+          4
+        ],
+        [
+          66,
+          4
+        ],
+        [
+          67,
+          4
+        ],
+        [
+          68,
+          4
+        ],
+        [
+          69,
+          4
+        ],
+        [
+          70,
+          4
+        ],
+        [
+          71,
+          4
+        ],
+        [
+          72,
+          4
+        ],
+        [
+          72,
+          5
+        ],
+        [
+          73,
+          4
+        ]
+      ],
+      "size": 28,
+      "min_row": 58,
+      "max_row": 73,
+      "min_channel": 1,
+      "max_channel": 5
+    },
+    {
+      "id": 260,
+      "cells": [
+        [
+          58,
+          24
+        ]
+      ],
+      "size": 1,
+      "min_row": 58,
+      "max_row": 58,
+      "min_channel": 24,
+      "max_channel": 24
+    },
+    {
+      "id": 261,
+      "cells": [
+        [
+          58,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 58,
+      "max_row": 58,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 262,
+      "cells": [
+        [
+          58,
+          29
+        ],
+        [
+          58,
+          30
+        ],
+        [
+          59,
+          29
+        ]
+      ],
+      "size": 3,
+      "min_row": 58,
+      "max_row": 59,
+      "min_channel": 29,
+      "max_channel": 30
+    },
+    {
+      "id": 263,
+      "cells": [
+        [
+          58,
+          32
+        ]
+      ],
+      "size": 1,
+      "min_row": 58,
+      "max_row": 58,
+      "min_channel": 32,
+      "max_channel": 32
+    },
+    {
+      "id": 264,
+      "cells": [
+        [
+          59,
+          7
+        ],
+        [
+          60,
+          6
+        ],
+        [
+          60,
+          7
+        ],
+        [
+          61,
+          7
+        ],
+        [
+          62,
+          7
+        ],
+        [
+          62,
+          8
+        ]
+      ],
+      "size": 6,
+      "min_row": 59,
+      "max_row": 62,
+      "min_channel": 6,
+      "max_channel": 8
+    },
+    {
+      "id": 265,
+      "cells": [
+        [
+          59,
+          10
+        ],
+        [
+          59,
+          11
+        ],
+        [
+          60,
+          11
+        ]
+      ],
+      "size": 3,
+      "min_row": 59,
+      "max_row": 60,
+      "min_channel": 10,
+      "max_channel": 11
+    },
+    {
+      "id": 266,
+      "cells": [
+        [
+          59,
+          14
+        ],
+        [
+          60,
+          14
+        ],
+        [
+          61,
+          14
+        ],
+        [
+          62,
+          12
+        ],
+        [
+          62,
+          13
+        ],
+        [
+          62,
+          14
+        ]
+      ],
+      "size": 6,
+      "min_row": 59,
+      "max_row": 62,
+      "min_channel": 12,
+      "max_channel": 14
+    },
+    {
+      "id": 267,
+      "cells": [
+        [
+          59,
+          19
+        ]
+      ],
+      "size": 1,
+      "min_row": 59,
+      "max_row": 59,
+      "min_channel": 19,
+      "max_channel": 19
+    },
+    {
+      "id": 268,
+      "cells": [
+        [
+          59,
+          31
+        ]
+      ],
+      "size": 1,
+      "min_row": 59,
+      "max_row": 59,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 269,
+      "cells": [
+        [
+          59,
+          34
+        ]
+      ],
+      "size": 1,
+      "min_row": 59,
+      "max_row": 59,
+      "min_channel": 34,
+      "max_channel": 34
+    },
+    {
+      "id": 270,
+      "cells": [
+        [
+          59,
+          36
+        ]
+      ],
+      "size": 1,
+      "min_row": 59,
+      "max_row": 59,
+      "min_channel": 36,
+      "max_channel": 36
+    },
+    {
+      "id": 271,
+      "cells": [
+        [
+          59,
+          49
+        ]
+      ],
+      "size": 1,
+      "min_row": 59,
+      "max_row": 59,
+      "min_channel": 49,
+      "max_channel": 49
+    },
+    {
+      "id": 272,
+      "cells": [
+        [
+          60,
+          9
+        ]
+      ],
+      "size": 1,
+      "min_row": 60,
+      "max_row": 60,
+      "min_channel": 9,
+      "max_channel": 9
+    },
+    {
+      "id": 273,
+      "cells": [
+        [
+          60,
+          22
+        ]
+      ],
+      "size": 1,
+      "min_row": 60,
+      "max_row": 60,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 274,
+      "cells": [
+        [
+          60,
+          38
+        ],
+        [
+          60,
+          39
+        ],
+        [
+          61,
+          39
+        ],
+        [
+          62,
+          39
+        ]
+      ],
+      "size": 4,
+      "min_row": 60,
+      "max_row": 62,
+      "min_channel": 38,
+      "max_channel": 39
+    },
+    {
+      "id": 275,
+      "cells": [
+        [
+          60,
+          45
+        ]
+      ],
+      "size": 1,
+      "min_row": 60,
+      "max_row": 60,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 276,
+      "cells": [
+        [
+          61,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 61,
+      "max_row": 61,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 277,
+      "cells": [
+        [
+          61,
+          19
+        ]
+      ],
+      "size": 1,
+      "min_row": 61,
+      "max_row": 61,
+      "min_channel": 19,
+      "max_channel": 19
+    },
+    {
+      "id": 278,
+      "cells": [
+        [
+          61,
+          34
+        ],
+        [
+          62,
+          33
+        ],
+        [
+          62,
+          34
+        ],
+        [
+          63,
+          33
+        ],
+        [
+          64,
+          32
+        ],
+        [
+          64,
+          33
+        ]
+      ],
+      "size": 6,
+      "min_row": 61,
+      "max_row": 64,
+      "min_channel": 32,
+      "max_channel": 34
+    },
+    {
+      "id": 279,
+      "cells": [
+        [
+          62,
+          10
+        ]
+      ],
+      "size": 1,
+      "min_row": 62,
+      "max_row": 62,
+      "min_channel": 10,
+      "max_channel": 10
+    },
+    {
+      "id": 280,
+      "cells": [
+        [
+          62,
+          17
+        ],
+        [
+          62,
+          18
+        ]
+      ],
+      "size": 2,
+      "min_row": 62,
+      "max_row": 62,
+      "min_channel": 17,
+      "max_channel": 18
+    },
+    {
+      "id": 281,
+      "cells": [
+        [
+          62,
+          20
+        ]
+      ],
+      "size": 1,
+      "min_row": 62,
+      "max_row": 62,
+      "min_channel": 20,
+      "max_channel": 20
+    },
+    {
+      "id": 282,
+      "cells": [
+        [
+          62,
+          22
+        ],
+        [
+          62,
+          23
+        ]
+      ],
+      "size": 2,
+      "min_row": 62,
+      "max_row": 62,
+      "min_channel": 22,
+      "max_channel": 23
+    },
+    {
+      "id": 283,
+      "cells": [
+        [
+          62,
+          31
+        ],
+        [
+          63,
+          31
+        ]
+      ],
+      "size": 2,
+      "min_row": 62,
+      "max_row": 63,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 284,
+      "cells": [
+        [
+          62,
+          37
+        ],
+        [
+          63,
+          37
+        ],
+        [
+          64,
+          37
+        ]
+      ],
+      "size": 3,
+      "min_row": 62,
+      "max_row": 64,
+      "min_channel": 37,
+      "max_channel": 37
+    },
+    {
+      "id": 285,
+      "cells": [
+        [
+          63,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 63,
+      "max_row": 63,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 286,
+      "cells": [
+        [
+          63,
+          19
+        ]
+      ],
+      "size": 1,
+      "min_row": 63,
+      "max_row": 63,
+      "min_channel": 19,
+      "max_channel": 19
+    },
+    {
+      "id": 287,
+      "cells": [
+        [
+          64,
+          8
+        ]
+      ],
+      "size": 1,
+      "min_row": 64,
+      "max_row": 64,
+      "min_channel": 8,
+      "max_channel": 8
+    },
+    {
+      "id": 288,
+      "cells": [
+        [
+          64,
+          12
+        ],
+        [
+          64,
+          13
+        ],
+        [
+          64,
+          14
+        ]
+      ],
+      "size": 3,
+      "min_row": 64,
+      "max_row": 64,
+      "min_channel": 12,
+      "max_channel": 14
+    },
+    {
+      "id": 289,
+      "cells": [
+        [
+          64,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 64,
+      "max_row": 64,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 290,
+      "cells": [
+        [
+          64,
+          21
+        ],
+        [
+          64,
+          22
+        ],
+        [
+          64,
+          23
+        ]
+      ],
+      "size": 3,
+      "min_row": 64,
+      "max_row": 64,
+      "min_channel": 21,
+      "max_channel": 23
+    },
+    {
+      "id": 291,
+      "cells": [
+        [
+          65,
+          2
+        ],
+        [
+          66,
+          2
+        ]
+      ],
+      "size": 2,
+      "min_row": 65,
+      "max_row": 66,
+      "min_channel": 2,
+      "max_channel": 2
+    },
+    {
+      "id": 292,
+      "cells": [
+        [
+          65,
+          7
+        ]
+      ],
+      "size": 1,
+      "min_row": 65,
+      "max_row": 65,
+      "min_channel": 7,
+      "max_channel": 7
+    },
+    {
+      "id": 293,
+      "cells": [
+        [
+          65,
+          11
+        ],
+        [
+          66,
+          11
+        ]
+      ],
+      "size": 2,
+      "min_row": 65,
+      "max_row": 66,
+      "min_channel": 11,
+      "max_channel": 11
+    },
+    {
+      "id": 294,
+      "cells": [
+        [
+          65,
+          16
+        ],
+        [
+          66,
+          16
+        ]
+      ],
+      "size": 2,
+      "min_row": 65,
+      "max_row": 66,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 295,
+      "cells": [
+        [
+          65,
+          24
+        ],
+        [
+          65,
+          25
+        ]
+      ],
+      "size": 2,
+      "min_row": 65,
+      "max_row": 65,
+      "min_channel": 24,
+      "max_channel": 25
+    },
+    {
+      "id": 296,
+      "cells": [
+        [
+          65,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 65,
+      "max_row": 65,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 297,
+      "cells": [
+        [
+          65,
+          36
+        ]
+      ],
+      "size": 1,
+      "min_row": 65,
+      "max_row": 65,
+      "min_channel": 36,
+      "max_channel": 36
+    },
+    {
+      "id": 298,
+      "cells": [
+        [
+          65,
+          39
+        ],
+        [
+          66,
+          39
+        ],
+        [
+          67,
+          39
+        ]
+      ],
+      "size": 3,
+      "min_row": 65,
+      "max_row": 67,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 299,
+      "cells": [
+        [
+          65,
+          49
+        ]
+      ],
+      "size": 1,
+      "min_row": 65,
+      "max_row": 65,
+      "min_channel": 49,
+      "max_channel": 49
+    },
+    {
+      "id": 300,
+      "cells": [
+        [
+          66,
+          14
+        ],
+        [
+          67,
+          14
+        ],
+        [
+          67,
+          15
+        ]
+      ],
+      "size": 3,
+      "min_row": 66,
+      "max_row": 67,
+      "min_channel": 14,
+      "max_channel": 15
+    },
+    {
+      "id": 301,
+      "cells": [
+        [
+          66,
+          19
+        ],
+        [
+          66,
+          20
+        ],
+        [
+          67,
+          19
+        ],
+        [
+          67,
+          20
+        ],
+        [
+          67,
+          21
+        ],
+        [
+          68,
+          20
+        ],
+        [
+          69,
+          20
+        ],
+        [
+          70,
+          19
+        ],
+        [
+          70,
+          20
+        ]
+      ],
+      "size": 9,
+      "min_row": 66,
+      "max_row": 70,
+      "min_channel": 19,
+      "max_channel": 21
+    },
+    {
+      "id": 302,
+      "cells": [
+        [
+          66,
+          23
+        ]
+      ],
+      "size": 1,
+      "min_row": 66,
+      "max_row": 66,
+      "min_channel": 23,
+      "max_channel": 23
+    },
+    {
+      "id": 303,
+      "cells": [
+        [
+          66,
+          31
+        ],
+        [
+          66,
+          32
+        ],
+        [
+          67,
+          31
+        ],
+        [
+          67,
+          32
+        ]
+      ],
+      "size": 4,
+      "min_row": 66,
+      "max_row": 67,
+      "min_channel": 31,
+      "max_channel": 32
+    },
+    {
+      "id": 304,
+      "cells": [
+        [
+          66,
+          35
+        ]
+      ],
+      "size": 1,
+      "min_row": 66,
+      "max_row": 66,
+      "min_channel": 35,
+      "max_channel": 35
+    },
+    {
+      "id": 305,
+      "cells": [
+        [
+          67,
+          7
+        ]
+      ],
+      "size": 1,
+      "min_row": 67,
+      "max_row": 67,
+      "min_channel": 7,
+      "max_channel": 7
+    },
+    {
+      "id": 306,
+      "cells": [
+        [
+          67,
+          9
+        ]
+      ],
+      "size": 1,
+      "min_row": 67,
+      "max_row": 67,
+      "min_channel": 9,
+      "max_channel": 9
+    },
+    {
+      "id": 307,
+      "cells": [
+        [
+          67,
+          12
+        ]
+      ],
+      "size": 1,
+      "min_row": 67,
+      "max_row": 67,
+      "min_channel": 12,
+      "max_channel": 12
+    },
+    {
+      "id": 308,
+      "cells": [
+        [
+          67,
+          34
+        ]
+      ],
+      "size": 1,
+      "min_row": 67,
+      "max_row": 67,
+      "min_channel": 34,
+      "max_channel": 34
+    },
+    {
+      "id": 309,
+      "cells": [
+        [
+          67,
+          47
+        ]
+      ],
+      "size": 1,
+      "min_row": 67,
+      "max_row": 67,
+      "min_channel": 47,
+      "max_channel": 47
+    },
+    {
+      "id": 310,
+      "cells": [
+        [
+          68,
+          13
+        ]
+      ],
+      "size": 1,
+      "min_row": 68,
+      "max_row": 68,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 311,
+      "cells": [
+        [
+          68,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 68,
+      "max_row": 68,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 312,
+      "cells": [
+        [
+          68,
+          36
+        ],
+        [
+          68,
+          37
+        ]
+      ],
+      "size": 2,
+      "min_row": 68,
+      "max_row": 68,
+      "min_channel": 36,
+      "max_channel": 37
+    },
+    {
+      "id": 313,
+      "cells": [
+        [
+          68,
+          46
+        ]
+      ],
+      "size": 1,
+      "min_row": 68,
+      "max_row": 68,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 314,
+      "cells": [
+        [
+          68,
+          48
+        ],
+        [
+          68,
+          49
+        ]
+      ],
+      "size": 2,
+      "min_row": 68,
+      "max_row": 68,
+      "min_channel": 48,
+      "max_channel": 49
+    },
+    {
+      "id": 315,
+      "cells": [
+        [
+          69,
+          2
+        ]
+      ],
+      "size": 1,
+      "min_row": 69,
+      "max_row": 69,
+      "min_channel": 2,
+      "max_channel": 2
+    },
+    {
+      "id": 316,
+      "cells": [
+        [
+          69,
+          7
+        ]
+      ],
+      "size": 1,
+      "min_row": 69,
+      "max_row": 69,
+      "min_channel": 7,
+      "max_channel": 7
+    },
+    {
+      "id": 317,
+      "cells": [
+        [
+          69,
+          16
+        ],
+        [
+          69,
+          17
+        ]
+      ],
+      "size": 2,
+      "min_row": 69,
+      "max_row": 69,
+      "min_channel": 16,
+      "max_channel": 17
+    },
+    {
+      "id": 318,
+      "cells": [
+        [
+          69,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 69,
+      "max_row": 69,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 319,
+      "cells": [
+        [
+          69,
+          32
+        ]
+      ],
+      "size": 1,
+      "min_row": 69,
+      "max_row": 69,
+      "min_channel": 32,
+      "max_channel": 32
+    },
+    {
+      "id": 320,
+      "cells": [
+        [
+          69,
+          34
+        ]
+      ],
+      "size": 1,
+      "min_row": 69,
+      "max_row": 69,
+      "min_channel": 34,
+      "max_channel": 34
+    },
+    {
+      "id": 321,
+      "cells": [
+        [
+          69,
+          41
+        ]
+      ],
+      "size": 1,
+      "min_row": 69,
+      "max_row": 69,
+      "min_channel": 41,
+      "max_channel": 41
+    },
+    {
+      "id": 322,
+      "cells": [
+        [
+          69,
+          43
+        ],
+        [
+          70,
+          43
+        ],
+        [
+          71,
+          40
+        ],
+        [
+          71,
+          41
+        ],
+        [
+          71,
+          42
+        ],
+        [
+          71,
+          43
+        ],
+        [
+          71,
+          44
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          72,
+          43
+        ],
+        [
+          72,
+          44
+        ]
+      ],
+      "size": 10,
+      "min_row": 69,
+      "max_row": 72,
+      "min_channel": 40,
+      "max_channel": 44
+    },
+    {
+      "id": 323,
+      "cells": [
+        [
+          70,
+          11
+        ]
+      ],
+      "size": 1,
+      "min_row": 70,
+      "max_row": 70,
+      "min_channel": 11,
+      "max_channel": 11
+    },
+    {
+      "id": 324,
+      "cells": [
+        [
+          70,
+          25
+        ],
+        [
+          70,
+          26
+        ],
+        [
+          71,
+          25
+        ],
+        [
+          72,
+          25
+        ]
+      ],
+      "size": 4,
+      "min_row": 70,
+      "max_row": 72,
+      "min_channel": 25,
+      "max_channel": 26
+    },
+    {
+      "id": 325,
+      "cells": [
+        [
+          70,
+          35
+        ],
+        [
+          71,
+          35
+        ],
+        [
+          71,
+          36
+        ],
+        [
+          72,
+          34
+        ],
+        [
+          72,
+          36
+        ],
+        [
+          72,
+          37
+        ],
+        [
+          73,
+          34
+        ],
+        [
+          73,
+          35
+        ],
+        [
+          73,
+          36
+        ],
+        [
+          73,
+          37
+        ],
+        [
+          74,
+          34
+        ],
+        [
+          74,
+          35
+        ],
+        [
+          74,
+          36
+        ],
+        [
+          74,
+          37
+        ],
+        [
+          75,
+          37
+        ],
+        [
+          76,
+          36
+        ],
+        [
+          76,
+          37
+        ],
+        [
+          76,
+          38
+        ],
+        [
+          77,
+          36
+        ],
+        [
+          77,
+          37
+        ],
+        [
+          77,
+          38
+        ],
+        [
+          78,
+          35
+        ],
+        [
+          78,
+          37
+        ],
+        [
+          78,
+          38
+        ],
+        [
+          79,
+          35
+        ],
+        [
+          79,
+          36
+        ],
+        [
+          79,
+          37
+        ],
+        [
+          80,
+          36
+        ],
+        [
+          81,
+          36
+        ],
+        [
+          81,
+          37
+        ],
+        [
+          82,
+          35
+        ],
+        [
+          82,
+          36
+        ],
+        [
+          82,
+          37
+        ],
+        [
+          82,
+          38
+        ],
+        [
+          82,
+          39
+        ]
+      ],
+      "size": 35,
+      "min_row": 70,
+      "max_row": 82,
+      "min_channel": 34,
+      "max_channel": 39
+    },
+    {
+      "id": 326,
+      "cells": [
+        [
+          70,
+          37
+        ]
+      ],
+      "size": 1,
+      "min_row": 70,
+      "max_row": 70,
+      "min_channel": 37,
+      "max_channel": 37
+    },
+    {
+      "id": 327,
+      "cells": [
+        [
+          70,
+          45
+        ]
+      ],
+      "size": 1,
+      "min_row": 70,
+      "max_row": 70,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 328,
+      "cells": [
+        [
+          70,
+          47
+        ],
+        [
+          70,
+          48
+        ],
+        [
+          71,
+          47
+        ]
+      ],
+      "size": 3,
+      "min_row": 70,
+      "max_row": 71,
+      "min_channel": 47,
+      "max_channel": 48
+    },
+    {
+      "id": 329,
+      "cells": [
+        [
+          70,
+          50
+        ]
+      ],
+      "size": 1,
+      "min_row": 70,
+      "max_row": 70,
+      "min_channel": 50,
+      "max_channel": 50
+    },
+    {
+      "id": 330,
+      "cells": [
+        [
+          71,
+          1
+        ]
+      ],
+      "size": 1,
+      "min_row": 71,
+      "max_row": 71,
+      "min_channel": 1,
+      "max_channel": 1
+    },
+    {
+      "id": 331,
+      "cells": [
+        [
+          71,
+          7
+        ],
+        [
+          72,
+          7
+        ]
+      ],
+      "size": 2,
+      "min_row": 71,
+      "max_row": 72,
+      "min_channel": 7,
+      "max_channel": 7
+    },
+    {
+      "id": 332,
+      "cells": [
+        [
+          71,
+          16
+        ],
+        [
+          72,
+          16
+        ],
+        [
+          73,
+          16
+        ],
+        [
+          74,
+          16
+        ],
+        [
+          75,
+          16
+        ]
+      ],
+      "size": 5,
+      "min_row": 71,
+      "max_row": 75,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 333,
+      "cells": [
+        [
+          71,
+          21
+        ]
+      ],
+      "size": 1,
+      "min_row": 71,
+      "max_row": 71,
+      "min_channel": 21,
+      "max_channel": 21
+    },
+    {
+      "id": 334,
+      "cells": [
+        [
+          71,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 71,
+      "max_row": 71,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 335,
+      "cells": [
+        [
+          71,
+          49
+        ],
+        [
+          72,
+          49
+        ]
+      ],
+      "size": 2,
+      "min_row": 71,
+      "max_row": 72,
+      "min_channel": 49,
+      "max_channel": 49
+    },
+    {
+      "id": 336,
+      "cells": [
+        [
+          72,
+          12
+        ]
+      ],
+      "size": 1,
+      "min_row": 72,
+      "max_row": 72,
+      "min_channel": 12,
+      "max_channel": 12
+    },
+    {
+      "id": 337,
+      "cells": [
+        [
+          72,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 72,
+      "max_row": 72,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 338,
+      "cells": [
+        [
+          72,
+          20
+        ]
+      ],
+      "size": 1,
+      "min_row": 72,
+      "max_row": 72,
+      "min_channel": 20,
+      "max_channel": 20
+    },
+    {
+      "id": 339,
+      "cells": [
+        [
+          72,
+          30
+        ]
+      ],
+      "size": 1,
+      "min_row": 72,
+      "max_row": 72,
+      "min_channel": 30,
+      "max_channel": 30
+    },
+    {
+      "id": 340,
+      "cells": [
+        [
+          73,
+          1
+        ],
+        [
+          74,
+          1
+        ],
+        [
+          75,
+          1
+        ]
+      ],
+      "size": 3,
+      "min_row": 73,
+      "max_row": 75,
+      "min_channel": 1,
+      "max_channel": 1
+    },
+    {
+      "id": 341,
+      "cells": [
+        [
+          73,
+          18
+        ],
+        [
+          74,
+          18
+        ],
+        [
+          74,
+          19
+        ]
+      ],
+      "size": 3,
+      "min_row": 73,
+      "max_row": 74,
+      "min_channel": 18,
+      "max_channel": 19
+    },
+    {
+      "id": 342,
+      "cells": [
+        [
+          73,
+          22
+        ]
+      ],
+      "size": 1,
+      "min_row": 73,
+      "max_row": 73,
+      "min_channel": 22,
+      "max_channel": 22
+    },
+    {
+      "id": 343,
+      "cells": [
+        [
+          73,
+          27
+        ],
+        [
+          73,
+          28
+        ]
+      ],
+      "size": 2,
+      "min_row": 73,
+      "max_row": 73,
+      "min_channel": 27,
+      "max_channel": 28
+    },
+    {
+      "id": 344,
+      "cells": [
+        [
+          73,
+          31
+        ]
+      ],
+      "size": 1,
+      "min_row": 73,
+      "max_row": 73,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 345,
+      "cells": [
+        [
+          73,
+          39
+        ]
+      ],
+      "size": 1,
+      "min_row": 73,
+      "max_row": 73,
+      "min_channel": 39,
+      "max_channel": 39
+    },
+    {
+      "id": 346,
+      "cells": [
+        [
+          73,
+          45
+        ],
+        [
+          73,
+          46
+        ],
+        [
+          74,
+          46
+        ],
+        [
+          74,
+          47
+        ],
+        [
+          75,
+          45
+        ],
+        [
+          75,
+          46
+        ],
+        [
+          75,
+          47
+        ],
+        [
+          76,
+          47
+        ],
+        [
+          76,
+          48
+        ],
+        [
+          77,
+          48
+        ],
+        [
+          77,
+          49
+        ],
+        [
+          77,
+          50
+        ],
+        [
+          78,
+          50
+        ]
+      ],
+      "size": 13,
+      "min_row": 73,
+      "max_row": 78,
+      "min_channel": 45,
+      "max_channel": 50
+    },
+    {
+      "id": 347,
+      "cells": [
+        [
+          74,
+          7
+        ],
+        [
+          75,
+          7
+        ],
+        [
+          76,
+          7
+        ],
+        [
+          77,
+          6
+        ],
+        [
+          77,
+          7
+        ],
+        [
+          78,
+          7
+        ],
+        [
+          78,
+          8
+        ],
+        [
+          79,
+          7
+        ],
+        [
+          80,
+          7
+        ]
+      ],
+      "size": 9,
+      "min_row": 74,
+      "max_row": 80,
+      "min_channel": 6,
+      "max_channel": 8
+    },
+    {
+      "id": 348,
+      "cells": [
+        [
+          74,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 74,
+      "max_row": 74,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 349,
+      "cells": [
+        [
+          74,
+          41
+        ],
+        [
+          74,
+          42
+        ],
+        [
+          75,
+          41
+        ]
+      ],
+      "size": 3,
+      "min_row": 74,
+      "max_row": 75,
+      "min_channel": 41,
+      "max_channel": 42
+    },
+    {
+      "id": 350,
+      "cells": [
+        [
+          75,
+          4
+        ]
+      ],
+      "size": 1,
+      "min_row": 75,
+      "max_row": 75,
+      "min_channel": 4,
+      "max_channel": 4
+    },
+    {
+      "id": 351,
+      "cells": [
+        [
+          75,
+          9
+        ]
+      ],
+      "size": 1,
+      "min_row": 75,
+      "max_row": 75,
+      "min_channel": 9,
+      "max_channel": 9
+    },
+    {
+      "id": 352,
+      "cells": [
+        [
+          75,
+          12
+        ]
+      ],
+      "size": 1,
+      "min_row": 75,
+      "max_row": 75,
+      "min_channel": 12,
+      "max_channel": 12
+    },
+    {
+      "id": 353,
+      "cells": [
+        [
+          75,
+          25
+        ]
+      ],
+      "size": 1,
+      "min_row": 75,
+      "max_row": 75,
+      "min_channel": 25,
+      "max_channel": 25
+    },
+    {
+      "id": 354,
+      "cells": [
+        [
+          75,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 75,
+      "max_row": 75,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 355,
+      "cells": [
+        [
+          75,
+          31
+        ]
+      ],
+      "size": 1,
+      "min_row": 75,
+      "max_row": 75,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 356,
+      "cells": [
+        [
+          75,
+          43
+        ],
+        [
+          76,
+          43
+        ]
+      ],
+      "size": 2,
+      "min_row": 75,
+      "max_row": 76,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 357,
+      "cells": [
+        [
+          75,
+          49
+        ]
+      ],
+      "size": 1,
+      "min_row": 75,
+      "max_row": 75,
+      "min_channel": 49,
+      "max_channel": 49
+    },
+    {
+      "id": 358,
+      "cells": [
+        [
+          76,
+          19
+        ],
+        [
+          76,
+          20
+        ],
+        [
+          77,
+          19
+        ],
+        [
+          77,
+          20
+        ],
+        [
+          77,
+          21
+        ]
+      ],
+      "size": 5,
+      "min_row": 76,
+      "max_row": 77,
+      "min_channel": 19,
+      "max_channel": 21
+    },
+    {
+      "id": 359,
+      "cells": [
+        [
+          76,
+          33
+        ]
+      ],
+      "size": 1,
+      "min_row": 76,
+      "max_row": 76,
+      "min_channel": 33,
+      "max_channel": 33
+    },
+    {
+      "id": 360,
+      "cells": [
+        [
+          77,
+          9
+        ]
+      ],
+      "size": 1,
+      "min_row": 77,
+      "max_row": 77,
+      "min_channel": 9,
+      "max_channel": 9
+    },
+    {
+      "id": 361,
+      "cells": [
+        [
+          77,
+          11
+        ]
+      ],
+      "size": 1,
+      "min_row": 77,
+      "max_row": 77,
+      "min_channel": 11,
+      "max_channel": 11
+    },
+    {
+      "id": 362,
+      "cells": [
+        [
+          77,
+          27
+        ]
+      ],
+      "size": 1,
+      "min_row": 77,
+      "max_row": 77,
+      "min_channel": 27,
+      "max_channel": 27
+    },
+    {
+      "id": 363,
+      "cells": [
+        [
+          77,
+          29
+        ],
+        [
+          77,
+          30
+        ],
+        [
+          78,
+          30
+        ]
+      ],
+      "size": 3,
+      "min_row": 77,
+      "max_row": 78,
+      "min_channel": 29,
+      "max_channel": 30
+    },
+    {
+      "id": 364,
+      "cells": [
+        [
+          77,
+          32
+        ]
+      ],
+      "size": 1,
+      "min_row": 77,
+      "max_row": 77,
+      "min_channel": 32,
+      "max_channel": 32
+    },
+    {
+      "id": 365,
+      "cells": [
+        [
+          77,
+          44
+        ]
+      ],
+      "size": 1,
+      "min_row": 77,
+      "max_row": 77,
+      "min_channel": 44,
+      "max_channel": 44
+    },
+    {
+      "id": 366,
+      "cells": [
+        [
+          78,
+          2
+        ],
+        [
+          79,
+          2
+        ]
+      ],
+      "size": 2,
+      "min_row": 78,
+      "max_row": 79,
+      "min_channel": 2,
+      "max_channel": 2
+    },
+    {
+      "id": 367,
+      "cells": [
+        [
+          78,
+          12
+        ]
+      ],
+      "size": 1,
+      "min_row": 78,
+      "max_row": 78,
+      "min_channel": 12,
+      "max_channel": 12
+    },
+    {
+      "id": 368,
+      "cells": [
+        [
+          78,
+          14
+        ]
+      ],
+      "size": 1,
+      "min_row": 78,
+      "max_row": 78,
+      "min_channel": 14,
+      "max_channel": 14
+    },
+    {
+      "id": 369,
+      "cells": [
+        [
+          78,
+          17
+        ]
+      ],
+      "size": 1,
+      "min_row": 78,
+      "max_row": 78,
+      "min_channel": 17,
+      "max_channel": 17
+    },
+    {
+      "id": 370,
+      "cells": [
+        [
+          78,
+          23
+        ]
+      ],
+      "size": 1,
+      "min_row": 78,
+      "max_row": 78,
+      "min_channel": 23,
+      "max_channel": 23
+    },
+    {
+      "id": 371,
+      "cells": [
+        [
+          78,
+          41
+        ]
+      ],
+      "size": 1,
+      "min_row": 78,
+      "max_row": 78,
+      "min_channel": 41,
+      "max_channel": 41
+    },
+    {
+      "id": 372,
+      "cells": [
+        [
+          78,
+          43
+        ],
+        [
+          79,
+          43
+        ]
+      ],
+      "size": 2,
+      "min_row": 78,
+      "max_row": 79,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 373,
+      "cells": [
+        [
+          78,
+          45
+        ],
+        [
+          79,
+          45
+        ]
+      ],
+      "size": 2,
+      "min_row": 78,
+      "max_row": 79,
+      "min_channel": 45,
+      "max_channel": 45
+    },
+    {
+      "id": 374,
+      "cells": [
+        [
+          79,
+          4
+        ],
+        [
+          80,
+          4
+        ],
+        [
+          81,
+          4
+        ],
+        [
+          82,
+          4
+        ]
+      ],
+      "size": 4,
+      "min_row": 79,
+      "max_row": 82,
+      "min_channel": 4,
+      "max_channel": 4
+    },
+    {
+      "id": 375,
+      "cells": [
+        [
+          79,
+          16
+        ]
+      ],
+      "size": 1,
+      "min_row": 79,
+      "max_row": 79,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 376,
+      "cells": [
+        [
+          79,
+          20
+        ]
+      ],
+      "size": 1,
+      "min_row": 79,
+      "max_row": 79,
+      "min_channel": 20,
+      "max_channel": 20
+    },
+    {
+      "id": 377,
+      "cells": [
+        [
+          79,
+          24
+        ],
+        [
+          80,
+          23
+        ],
+        [
+          80,
+          24
+        ]
+      ],
+      "size": 3,
+      "min_row": 79,
+      "max_row": 80,
+      "min_channel": 23,
+      "max_channel": 24
+    },
+    {
+      "id": 378,
+      "cells": [
+        [
+          79,
+          29
+        ]
+      ],
+      "size": 1,
+      "min_row": 79,
+      "max_row": 79,
+      "min_channel": 29,
+      "max_channel": 29
+    },
+    {
+      "id": 379,
+      "cells": [
+        [
+          79,
+          32
+        ],
+        [
+          80,
+          32
+        ],
+        [
+          80,
+          33
+        ]
+      ],
+      "size": 3,
+      "min_row": 79,
+      "max_row": 80,
+      "min_channel": 32,
+      "max_channel": 33
+    },
+    {
+      "id": 380,
+      "cells": [
+        [
+          80,
+          13
+        ]
+      ],
+      "size": 1,
+      "min_row": 80,
+      "max_row": 80,
+      "min_channel": 13,
+      "max_channel": 13
+    },
+    {
+      "id": 381,
+      "cells": [
+        [
+          80,
+          38
+        ],
+        [
+          80,
+          39
+        ]
+      ],
+      "size": 2,
+      "min_row": 80,
+      "max_row": 80,
+      "min_channel": 38,
+      "max_channel": 39
+    },
+    {
+      "id": 382,
+      "cells": [
+        [
+          81,
+          11
+        ]
+      ],
+      "size": 1,
+      "min_row": 81,
+      "max_row": 81,
+      "min_channel": 11,
+      "max_channel": 11
+    },
+    {
+      "id": 383,
+      "cells": [
+        [
+          81,
+          16
+        ],
+        [
+          82,
+          16
+        ]
+      ],
+      "size": 2,
+      "min_row": 81,
+      "max_row": 82,
+      "min_channel": 16,
+      "max_channel": 16
+    },
+    {
+      "id": 384,
+      "cells": [
+        [
+          81,
+          31
+        ]
+      ],
+      "size": 1,
+      "min_row": 81,
+      "max_row": 81,
+      "min_channel": 31,
+      "max_channel": 31
+    },
+    {
+      "id": 385,
+      "cells": [
+        [
+          81,
+          34
+        ]
+      ],
+      "size": 1,
+      "min_row": 81,
+      "max_row": 81,
+      "min_channel": 34,
+      "max_channel": 34
+    },
+    {
+      "id": 386,
+      "cells": [
+        [
+          81,
+          43
+        ]
+      ],
+      "size": 1,
+      "min_row": 81,
+      "max_row": 81,
+      "min_channel": 43,
+      "max_channel": 43
+    },
+    {
+      "id": 387,
+      "cells": [
+        [
+          81,
+          46
+        ]
+      ],
+      "size": 1,
+      "min_row": 81,
+      "max_row": 81,
+      "min_channel": 46,
+      "max_channel": 46
+    },
+    {
+      "id": 388,
+      "cells": [
+        [
+          81,
+          48
+        ]
+      ],
+      "size": 1,
+      "min_row": 81,
+      "max_row": 81,
+      "min_channel": 48,
+      "max_channel": 48
+    },
+    {
+      "id": 389,
+      "cells": [
+        [
+          82,
+          1
+        ]
+      ],
+      "size": 1,
+      "min_row": 82,
+      "max_row": 82,
+      "min_channel": 1,
+      "max_channel": 1
+    },
+    {
+      "id": 390,
+      "cells": [
+        [
+          82,
+          7
+        ]
+      ],
+      "size": 1,
+      "min_row": 82,
+      "max_row": 82,
+      "min_channel": 7,
+      "max_channel": 7
+    },
+    {
+      "id": 391,
+      "cells": [
+        [
+          82,
+          12
+        ]
+      ],
+      "size": 1,
+      "min_row": 82,
+      "max_row": 82,
+      "min_channel": 12,
+      "max_channel": 12
+    },
+    {
+      "id": 392,
+      "cells": [
+        [
+          82,
+          18
+        ]
+      ],
+      "size": 1,
+      "min_row": 82,
+      "max_row": 82,
+      "min_channel": 18,
+      "max_channel": 18
+    },
+    {
+      "id": 393,
+      "cells": [
+        [
+          82,
+          21
+        ]
+      ],
+      "size": 1,
+      "min_row": 82,
+      "max_row": 82,
+      "min_channel": 21,
+      "max_channel": 21
+    },
+    {
+      "id": 394,
+      "cells": [
+        [
+          82,
+          28
+        ],
+        [
+          82,
+          29
+        ]
+      ],
+      "size": 2,
+      "min_row": 82,
+      "max_row": 82,
+      "min_channel": 28,
+      "max_channel": 29
+    },
+    {
+      "id": 395,
+      "cells": [
+        [
+          82,
+          44
+        ]
+      ],
+      "size": 1,
+      "min_row": 82,
+      "max_row": 82,
+      "min_channel": 44,
+      "max_channel": 44
+    }
+  ]
+}

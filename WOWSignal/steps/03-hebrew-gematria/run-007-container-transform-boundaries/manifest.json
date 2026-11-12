@@ -1,0 +1,47 @@
+{
+  "parent_sha256": "5e570b081ca4af4cf89d97e91da7d1731998d1bf6dd46f03ae2d3a7884c0d267",
+  "prior_working_bytes": 2035487,
+  "prior_working_sha256": "d7b76b633937d1ad635e941b17792f094209c1fb9079f30ae25de92c3448a84e",
+  "prefix_checks": 24,
+  "new_pass_records": 2160,
+  "new_instruction_checks": 29511,
+  "files": [
+    {
+      "path": "WOWSignal/scripts/step03_container_transform_boundaries.py",
+      "bytes": 7568,
+      "sha256": "634834c8cfe7f456a72be9e37f4852c9a60378cabc1d7115c400f218b57b94e1"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-007-container-transform-boundaries/results.json",
+      "bytes": 21669469,
+      "sha256": "f3703ee786268450bdde97bcddac52011ac1b5677a222ddb91f7bedb81fd3a9f"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-007-container-transform-boundaries/register_passes.csv",
+      "bytes": 848495,
+      "sha256": "011c628c2dcf831d3f3dfcdfbca315c09ebfc32b64af299197fd503015ec9c81"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-007-container-transform-boundaries/README.md",
+      "bytes": 305633,
+      "sha256": "4a5e8ad5d812a34af03833296ef87e250d7c7ed7d2ef9038ee416499b6a24196"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-001/hebrew_streams_updated.txt",
+      "bytes": 2338838,
+      "sha256": "31a8e77b27889d730511deb7b581a1939a200e40ce20a336816f502ca1f0232b"
+    },
+    {
+      "path": "WOWSignal/.gitattributes",
+      "bytes": 1064,
+      "sha256": "6c5f063d6a51808a4f9445523d223b10ea7475a4c7bfa915b56c440ab454edce"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-007-container-transform-boundaries/boundary_audit.json",
+      "bytes": 6328,
+      "sha256": "e755c31328bb45aa75a444daf56f2aca67bad4ce1d09cdccd39c4805c01e9177"
+    }
+  ],
+  "commit_or_push": false,
+  "independent_recomputation_exact": true
+}

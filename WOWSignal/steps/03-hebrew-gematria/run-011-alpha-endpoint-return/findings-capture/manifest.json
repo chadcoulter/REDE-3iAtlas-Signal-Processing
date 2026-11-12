@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-12",
+  "scope": "Documentation-only capture of existing Alpha-return findings",
+  "new_decode_pass": false,
+  "new_native_executions": 0,
+  "prior_working_bytes": 7578303,
+  "prior_working_sha256": "17349b16d4f7b0209318b3a8922dcf3e64b24d73fa09ca51537025e0de81c5f4",
+  "prior_working_text_preserved": true,
+  "inputs": [
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/pair_comparisons.json",
+      "sha256": "c5d4d83077765bfb28b12838af0380b5184510d904ac6f5104c3264bbd9e30fb"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/shared_tail.json",
+      "sha256": "678cb57400708d24e484652e6f11a555890137ef3979719e78e74aa0e43cb4f2"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/core_reentries.json",
+      "sha256": "b6437ffbd3e54b74a2734c335b80222a25ddabdc4344fd85c0bdd375b7886d83"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/inherited_orientation_comparison.json",
+      "sha256": "35e2dab8cf7cbf43c9b051a61f684d2b9c46fe7b0b147818d059f5a2cffd14a5"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/inherited_relational_occurrences.json",
+      "sha256": "7a06f56aec76610a974136e68fadef7b165d7683ce8a072ddf53f55af120f0fd"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/verification.json",
+      "sha256": "cd180037959c63ce6189256e3e30a9e082ed07064f94702882fe843e28d2ba54"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/response-live-return.json",
+      "sha256": "0ac9a34b50ebc922e38c2cbec0f412940688178b4961a11f25ce5f03c5038559"
+    }
+  ],
+  "files": [
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/README-2026-11-12-alpha-return-findings.md",
+      "bytes": 6178,
+      "sha256": "24e3f50d5a88040a72d14d4fbcb5d02cfd2e79bd779b3b231e6e1a4653e42dbd"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/findings-capture/harness-response.json",
+      "bytes": 4795,
+      "sha256": "91f09c09acf76d0965d8a04bc4f8d491cada683ea5434c1e9a45a521cff8dee0"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-001/hebrew_streams_updated.txt",
+      "bytes": 7584357,
+      "sha256": "0f01c9b740e12216426be3dd16796f86dc3373968b8ae88c2ff8febbccc31d88"
+    }
+  ],
+  "commit_or_push": false
+}

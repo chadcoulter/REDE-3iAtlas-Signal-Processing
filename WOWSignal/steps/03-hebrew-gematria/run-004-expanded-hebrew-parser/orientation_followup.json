@@ -1,0 +1,212 @@
+{
+  "matches": [
+    {
+      "lane": 1,
+      "direction": "container_order_reverse",
+      "match": {
+        "word": "וידא",
+        "readings": [
+          "he/it verified or made sure"
+        ],
+        "display_start_1based": 101,
+        "display_end_1based": 104,
+        "chain_indices_1based": [
+          199,
+          200,
+          201
+        ],
+        "inside_one_numeric_token": false,
+        "inside_one_generated_state_relations_pair": false,
+        "crosses_pair_or_token_boundary": true,
+        "origin_kinds": [
+          "generated",
+          "original_part"
+        ],
+        "palindrome": false,
+        "glyph_occurrences": [
+          {
+            "value": 6,
+            "kind": "original_part",
+            "row": 58,
+            "channel": 2,
+            "step": null,
+            "cycle": null,
+            "register": null,
+            "case": "wow_parts",
+            "lane": 1,
+            "chain_index_1based": 201,
+            "token": "ו",
+            "glyph_index_in_token": 0,
+            "character": "ו"
+          },
+          {
+            "value": 14,
+            "kind": "generated",
+            "row": null,
+            "channel": null,
+            "step": 2,
+            "cycle": 1,
+            "register": "relations",
+            "projection_program": 5,
+            "case": "wow_parts",
+            "lane": 1,
+            "chain_index_1based": 200,
+            "token": "יד",
+            "glyph_index_in_token": 0,
+            "character": "י"
+          },
+          {
+            "value": 14,
+            "kind": "generated",
+            "row": null,
+            "channel": null,
+            "step": 2,
+            "cycle": 1,
+            "register": "relations",
+            "projection_program": 5,
+            "case": "wow_parts",
+            "lane": 1,
+            "chain_index_1based": 200,
+            "token": "יד",
+            "glyph_index_in_token": 1,
+            "character": "ד"
+          },
+          {
+            "value": 1,
+            "kind": "generated",
+            "row": null,
+            "channel": null,
+            "step": 2,
+            "cycle": 1,
+            "register": "state",
+            "projection_program": 5,
+            "case": "wow_parts",
+            "lane": 1,
+            "chain_index_1based": 199,
+            "token": "א",
+            "glyph_index_in_token": 0,
+            "character": "א"
+          }
+        ]
+      }
+    },
+    {
+      "lane": 3,
+      "direction": "container_order_reverse",
+      "match": {
+        "word": "וידא",
+        "readings": [
+          "he/it verified or made sure"
+        ],
+        "display_start_1based": 102,
+        "display_end_1based": 105,
+        "chain_indices_1based": [
+          199,
+          200,
+          201
+        ],
+        "inside_one_numeric_token": false,
+        "inside_one_generated_state_relations_pair": false,
+        "crosses_pair_or_token_boundary": true,
+        "origin_kinds": [
+          "generated",
+          "original_part"
+        ],
+        "palindrome": false,
+        "glyph_occurrences": [
+          {
+            "value": 26,
+            "kind": "original_part",
+            "row": 60,
+            "channel": 2,
+            "step": null,
+            "cycle": null,
+            "register": null,
+            "case": "wow_parts",
+            "lane": 3,
+            "chain_index_1based": 201,
+            "token": "כו",
+            "glyph_index_in_token": 1,
+            "character": "ו"
+          },
+          {
+            "value": 14,
+            "kind": "generated",
+            "row": null,
+            "channel": null,
+            "step": 2,
+            "cycle": 1,
+            "register": "relations",
+            "projection_program": 7,
+            "case": "wow_parts",
+            "lane": 3,
+            "chain_index_1based": 200,
+            "token": "יד",
+            "glyph_index_in_token": 0,
+            "character": "י"
+          },
+          {
+            "value": 14,
+            "kind": "generated",
+            "row": null,
+            "channel": null,
+            "step": 2,
+            "cycle": 1,
+            "register": "relations",
+            "projection_program": 7,
+            "case": "wow_parts",
+            "lane": 3,
+            "chain_index_1based": 200,
+            "token": "יד",
+            "glyph_index_in_token": 1,
+            "character": "ד"
+          },
+          {
+            "value": 1,
+            "kind": "generated",
+            "row": null,
+            "channel": null,
+            "step": 2,
+            "cycle": 1,
+            "register": "state",
+            "projection_program": 7,
+            "case": "wow_parts",
+            "lane": 3,
+            "chain_index_1based": 199,
+            "token": "א",
+            "glyph_index_in_token": 0,
+            "character": "א"
+          }
+        ]
+      }
+    }
+  ],
+  "comparison": {
+    "preserving_token_reverse_vida_lanes": [
+      1,
+      3
+    ],
+    "full_glyph_reverse_vida_lanes": [],
+    "source_order_vida_lanes": []
+  },
+  "working_candidate": {
+    "candidate": "Orient the containers; verify.",
+    "basis": [
+      "prior tilt/container lexical partition",
+      "generated הגה steering/control alternative",
+      "וידא after container-order reversal"
+    ],
+    "status": "cross-path interpretive synthesis; no contiguous Hebrew sentence"
+  },
+  "parser_trace": [
+    "Theatre:Only scoped expanded container codes; outside יטה unchanged",
+    "Act:Follow orientation-dependent verification reading",
+    "Operate:compare_container_and_glyph_reversal",
+    "Operate:relate_verification_to_orientation"
+  ],
+  "enough": false,
+  "remaining": [
+    "expanded_working_reading",
+    "remaining_boundaries"
+  ]
+}

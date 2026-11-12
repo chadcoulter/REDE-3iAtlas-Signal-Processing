@@ -8,5 +8,20 @@ scripts/step03_numerology_exploration.py -text
 scripts/step03_greek_root_exploration.py -text
 scripts/step03_greek_translation_values.py -text
 scripts/step03_container_part_expansion.py -text
+scripts/step03_original_atlas_expansion.py -text
+scripts/step03_atlas_growing_chain.py -text
+scripts/step03_expanded_hebrew_relations.py -text
+sources/3i-atlas-expansion/** -text whitespace=cr-at-eol
 sources/WowDecodeNarrative.md -text whitespace=-blank-at-eol,cr-at-eol
 sources/operator-notes/** -text whitespace=-blank-at-eol,cr-at-eol
+scripts/step03_container_transform_feedback.py -text
+scripts/step03_container_transform_continuation.py -text
+scripts/step03_container_transform_boundaries.py -text
+scripts/step03_whole_signal_container_transforms.py -text
+scripts/step03_live_mcp_container_records.py -text
+scripts/step03_live_mcp_audit.py -text
+scripts/step03_live_mcp_boundary_hierarchy.py -text
+scripts/step03_six_lateral_exits.py -text
+scripts/step03_six_lateral_exits_verify.py -text
+scripts/step03_six_exit_relational_pass.py -text
+scripts/step03_alpha_endpoint_return.py -text

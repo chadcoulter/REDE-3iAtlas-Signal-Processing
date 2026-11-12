@@ -1,0 +1,57 @@
+Alpha endpoints back through shared tail into core. Verbatim inherited reverse-container traces. No new machine trials. Register order: state, relations, constraints, observations, unresolved, context, target, events
+
+P06 origin [72, 5]
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | א | א | ד | ב | יד
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Inherited final registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P07 origin [73, 4]
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c04 ↔ r60c04 ↔ r59c04 ↔ r59c03 ↔ r59c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 1 | 1 | 4 | 2 | 14
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | א | א | ד | ב | יד
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Α | Α | Δ | Β | ΙΔ
+Inherited final registers: [3, 1, 1, 1, 1, 2, 1, 2]
+
+P12 origin [72, 5]
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 30
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | ל
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Λ
+Inherited final registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P13 origin [73, 4]
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r61c03 ↔ r61c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 3 | 30
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | ג | ל
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | Γ | Λ
+Inherited final registers: [0, 1, 1, 1, 1, 1, 1, 1]
+
+P19 origin [72, 5]
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 19
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | יט
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | ΙΘ
+Inherited final registers: [1, 1, 4, 1, 1, 1, 1, 2]
+
+P20 origin [73, 4]
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r62c03 ↔ r62c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 1 | 19
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | א | יט
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Α | ΙΘ
+Inherited final registers: [1, 1, 4, 1, 1, 1, 1, 2]
+
+P25 origin [72, 5]
+Coordinates: r72c05 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r63c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 5
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | ה
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Ε
+Inherited final registers: [1, 1, 3, 1, 1, 1, 1, 1]
+
+P26 origin [73, 4]
+Coordinates: r73c04 ↔ r72c04 ↔ r71c04 ↔ r70c04 ↔ r69c04 ↔ r68c04 ↔ r67c04 ↔ r66c04 ↔ r65c04 ↔ r64c04 ↔ r64c03 ↔ r63c03 ↔ r63c02
+Numeric: 1 | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 3 | 4 | 1 | 1 | 5
+Hebrew: א | א | א | א | א | א | ד | ד | ג | ד | א | א | ה
+Greek containers: Α | Α | Α | Α | Α | Α | Δ | Δ | Γ | Δ | Α | Α | Ε
+Inherited final registers: [1, 1, 3, 1, 1, 1, 1, 1]

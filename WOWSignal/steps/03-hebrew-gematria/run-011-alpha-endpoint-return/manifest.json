@@ -1,0 +1,133 @@
+{
+  "status": "IN-PROGRESS",
+  "live_reasoning_calls": 2,
+  "return_step": "step_5346854d2c4c37ef",
+  "inherited_routes": 8,
+  "inherited_native_and_relational_occurrences": 126,
+  "shared_positions": 11,
+  "reentry_ports": 4,
+  "new_native_executions": 0,
+  "prior_source_and_working_text_preserved": true,
+  "prior_bytes": 7560486,
+  "prior_sha256": "3b42234761712952b39570da86b5c77516945e656cb80cbde3b8c220496ca8be",
+  "added_file_count": 22,
+  "modified_file_count": 2,
+  "files": [
+    {
+      "path": "WOWSignal/scripts/step03_alpha_endpoint_return.py",
+      "bytes": 12173,
+      "sha256": "b9700df1fa4741aa6bce4a2240ebf461dc33cac7a4d7ceb5d0ceeb2673876609"
+    },
+    {
+      "path": "WOWSignal/.gitattributes",
+      "bytes": 1450,
+      "sha256": "107158e5a88e8312ff3bf2c286a02457319939a51e92d597d015884379352afa"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-001/hebrew_streams_updated.txt",
+      "bytes": 7578303,
+      "sha256": "17349b16d4f7b0209318b3a8922dcf3e64b24d73fa09ca51537025e0de81c5f4"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/core_reentries.json",
+      "bytes": 29739,
+      "sha256": "b6437ffbd3e54b74a2734c335b80222a25ddabdc4344fd85c0bdd375b7886d83"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/FILE_CHANGES.md",
+      "bytes": 2382,
+      "sha256": "a18e918fb1f0eb91cf2eecc6901e6f81c22ea68aa97e4c6ca42dd0af6426828f"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/inherited_orientation_comparison.json",
+      "bytes": 28859,
+      "sha256": "35e2dab8cf7cbf43c9b051a61f684d2b9c46fe7b0b147818d059f5a2cffd14a5"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/inherited_relational_occurrences.json",
+      "bytes": 1330223,
+      "sha256": "7a06f56aec76610a974136e68fadef7b165d7683ce8a072ddf53f55af120f0fd"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/inherited_routes.json",
+      "bytes": 197227,
+      "sha256": "5d93c4faafcccec2447d96a23d5267972194b9f30105baadd945d6d1bb31ad3f"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/junctions.json",
+      "bytes": 13029,
+      "sha256": "66cdd64d6a4238574246e7ff305844c0347c0769929d2a2e546b4ba0f1bd7e0c"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/live_return_readout.md",
+      "bytes": 6318,
+      "sha256": "13ec42662a76d7d0083373ffc02cb7454ce8dd1f3dae91c639a7e3c3a8f2df8d"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/mcp_feedback_review.json",
+      "bytes": 4954,
+      "sha256": "1287dbc5bc9cb180c9221bea1546df247efc147d3ab77131298a4b1369ae9774"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/pair_comparisons.json",
+      "bytes": 2277,
+      "sha256": "c5d4d83077765bfb28b12838af0380b5184510d904ac6f5104c3264bbd9e30fb"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/process.json",
+      "bytes": 2545,
+      "sha256": "c6561c010a81f38c38b74ee493f48ff905f8103f08510e1eb6b07dc0b1f1f512"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/README.md",
+      "bytes": 7423,
+      "sha256": "7a18955f217c3708b71b8e57a0b5f54361dc5b09e929e7e23e3b8ac3ab8a0663"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/request-live-return.json",
+      "bytes": 62343,
+      "sha256": "f82c5ef3a849588e2ae1f51f1d700771712c13040a6f7df4173f57df71d9eced"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/response-live-return.json",
+      "bytes": 21231,
+      "sha256": "0ac9a34b50ebc922e38c2cbec0f412940688178b4961a11f25ce5f03c5038559"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/response-plan.json",
+      "bytes": 5101,
+      "sha256": "b339cc2906af479118e58745bb089af0c762bd9b5a5a32154d417df52d71a825"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/return_occurrences.csv",
+      "bytes": 14240,
+      "sha256": "973ae2096de18d12d40d9d8bb547420d0971034b69c21a4129aabe5f6a50118e"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/return_streams.txt",
+      "bytes": 4226,
+      "sha256": "e0517fea1aa1f3826ccdb9746de80b73237037022dcbdaf3a74660b0de80c38b"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/scope_and_graph.json",
+      "bytes": 32568,
+      "sha256": "b48583bb76033639cda2856cdeec7c1846d7133eca1aaa8696fc1cabdeb8da03"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/shared_tail.json",
+      "bytes": 136329,
+      "sha256": "678cb57400708d24e484652e6f11a555890137ef3979719e78e74aa0e43cb4f2"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/verification.json",
+      "bytes": 375,
+      "sha256": "cd180037959c63ce6189256e3e30a9e082ed07064f94702882fe843e28d2ba54"
+    },
+    {
+      "path": "WOWSignal/steps/03-hebrew-gematria/run-011-alpha-endpoint-return/working_text_checkpoint.json",
+      "bytes": 119,
+      "sha256": "1a1b1926c1e11be903bbfb034b9bb9e51d81b87a5b2ac622acc0ca59cdc79935"
+    }
+  ],
+  "commit_or_push": false
+}

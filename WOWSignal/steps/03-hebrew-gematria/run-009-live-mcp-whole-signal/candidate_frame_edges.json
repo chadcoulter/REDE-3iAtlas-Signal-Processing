@@ -1,0 +1,2189 @@
+{
+  "policy": "Every external four-neighbor edge of the candidate and each containing component. Source zeros and outside-page positions are distinguished; no source values are removed.",
+  "six_cell_frame_perimeter": [
+    {
+      "from": [
+        58,
+        2
+      ],
+      "to": [
+        57,
+        2
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        58,
+        2
+      ],
+      "to": [
+        58,
+        1
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        58,
+        2
+      ],
+      "to": [
+        58,
+        3
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        59,
+        2
+      ],
+      "to": [
+        59,
+        1
+      ],
+      "kind": "observed_source_cell",
+      "value": 1
+    },
+    {
+      "from": [
+        59,
+        2
+      ],
+      "to": [
+        59,
+        3
+      ],
+      "kind": "observed_source_cell",
+      "value": 2
+    },
+    {
+      "from": [
+        60,
+        2
+      ],
+      "to": [
+        60,
+        1
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        60,
+        2
+      ],
+      "to": [
+        60,
+        3
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        61,
+        2
+      ],
+      "to": [
+        61,
+        1
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        61,
+        2
+      ],
+      "to": [
+        61,
+        3
+      ],
+      "kind": "observed_source_cell",
+      "value": 3
+    },
+    {
+      "from": [
+        62,
+        2
+      ],
+      "to": [
+        62,
+        1
+      ],
+      "kind": "observed_source_cell",
+      "value": 2
+    },
+    {
+      "from": [
+        62,
+        2
+      ],
+      "to": [
+        62,
+        3
+      ],
+      "kind": "observed_source_cell",
+      "value": 1
+    },
+    {
+      "from": [
+        63,
+        2
+      ],
+      "to": [
+        64,
+        2
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        63,
+        2
+      ],
+      "to": [
+        63,
+        1
+      ],
+      "kind": "observed_source_cell",
+      "value": 0
+    },
+    {
+      "from": [
+        63,
+        2
+      ],
+      "to": [
+        63,
+        3
+      ],
+      "kind": "observed_source_cell",
+      "value": 1
+    }
+  ],
+  "containing_frames": [
+    {
+      "threshold": 1,
+      "component_node": 259,
+      "members": [
+        {
+          "coordinate": [
+            58,
+            2
+          ],
+          "numeric_value": 6
+        },
+        {
+          "coordinate": [
+            58,
+            4
+          ],
+          "numeric_value": 2
+        },
+        {
+          "coordinate": [
+            59,
+            1
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            59,
+            2
+          ],
+          "numeric_value": 14
+        },
+        {
+          "coordinate": [
+            59,
+            3
+          ],
+          "numeric_value": 2
+        },
+        {
+          "coordinate": [
+            59,
+            4
+          ],
+          "numeric_value": 4
+        },
+        {
+          "coordinate": [
+            60,
+            2
+          ],
+          "numeric_value": 26
+        },
+        {
+          "coordinate": [
+            60,
+            4
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            61,
+            2
+          ],
+          "numeric_value": 30
+        },
+        {
+          "coordinate": [
+            61,
+            3
+          ],
+          "numeric_value": 3
+        },
+        {
+          "coordinate": [
+            61,
+            4
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            62,
+            1
+          ],
+          "numeric_value": 2
+        },
+        {
+          "coordinate": [
+            62,
+            2
+          ],
+          "numeric_value": 19
+        },
+        {
+          "coordinate": [
+            62,
+            3
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            63,
+            2
+          ],
+          "numeric_value": 5
+        },
+        {
+          "coordinate": [
+            63,
+            3
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            64,
+            3
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            64,
+            4
+          ],
+          "numeric_value": 4
+        },
+        {
+          "coordinate": [
+            65,
+            4
+          ],
+          "numeric_value": 3
+        },
+        {
+          "coordinate": [
+            66,
+            4
+          ],
+          "numeric_value": 4
+        },
+        {
+          "coordinate": [
+            67,
+            4
+          ],
+          "numeric_value": 4
+        },
+        {
+          "coordinate": [
+            68,
+            4
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            69,
+            4
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            70,
+            4
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            71,
+            4
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            72,
+            4
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            72,
+            5
+          ],
+          "numeric_value": 1
+        },
+        {
+          "coordinate": [
+            73,
+            4
+          ],
+          "numeric_value": 1
+        }
+      ],
+      "core_lateral_exits_retained_inside_this_component": [
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 3
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        }
+      ],
+      "external_perimeter_including_zeros_and_page_edges": [
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            57,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            4
+          ],
+          "to": [
+            57,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            4
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            4
+          ],
+          "to": [
+            58,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            1
+          ],
+          "to": [
+            58,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            1
+          ],
+          "to": [
+            60,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            1
+          ],
+          "to": [
+            59,
+            0
+          ],
+          "kind": "outside_page_unobserved",
+          "value": null
+        },
+        {
+          "from": [
+            59,
+            3
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            3
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            4
+          ],
+          "to": [
+            59,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            4
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            4
+          ],
+          "to": [
+            60,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            3
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            4
+          ],
+          "to": [
+            62,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            4
+          ],
+          "to": [
+            61,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            62,
+            1
+          ],
+          "to": [
+            61,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            62,
+            1
+          ],
+          "to": [
+            63,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            62,
+            1
+          ],
+          "to": [
+            62,
+            0
+          ],
+          "kind": "outside_page_unobserved",
+          "value": null
+        },
+        {
+          "from": [
+            62,
+            3
+          ],
+          "to": [
+            62,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            64,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            3
+          ],
+          "to": [
+            63,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            64,
+            3
+          ],
+          "to": [
+            65,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            64,
+            3
+          ],
+          "to": [
+            64,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            64,
+            4
+          ],
+          "to": [
+            63,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            64,
+            4
+          ],
+          "to": [
+            64,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            65,
+            4
+          ],
+          "to": [
+            65,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            65,
+            4
+          ],
+          "to": [
+            65,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            66,
+            4
+          ],
+          "to": [
+            66,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            66,
+            4
+          ],
+          "to": [
+            66,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            67,
+            4
+          ],
+          "to": [
+            67,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            67,
+            4
+          ],
+          "to": [
+            67,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            68,
+            4
+          ],
+          "to": [
+            68,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            68,
+            4
+          ],
+          "to": [
+            68,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            69,
+            4
+          ],
+          "to": [
+            69,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            69,
+            4
+          ],
+          "to": [
+            69,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            70,
+            4
+          ],
+          "to": [
+            70,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            70,
+            4
+          ],
+          "to": [
+            70,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            71,
+            4
+          ],
+          "to": [
+            71,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            71,
+            4
+          ],
+          "to": [
+            71,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            72,
+            4
+          ],
+          "to": [
+            72,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            72,
+            5
+          ],
+          "to": [
+            71,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            72,
+            5
+          ],
+          "to": [
+            73,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            72,
+            5
+          ],
+          "to": [
+            72,
+            6
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            73,
+            4
+          ],
+          "to": [
+            74,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            73,
+            4
+          ],
+          "to": [
+            73,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            73,
+            4
+          ],
+          "to": [
+            73,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "threshold": 2,
+      "component_node": 489,
+      "members": [
+        {
+          "coordinate": [
+            58,
+            2
+          ],
+          "numeric_value": 6
+        },
+        {
+          "coordinate": [
+            58,
+            4
+          ],
+          "numeric_value": 2
+        },
+        {
+          "coordinate": [
+            59,
+            2
+          ],
+          "numeric_value": 14
+        },
+        {
+          "coordinate": [
+            59,
+            3
+          ],
+          "numeric_value": 2
+        },
+        {
+          "coordinate": [
+            59,
+            4
+          ],
+          "numeric_value": 4
+        },
+        {
+          "coordinate": [
+            60,
+            2
+          ],
+          "numeric_value": 26
+        },
+        {
+          "coordinate": [
+            61,
+            2
+          ],
+          "numeric_value": 30
+        },
+        {
+          "coordinate": [
+            61,
+            3
+          ],
+          "numeric_value": 3
+        },
+        {
+          "coordinate": [
+            62,
+            1
+          ],
+          "numeric_value": 2
+        },
+        {
+          "coordinate": [
+            62,
+            2
+          ],
+          "numeric_value": 19
+        },
+        {
+          "coordinate": [
+            63,
+            2
+          ],
+          "numeric_value": 5
+        }
+      ],
+      "core_lateral_exits_retained_inside_this_component": [
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 3
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        }
+      ],
+      "external_perimeter_including_zeros_and_page_edges": [
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            57,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            4
+          ],
+          "to": [
+            57,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            4
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            4
+          ],
+          "to": [
+            58,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            59,
+            3
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            3
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            4
+          ],
+          "to": [
+            60,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            59,
+            4
+          ],
+          "to": [
+            59,
+            5
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            3
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            3
+          ],
+          "to": [
+            62,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            61,
+            3
+          ],
+          "to": [
+            61,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            62,
+            1
+          ],
+          "to": [
+            61,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            62,
+            1
+          ],
+          "to": [
+            63,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            62,
+            1
+          ],
+          "to": [
+            62,
+            0
+          ],
+          "kind": "outside_page_unobserved",
+          "value": null
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            64,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "threshold": 3,
+      "component_node": 568,
+      "members": [
+        {
+          "coordinate": [
+            58,
+            2
+          ],
+          "numeric_value": 6
+        },
+        {
+          "coordinate": [
+            59,
+            2
+          ],
+          "numeric_value": 14
+        },
+        {
+          "coordinate": [
+            60,
+            2
+          ],
+          "numeric_value": 26
+        },
+        {
+          "coordinate": [
+            61,
+            2
+          ],
+          "numeric_value": 30
+        },
+        {
+          "coordinate": [
+            61,
+            3
+          ],
+          "numeric_value": 3
+        },
+        {
+          "coordinate": [
+            62,
+            2
+          ],
+          "numeric_value": 19
+        },
+        {
+          "coordinate": [
+            63,
+            2
+          ],
+          "numeric_value": 5
+        }
+      ],
+      "core_lateral_exits_retained_inside_this_component": [
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 3
+        }
+      ],
+      "external_perimeter_including_zeros_and_page_edges": [
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            57,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            3
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            3
+          ],
+          "to": [
+            62,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            61,
+            3
+          ],
+          "to": [
+            61,
+            4
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            64,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "threshold": 4,
+      "component_node": 594,
+      "members": [
+        {
+          "coordinate": [
+            58,
+            2
+          ],
+          "numeric_value": 6
+        },
+        {
+          "coordinate": [
+            59,
+            2
+          ],
+          "numeric_value": 14
+        },
+        {
+          "coordinate": [
+            60,
+            2
+          ],
+          "numeric_value": 26
+        },
+        {
+          "coordinate": [
+            61,
+            2
+          ],
+          "numeric_value": 30
+        },
+        {
+          "coordinate": [
+            62,
+            2
+          ],
+          "numeric_value": 19
+        },
+        {
+          "coordinate": [
+            63,
+            2
+          ],
+          "numeric_value": 5
+        }
+      ],
+      "core_lateral_exits_retained_inside_this_component": [],
+      "external_perimeter_including_zeros_and_page_edges": [
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            57,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 3
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            64,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "threshold": 5,
+      "component_node": 606,
+      "members": [
+        {
+          "coordinate": [
+            58,
+            2
+          ],
+          "numeric_value": 6
+        },
+        {
+          "coordinate": [
+            59,
+            2
+          ],
+          "numeric_value": 14
+        },
+        {
+          "coordinate": [
+            60,
+            2
+          ],
+          "numeric_value": 26
+        },
+        {
+          "coordinate": [
+            61,
+            2
+          ],
+          "numeric_value": 30
+        },
+        {
+          "coordinate": [
+            62,
+            2
+          ],
+          "numeric_value": 19
+        },
+        {
+          "coordinate": [
+            63,
+            2
+          ],
+          "numeric_value": 5
+        }
+      ],
+      "core_lateral_exits_retained_inside_this_component": [],
+      "external_perimeter_including_zeros_and_page_edges": [
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            57,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            58,
+            2
+          ],
+          "to": [
+            58,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            59,
+            2
+          ],
+          "to": [
+            59,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            60,
+            2
+          ],
+          "to": [
+            60,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            61,
+            2
+          ],
+          "to": [
+            61,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 3
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 2
+        },
+        {
+          "from": [
+            62,
+            2
+          ],
+          "to": [
+            62,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            64,
+            2
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            1
+          ],
+          "kind": "observed_source_cell",
+          "value": 0
+        },
+        {
+          "from": [
+            63,
+            2
+          ],
+          "to": [
+            63,
+            3
+          ],
+          "kind": "observed_source_cell",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

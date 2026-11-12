@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "inherited_routes_match_parent_exactly": 8,
+  "inherited_relational_occurrences_match_parent_exactly": 126,
+  "native_occurrence_chains_match_parent": 126,
+  "shared_positions_checked_across_all8_routes": 11,
+  "paired_different_endpoints_with_equal_native_execution": 4,
+  "core_ports": 4,
+  "new_native_executions": 0,
+  "new_seeds": 0
+}

@@ -1,0 +1,14 @@
+{
+  "source_cells_checked": 28,
+  "neighbor_edges_checked": 30,
+  "independent_cycles": 3,
+  "corridors_cover_every_edge_once": true,
+  "outer_tree_BFS_confirms_all26_routes": true,
+  "primary_bidirectional_trials": 52,
+  "separate_full_glyph_reverse_trials": 26,
+  "per_occurrence_records_checked": 735,
+  "source_perimeter_edges_checked": 52,
+  "status": "PASS",
+  "primary_relational_occurrences_checked": 490,
+  "primary_arrival_context_chains_checked": 52
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "routes": [
+      "P06",
+      "P07"
+    ],
+    "different_origins": [
+      [
+        72,
+        5
+      ],
+      [
+        73,
+        4
+      ]
+    ],
+    "same_coordinates_after_first_cell": true,
+    "same_numeric_stream": true,
+    "same_executed_glyphs": true,
+    "same_native_states_at_every_occurrence": true,
+    "common_core_reentry": [
+      59,
+      2
+    ],
+    "native_final": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+    ],
+    "distinct_origin_history_retained": true
+  },
+  {
+    "routes": [
+      "P12",
+      "P13"
+    ],
+    "different_origins": [
+      [
+        72,
+        5
+      ],
+      [
+        73,
+        4
+      ]
+    ],
+    "same_coordinates_after_first_cell": true,
+    "same_numeric_stream": true,
+    "same_executed_glyphs": true,
+    "same_native_states_at_every_occurrence": true,
+    "common_core_reentry": [
+      61,
+      2
+    ],
+    "native_final": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "distinct_origin_history_retained": true
+  },
+  {
+    "routes": [
+      "P19",
+      "P20"
+    ],
+    "different_origins": [
+      [
+        72,
+        5
+      ],
+      [
+        73,
+        4
+      ]
+    ],
+    "same_coordinates_after_first_cell": true,
+    "same_numeric_stream": true,
+    "same_executed_glyphs": true,
+    "same_native_states_at_every_occurrence": true,
+    "common_core_reentry": [
+      62,
+      2
+    ],
+    "native_final": [
+      1,
+      1,
+      4,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "distinct_origin_history_retained": true
+  },
+  {
+    "routes": [
+      "P25",
+      "P26"
+    ],
+    "different_origins": [
+      [
+        72,
+        5
+      ],
+      [
+        73,
+        4
+      ]
+    ],
+    "same_coordinates_after_first_cell": true,
+    "same_numeric_stream": true,
+    "same_executed_glyphs": true,
+    "same_native_states_at_every_occurrence": true,
+    "common_core_reentry": [
+      63,
+      2
+    ],
+    "native_final": [
+      1,
+      1,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "distinct_origin_history_retained": true
+  }
+]
